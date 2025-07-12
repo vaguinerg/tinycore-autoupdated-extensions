@@ -1,0 +1,93 @@
+# Clear this if not a 64bit build
+_BUILD_64=1
+
+# Set GTK Version to 2 or 3
+_GTK_VERSION=3
+
+ac_add_options --disable-dbus
+ac_add_options --disable-pulseaudio
+# Optimization settings
+ac_add_options --disable-clang-plugin
+ac_add_options --disable-gconf
+ac_add_options --enable-release
+ac_add_options --disable-debug
+ac_add_options --disable-debug-symbols
+ac_add_options --disable-debug-js-modules
+ac_add_options --disable-tests
+ac_add_options --enable-strip
+ac_add_options --enable-install-strip
+ac_add_options --disable-elf-hack
+ac_add_options --enable-jemalloc
+ac_add_options --enable-optimize="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH -flto"
+ac_add_options --disable-gpsd
+ac_add_options --disable-necko-wifi
+ac_add_options --disable-trace-logging
+mk_add_options MOZ_OPTIMIZE=1
+MOZ_OPTIMIZE=1
+export MOZ_OPTIMIZE=1
+export STRIP_FLAGS="-s"
+export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH -flto"
+export CPPFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH -flto"
+export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH -flto"
+export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
+
+# Media settings
+ac_add_options --enable-sandbox
+ac_add_options --enable-raw
+ac_add_options --enable-webrtc
+ac_add_options --enable-alsa
+ac_add_options --enable-jxl
+ac_add_options --enable-av1
+ac_add_options --enable-ffmpeg
+
+# Client settings
+ac_add_options --disable-parental-controls
+ac_add_options --disable-crashreporter
+ac_add_options --disable-updater
+#ac_add_options --disable-default-browser-agent
+export MOZ_SOURCE_CHANGESET=${changeset}
+mk_add_options MOZ_CRASHREPORTER=0
+mk_add_options MOZ_DATA_REPORTING=0
+mk_add_options MOZ_SERVICES_HEALTHREPORT=0
+mk_add_options MOZ_TELEMETRY_REPORTING=
+export MOZ_CRASHREPORTER=0
+export MOZ_DATA_REPORTING=0
+export MOZ_REQUIRE_SIGNING=
+export MOZ_TELEMETRY_REPORTING=
+export MOZ_PACKAGE_JSSHELL=1
+
+
+# Standard build options for Pale Moon
+ac_add_options --enable-application=palemoon
+ac_add_options --enable-jemalloc
+ac_add_options --enable-strip
+ac_add_options --enable-devtools
+ac_add_options --enable-av1
+ac_add_options --enable-jxl
+ac_add_options --disable-webrtc
+ac_add_options --disable-gamepad
+ac_add_options --disable-tests
+ac_add_options --disable-debug
+ac_add_options --disable-necko-wifi
+ac_add_options --disable-updater
+ac_add_options --with-pthreads
+
+# Custom system libs
+ac_add_options --enable-libjpeg-turbo
+ac_add_options --with-system-bz2
+ac_add_options --with-system-zlib
+
+# Autoclobber
+mk_add_options AUTOCLOBBER=1
+export AUTOCLOBBER=1
+
+# Please see https://www.palemoon.org/redist.shtml for restrictions when using the official branding.
+ac_add_options --enable-official-branding
+export MOZILLA_OFFICIAL=1
+
+# Processor architecture specific build options
+ac_add_options --x-libraries=/usr/local/lib
+
+export MOZ_PKG_SPECIAL=gtk$_GTK_VERSION
+
+ac_add_options --disable-npapi

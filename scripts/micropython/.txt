@@ -1,0 +1,485 @@
+Building with -march=x86-64-v2
+squashfs-tools is already installed!
+compiletc.tcz.dep OK
+bison.tcz.dep OK
+gettext.tcz.dep OK
+file.tcz.dep OK
+gawk.tcz.dep OK
+mpfr.tcz.dep OK
+readline.tcz.dep OK
+gcc.tcz.dep OK
+gcc_libs-dev.tcz.dep OK
+binutils.tcz.dep OK
+mpc.tcz.dep OK
+isl.tcz.dep OK
+Downloading: libxcrypt_base-dev.tcz
+libffi-dev.tcz.dep OK
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'libxcrypt_base-dev.tcz'
+python3.9.tcz.dep OK
+libxcrypt_base-dev.t  69% |**********************          |  5712  0:00:00 ETA
+libxcrypt_base-dev.t 100% |********************************|  8192  0:00:00 ETA
+'libxcrypt_base-dev.tcz' saved
+libxcrypt_base-dev.tcz: OK
+Downloading: glibc_add_lib.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'glibc_add_lib.tcz'
+upx.tcz.dep OK
+glibc_add_lib.tcz     10% |***                             | 74256  0:00:08 ETA
+submitqc.tcz.dep OK
+wget.tcz.dep OK
+ca-certificates.tcz.dep OK
+coreutils.tcz.dep OK
+glibc_add_lib.tcz     96% |******************************* |  674k  0:00:00 ETA
+glibc_add_lib.tcz    100% |********************************|  696k  0:00:00 ETA
+'glibc_add_lib.tcz' saved
+glibc_add_lib.tcz: OK
+Downloading: zlib_base-dev.tcz
+squashfs-tools.tcz.dep OK
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'zlib_base-dev.tcz'
+zlib_base-dev.tcz    100% |********************************| 45056  0:00:00 ETA
+'zlib_base-dev.tcz' saved
+zlib_base-dev.tcz: OK
+Downloading: util-linux_base-dev.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+curl.tcz.dep OK
+saving to 'util-linux_base-dev.tcz'
+util-linux_base-dev. 100% |********************************|  8192  0:00:00 ETA
+'util-linux_base-dev.tcz' saved
+util-linux_base-dev.tcz: OK
+Downloading: linux-6.12_api_headers.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'linux-6.12_api_headers.tcz'
+linux-6.12_api_heade   3% |*                               | 89964  0:00:25 ETA
+linux-6.12_api_heade  40% |************                    |  958k  0:00:02 ETA
+linux-6.12_api_heade 100% |********************************| 2364k  0:00:00 ETA
+'linux-6.12_api_headers.tcz' saved
+linux-6.12_api_headers.tcz: OK
+Downloading: glibc_base-dev.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'glibc_base-dev.tcz'
+glibc_base-dev.tcz     4% |*                               |  198k  0:00:19 ETA
+glibc_base-dev.tcz    24% |*******                         |  987k  0:00:06 ETA
+glibc_base-dev.tcz   100% |********************************| 4112k  0:00:00 ETA
+'glibc_base-dev.tcz' saved
+glibc_base-dev.tcz: OK
+Downloading: e2fsprogs_base-dev.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'e2fsprogs_base-dev.tcz'
+e2fsprogs_base-dev.t 100% |********************************| 61440  0:00:00 ETA
+'e2fsprogs_base-dev.tcz' saved
+e2fsprogs_base-dev.tcz: OK
+Downloading: sed.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'sed.tcz'
+sed.tcz              100% |********************************| 49152  0:00:00 ETA
+'sed.tcz' saved
+sed.tcz: OK
+Downloading: pkg-config.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'pkg-config.tcz'
+pkg-config.tcz        84% |***************************     | 48552  0:00:00 ETA
+pkg-config.tcz       100% |********************************| 57344  0:00:00 ETA
+'pkg-config.tcz' saved
+pkg-config.tcz: OK
+Downloading: patch.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'patch.tcz'
+patch.tcz            100% |********************************| 77824  0:00:00 ETA
+'patch.tcz' saved
+patch.tcz: OK
+Downloading: make.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'make.tcz'
+make.tcz             100% |********************************|  124k  0:00:00 ETA
+'make.tcz' saved
+make.tcz: OK
+Downloading: m4.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'm4.tcz'
+m4.tcz               100% |********************************|  112k  0:00:00 ETA
+'m4.tcz' saved
+m4.tcz: OK
+Downloading: grep.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'grep.tcz'
+grep.tcz              45% |**************                  | 29988  0:00:01 ETA
+grep.tcz             100% |********************************| 65536  0:00:00 ETA
+'grep.tcz' saved
+grep.tcz: OK
+Downloading: libzstd.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'libzstd.tcz'
+libzstd.tcz           24% |*******                         | 81396  0:00:03 ETA
+libzstd.tcz          100% |********************************|  328k  0:00:00 ETA
+'libzstd.tcz' saved
+libzstd.tcz: OK
+Downloading: gmp.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gmp.tcz'
+gmp.tcz               12% |***                             | 31416  0:00:07 ETA
+gmp.tcz              100% |********************************|  252k  0:00:00 ETA
+'gmp.tcz' saved
+gmp.tcz: OK
+Downloading: isl.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'isl.tcz'
+isl.tcz               31% |**********                      |  263k  0:00:02 ETA
+isl.tcz              100% |********************************|  828k  0:00:00 ETA
+'isl.tcz' saved
+isl.tcz: OK
+Downloading: mpfr.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'mpfr.tcz'
+mpfr.tcz             100% |********************************|  356k  0:00:00 ETA
+'mpfr.tcz' saved
+mpfr.tcz: OK
+Downloading: mpc.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'mpc.tcz'
+mpc.tcz              100% |********************************| 57344  0:00:00 ETA
+'mpc.tcz' saved
+mpc.tcz: OK
+Downloading: flex.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'flex.tcz'
+flex.tcz             100% |********************************|  116k  0:00:00 ETA
+'flex.tcz' saved
+flex.tcz: OK
+Downloading: binutils.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'binutils.tcz'
+binutils.tcz           0% |                                | 12852  0:08:42 ETA
+binutils.tcz           6% |**                              |  433k  0:00:28 ETA
+binutils.tcz          36% |***********                     | 2379k  0:00:05 ETA
+binutils.tcz         100% |********************************| 6548k  0:00:00 ETA
+'binutils.tcz' saved
+binutils.tcz: OK
+Downloading: gcc_libs.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gcc_libs.tcz'
+gcc_libs.tcz          10% |***                             |  287k  0:00:08 ETA
+gcc_libs.tcz          58% |******************              | 1542k  0:00:01 ETA
+gcc_libs.tcz         100% |********************************| 2616k  0:00:00 ETA
+'gcc_libs.tcz' saved
+gcc_libs.tcz: OK
+Downloading: gcc_libs-dev.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gcc_libs-dev.tcz'
+gcc_libs-dev.tcz       0% |                                | 31416  0:03:13 ETA
+gcc_libs-dev.tcz      10% |***                             |  631k  0:00:16 ETA
+gcc_libs-dev.tcz      58% |******************              | 3455k  0:00:02 ETA
+gcc_libs-dev.tcz     100% |********************************| 5924k  0:00:00 ETA
+'gcc_libs-dev.tcz' saved
+gcc_libs-dev.tcz: OK
+Downloading: gcc_base-dev.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gcc_base-dev.tcz'
+gcc_base-dev.tcz       1% |                                | 34272  0:01:10 ETA
+gcc_base-dev.tcz      30% |*********                       |  712k  0:00:04 ETA
+gcc_base-dev.tcz     100% |********************************| 2364k  0:00:00 ETA
+'gcc_base-dev.tcz' saved
+gcc_base-dev.tcz: OK
+Downloading: gcc.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gcc.tcz'
+gcc.tcz                0% |                                |  304k  0:04:00 ETA
+gcc.tcz                1% |                                |  780k  0:03:05 ETA
+gcc.tcz                1% |                                | 1433k  0:02:30 ETA
+gcc.tcz                2% |                                | 2019k  0:02:21 ETA
+gcc.tcz                3% |                                | 2227k  0:02:39 ETA
+gcc.tcz                3% |*                               | 2561k  0:02:45 ETA
+gcc.tcz                3% |*                               | 2861k  0:02:52 ETA
+gcc.tcz                4% |*                               | 3190k  0:02:56 ETA
+gcc.tcz                4% |*                               | 3504k  0:02:59 ETA
+gcc.tcz                5% |*                               | 3853k  0:03:00 ETA
+gcc.tcz                5% |*                               | 4190k  0:03:01 ETA
+gcc.tcz                6% |**                              | 4613k  0:02:58 ETA
+gcc.tcz                7% |**                              | 5198k  0:02:50 ETA
+gcc.tcz                8% |**                              | 6055k  0:02:35 ETA
+gcc.tcz                9% |***                             | 7332k  0:02:15 ETA
+gcc.tcz               12% |***                             | 8987k  0:01:54 ETA
+gcc.tcz               13% |****                            |  9.8M  0:01:46 ETA
+gcc.tcz               15% |****                            | 11.1M  0:01:38 ETA
+gcc.tcz               17% |*****                           | 12.4M  0:01:30 ETA
+gcc.tcz               19% |******                          | 13.6M  0:01:24 ETA
+gcc.tcz               20% |******                          | 14.9M  0:01:19 ETA
+gcc.tcz               22% |*******                         | 16.2M  0:01:15 ETA
+gcc.tcz               24% |*******                         | 17.5M  0:01:10 ETA
+gcc.tcz               26% |********                        | 18.8M  0:01:07 ETA
+gcc.tcz               28% |*********                       | 20.3M  0:01:02 ETA
+gcc.tcz               31% |*********                       | 22.2M  0:00:57 ETA
+gcc.tcz               32% |**********                      | 23.4M  0:00:55 ETA
+gcc.tcz               34% |**********                      | 24.5M  0:00:53 ETA
+gcc.tcz               35% |***********                     | 25.4M  0:00:52 ETA
+gcc.tcz               36% |***********                     | 26.3M  0:00:51 ETA
+gcc.tcz               38% |************                    | 27.3M  0:00:50 ETA
+gcc.tcz               39% |************                    | 28.2M  0:00:49 ETA
+gcc.tcz               40% |*************                   | 29.2M  0:00:47 ETA
+gcc.tcz               41% |*************                   | 29.9M  0:00:47 ETA
+gcc.tcz               42% |*************                   | 30.7M  0:00:46 ETA
+gcc.tcz               44% |**************                  | 31.6M  0:00:45 ETA
+gcc.tcz               45% |**************                  | 32.5M  0:00:44 ETA
+gcc.tcz               46% |**************                  | 33.5M  0:00:43 ETA
+gcc.tcz               48% |***************                 | 34.5M  0:00:41 ETA
+gcc.tcz               49% |***************                 | 35.5M  0:00:40 ETA
+gcc.tcz               50% |****************                | 36.1M  0:00:40 ETA
+gcc.tcz               50% |****************                | 36.2M  0:00:41 ETA
+gcc.tcz               50% |****************                | 36.5M  0:00:41 ETA
+gcc.tcz               52% |****************                | 37.3M  0:00:40 ETA
+gcc.tcz               53% |*****************               | 38.0M  0:00:39 ETA
+gcc.tcz               54% |*****************               | 39.0M  0:00:38 ETA
+gcc.tcz               55% |*****************               | 39.9M  0:00:37 ETA
+gcc.tcz               57% |******************              | 41.0M  0:00:35 ETA
+gcc.tcz               58% |******************              | 42.0M  0:00:34 ETA
+gcc.tcz               60% |*******************             | 43.0M  0:00:33 ETA
+gcc.tcz               61% |*******************             | 44.2M  0:00:31 ETA
+gcc.tcz               62% |********************            | 44.8M  0:00:31 ETA
+gcc.tcz               63% |********************            | 45.5M  0:00:30 ETA
+gcc.tcz               64% |********************            | 46.1M  0:00:29 ETA
+gcc.tcz               65% |********************            | 46.8M  0:00:29 ETA
+gcc.tcz               66% |*********************           | 47.5M  0:00:28 ETA
+gcc.tcz               67% |*********************           | 48.2M  0:00:27 ETA
+gcc.tcz               68% |*********************           | 49.0M  0:00:26 ETA
+gcc.tcz               69% |**********************          | 49.9M  0:00:25 ETA
+gcc.tcz               71% |**********************          | 51.3M  0:00:23 ETA
+gcc.tcz               74% |***********************         | 53.0M  0:00:21 ETA
+gcc.tcz               76% |************************        | 54.7M  0:00:19 ETA
+gcc.tcz               77% |************************        | 55.7M  0:00:17 ETA
+gcc.tcz               79% |*************************       | 56.6M  0:00:16 ETA
+gcc.tcz               80% |*************************       | 57.5M  0:00:15 ETA
+gcc.tcz               81% |**************************      | 58.5M  0:00:14 ETA
+gcc.tcz               82% |**************************      | 59.4M  0:00:13 ETA
+gcc.tcz               84% |**************************      | 60.3M  0:00:12 ETA
+gcc.tcz               85% |***************************     | 61.3M  0:00:11 ETA
+gcc.tcz               87% |***************************     | 62.3M  0:00:10 ETA
+gcc.tcz               88% |****************************    | 63.6M  0:00:08 ETA
+gcc.tcz               90% |*****************************   | 64.9M  0:00:07 ETA
+gcc.tcz               92% |*****************************   | 66.6M  0:00:05 ETA
+gcc.tcz               94% |******************************  | 67.8M  0:00:04 ETA
+gcc.tcz               96% |******************************  | 68.9M  0:00:02 ETA
+gcc.tcz               97% |******************************* | 70.2M  0:00:01 ETA
+gcc.tcz               99% |******************************* | 71.3M  0:00:00 ETA
+gcc.tcz              100% |********************************| 71.6M  0:00:00 ETA
+'gcc.tcz' saved
+gcc.tcz: OK
+Downloading: ncursesw.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'ncursesw.tcz'
+ncursesw.tcz          12% |****                            | 32844  0:00:06 ETA
+ncursesw.tcz         100% |********************************|  256k  0:00:00 ETA
+'ncursesw.tcz' saved
+ncursesw.tcz: OK
+Downloading: readline.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'readline.tcz'
+readline.tcz         100% |********************************|  148k  0:00:00 ETA
+'readline.tcz' saved
+readline.tcz: OK
+Downloading: gawk.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gawk.tcz'
+gawk.tcz              78% |*************************       |  284k  0:00:00 ETA
+gawk.tcz             100% |********************************|  364k  0:00:00 ETA
+'gawk.tcz' saved
+gawk.tcz: OK
+Downloading: findutils.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'findutils.tcz'
+findutils.tcz         76% |************************        |  112k  0:00:00 ETA
+findutils.tcz        100% |********************************|  148k  0:00:00 ETA
+'findutils.tcz' saved
+findutils.tcz: OK
+Downloading: bzip2-lib.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'bzip2-lib.tcz'
+bzip2-lib.tcz        100% |********************************| 28672  0:00:00 ETA
+'bzip2-lib.tcz' saved
+bzip2-lib.tcz: OK
+Downloading: liblzma.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'liblzma.tcz'
+liblzma.tcz           13% |****                            | 12852  0:00:06 ETA
+liblzma.tcz          100% |********************************| 94208  0:00:00 ETA
+'liblzma.tcz' saved
+liblzma.tcz: OK
+Downloading: file.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'file.tcz'
+file.tcz              11% |***                             | 82824  0:00:07 ETA
+file.tcz             100% |********************************|  724k  0:00:00 ETA
+'file.tcz' saved
+file.tcz: OK
+Downloading: diffutils.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'diffutils.tcz'
+diffutils.tcz        100% |********************************|  108k  0:00:00 ETA
+'diffutils.tcz' saved
+diffutils.tcz: OK
+Downloading: gettext.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gettext.tcz'
+gettext.tcz           15% |****                            |  239k  0:00:05 ETA
+gettext.tcz           91% |*****************************   | 1432k  0:00:00 ETA
+gettext.tcz          100% |********************************| 1560k  0:00:00 ETA
+'gettext.tcz' saved
+gettext.tcz: OK
+Downloading: bison.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'bison.tcz'
+bison.tcz             31% |**********                      |  157k  0:00:02 ETA
+bison.tcz            100% |********************************|  504k  0:00:00 ETA
+'bison.tcz' saved
+bison.tcz: OK
+Downloading: compiletc.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'compiletc.tcz'
+compiletc.tcz        100% |********************************|  4096  0:00:00 ETA
+'compiletc.tcz' saved
+compiletc.tcz: OK
+Downloading: libffi.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'libffi.tcz'
+libffi.tcz           100% |********************************| 20480  0:00:00 ETA
+'libffi.tcz' saved
+libffi.tcz: OK
+Downloading: libffi-dev.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'libffi-dev.tcz'
+libffi-dev.tcz       100% |********************************|  8192  0:00:00 ETA
+'libffi-dev.tcz' saved
+libffi-dev.tcz: OK
+Downloading: gdbm.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gdbm.tcz'
+gdbm.tcz             100% |********************************| 81920  0:00:00 ETA
+'gdbm.tcz' saved
+gdbm.tcz: OK
+Downloading: sqlite3.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'sqlite3.tcz'
+sqlite3.tcz           69% |**********************          |  423k  0:00:00 ETA
+sqlite3.tcz          100% |********************************|  612k  0:00:00 ETA
+'sqlite3.tcz' saved
+sqlite3.tcz: OK
+Downloading: openssl.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'openssl.tcz'
+openssl.tcz            2% |                                | 84252  0:00:34 ETA
+openssl.tcz           24% |*******                         |  704k  0:00:06 ETA
+openssl.tcz           55% |*****************               | 1616k  0:00:02 ETA
+openssl.tcz           90% |****************************    | 2618k  0:00:00 ETA
+openssl.tcz          100% |********************************| 2892k  0:00:00 ETA
+'openssl.tcz' saved
+openssl.tcz: OK
+Downloading: python3.9.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'python3.9.tcz'
+python3.9.tcz          0% |                                | 54264  0:04:52 ETA
+python3.9.tcz          4% |*                               |  667k  0:00:44 ETA
+python3.9.tcz         11% |***                             | 1782k  0:00:23 ETA
+python3.9.tcz         22% |*******                         | 3413k  0:00:14 ETA
+python3.9.tcz         36% |***********                     | 5604k  0:00:08 ETA
+python3.9.tcz         48% |***************                 | 7555k  0:00:06 ETA
+python3.9.tcz         62% |*******************             | 9626k  0:00:04 ETA
+python3.9.tcz         69% |**********************          | 10.4M  0:00:03 ETA
+python3.9.tcz         69% |**********************          | 10.4M  0:00:04 ETA
+python3.9.tcz         69% |**********************          | 10.4M  0:00:04 ETA
+python3.9.tcz         69% |**********************          | 10.4M  0:00:04 ETA
+python3.9.tcz         69% |**********************          | 10.4M  0:00:05 ETA
+python3.9.tcz         69% |**********************          | 10.4M  - stalled -
+python3.9.tcz         69% |**********************          | 10.4M  - stalled -
+python3.9.tcz         69% |**********************          | 10.4M  - stalled -
+python3.9.tcz         69% |**********************          | 10.4M  - stalled -
+python3.9.tcz         69% |**********************          | 10.4M  - stalled -
+wget: download timed out
+python3.9.tcz: FAILED
+md5sum: WARNING: 1 of 1 computed checksums did NOT match
+Error on python3.9.tcz
+Connecting to github.com (140.82.112.4:443)
+Connecting to release-assets.githubusercontent.com (185.199.108.133:443)
+writing to stdout
+-                      1% |                                | 1723k  0:01:00 ETA
+-                      4% |*                               | 5195k  0:00:39 ETA
+-                      8% |**                              | 9515k  0:00:30 ETA
+-                     15% |****                            | 16.1M  0:00:21 ETA
+-                     23% |*******                         | 24.1M  0:00:16 ETA
+-                     38% |************                    | 40.5M  0:00:09 ETA
+-                     46% |**************                  | 48.0M  0:00:08 ETA
+-                     69% |**********************          | 72.5M  0:00:03 ETA
+-                     78% |*************************       | 81.7M  0:00:02 ETA
+-                     84% |***************************     | 87.8M  0:00:01 ETA
+-                     97% |******************************* |  101M  0:00:00 ETA
+-                    100% |********************************|  104M  0:00:00 ETA
+written to stdout
+Use make V=1 or set BUILD_VERBOSE in your environment to increase build verbosity.
+mkdir -p build-standard/genhdr
+make: python3: No such file or directory
+make: *** [../../py/py.mk:233: build-standard/genhdr/mpversion.h] Error 127
+Use make V=1 or set BUILD_VERBOSE in your environment to increase build verbosity.
+rm -f build-standard/micropython
+rm -f build-standard/micropython.map
+rm -rf build-standard 
+mkdir -p build-standard/genhdr
+mkdir -p build-standard/
+mkdir -p build-standard/extmod/
+mkdir -p build-standard/extmod/mbedtls/
+mkdir -p build-standard/lib/berkeley-db-1.xx/btree/
+mkdir -p build-standard/lib/berkeley-db-1.xx/mpool/
+mkdir -p build-standard/lib/littlefs/
+mkdir -p build-standard/lib/mbedtls/library/
+mkdir -p build-standard/lib/mbedtls_errors/
+mkdir -p build-standard/lib/oofatfs/
+mkdir -p build-standard/py/
+mkdir -p build-standard/shared/libc/
+mkdir -p build-standard/shared/readline/
+mkdir -p build-standard/shared/runtime/
+mkdir -p build-standard/shared/timeutils/
+make -C "/tmp/tmp.qfdzel/micropython-1.25.0/mpy-cross" USER_C_MODULES=
+make[1]: Entering directory '/tmp/tmp.qfdzel/micropython-1.25.0/mpy-cross'
+python3 ../../py/makeversionhdr.py build-standard/genhdr/mpversion.h
+make: python3: No such file or directory
+make: *** [../../py/py.mk:233: build-standard/genhdr/mpversion.h] Error 127
+make: *** Waiting for unfinished jobs....
+mkdir -p build/genhdr
+mkdir -p build/
+mkdir -p build/py/
+mkdir -p build/shared/runtime/
+python3 ../py/makeversionhdr.py build/genhdr/mpversion.h
+make[1]: python3: No such file or directory
+make[1]: *** [../py/py.mk:233: build/genhdr/mpversion.h] Error 127
+make[1]: Leaving directory '/tmp/tmp.qfdzel/micropython-1.25.0/mpy-cross'
+make: *** [../../py/mkrules.mk:190: ../../mpy-cross/build/mpy-cross] Error 2
+mv: can't rename 'build-standard/micropython': No such file or directory
+/scripts/build.sh: line 49: sstrip: not found
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on micropython.tcz, block size 4096.
+[|                                                                   ] 0/0 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 4096
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 0.25 Kbytes (0.00 Mbytes)
+	71.55% of uncompressed filesystem size (0.35 Kbytes)
+Inode table size 64 bytes (0.06 Kbytes)
+	49.23% of uncompressed inode table size (130 bytes)
+Directory table size 49 bytes (0.05 Kbytes)
+	67.12% of uncompressed directory table size (73 bytes)
+Number of duplicate files found 0
+Number of inodes 4
+Number of files 0
+Number of fragments 0
+Number of symbolic links 0
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 4
+Number of hard-links 0
+Number of ids (unique uids + gids) 2
+Number of uids 1
+	tc (1001)
+Number of gids 1
+	staff (50)
+sudo: submitqc: command not found

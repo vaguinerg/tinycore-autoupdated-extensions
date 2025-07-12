@@ -1,0 +1,49 @@
+
+MARCH="$1"
+
+if [ -z "$MARCH" ]; then
+  echo "Missing -march argument"
+  exit 1
+fi
+
+echo "Building with -march=$MARCH"
+
+sudo rm -f /bin/uname
+echo '#!/bin/busybox ash
+case "$1" in
+  -r)
+    echo "6.12.11-tinycore64"
+    ;;
+  -m)
+    echo "x86_64"
+    ;;
+  -s)
+  echo "Linux"
+  ;;
+  -v)
+  echo "#1 SMP Sun Jan 26 16:50:13 UTC 2025"
+  ;;
+  *)
+    echo "6.12.11-tinycore64"
+    ;;
+esac' | sudo tee /bin/uname > /dev/null
+sudo chmod +x /bin/uname
+workdir=$(mktemp -d)
+cp /scripts/mozconfig $workdir
+cd $workdir
+
+export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH -flto"
+export CPPFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH -flto"
+export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH -flto"
+export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
+
+tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev
+
+wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/Pale-Moon/archive/33.8.0_Release-r2.tar.gz | tar -xz
+wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/UXP/archive/RB_20250703.tar.gz | tar -xz --strip-components=1 -C pale-moon/platform
+
+cp mozconfig pale-moon/.mozconfig
+cd pale-moon
+./mach build
+./mach package
+find . -iname *.tar.xz
