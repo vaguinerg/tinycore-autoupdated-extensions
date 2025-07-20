@@ -1,17 +1,17 @@
-Building with -march=x86-64-v2
+Building with -march=x86-64-v4
 python.tcz.dep OK
 readline.tcz.dep OK
 Downloading: libffi.tcz
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 compiletc.tcz.dep OK
 saving to 'libffi.tcz'
-bison.tcz.dep OK
 libffi.tcz           100% |********************************| 20480  0:00:00 ETA
 'libffi.tcz' saved
 libffi.tcz: OK
 Downloading: expat2.tcz
-gettext.tcz.dep OK
+bison.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+gettext.tcz.dep OK
 saving to 'expat2.tcz'
 file.tcz.dep OK
 expat2.tcz           100% |********************************| 81920  0:00:00 ETA
@@ -20,8 +20,8 @@ expat2.tcz: OK
 Downloading: ncursesw.tcz
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 saving to 'ncursesw.tcz'
-gawk.tcz.dep OK
 ncursesw.tcz          20% |******                          | 52836  0:00:03 ETA
+gawk.tcz.dep OK
 mpfr.tcz.dep OK
 ncursesw.tcz         100% |********************************|  256k  0:00:00 ETA
 'ncursesw.tcz' saved
@@ -31,15 +31,16 @@ gcc.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 saving to 'readline.tcz'
 gcc_libs-dev.tcz.dep OK
-readline.tcz          52% |****************                | 79968  0:00:00 ETA
+readline.tcz          53% |*****************               | 81396  0:00:00 ETA
+binutils.tcz.dep OK
 readline.tcz         100% |********************************|  148k  0:00:00 ETA
 'readline.tcz' saved
 readline.tcz: OK
 Downloading: gdbm.tcz
-binutils.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 saving to 'gdbm.tcz'
 mpc.tcz.dep OK
+gdbm.tcz              15% |*****                           | 12852  0:00:05 ETA
 isl.tcz.dep OK
 gdbm.tcz             100% |********************************| 81920  0:00:00 ETA
 'gdbm.tcz' saved
@@ -47,56 +48,56 @@ gdbm.tcz: OK
 Downloading: openssl-1.1.1.tcz
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 saving to 'openssl-1.1.1.tcz'
-openssl-1.1.1.tcz     10% |***                             |  156k  0:00:08 ETA
-openssl-1.1.1.tcz     55% |*****************               |  846k  0:00:01 ETA
+openssl-1.1.1.tcz     11% |***                             |  178k  0:00:07 ETA
+openssl-1.1.1.tcz     52% |****************                |  800k  0:00:01 ETA
+openssl-1.1.1.tcz     99% |******************************* | 1517k  0:00:00 ETA
 openssl-1.1.1.tcz    100% |********************************| 1520k  0:00:00 ETA
 'openssl-1.1.1.tcz' saved
 openssl-1.1.1.tcz: OK
 Downloading: bzip2-lib.tcz
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+Xorg-7.7-3d-dev.tcz.dep OK
 saving to 'bzip2-lib.tcz'
 bzip2-lib.tcz        100% |********************************| 28672  0:00:00 ETA
 'bzip2-lib.tcz' saved
 bzip2-lib.tcz: OK
 Downloading: sqlite3.tcz
-Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-saving to 'sqlite3.tcz'
-Xorg-7.7-3d-dev.tcz.dep OK
 Xorg-7.7-3d.tcz.dep OK
-sqlite3.tcz           23% |*******                         |  143k  0:00:03 ETA
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 Xorg-7.7.tcz.dep OK
+saving to 'sqlite3.tcz'
 Xprogs.tcz.dep OK
 Xlibs.tcz.dep OK
+sqlite3.tcz           14% |****                            | 89964  0:00:05 ETA
+imlib2.tcz.dep OK
+freetype.tcz.dep OK
+sqlite3.tcz           75% |************************        |  461k  0:00:00 ETA
+harfbuzz.tcz.dep OK
 sqlite3.tcz          100% |********************************|  612k  0:00:00 ETA
 'sqlite3.tcz' saved
 sqlite3.tcz: OK
 Downloading: python.tcz
-imlib2.tcz.dep OK
-Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-freetype.tcz.dep OK
-saving to 'python.tcz'
-python.tcz             0% |                                | 52836  0:03:37 ETA
-harfbuzz.tcz.dep OK
 glib2.tcz.dep OK
-python.tcz             2% |                                |  330k  0:01:06 ETA
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'python.tcz'
+python.tcz             0% |                                | 32844  0:05:50 ETA
 libXext.tcz.dep OK
-python.tcz             9% |***                             | 1082k  0:00:28 ETA
 libX11.tcz.dep OK
+python.tcz             2% |                                |  315k  0:01:09 ETA
 libxcb.tcz.dep OK
-python.tcz            25% |********                        | 2903k  0:00:11 ETA
+python.tcz            11% |***                             | 1319k  0:00:22 ETA
 libXmu.tcz.dep OK
 libXt.tcz.dep OK
-python.tcz            60% |*******************             | 6816k  0:00:03 ETA
+python.tcz            43% |*************                   | 4833k  0:00:05 ETA
 fltk-1.4.tcz.dep OK
-python.tcz            90% |****************************    |  9.9M  0:00:00 ETA
 python.tcz           100% |********************************| 10.9M  0:00:00 ETA
 'python.tcz' saved
-wayland.tcz.dep OK
 python.tcz: OK
-libxml2.tcz.dep OK
+wayland.tcz.dep OK
 Downloading: libxcrypt_base-dev.tcz
-libxkbcommon.tcz.dep OK
+libxml2.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+libxkbcommon.tcz.dep OK
 saving to 'libxcrypt_base-dev.tcz'
 libxcrypt_base-dev.t 100% |********************************|  8192  0:00:00 ETA
 'libxcrypt_base-dev.tcz' saved
@@ -104,551 +105,568 @@ libxcrypt_base-dev.tcz: OK
 Downloading: glibc_add_lib.tcz
 pango.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-cairo.tcz.dep OK
 saving to 'glibc_add_lib.tcz'
+cairo.tcz.dep OK
 fontconfig.tcz.dep OK
+glibc_add_lib.tcz     22% |*******                         |  158k  0:00:03 ETA
 libXft.tcz.dep OK
-glibc_add_lib.tcz     18% |******                          |  131k  0:00:04 ETA
 libXrender.tcz.dep OK
-fribidi.tcz.dep OK
-libXcursor.tcz.dep OK
-glibc_add_lib.tcz     66% |*********************           |  462k  0:00:01 ETA
-libXfixes.tcz.dep OK
 glibc_add_lib.tcz    100% |********************************|  696k  0:00:00 ETA
 'glibc_add_lib.tcz' saved
 glibc_add_lib.tcz: OK
 Downloading: zlib_base-dev.tcz
-libXinerama.tcz.dep OK
+fribidi.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-imlib2-bin.tcz.dep OK
+libXcursor.tcz.dep OK
 saving to 'zlib_base-dev.tcz'
-Xorg-7.7-bin.tcz.dep OK
+libXfixes.tcz.dep OK
 zlib_base-dev.tcz    100% |********************************| 45056  0:00:00 ETA
 'zlib_base-dev.tcz' saved
 zlib_base-dev.tcz: OK
 Downloading: util-linux_base-dev.tcz
-libGL.tcz.dep OK
+libXinerama.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libXdamage.tcz.dep OK
+imlib2-bin.tcz.dep OK
 saving to 'util-linux_base-dev.tcz'
 util-linux_base-dev. 100% |********************************|  8192  0:00:00 ETA
 'util-linux_base-dev.tcz' saved
 util-linux_base-dev.tcz: OK
 Downloading: linux-6.12_api_headers.tcz
-libXxf86vm.tcz.dep OK
+Xorg-7.7-bin.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libdrm.tcz.dep OK
+libGL.tcz.dep OK
 saving to 'linux-6.12_api_headers.tcz'
+libXdamage.tcz.dep OK
 linux-6.12_api_heade   0% |                                | 12852  0:03:08 ETA
-linux-6.12_api_heade   7% |**                              |  168k  0:00:26 ETA
+libXxf86vm.tcz.dep OK
+libdrm.tcz.dep OK
+linux-6.12_api_heade   8% |**                              |  193k  0:00:22 ETA
 libXaw.tcz.dep OK
+linux-6.12_api_heade  36% |***********                     |  854k  0:00:05 ETA
 libXpm.tcz.dep OK
 libXcomposite.tcz.dep OK
-linux-6.12_api_heade  25% |********                        |  592k  0:00:08 ETA
 libXrandr.tcz.dep OK
-libXtst.tcz.dep OK
-libXi.tcz.dep OK
-libXxf86dga.tcz.dep OK
-linux-6.12_api_heade  67% |*********************           | 1596k  0:00:01 ETA
-libxkbfile.tcz.dep OK
 linux-6.12_api_heade 100% |********************************| 2364k  0:00:00 ETA
 'linux-6.12_api_headers.tcz' saved
 linux-6.12_api_headers.tcz: OK
-Xorg-7.7-lib.tcz.dep OK
+libXtst.tcz.dep OK
 Downloading: glibc_base-dev.tcz
+libXi.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libXfont2.tcz.dep OK
+libXxf86dga.tcz.dep OK
 saving to 'glibc_base-dev.tcz'
-glibc_base-dev.tcz     0% |                                | 34272  0:02:02 ETA
+libxkbfile.tcz.dep OK
+glibc_base-dev.tcz     0% |                                | 12852  0:05:27 ETA
+Xorg-7.7-lib.tcz.dep OK
+libXfont2.tcz.dep OK
+glibc_base-dev.tcz     6% |**                              |  260k  0:00:29 ETA
 libXres.tcz.dep OK
 libXss.tcz.dep OK
+glibc_base-dev.tcz    22% |*******                         |  934k  0:00:10 ETA
 libXvmc.tcz.dep OK
-glibc_base-dev.tcz     6% |**                              |  260k  0:00:29 ETA
 libXv.tcz.dep OK
-glibc_base-dev.tcz    19% |******                          |  821k  0:00:12 ETA
-xf86-input-libinput.tcz.dep OK
-libinput.tcz.dep OK
-glibc_base-dev.tcz    59% |******************              | 2439k  0:00:02 ETA
-libwacom.tcz.dep OK
+glibc_base-dev.tcz    97% |******************************* | 4009k  0:00:00 ETA
 glibc_base-dev.tcz   100% |********************************| 4112k  0:00:00 ETA
 'glibc_base-dev.tcz' saved
 glibc_base-dev.tcz: OK
 Downloading: e2fsprogs_base-dev.tcz
-gudev-lib.tcz.dep OK
+xf86-input-libinput.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+libinput.tcz.dep OK
 saving to 'e2fsprogs_base-dev.tcz'
+e2fsprogs_base-dev.t  51% |****************                | 31416  0:00:00 ETA
 e2fsprogs_base-dev.t 100% |********************************| 61440  0:00:00 ETA
 'e2fsprogs_base-dev.tcz' saved
 e2fsprogs_base-dev.tcz: OK
 Downloading: sed.tcz
-xorg-server.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libEGL.tcz.dep OK
+libwacom.tcz.dep OK
 saving to 'sed.tcz'
+gudev-lib.tcz.dep OK
+sed.tcz               26% |********                        | 12852  0:00:02 ETA
 sed.tcz              100% |********************************| 49152  0:00:00 ETA
 'sed.tcz' saved
 sed.tcz: OK
 Downloading: pkg-config.tcz
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 saving to 'pkg-config.tcz'
-llvm19-lib.tcz.dep OK
+xorg-server.tcz.dep OK
+pkg-config.tcz        22% |*******                         | 12852  0:00:03 ETA
+libEGL.tcz.dep OK
 pkg-config.tcz       100% |********************************| 57344  0:00:00 ETA
 'pkg-config.tcz' saved
 pkg-config.tcz: OK
 Downloading: patch.tcz
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libvdpau.tcz.dep OK
 saving to 'patch.tcz'
-libGLESv2.tcz.dep OK
-elfutils.tcz.dep OK
+patch.tcz             16% |*****                           | 12852  0:00:05 ETA
 patch.tcz            100% |********************************| 77824  0:00:00 ETA
 'patch.tcz' saved
 patch.tcz: OK
 Downloading: make.tcz
-Xorg-7.7-dev.tcz.dep OK
+llvm19-lib.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 saving to 'make.tcz'
-libFS-dev.tcz.dep OK
-make.tcz              23% |*******                         | 29988  0:00:03 ETA
-libXaw-dev.tcz.dep OK
+libvdpau.tcz.dep OK
+libGLESv2.tcz.dep OK
 make.tcz             100% |********************************|  124k  0:00:00 ETA
 'make.tcz' saved
 make.tcz: OK
-libXmu-dev.tcz.dep OK
 Downloading: m4.tcz
-libXext-dev.tcz.dep OK
+elfutils.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libX11-dev.tcz.dep OK
+Xorg-7.7-dev.tcz.dep OK
 saving to 'm4.tcz'
-libxcb-dev.tcz.dep OK
-libXau-dev.tcz.dep OK
-m4.tcz                70% |**********************          | 81396  0:00:00 ETA
+libFS-dev.tcz.dep OK
 m4.tcz               100% |********************************|  112k  0:00:00 ETA
 'm4.tcz' saved
 m4.tcz: OK
 Downloading: grep.tcz
-libXdmcp-dev.tcz.dep OK
+libXaw-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-xcb-proto.tcz.dep OK
+libXmu-dev.tcz.dep OK
 saving to 'grep.tcz'
-grep.tcz              19% |******                          | 12852  0:00:04 ETA
-xorg-proto.tcz.dep OK
+libXext-dev.tcz.dep OK
+libX11-dev.tcz.dep OK
 grep.tcz             100% |********************************| 65536  0:00:00 ETA
 'grep.tcz' saved
 grep.tcz: OK
 Downloading: libzstd.tcz
-util-macros.tcz.dep OK
+libxcb-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libXt-dev.tcz.dep OK
+libXau-dev.tcz.dep OK
 saving to 'libzstd.tcz'
-libICE-dev.tcz.dep OK
-libSM-dev.tcz.dep OK
-libzstd.tcz           45% |**************                  |  150k  0:00:01 ETA
-libXpm-dev.tcz.dep OK
-libXcomposite-dev.tcz.dep OK
+libXdmcp-dev.tcz.dep OK
+xcb-proto.tcz.dep OK
+libzstd.tcz           20% |******                          | 68544  0:00:03 ETA
+xorg-proto.tcz.dep OK
 libzstd.tcz          100% |********************************|  328k  0:00:00 ETA
 'libzstd.tcz' saved
 libzstd.tcz: OK
 Downloading: gmp.tcz
-libXcursor-dev.tcz.dep OK
+util-macros.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libXrender-dev.tcz.dep OK
 saving to 'gmp.tcz'
-libXfixes-dev.tcz.dep OK
-libXdamage-dev.tcz.dep OK
-gmp.tcz               46% |**************                  |  117k  0:00:01 ETA
-libXfont2-dev.tcz.dep OK
+libXt-dev.tcz.dep OK
+libICE-dev.tcz.dep OK
+libSM-dev.tcz.dep OK
+gmp.tcz               71% |***********************         |  181k  0:00:00 ETA
 gmp.tcz              100% |********************************|  252k  0:00:00 ETA
 'gmp.tcz' saved
 gmp.tcz: OK
+libXpm-dev.tcz.dep OK
 Downloading: isl.tcz
-freetype-dev.tcz.dep OK
+libXcomposite-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libpng-dev.tcz.dep OK
 saving to 'isl.tcz'
-libpng-bin.tcz.dep OK
-harfbuzz-dev.tcz.dep OK
-harfbuzz-bin.tcz.dep OK
-isl.tcz               14% |****                            |  117k  0:00:06 ETA
-glib2-dev.tcz.dep OK
-glib2-python.tcz.dep OK
-python3.9.tcz.dep OK
-isl.tcz               32% |**********                      |  271k  0:00:04 ETA
-pcre21042-dev.tcz.dep OK
-bzip2-dev.tcz.dep OK
-bzip2.tcz.dep OK
-isl.tcz               59% |******************              |  490k  0:00:02 ETA
-readline-dev.tcz.dep OK
-ncursesw-dev.tcz.dep OK
-libffi-dev.tcz.dep OK
-isl.tcz               89% |****************************    |  741k  0:00:00 ETA
+libXcursor-dev.tcz.dep OK
+isl.tcz                1% |                                | 12852  0:01:04 ETA
+libXrender-dev.tcz.dep OK
+libXfixes-dev.tcz.dep OK
+libXdamage-dev.tcz.dep OK
+isl.tcz               40% |*************                   |  337k  0:00:02 ETA
+libXfont2-dev.tcz.dep OK
+freetype-dev.tcz.dep OK
 isl.tcz              100% |********************************|  828k  0:00:00 ETA
 'isl.tcz' saved
 isl.tcz: OK
 Downloading: mpfr.tcz
-graphite-dev.tcz.dep OK
+libpng-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libfontenc-dev.tcz.dep OK
+libpng-bin.tcz.dep OK
 saving to 'mpfr.tcz'
-libXft-dev.tcz.dep OK
-mpfr.tcz               3% |*                               | 12852  0:00:27 ETA
-fontconfig-dev.tcz.dep OK
-expat2-dev.tcz.dep OK
-libXinerama-dev.tcz.dep OK
-mpfr.tcz              39% |************                    |  139k  0:00:03 ETA
-libXrandr-dev.tcz.dep OK
-libXres-dev.tcz.dep OK
-libXss-dev.tcz.dep OK
-mpfr.tcz              97% |******************************* |  345k  0:00:00 ETA
+harfbuzz-dev.tcz.dep OK
+harfbuzz-bin.tcz.dep OK
+glib2-dev.tcz.dep OK
+mpfr.tcz              57% |******************              |  203k  0:00:00 ETA
 mpfr.tcz             100% |********************************|  356k  0:00:00 ETA
 'mpfr.tcz' saved
 mpfr.tcz: OK
 Downloading: mpc.tcz
-libXtst-dev.tcz.dep OK
+glib2-python.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libXi-dev.tcz.dep OK
+python3.9.tcz.dep OK
 saving to 'mpc.tcz'
-mpc.tcz               22% |*******                         | 12852  0:00:03 ETA
-libXvmc-dev.tcz.dep OK
+pcre21042-dev.tcz.dep OK
+mpc.tcz                2% |                                |  1428  0:00:39 ETA
+bzip2-dev.tcz.dep OK
+bzip2.tcz.dep OK
 mpc.tcz              100% |********************************| 57344  0:00:00 ETA
 'mpc.tcz' saved
 mpc.tcz: OK
 Downloading: flex.tcz
-libXv-dev.tcz.dep OK
+readline-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libXxf86dga-dev.tcz.dep OK
+ncursesw-dev.tcz.dep OK
 saving to 'flex.tcz'
-flex.tcz              10% |***                             | 12852  0:00:08 ETA
-libXxf86vm-dev.tcz.dep OK
-libpciaccess-dev.tcz.dep OK
+libffi-dev.tcz.dep OK
+graphite-dev.tcz.dep OK
+flex.tcz              64% |********************            | 77112  0:00:00 ETA
+libfontenc-dev.tcz.dep OK
 flex.tcz             100% |********************************|  116k  0:00:00 ETA
 'flex.tcz' saved
 flex.tcz: OK
 Downloading: binutils.tcz
-libxkbfile-dev.tcz.dep OK
+libXft-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+fontconfig-dev.tcz.dep OK
 saving to 'binutils.tcz'
+expat2-dev.tcz.dep OK
+binutils.tcz           0% |                                | 29988  0:03:42 ETA
+libXinerama-dev.tcz.dep OK
+libXrandr-dev.tcz.dep OK
+libXres-dev.tcz.dep OK
+binutils.tcz           2% |                                |  186k  0:01:08 ETA
+libXss-dev.tcz.dep OK
+libXtst-dev.tcz.dep OK
+libXi-dev.tcz.dep OK
+binutils.tcz          11% |***                             |  722k  0:00:24 ETA
+libXvmc-dev.tcz.dep OK
+libXv-dev.tcz.dep OK
+libXxf86dga-dev.tcz.dep OK
+binutils.tcz          25% |********                        | 1651k  0:00:11 ETA
+libXxf86vm-dev.tcz.dep OK
+libpciaccess-dev.tcz.dep OK
+libxkbfile-dev.tcz.dep OK
+binutils.tcz          44% |**************                  | 2918k  0:00:06 ETA
 xorg-server-dev.tcz.dep OK
 libEGL-dev.tcz.dep OK
-binutils.tcz           1% |                                | 81396  0:01:21 ETA
 libGL-dev.tcz.dep OK
+binutils.tcz          69% |**********************          | 4550k  0:00:02 ETA
 libdrm-dev.tcz.dep OK
 udev-lib-dev.tcz.dep OK
-binutils.tcz           4% |*                               |  266k  0:00:47 ETA
-libxshmfence-dev.tcz.dep OK
-wayland-dev.tcz.dep OK
-libxml2-dev.tcz.dep OK
-binutils.tcz           7% |**                              |  510k  0:00:35 ETA
-libxml2-bin.tcz.dep OK
-libxml2-python.tcz.dep OK
-liblzma-dev.tcz.dep OK
-binutils.tcz          12% |***                             |  803k  0:00:28 ETA
-libepoxy-dev.tcz.dep OK
-openssl-dev.tcz.dep OK
-pixman-dev.tcz.dep OK
-binutils.tcz          17% |*****                           | 1168k  0:00:23 ETA
-libxcvt-dev.tcz.dep OK
-font-util.tcz.dep OK
-llvm19-dev.tcz.dep OK
-binutils.tcz          22% |*******                         | 1487k  0:00:20 ETA
-llvm19-bin.tcz.dep OK
-zstd-dev.tcz.dep OK
-zstd.tcz.dep OK
-binutils.tcz          23% |*******                         | 1566k  0:00:22 ETA
-liblz4-dev.tcz.dep OK
-libvdpau-dev.tcz.dep OK
-binutils.tcz          25% |********                        | 1690k  0:00:22 ETA
-libGLESv2-dev.tcz.dep OK
-elfutils-dev.tcz.dep OK
-gtk3-dev.tcz.dep OK
-binutils.tcz          29% |*********                       | 1921k  0:00:21 ETA
-gtk3.tcz.dep OK
-at-spi2-core.tcz.dep OK
-dbus.tcz.dep OK
-binutils.tcz          35% |***********                     | 2321k  0:00:18 ETA
-elogind.tcz.dep OK
-acl.tcz.dep OK
-binutils.tcz          41% |*************                   | 2737k  0:00:15 ETA
-libcap.tcz.dep OK
-util-linux.tcz.dep OK
-binutils.tcz          51% |****************                | 3342k  0:00:11 ETA
-gdk-pixbuf2.tcz.dep OK
-libtiff.tcz.dep OK
-shared-mime-info.tcz.dep OK
-binutils.tcz          62% |********************            | 4118k  0:00:07 ETA
-wayland-protocols.tcz.dep OK
-gdk-pixbuf2-dev.tcz.dep OK
-binutils.tcz          75% |************************        | 4933k  0:00:04 ETA
-tiff-dev.tcz.dep OK
-tiff-bin.tcz.dep OK
-freeglut-dev.tcz.dep OK
-binutils.tcz          92% |*****************************   | 6063k  0:00:01 ETA
-freeglut.tcz.dep OK
 binutils.tcz         100% |********************************| 6548k  0:00:00 ETA
 'binutils.tcz' saved
 binutils.tcz: OK
+libxshmfence-dev.tcz.dep OK
 Downloading: gcc_libs.tcz
-glu-dev.tcz.dep OK
+wayland-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-glu.tcz.dep OK
+libxml2-dev.tcz.dep OK
 saving to 'gcc_libs.tcz'
-libjpeg-turbo-dev.tcz.dep OK
-libjpeg-turbo-bin.tcz.dep OK
-gdk-pixbuf2-xlib-dev.tcz.dep OK
-gcc_libs.tcz           2% |                                | 67116  0:00:38 ETA
-at-spi2-core-dev.tcz.dep OK
-dbus-dev.tcz.dep OK
-elogind-dev.tcz.dep OK
-gcc_libs.tcz           5% |*                               |  152k  0:00:32 ETA
-acl-dev.tcz.dep OK
-attr-dev.tcz.dep OK
-libcap-dev.tcz.dep OK
-gcc_libs.tcz           9% |***                             |  252k  0:00:28 ETA
-util-linux-dev.tcz.dep OK
-pango-dev.tcz.dep OK
-cairo-dev.tcz.dep OK
-gcc_libs.tcz          14% |****                            |  366k  0:00:24 ETA
-fribidi-dev.tcz.dep OK
-rest-dev.tcz.dep OK
-rest.tcz.dep OK
-gcc_libs.tcz          18% |*****                           |  479k  0:00:22 ETA
-libsoup.tcz.dep OK
-glib-networking.tcz.dep OK
-gnutls38.tcz.dep OK
-gcc_libs.tcz          24% |*******                         |  633k  0:00:18 ETA
-p11-kit.tcz.dep OK
-nettle39.tcz.dep OK
-gcc_libs.tcz          32% |**********                      |  843k  0:00:14 ETA
-libidn2.tcz.dep OK
-libpsl.tcz.dep OK
-gcc_libs.tcz          35% |***********                     |  941k  0:00:14 ETA
-libsoup-dev.tcz.dep OK
-sqlite3-dev.tcz.dep OK
-gcc_libs.tcz          41% |*************                   | 1090k  0:00:12 ETA
-sqlite3-bin.tcz.dep OK
-libpsl-dev.tcz.dep OK
-libidn2-dev.tcz.dep OK
-gcc_libs.tcz          50% |****************                | 1313k  0:00:09 ETA
-libunistring-dev.tcz.dep OK
-colord-dev.tcz.dep OK
-colord.tcz.dep OK
-gcc_libs.tcz          60% |*******************             | 1586k  0:00:07 ETA
-libgusb.tcz.dep OK
-libusb.tcz.dep OK
-gcc_libs.tcz          71% |**********************          | 1875k  0:00:04 ETA
-libsane.tcz.dep OK
-libgphoto2.tcz.dep OK
-gcc_libs.tcz          80% |*************************       | 2116k  0:00:03 ETA
-curl.tcz.dep OK
-ca-certificates.tcz.dep OK
-gcc_libs.tcz          92% |*****************************   | 2409k  0:00:01 ETA
-libpoppler23.tcz.dep OK
+libxml2-bin.tcz.dep OK
+gcc_libs.tcz           2% |                                | 57120  0:00:45 ETA
+libxml2-python.tcz.dep OK
+liblzma-dev.tcz.dep OK
+libepoxy-dev.tcz.dep OK
+openssl-dev.tcz.dep OK
+gcc_libs.tcz          14% |****                            |  384k  0:00:11 ETA
+pixman-dev.tcz.dep OK
+libxcvt-dev.tcz.dep OK
+font-util.tcz.dep OK
+gcc_libs.tcz          53% |****************                | 1388k  0:00:02 ETA
+llvm19-dev.tcz.dep OK
+llvm19-bin.tcz.dep OK
 gcc_libs.tcz         100% |********************************| 2616k  0:00:00 ETA
 'gcc_libs.tcz' saved
 gcc_libs.tcz: OK
 Downloading: gcc_libs-dev.tcz
-nss.tcz.dep OK
+zstd-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+zstd.tcz.dep OK
 saving to 'gcc_libs-dev.tcz'
-libavahi.tcz.dep OK
-polkit.tcz.dep OK
+liblz4-dev.tcz.dep OK
 gcc_libs-dev.tcz       1% |                                | 74256  0:01:20 ETA
-js78.tcz.dep OK
-lcms2-dev.tcz.dep OK
-gcc_libs-dev.tcz       5% |*                               |  344k  0:00:32 ETA
-libgusb-dev.tcz.dep OK
-libusb-dev.tcz.dep OK
-sane-dev.tcz.dep OK
-gcc_libs-dev.tcz      15% |****                            |  909k  0:00:16 ETA
-avahi-dev.tcz.dep OK
-avahi.tcz.dep OK
-gcc_libs-dev.tcz      19% |******                          | 1170k  0:00:16 ETA
-libdaemon-dev.tcz.dep OK
-sane.tcz.dep OK
-gcc_libs-dev.tcz      23% |*******                         | 1411k  0:00:15 ETA
-libgphoto2-dev.tcz.dep OK
-libexif-dev.tcz.dep OK
-libtool-dev.tcz.dep OK
-gcc_libs-dev.tcz      30% |*********                       | 1821k  0:00:13 ETA
-libtool.tcz.dep OK
-curl-dev.tcz.dep OK
-poppler23-dev.tcz.dep OK
-gcc_libs-dev.tcz      41% |*************                   | 2457k  0:00:09 ETA
-poppler23-bin.tcz.dep OK
-openjpeg-dev.tcz.dep OK
-nss-dev.tcz.dep OK
-gcc_libs-dev.tcz      53% |*****************               | 3180k  0:00:06 ETA
-nspr-dev.tcz.dep OK
-polkit-dev.tcz.dep OK
-js78-dev.tcz.dep OK
-gcc_libs-dev.tcz      67% |*********************           | 3984k  0:00:04 ETA
-linux-pam-dev.tcz.dep OK
-json-glib-dev.tcz.dep OK
-json-glib.tcz.dep OK
-gcc_libs-dev.tcz      79% |*************************       | 4692k  0:00:02 ETA
-libxkbcommon-dev.tcz.dep OK
-python-dev.tcz.dep OK
-gcc_libs-dev.tcz      87% |****************************    | 5186k  0:00:01 ETA
-openssl-1.1.1-dev.tcz.dep OK
-tk8.6-dev.tcz.dep OK
-tk8.6.tcz.dep OK
-gcc_libs-dev.tcz      97% |******************************* | 5804k  0:00:00 ETA
+libvdpau-dev.tcz.dep OK
+libGLESv2-dev.tcz.dep OK
+elfutils-dev.tcz.dep OK
+gcc_libs-dev.tcz       8% |**                              |  476k  0:00:22 ETA
+gtk3-dev.tcz.dep OK
+gtk3.tcz.dep OK
+at-spi2-core.tcz.dep OK
+dbus.tcz.dep OK
+gcc_libs-dev.tcz      28% |*********                       | 1711k  0:00:07 ETA
+elogind.tcz.dep OK
+acl.tcz.dep OK
+gcc_libs-dev.tcz      55% |*****************               | 3279k  0:00:03 ETA
+libcap.tcz.dep OK
+util-linux.tcz.dep OK
+gcc_libs-dev.tcz      93% |*****************************   | 5539k  0:00:00 ETA
 gcc_libs-dev.tcz     100% |********************************| 5924k  0:00:00 ETA
 'gcc_libs-dev.tcz' saved
 gcc_libs-dev.tcz: OK
+gdk-pixbuf2.tcz.dep OK
 Downloading: gcc_base-dev.tcz
-tcl8.6.tcz.dep OK
+libtiff.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+shared-mime-info.tcz.dep OK
 saving to 'gcc_base-dev.tcz'
-tcl8.6-dev.tcz.dep OK
-gdbm-dev.tcz.dep OK
-coreutils.tcz.dep OK
-gcc_base-dev.tcz       5% |*                               |  131k  0:00:17 ETA
-perl5.tcz.dep OK
-alsa-dev.tcz.dep OK
-gcc_base-dev.tcz      19% |******                          |  465k  0:00:08 ETA
-alsa.tcz.dep OK
-alsa-modules-6.12.11-tinycore64.tcz.dep OK
-gcc_base-dev.tcz      43% |**************                  | 1038k  0:00:03 ETA
-fftw-dev.tcz.dep OK
-gcc_base-dev.tcz      71% |**********************          | 1691k  0:00:01 ETA
-ffmpeg7-dev.tcz.dep OK
-ffmpeg7.tcz.dep OK
-libavdevice7.tcz.dep OK
-gcc_base-dev.tcz      95% |******************************  | 2256k  0:00:00 ETA
+gcc_base-dev.tcz       1% |                                | 34272  0:01:10 ETA
+wayland-protocols.tcz.dep OK
+gdk-pixbuf2-dev.tcz.dep OK
+tiff-dev.tcz.dep OK
+gcc_base-dev.tcz      14% |****                            |  333k  0:00:12 ETA
+tiff-bin.tcz.dep OK
+freeglut-dev.tcz.dep OK
+freeglut.tcz.dep OK
+gcc_base-dev.tcz      56% |******************              | 1337k  0:00:02 ETA
+glu-dev.tcz.dep OK
+glu.tcz.dep OK
 gcc_base-dev.tcz     100% |********************************| 2364k  0:00:00 ETA
 'gcc_base-dev.tcz' saved
 gcc_base-dev.tcz: OK
 Downloading: gcc.tcz
-libavfilter7.tcz.dep OK
+libjpeg-turbo-dev.tcz.dep OK
 Connecting to repo.tinycorelinux.net (128.127.66.77:80)
-libswresample7.tcz.dep OK
+libjpeg-turbo-bin.tcz.dep OK
 saving to 'gcc.tcz'
+gdk-pixbuf2-xlib-dev.tcz.dep OK
+at-spi2-core-dev.tcz.dep OK
+dbus-dev.tcz.dep OK
+gcc.tcz                0% |                                |  121k  0:10:04 ETA
+elogind-dev.tcz.dep OK
+acl-dev.tcz.dep OK
+gcc.tcz                0% |                                |  588k  0:04:07 ETA
+attr-dev.tcz.dep OK
+libcap-dev.tcz.dep OK
+util-linux-dev.tcz.dep OK
+pango-dev.tcz.dep OK
+gcc.tcz                2% |                                | 1646k  0:02:10 ETA
+cairo-dev.tcz.dep OK
+fribidi-dev.tcz.dep OK
+rest-dev.tcz.dep OK
+gcc.tcz                4% |*                               | 3466k  0:01:20 ETA
+rest.tcz.dep OK
+libsoup.tcz.dep OK
+glib-networking.tcz.dep OK
+gcc.tcz                6% |**                              | 4910k  0:01:09 ETA
+gnutls38.tcz.dep OK
+p11-kit.tcz.dep OK
+nettle39.tcz.dep OK
+gcc.tcz                9% |**                              | 6646k  0:01:00 ETA
+libidn2.tcz.dep OK
+libpsl.tcz.dep OK
+gcc.tcz               11% |***                             | 8549k  0:00:53 ETA
+libsoup-dev.tcz.dep OK
+sqlite3-dev.tcz.dep OK
+sqlite3-bin.tcz.dep OK
+gcc.tcz               14% |****                            | 10.1M  0:00:48 ETA
+libpsl-dev.tcz.dep OK
+libidn2-dev.tcz.dep OK
+libunistring-dev.tcz.dep OK
+gcc.tcz               16% |*****                           | 11.7M  0:00:46 ETA
+colord-dev.tcz.dep OK
+colord.tcz.dep OK
+libgusb.tcz.dep OK
+gcc.tcz               18% |*****                           | 13.3M  0:00:43 ETA
+libusb.tcz.dep OK
+libsane.tcz.dep OK
+libgphoto2.tcz.dep OK
+gcc.tcz               20% |******                          | 14.9M  0:00:41 ETA
+curl.tcz.dep OK
+gcc.tcz               23% |*******                         | 16.6M  0:00:39 ETA
+ca-certificates.tcz.dep OK
+libpoppler23.tcz.dep OK
+gcc.tcz               25% |********                        | 18.2M  0:00:37 ETA
+nss.tcz.dep OK
+libavahi.tcz.dep OK
+polkit.tcz.dep OK
+gcc.tcz               27% |********                        | 19.8M  0:00:36 ETA
+js78.tcz.dep OK
+lcms2-dev.tcz.dep OK
+gcc.tcz               30% |*********                       | 21.5M  0:00:34 ETA
+libgusb-dev.tcz.dep OK
+libusb-dev.tcz.dep OK
+sane-dev.tcz.dep OK
+gcc.tcz               32% |**********                      | 23.1M  0:00:33 ETA
+avahi-dev.tcz.dep OK
+avahi.tcz.dep OK
+gcc.tcz               34% |***********                     | 25.0M  0:00:31 ETA
+libdaemon-dev.tcz.dep OK
+sane.tcz.dep OK
+libgphoto2-dev.tcz.dep OK
+gcc.tcz               37% |************                    | 27.1M  0:00:29 ETA
+libexif-dev.tcz.dep OK
+libtool-dev.tcz.dep OK
+libtool.tcz.dep OK
+gcc.tcz               41% |*************                   | 29.5M  0:00:27 ETA
+curl-dev.tcz.dep OK
+poppler23-dev.tcz.dep OK
+poppler23-bin.tcz.dep OK
+gcc.tcz               45% |**************                  | 32.4M  0:00:24 ETA
+openjpeg-dev.tcz.dep OK
+nss-dev.tcz.dep OK
+nspr-dev.tcz.dep OK
+gcc.tcz               48% |***************                 | 35.0M  0:00:21 ETA
+polkit-dev.tcz.dep OK
+js78-dev.tcz.dep OK
+linux-pam-dev.tcz.dep OK
+gcc.tcz               51% |****************                | 36.7M  0:00:20 ETA
+json-glib-dev.tcz.dep OK
+json-glib.tcz.dep OK
+libxkbcommon-dev.tcz.dep OK
+gcc.tcz               53% |*****************               | 38.6M  0:00:19 ETA
+python-dev.tcz.dep OK
+openssl-1.1.1-dev.tcz.dep OK
+tk8.6-dev.tcz.dep OK
+gcc.tcz               56% |******************              | 40.7M  0:00:18 ETA
+tk8.6.tcz.dep OK
+tcl8.6.tcz.dep OK
+gcc.tcz               58% |******************              | 41.9M  0:00:17 ETA
+tcl8.6-dev.tcz.dep OK
+gdbm-dev.tcz.dep OK
+coreutils.tcz.dep OK
+gcc.tcz               60% |*******************             | 43.3M  0:00:17 ETA
+perl5.tcz.dep OK
+alsa-dev.tcz.dep OK
+gcc.tcz               61% |*******************             | 44.3M  0:00:16 ETA
+alsa.tcz.dep OK
+alsa-modules-6.12.11-tinycore64.tcz.dep OK
+gcc.tcz               63% |********************            | 45.6M  0:00:15 ETA
+fftw-dev.tcz.dep OK
+ffmpeg7-dev.tcz.dep OK
+gcc.tcz               65% |********************            | 46.8M  0:00:15 ETA
+ffmpeg7.tcz.dep OK
+libavdevice7.tcz.dep OK
+libavfilter7.tcz.dep OK
+gcc.tcz               67% |*********************           | 48.0M  0:00:14 ETA
+libswresample7.tcz.dep OK
 libavutil7.tcz.dep OK
-gcc.tcz                0% |                                | 31416  0:40:05 ETA
 libva22.tcz.dep OK
+gcc.tcz               68% |**********************          | 49.2M  0:00:14 ETA
 libavformat7.tcz.dep OK
 libavcodec7.tcz.dep OK
-gcc.tcz                0% |                                |  218k  0:11:08 ETA
-gcc.tcz                0% |                                |  594k  0:06:07 ETA
+gcc.tcz               70% |**********************          | 50.5M  0:00:13 ETA
+gcc.tcz               72% |***********************         | 51.8M  0:00:12 ETA
 libtheora.tcz.dep OK
-gcc.tcz                1% |                                | 1079k  0:04:27 ETA
 speex.tcz.dep OK
-gcc.tcz                1% |                                | 1352k  0:04:26 ETA
+gcc.tcz               74% |***********************         | 53.1M  0:00:11 ETA
 librsvg.tcz.dep OK
+gcc.tcz               76% |************************        | 54.8M  0:00:10 ETA
 libpostproc7.tcz.dep OK
-gcc.tcz                2% |                                | 1652k  0:04:20 ETA
 libswscale7.tcz.dep OK
 libass.tcz.dep OK
-gcc.tcz                2% |                                | 2036k  0:04:05 ETA
+gcc.tcz               79% |*************************       | 56.7M  0:00:09 ETA
 libv4l2.tcz.dep OK
 v4l-dvb-6.12.11-tinycore64.tcz.dep OK
-gcc.tcz                3% |*                               | 2415k  0:03:55 ETA
+gcc.tcz               81% |*************************       | 58.0M  0:00:08 ETA
 libpulseaudio.tcz.dep OK
 libsndfile.tcz.dep OK
 flac.tcz.dep OK
-gcc.tcz                3% |*                               | 2784k  0:03:48 ETA
+gcc.tcz               82% |**************************      | 59.4M  0:00:07 ETA
 libvorbis.tcz.dep OK
 libplacebo.tcz.dep OK
 shaderc.tcz.dep OK
-gcc.tcz                4% |*                               | 3160k  0:03:42 ETA
+gcc.tcz               84% |***************************     | 60.8M  0:00:06 ETA
 glslang.tcz.dep OK
 libvulkan.tcz.dep OK
-gcc.tcz                4% |*                               | 3561k  0:03:35 ETA
 libaom-dev.tcz.dep OK
+gcc.tcz               86% |***************************     | 62.0M  0:00:06 ETA
 libaom-bin.tcz.dep OK
 libva22-dev.tcz.dep OK
-gcc.tcz                5% |*                               | 4108k  0:03:22 ETA
 x264_164-dev.tcz.dep OK
+gcc.tcz               88% |****************************    | 63.3M  0:00:05 ETA
 libvpx113-dev.tcz.dep OK
 libvpx113-bin.tcz.dep OK
-gcc.tcz                6% |**                              | 4848k  0:03:03 ETA
 libtheora-dev.tcz.dep OK
+gcc.tcz               90% |****************************    | 64.6M  0:00:04 ETA
 libogg-dev.tcz.dep OK
 pulseaudio-dev.tcz.dep OK
-gcc.tcz                7% |**                              | 5668k  0:02:47 ETA
 pulseaudio.tcz.dep OK
+gcc.tcz               92% |*****************************   | 66.0M  0:00:03 ETA
 speexdsp.tcz.dep OK
 speexdsp-dev.tcz.dep OK
-gcc.tcz                8% |**                              | 6488k  0:02:34 ETA
 speex-dev.tcz.dep OK
 libsndfile-dev.tcz.dep OK
+gcc.tcz               94% |******************************  | 67.3M  0:00:02 ETA
 flac-dev.tcz.dep OK
-gcc.tcz               10% |***                             | 7399k  0:02:22 ETA
 libvorbis-dev.tcz.dep OK
 libbluetooth-dev.tcz.dep OK
+gcc.tcz               95% |******************************  | 68.6M  0:00:01 ETA
 libbluetooth.tcz.dep OK
-gcc.tcz               11% |***                             | 8499k  0:02:09 ETA
 bluez.tcz.dep OK
 libical3.tcz.dep OK
-gcc.tcz               13% |****                            | 9623k  0:01:59 ETA
+gcc.tcz               98% |******************************* | 70.3M  0:00:00 ETA
+gcc.tcz              100% |********************************| 71.6M  0:00:00 ETA
+'gcc.tcz' saved
+gcc.tcz: OK
 sbc-dev.tcz.dep OK
-gcc.tcz               14% |****                            | 10.5M  0:01:50 ETA
 libwebp1-dev.tcz.dep OK
 libwebp1-bin.tcz.dep OK
-gcc.tcz               16% |*****                           | 11.6M  0:01:43 ETA
+Downloading: gawk.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 giflib7-dev.tcz.dep OK
+saving to 'gawk.tcz'
 giflib7-bin.tcz.dep OK
 lame-dev.tcz.dep OK
-gcc.tcz               17% |*****                           | 12.7M  0:01:37 ETA
+gawk.tcz              20% |******                          | 75684  0:00:03 ETA
 libv4l2-dev.tcz.dep OK
 sdl2-dev.tcz.dep OK
-gcc.tcz               19% |******                          | 13.8M  0:01:31 ETA
 pipewire-dev.tcz.dep OK
+gawk.tcz             100% |********************************|  364k  0:00:00 ETA
+'gawk.tcz' saved
+gawk.tcz: OK
+Downloading: findutils.tcz
 pipewire.tcz.dep OK
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 wayland-protocols-dev.tcz.dep OK
-gcc.tcz               20% |******                          | 15.0M  0:01:26 ETA
+saving to 'findutils.tcz'
 libass-dev.tcz.dep OK
+findutils.tcz         38% |************                    | 58548  0:00:01 ETA
 opus-dev.tcz.dep OK
+findutils.tcz        100% |********************************|  148k  0:00:00 ETA
+'findutils.tcz' saved
+findutils.tcz: OK
+Downloading: liblzma.tcz
 x265-dev.tcz.dep OK
-gcc.tcz               22% |*******                         | 16.2M  0:01:21 ETA
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 librsvg-dev.tcz.dep OK
+saving to 'liblzma.tcz'
+liblzma.tcz           13% |****                            | 12852  0:00:06 ETA
 gnutls38-dev.tcz.dep OK
 p11-kit-dev.tcz.dep OK
-gcc.tcz               24% |*******                         | 17.3M  0:01:17 ETA
+liblzma.tcz          100% |********************************| 94208  0:00:00 ETA
+'liblzma.tcz' saved
+liblzma.tcz: OK
+Downloading: file.tcz
 libtasn1-4-dev.tcz.dep OK
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
 nettle39-dev.tcz.dep OK
+saving to 'file.tcz'
 gmp-dev.tcz.dep OK
-gcc.tcz               25% |********                        | 18.3M  0:01:15 ETA
 libplacebo-dev.tcz.dep OK
 shaderc-dev.tcz.dep OK
+file.tcz              27% |********                        |  199k  0:00:02 ETA
 glslang-dev.tcz.dep OK
-gcc.tcz               26% |********                        | 19.1M  0:01:14 ETA
 spirv-tools-dev.tcz.dep OK
+file.tcz              73% |***********************         |  535k  0:00:00 ETA
 libvulkan-dev.tcz.dep OK
-gcc.tcz               27% |********                        | 19.9M  0:01:12 ETA
-gcc.tcz               28% |*********                       | 20.6M  0:01:11 ETA
-gcc.tcz               29% |*********                       | 21.4M  0:01:10 ETA
-gcc.tcz               30% |*********                       | 22.1M  0:01:09 ETA
-gcc.tcz               32% |**********                      | 22.9M  0:01:07 ETA
-gcc.tcz               33% |**********                      | 23.8M  0:01:06 ETA
-gcc.tcz               33% |**********                      | 24.3M  0:01:06 ETA
-gcc.tcz               34% |***********                     | 24.8M  0:01:05 ETA
-gcc.tcz               35% |***********                     | 25.4M  0:01:05 ETA
-gcc.tcz               36% |***********                     | 25.9M  0:01:05 ETA
-gcc.tcz               36% |***********                     | 26.4M  0:01:04 ETA
-gcc.tcz               37% |***********                     | 26.8M  0:01:05 ETA
-gcc.tcz               38% |************                    | 27.3M  0:01:04 ETA
-gcc.tcz               38% |************                    | 27.9M  0:01:04 ETA
-gcc.tcz               39% |************                    | 28.5M  0:01:03 ETA
-gcc.tcz               40% |************                    | 29.0M  0:01:02 ETA
-gcc.tcz               41% |*************                   | 29.5M  0:01:02 ETA
-gcc.tcz               41% |*************                   | 29.9M  0:01:02 ETA
-gcc.tcz               41% |*************                   | 30.0M  0:01:03 ETA
-gcc.tcz               42% |*************                   | 30.1M  0:01:04 ETA
-gcc.tcz               42% |*************                   | 30.1M  0:01:06 ETA
-gcc.tcz               42% |*************                   | 30.1M  0:01:07 ETA
-gcc.tcz               42% |*************                   | 30.1M  0:01:08 ETA
-gcc.tcz               42% |*************                   | 30.1M  0:01:10 ETA
-gcc.tcz               42% |*************                   | 30.1M  - stalled -
-gcc.tcz               42% |*************                   | 30.1M  - stalled -
-gcc.tcz               42% |*************                   | 30.1M  - stalled -
-gcc.tcz               42% |*************                   | 30.1M  - stalled -
-gcc.tcz               42% |*************                   | 30.1M  - stalled -
+file.tcz             100% |********************************|  724k  0:00:00 ETA
+'file.tcz' saved
+file.tcz: OK
+Downloading: diffutils.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'diffutils.tcz'
+diffutils.tcz         11% |***                             | 12852  0:00:07 ETA
+diffutils.tcz        100% |********************************|  108k  0:00:00 ETA
+'diffutils.tcz' saved
+diffutils.tcz: OK
+Downloading: gettext.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'gettext.tcz'
+gettext.tcz            7% |**                              |  115k  0:00:12 ETA
+gettext.tcz           42% |*************                   |  661k  0:00:02 ETA
+gettext.tcz          100% |********************************| 1560k  0:00:00 ETA
+'gettext.tcz' saved
+gettext.tcz: OK
+Downloading: bison.tcz
+Connecting to repo.tinycorelinux.net (128.127.66.77:80)
+saving to 'bison.tcz'
+bison.tcz             18% |******                          | 97104  0:00:04 ETA
+bison.tcz             40% |************                    |  203k  0:00:02 ETA
+bison.tcz             40% |************                    |  203k  0:00:04 ETA
+bison.tcz             40% |************                    |  203k  0:00:05 ETA
+bison.tcz             40% |************                    |  203k  0:00:07 ETA
+bison.tcz             40% |************                    |  203k  0:00:08 ETA
+bison.tcz             40% |************                    |  203k  - stalled -
+bison.tcz             40% |************                    |  203k  - stalled -
+bison.tcz             40% |************                    |  203k  - stalled -
+bison.tcz             40% |************                    |  203k  - stalled -
+bison.tcz             40% |************                    |  203k  - stalled -
 wget: download timed out
-gcc.tcz: FAILED
+bison.tcz: FAILED
 md5sum: WARNING: 1 of 1 computed checksums did NOT match
-Error on gcc.tcz
+Error on bison.tcz
 Connecting to repo.palemoon.org (81.17.96.111:443)
 wget: can't execute 'openssl': No such file or directory
 tar: invalid magic
