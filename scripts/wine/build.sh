@@ -63,7 +63,7 @@ sudo ln -s /lib /lib64
 #compile
 export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
-export LDFLAGS="-Wl,-O2,--as-needed"
+export LDFLAGS="-Wl,-O2,--as-needed,--sort-common" 
 
 ./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --without-dbus --enable-archs=i386,x86_64 --disable-win16 --disable-tests
 cat config.log
