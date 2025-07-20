@@ -6,6 +6,11 @@ if [ -z "$MARCH" ]; then
   exit 1
 fi
 
+if [ "$MARCH" = "x86-64-v4" ]; then
+  echo "Error: not working"
+  exit 1
+fi
+
 echo "Building with -march=$MARCH"
 
 sudo rm -f /bin/uname
@@ -63,7 +68,7 @@ sudo ln -s /lib /lib64
 #compile
 export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
-#export LDFLAGS="-Wl,-O2,--as-needed,--sort-common" 
+export LDFLAGS="-Wl,-O2,--as-needed,--sort-common" 
 
 ./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --without-dbus --enable-archs=i386,x86_64 --disable-win16 --disable-tests
 cat config.log
