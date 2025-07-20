@@ -1,0 +1,3009 @@
+Building with -march=x86-64-v2
+python.tcz.dep OK
+readline.tcz.dep OK
+Downloading: libffi.tcz
+compiletc.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libffi.tcz'
+libffi.tcz           100% |********************************| 20480  0:00:00 ETA
+'libffi.tcz' saved
+libffi.tcz: OK
+bison.tcz.dep OK
+Downloading: expat2.tcz
+gettext.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'expat2.tcz'
+expat2.tcz           100% |********************************| 81920  0:00:00 ETA
+'expat2.tcz' saved
+expat2.tcz: OK
+file.tcz.dep OK
+Downloading: ncursesw.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'ncursesw.tcz'
+ncursesw.tcz         100% |********************************|  256k  0:00:00 ETA
+'ncursesw.tcz' saved
+ncursesw.tcz: OK
+Downloading: readline.tcz
+gawk.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+mpfr.tcz.dep OK
+saving to 'readline.tcz'
+readline.tcz         100% |********************************|  148k  0:00:00 ETA
+'readline.tcz' saved
+gcc.tcz.dep OK
+readline.tcz: OK
+Downloading: gdbm.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+gcc_libs-dev.tcz.dep OK
+saving to 'gdbm.tcz'
+gdbm.tcz             100% |********************************| 81920  0:00:00 ETA
+'gdbm.tcz' saved
+gdbm.tcz: OK
+Downloading: openssl-1.1.1.tcz
+binutils.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'openssl-1.1.1.tcz'
+mpc.tcz.dep OK
+isl.tcz.dep OK
+openssl-1.1.1.tcz    100% |********************************| 1520k  0:00:00 ETA
+'openssl-1.1.1.tcz' saved
+openssl-1.1.1.tcz: OK
+Downloading: bzip2-lib.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'bzip2-lib.tcz'
+bzip2-lib.tcz        100% |********************************| 28672  0:00:00 ETA
+'bzip2-lib.tcz' saved
+bzip2-lib.tcz: OK
+Downloading: sqlite3.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sqlite3.tcz'
+sqlite3.tcz          100% |********************************|  612k  0:00:00 ETA
+'sqlite3.tcz' saved
+sqlite3.tcz: OK
+Downloading: python.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'python.tcz'
+python.tcz             0% |                                | 14020  0:13:51 ETA
+Xorg-7.7-3d-dev.tcz.dep OK
+Xorg-7.7-3d.tcz.dep OK
+Xorg-7.7.tcz.dep OK
+Xprogs.tcz.dep OK
+Xlibs.tcz.dep OK
+python.tcz           100% |********************************| 10.9M  0:00:00 ETA
+'python.tcz' saved
+python.tcz: OK
+imlib2.tcz.dep OK
+freetype.tcz.dep OK
+harfbuzz.tcz.dep OK
+glib2.tcz.dep OK
+libXext.tcz.dep OK
+libX11.tcz.dep OK
+libxcb.tcz.dep OK
+libXmu.tcz.dep OK
+Downloading: libxcrypt_base-dev.tcz
+libXt.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxcrypt_base-dev.tcz'
+libxcrypt_base-dev.t 100% |********************************|  8192  0:00:00 ETA
+'libxcrypt_base-dev.tcz' saved
+libxcrypt_base-dev.tcz: OK
+Downloading: glibc_add_lib.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+fltk-1.4.tcz.dep OK
+saving to 'glibc_add_lib.tcz'
+wayland.tcz.dep OK
+glibc_add_lib.tcz    100% |********************************|  696k  0:00:00 ETA
+'glibc_add_lib.tcz' saved
+glibc_add_lib.tcz: OK
+libxml2.tcz.dep OK
+Downloading: zlib_base-dev.tcz
+libxkbcommon.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'zlib_base-dev.tcz'
+zlib_base-dev.tcz     31% |*********                       | 14025  0:00:02 ETA
+pango.tcz.dep OK
+zlib_base-dev.tcz    100% |********************************| 45056  0:00:00 ETA
+'zlib_base-dev.tcz' saved
+zlib_base-dev.tcz: OK
+Downloading: util-linux_base-dev.tcz
+cairo.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+fontconfig.tcz.dep OK
+saving to 'util-linux_base-dev.tcz'
+util-linux_base-dev. 100% |********************************|  8192  0:00:00 ETA
+'util-linux_base-dev.tcz' saved
+util-linux_base-dev.tcz: OK
+Downloading: linux-6.12_api_headers.tcz
+libXft.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libXrender.tcz.dep OK
+saving to 'linux-6.12_api_headers.tcz'
+fribidi.tcz.dep OK
+libXcursor.tcz.dep OK
+libXfixes.tcz.dep OK
+libXinerama.tcz.dep OK
+imlib2-bin.tcz.dep OK
+linux-6.12_api_heade 100% |********************************| 2364k  0:00:00 ETA
+'linux-6.12_api_headers.tcz' saved
+linux-6.12_api_headers.tcz: OK
+Xorg-7.7-bin.tcz.dep OK
+libGL.tcz.dep OK
+libXdamage.tcz.dep OK
+libXxf86vm.tcz.dep OK
+libdrm.tcz.dep OK
+libXaw.tcz.dep OK
+libXpm.tcz.dep OK
+libXcomposite.tcz.dep OK
+libXrandr.tcz.dep OK
+libXtst.tcz.dep OK
+libXi.tcz.dep OK
+libXxf86dga.tcz.dep OK
+Downloading: glibc_base-dev.tcz
+libxkbfile.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glibc_base-dev.tcz'
+Xorg-7.7-lib.tcz.dep OK
+libXfont2.tcz.dep OK
+libXres.tcz.dep OK
+libXss.tcz.dep OK
+glibc_base-dev.tcz   100% |********************************| 4112k  0:00:00 ETA
+'glibc_base-dev.tcz' saved
+glibc_base-dev.tcz: OK
+libXvmc.tcz.dep OK
+libXv.tcz.dep OK
+xf86-input-libinput.tcz.dep OK
+libinput.tcz.dep OK
+Downloading: e2fsprogs_base-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'e2fsprogs_base-dev.tcz'
+e2fsprogs_base-dev.t 100% |********************************| 61440  0:00:00 ETA
+'e2fsprogs_base-dev.tcz' saved
+e2fsprogs_base-dev.tcz: OK
+libwacom.tcz.dep OK
+Downloading: sed.tcz
+gudev-lib.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sed.tcz'
+sed.tcz              100% |********************************| 49152  0:00:00 ETA
+'sed.tcz' saved
+sed.tcz: OK
+xorg-server.tcz.dep OK
+Downloading: pkg-config.tcz
+libEGL.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pkg-config.tcz'
+pkg-config.tcz       100% |********************************| 57344  0:00:00 ETA
+'pkg-config.tcz' saved
+pkg-config.tcz: OK
+Downloading: patch.tcz
+llvm19-lib.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'patch.tcz'
+patch.tcz            100% |********************************| 77824  0:00:00 ETA
+'patch.tcz' saved
+patch.tcz: OK
+libvdpau.tcz.dep OK
+Downloading: make.tcz
+libGLESv2.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+elfutils.tcz.dep OK
+saving to 'make.tcz'
+Xorg-7.7-dev.tcz.dep OK
+make.tcz             100% |********************************|  124k  0:00:00 ETA
+'make.tcz' saved
+make.tcz: OK
+Downloading: m4.tcz
+libFS-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libXaw-dev.tcz.dep OK
+saving to 'm4.tcz'
+libXmu-dev.tcz.dep OK
+m4.tcz               100% |********************************|  112k  0:00:00 ETA
+'m4.tcz' saved
+m4.tcz: OK
+libXext-dev.tcz.dep OK
+Downloading: grep.tcz
+libX11-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libxcb-dev.tcz.dep OK
+saving to 'grep.tcz'
+libXau-dev.tcz.dep OK
+grep.tcz             100% |********************************| 65536  0:00:00 ETA
+'grep.tcz' saved
+grep.tcz: OK
+libXdmcp-dev.tcz.dep OK
+Downloading: libzstd.tcz
+xcb-proto.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libzstd.tcz'
+xorg-proto.tcz.dep OK
+util-macros.tcz.dep OK
+libzstd.tcz          100% |********************************|  328k  0:00:00 ETA
+'libzstd.tcz' saved
+libzstd.tcz: OK
+Downloading: gmp.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libXt-dev.tcz.dep OK
+saving to 'gmp.tcz'
+libICE-dev.tcz.dep OK
+libSM-dev.tcz.dep OK
+gmp.tcz              100% |********************************|  252k  0:00:00 ETA
+'gmp.tcz' saved
+gmp.tcz: OK
+libXpm-dev.tcz.dep OK
+Downloading: isl.tcz
+libXcomposite-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libXcursor-dev.tcz.dep OK
+saving to 'isl.tcz'
+isl.tcz                1% |                                | 12595  0:01:06 ETA
+libXrender-dev.tcz.dep OK
+libXfixes-dev.tcz.dep OK
+isl.tcz              100% |********************************|  828k  0:00:00 ETA
+'isl.tcz' saved
+isl.tcz: OK
+libXdamage-dev.tcz.dep OK
+libXfont2-dev.tcz.dep OK
+Downloading: mpfr.tcz
+freetype-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'mpfr.tcz'
+libpng-dev.tcz.dep OK
+libpng-bin.tcz.dep OK
+mpfr.tcz             100% |********************************|  356k  0:00:00 ETA
+'mpfr.tcz' saved
+mpfr.tcz: OK
+harfbuzz-dev.tcz.dep OK
+Downloading: mpc.tcz
+harfbuzz-bin.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+glib2-dev.tcz.dep OK
+saving to 'mpc.tcz'
+glib2-python.tcz.dep OK
+mpc.tcz              100% |********************************| 57344  0:00:00 ETA
+'mpc.tcz' saved
+mpc.tcz: OK
+python3.9.tcz.dep OK
+Downloading: flex.tcz
+pcre21042-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'flex.tcz'
+bzip2-dev.tcz.dep OK
+bzip2.tcz.dep OK
+flex.tcz             100% |********************************|  116k  0:00:00 ETA
+'flex.tcz' saved
+flex.tcz: OK
+readline-dev.tcz.dep OK
+Downloading: binutils.tcz
+ncursesw-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'binutils.tcz'
+libffi-dev.tcz.dep OK
+graphite-dev.tcz.dep OK
+libfontenc-dev.tcz.dep OK
+libXft-dev.tcz.dep OK
+fontconfig-dev.tcz.dep OK
+expat2-dev.tcz.dep OK
+libXinerama-dev.tcz.dep OK
+libXrandr-dev.tcz.dep OK
+libXres-dev.tcz.dep OK
+libXss-dev.tcz.dep OK
+libXtst-dev.tcz.dep OK
+libXi-dev.tcz.dep OK
+libXvmc-dev.tcz.dep OK
+binutils.tcz         100% |********************************| 6548k  0:00:00 ETA
+'binutils.tcz' saved
+binutils.tcz: OK
+libXv-dev.tcz.dep OK
+libXxf86dga-dev.tcz.dep OK
+libXxf86vm-dev.tcz.dep OK
+libpciaccess-dev.tcz.dep OK
+libxkbfile-dev.tcz.dep OK
+Downloading: gcc_libs.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gcc_libs.tcz'
+xorg-server-dev.tcz.dep OK
+libEGL-dev.tcz.dep OK
+libGL-dev.tcz.dep OK
+gcc_libs.tcz          22% |*******                         |  591k  0:00:03 ETA
+libdrm-dev.tcz.dep OK
+udev-lib-dev.tcz.dep OK
+libxshmfence-dev.tcz.dep OK
+wayland-dev.tcz.dep OK
+libxml2-dev.tcz.dep OK
+gcc_libs.tcz         100% |********************************| 2616k  0:00:00 ETA
+'gcc_libs.tcz' saved
+gcc_libs.tcz: OK
+libxml2-bin.tcz.dep OK
+libxml2-python.tcz.dep OK
+Downloading: gcc_libs-dev.tcz
+liblzma-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libepoxy-dev.tcz.dep OK
+saving to 'gcc_libs-dev.tcz'
+openssl-dev.tcz.dep OK
+pixman-dev.tcz.dep OK
+libxcvt-dev.tcz.dep OK
+font-util.tcz.dep OK
+llvm19-dev.tcz.dep OK
+llvm19-bin.tcz.dep OK
+zstd-dev.tcz.dep OK
+zstd.tcz.dep OK
+gcc_libs-dev.tcz     100% |********************************| 5924k  0:00:00 ETA
+'gcc_libs-dev.tcz' saved
+gcc_libs-dev.tcz: OK
+liblz4-dev.tcz.dep OK
+libvdpau-dev.tcz.dep OK
+libGLESv2-dev.tcz.dep OK
+elfutils-dev.tcz.dep OK
+Downloading: gcc_base-dev.tcz
+gtk3-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gcc_base-dev.tcz'
+gtk3.tcz.dep OK
+at-spi2-core.tcz.dep OK
+dbus.tcz.dep OK
+elogind.tcz.dep OK
+acl.tcz.dep OK
+gcc_base-dev.tcz     100% |********************************| 2364k  0:00:00 ETA
+'gcc_base-dev.tcz' saved
+gcc_base-dev.tcz: OK
+libcap.tcz.dep OK
+Downloading: gcc.tcz
+util-linux.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gcc.tcz'
+gcc.tcz                0% |                                | 42579  0:29:27 ETA
+gdk-pixbuf2.tcz.dep OK
+libtiff.tcz.dep OK
+shared-mime-info.tcz.dep OK
+wayland-protocols.tcz.dep OK
+gdk-pixbuf2-dev.tcz.dep OK
+tiff-dev.tcz.dep OK
+tiff-bin.tcz.dep OK
+freeglut-dev.tcz.dep OK
+freeglut.tcz.dep OK
+glu-dev.tcz.dep OK
+glu.tcz.dep OK
+libjpeg-turbo-dev.tcz.dep OK
+libjpeg-turbo-bin.tcz.dep OK
+gdk-pixbuf2-xlib-dev.tcz.dep OK
+at-spi2-core-dev.tcz.dep OK
+dbus-dev.tcz.dep OK
+elogind-dev.tcz.dep OK
+acl-dev.tcz.dep OK
+attr-dev.tcz.dep OK
+libcap-dev.tcz.dep OK
+util-linux-dev.tcz.dep OK
+pango-dev.tcz.dep OK
+cairo-dev.tcz.dep OK
+fribidi-dev.tcz.dep OK
+rest-dev.tcz.dep OK
+rest.tcz.dep OK
+libsoup.tcz.dep OK
+glib-networking.tcz.dep OK
+gnutls38.tcz.dep OK
+gcc.tcz               40% |*************                   | 29.2M  0:00:02 ETA
+p11-kit.tcz.dep OK
+nettle39.tcz.dep OK
+libidn2.tcz.dep OK
+libpsl.tcz.dep OK
+libsoup-dev.tcz.dep OK
+sqlite3-dev.tcz.dep OK
+sqlite3-bin.tcz.dep OK
+libpsl-dev.tcz.dep OK
+libidn2-dev.tcz.dep OK
+libunistring-dev.tcz.dep OK
+colord-dev.tcz.dep OK
+colord.tcz.dep OK
+libgusb.tcz.dep OK
+libusb.tcz.dep OK
+libsane.tcz.dep OK
+libgphoto2.tcz.dep OK
+curl.tcz.dep OK
+ca-certificates.tcz.dep OK
+libpoppler23.tcz.dep OK
+nss.tcz.dep OK
+libavahi.tcz.dep OK
+polkit.tcz.dep OK
+js78.tcz.dep OK
+lcms2-dev.tcz.dep OK
+libgusb-dev.tcz.dep OK
+libusb-dev.tcz.dep OK
+gcc.tcz               96% |******************************  | 69.3M  0:00:00 ETA
+sane-dev.tcz.dep OK
+avahi-dev.tcz.dep OK
+gcc.tcz              100% |********************************| 71.6M  0:00:00 ETA
+'gcc.tcz' saved
+avahi.tcz.dep OK
+libdaemon-dev.tcz.dep OK
+sane.tcz.dep OK
+gcc.tcz: OK
+libgphoto2-dev.tcz.dep OK
+libexif-dev.tcz.dep OK
+libtool-dev.tcz.dep OK
+libtool.tcz.dep OK
+curl-dev.tcz.dep OK
+poppler23-dev.tcz.dep OK
+poppler23-bin.tcz.dep OK
+openjpeg-dev.tcz.dep OK
+nss-dev.tcz.dep OK
+nspr-dev.tcz.dep OK
+polkit-dev.tcz.dep OK
+js78-dev.tcz.dep OK
+linux-pam-dev.tcz.dep OK
+json-glib-dev.tcz.dep OK
+json-glib.tcz.dep OK
+libxkbcommon-dev.tcz.dep OK
+python-dev.tcz.dep OK
+openssl-1.1.1-dev.tcz.dep OK
+tk8.6-dev.tcz.dep OK
+tk8.6.tcz.dep OK
+tcl8.6.tcz.dep OK
+tcl8.6-dev.tcz.dep OK
+Downloading: gawk.tcz
+gdbm-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+coreutils.tcz.dep OK
+saving to 'gawk.tcz'
+gawk.tcz             100% |********************************|  364k  0:00:00 ETA
+'gawk.tcz' saved
+gawk.tcz: OK
+perl5.tcz.dep OK
+Downloading: findutils.tcz
+alsa-dev.tcz.dep OK
+alsa.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'findutils.tcz'
+alsa-modules-6.12.11-tinycore64.tcz.dep OK
+findutils.tcz        100% |********************************|  148k  0:00:00 ETA
+'findutils.tcz' saved
+findutils.tcz: OK
+Downloading: liblzma.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+fftw-dev.tcz.dep OK
+saving to 'liblzma.tcz'
+liblzma.tcz          100% |********************************| 94208  0:00:00 ETA
+'liblzma.tcz' saved
+liblzma.tcz: OK
+Downloading: file.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+ffmpeg7-dev.tcz.dep OK
+saving to 'file.tcz'
+ffmpeg7.tcz.dep OK
+file.tcz             100% |********************************|  724k  0:00:00 ETA
+'file.tcz' saved
+file.tcz: OK
+libavdevice7.tcz.dep OK
+libavfilter7.tcz.dep OK
+Downloading: diffutils.tcz
+libswresample7.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libavutil7.tcz.dep OK
+saving to 'diffutils.tcz'
+libva22.tcz.dep OK
+diffutils.tcz        100% |********************************|  108k  0:00:00 ETA
+'diffutils.tcz' saved
+diffutils.tcz: OK
+Downloading: gettext.tcz
+libavformat7.tcz.dep OK
+libavcodec7.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gettext.tcz'
+gettext.tcz           86% |***************************     | 1347k  0:00:00 ETA
+gettext.tcz          100% |********************************| 1560k  0:00:00 ETA
+'gettext.tcz' saved
+gettext.tcz: OK
+Downloading: bison.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libtheora.tcz.dep OK
+saving to 'bison.tcz'
+speex.tcz.dep OK
+bison.tcz            100% |********************************|  504k  0:00:00 ETA
+'bison.tcz' saved
+bison.tcz: OK
+Downloading: compiletc.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+librsvg.tcz.dep OK
+saving to 'compiletc.tcz'
+compiletc.tcz        100% |********************************|  4096  0:00:00 ETA
+'compiletc.tcz' saved
+compiletc.tcz: OK
+Downloading: liblz4.tcz
+libpostproc7.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libswscale7.tcz.dep OK
+saving to 'liblz4.tcz'
+libass.tcz.dep OK
+liblz4.tcz           100% |********************************| 61440  0:00:00 ETA
+'liblz4.tcz' saved
+liblz4.tcz: OK
+Downloading: liblz4-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libv4l2.tcz.dep OK
+saving to 'liblz4-dev.tcz'
+liblz4-dev.tcz       100% |********************************| 40960  0:00:00 ETA
+'liblz4-dev.tcz' saved
+liblz4-dev.tcz: OK
+v4l-dvb-6.12.11-tinycore64.tcz.dep OK
+Downloading: liblzma-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libpulseaudio.tcz.dep OK
+saving to 'liblzma-dev.tcz'
+liblzma-dev.tcz      100% |********************************| 81920  0:00:00 ETA
+'liblzma-dev.tcz' saved
+liblzma-dev.tcz: OK
+libsndfile.tcz.dep OK
+Downloading: zstd.tcz
+flac.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libvorbis.tcz.dep OK
+saving to 'zstd.tcz'
+libplacebo.tcz.dep OK
+zstd.tcz             100% |********************************| 77824  0:00:00 ETA
+'zstd.tcz' saved
+zstd.tcz: OK
+shaderc.tcz.dep OK
+Downloading: zstd-dev.tcz
+glslang.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'zstd-dev.tcz'
+zstd-dev.tcz         100% |********************************| 77824  0:00:00 ETA
+'zstd-dev.tcz' saved
+zstd-dev.tcz: OK
+libvulkan.tcz.dep OK
+Downloading: bzip2.tcz
+libaom-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libaom-bin.tcz.dep OK
+saving to 'bzip2.tcz'
+bzip2.tcz            100% |********************************| 20480  0:00:00 ETA
+'bzip2.tcz' saved
+bzip2.tcz: OK
+libva22-dev.tcz.dep OK
+Downloading: bzip2-dev.tcz
+x264_164-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libvpx113-dev.tcz.dep OK
+saving to 'bzip2-dev.tcz'
+bzip2-dev.tcz        100% |********************************| 32768  0:00:00 ETA
+'bzip2-dev.tcz' saved
+bzip2-dev.tcz: OK
+libvpx113-bin.tcz.dep OK
+Downloading: elfutils.tcz
+libtheora-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libogg-dev.tcz.dep OK
+saving to 'elfutils.tcz'
+pulseaudio-dev.tcz.dep OK
+elfutils.tcz         100% |********************************|  552k  0:00:00 ETA
+'elfutils.tcz' saved
+elfutils.tcz: OK
+pulseaudio.tcz.dep OK
+Downloading: elfutils-dev.tcz
+speexdsp.tcz.dep OK
+speexdsp-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'elfutils-dev.tcz'
+speex-dev.tcz.dep OK
+elfutils-dev.tcz     100% |********************************|  384k  0:00:00 ETA
+'elfutils-dev.tcz' saved
+elfutils-dev.tcz: OK
+libsndfile-dev.tcz.dep OK
+Downloading: libxshmfence.tcz
+flac-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libvorbis-dev.tcz.dep OK
+saving to 'libxshmfence.tcz'
+libxshmfence.tcz     100% |********************************|  4096  0:00:00 ETA
+'libxshmfence.tcz' saved
+libxshmfence.tcz: OK
+libbluetooth-dev.tcz.dep OK
+Downloading: libxshmfence-dev.tcz
+libbluetooth.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+bluez.tcz.dep OK
+saving to 'libxshmfence-dev.tcz'
+libxshmfence-dev.tcz 100% |********************************|  4096  0:00:00 ETA
+'libxshmfence-dev.tcz' saved
+libxshmfence-dev.tcz: OK
+libical3.tcz.dep OK
+Downloading: udev-lib.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'udev-lib.tcz'
+udev-lib.tcz         100% |********************************| 24576  0:00:00 ETA
+'udev-lib.tcz' saved
+udev-lib.tcz: OK
+Downloading: udev-lib-dev.tcz
+sbc-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libwebp1-dev.tcz.dep OK
+saving to 'udev-lib-dev.tcz'
+udev-lib-dev.tcz     100% |********************************|  4096  0:00:00 ETA
+'udev-lib-dev.tcz' saved
+udev-lib-dev.tcz: OK
+libwebp1-bin.tcz.dep OK
+Downloading: libpciaccess.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+giflib7-dev.tcz.dep OK
+saving to 'libpciaccess.tcz'
+libpciaccess.tcz     100% |********************************| 16384  0:00:00 ETA
+'libpciaccess.tcz' saved
+libpciaccess.tcz: OK
+giflib7-bin.tcz.dep OK
+Downloading: libpciaccess-dev.tcz
+lame-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpciaccess-dev.tcz'
+libpciaccess-dev.tcz 100% |********************************|  8192  0:00:00 ETA
+'libpciaccess-dev.tcz' saved
+libv4l2-dev.tcz.dep OK
+libpciaccess-dev.tcz: OK
+Downloading: libdrm.tcz
+sdl2-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+pipewire-dev.tcz.dep OK
+saving to 'libdrm.tcz'
+pipewire.tcz.dep OK
+libdrm.tcz           100% |********************************|  148k  0:00:00 ETA
+'libdrm.tcz' saved
+libdrm.tcz: OK
+wayland-protocols-dev.tcz.dep OK
+Downloading: libdrm-dev.tcz
+libass-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+opus-dev.tcz.dep OK
+saving to 'libdrm-dev.tcz'
+x265-dev.tcz.dep OK
+libdrm-dev.tcz       100% |********************************|  240k  0:00:00 ETA
+'libdrm-dev.tcz' saved
+libdrm-dev.tcz: OK
+librsvg-dev.tcz.dep OK
+Downloading: xtrans.tcz
+gnutls38-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+p11-kit-dev.tcz.dep OK
+saving to 'xtrans.tcz'
+xtrans.tcz           100% |********************************| 69632  0:00:00 ETA
+'xtrans.tcz' saved
+xtrans.tcz: OK
+libtasn1-4-dev.tcz.dep OK
+Downloading: util-macros.tcz
+nettle39-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+gmp-dev.tcz.dep OK
+saving to 'util-macros.tcz'
+libplacebo-dev.tcz.dep OK
+util-macros.tcz      100% |********************************| 36864  0:00:00 ETA
+'util-macros.tcz' saved
+util-macros.tcz: OK
+Downloading: xorg-proto.tcz
+shaderc-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+glslang-dev.tcz.dep OK
+saving to 'xorg-proto.tcz'
+spirv-tools-dev.tcz.dep OK
+xorg-proto.tcz       100% |********************************|  380k  0:00:00 ETA
+'xorg-proto.tcz' saved
+xorg-proto.tcz: OK
+Downloading: xcb-proto.tcz
+libvulkan-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xcb-proto.tcz'
+xcb-proto.tcz        100% |********************************|  188k  0:00:00 ETA
+'xcb-proto.tcz' saved
+xcb-proto.tcz: OK
+Downloading: libXdmcp.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXdmcp.tcz'
+libXdmcp.tcz         100% |********************************| 12288  0:00:00 ETA
+'libXdmcp.tcz' saved
+libXdmcp.tcz: OK
+Downloading: libXdmcp-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXdmcp-dev.tcz'
+libXdmcp-dev.tcz     100% |********************************|  4096  0:00:00 ETA
+'libXdmcp-dev.tcz' saved
+libXdmcp-dev.tcz: OK
+Downloading: libXau.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXau.tcz'
+libXau.tcz           100% |********************************|  8192  0:00:00 ETA
+'libXau.tcz' saved
+libXau.tcz: OK
+Downloading: libXau-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXau-dev.tcz'
+libXau-dev.tcz       100% |********************************|  4096  0:00:00 ETA
+'libXau-dev.tcz' saved
+libXau-dev.tcz: OK
+Downloading: libxcb.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxcb.tcz'
+libxcb.tcz           100% |********************************|  384k  0:00:00 ETA
+'libxcb.tcz' saved
+libxcb.tcz: OK
+Downloading: libxcb-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxcb-dev.tcz'
+libxcb-dev.tcz       100% |********************************|  428k  0:00:00 ETA
+'libxcb-dev.tcz' saved
+libxcb-dev.tcz: OK
+Downloading: libX11.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libX11.tcz'
+libX11.tcz           100% |********************************|  928k  0:00:00 ETA
+'libX11.tcz' saved
+libX11.tcz: OK
+Downloading: libX11-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libX11-dev.tcz'
+libX11-dev.tcz       100% |********************************| 73728  0:00:00 ETA
+'libX11-dev.tcz' saved
+libX11-dev.tcz: OK
+Downloading: libXext.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXext.tcz'
+libXext.tcz          100% |********************************| 28672  0:00:00 ETA
+'libXext.tcz' saved
+libXext.tcz: OK
+Downloading: libXext-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXext-dev.tcz'
+libXext-dev.tcz      100% |********************************| 24576  0:00:00 ETA
+'libXext-dev.tcz' saved
+libXext-dev.tcz: OK
+Downloading: libXxf86vm.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXxf86vm.tcz'
+libXxf86vm.tcz       100% |********************************|  8192  0:00:00 ETA
+'libXxf86vm.tcz' saved
+libXxf86vm.tcz: OK
+Downloading: libXxf86vm-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXxf86vm-dev.tcz'
+libXxf86vm-dev.tcz   100% |********************************|  4096  0:00:00 ETA
+'libXxf86vm-dev.tcz' saved
+libXxf86vm-dev.tcz: OK
+Downloading: libXfixes.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXfixes.tcz'
+libXfixes.tcz        100% |********************************|  8192  0:00:00 ETA
+'libXfixes.tcz' saved
+libXfixes.tcz: OK
+Downloading: libXfixes-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXfixes-dev.tcz'
+libXfixes-dev.tcz    100% |********************************|  4096  0:00:00 ETA
+'libXfixes-dev.tcz' saved
+libXfixes-dev.tcz: OK
+Downloading: libXdamage.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXdamage.tcz'
+libXdamage.tcz       100% |********************************|  4096  0:00:00 ETA
+'libXdamage.tcz' saved
+libXdamage.tcz: OK
+Downloading: libXdamage-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXdamage-dev.tcz'
+libXdamage-dev.tcz   100% |********************************|  4096  0:00:00 ETA
+'libXdamage-dev.tcz' saved
+libXdamage-dev.tcz: OK
+Downloading: libGL.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libGL.tcz'
+libGL.tcz            100% |********************************|  184k  0:00:00 ETA
+'libGL.tcz' saved
+libGL.tcz: OK
+Downloading: libGL-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libGL-dev.tcz'
+libGL-dev.tcz        100% |********************************|  308k  0:00:00 ETA
+'libGL-dev.tcz' saved
+libGL-dev.tcz: OK
+Downloading: libGLESv2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libGLESv2.tcz'
+libGLESv2.tcz        100% |********************************| 12288  0:00:00 ETA
+'libGLESv2.tcz' saved
+libGLESv2.tcz: OK
+Downloading: libGLESv2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libGLESv2-dev.tcz'
+libGLESv2-dev.tcz    100% |********************************| 65536  0:00:00 ETA
+'libGLESv2-dev.tcz' saved
+libGLESv2-dev.tcz: OK
+Downloading: libvdpau.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvdpau.tcz'
+libvdpau.tcz         100% |********************************| 28672  0:00:00 ETA
+'libvdpau.tcz' saved
+libvdpau.tcz: OK
+Downloading: libvdpau-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvdpau-dev.tcz'
+libvdpau-dev.tcz     100% |********************************| 65536  0:00:00 ETA
+'libvdpau-dev.tcz' saved
+libvdpau-dev.tcz: OK
+Downloading: openssl.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'openssl.tcz'
+openssl.tcz          100% |********************************| 2892k  0:00:00 ETA
+'openssl.tcz' saved
+openssl.tcz: OK
+Downloading: python3.9.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'python3.9.tcz'
+python3.9.tcz         56% |*****************               | 8680k  0:00:00 ETA
+python3.9.tcz        100% |********************************| 15.1M  0:00:00 ETA
+'python3.9.tcz' saved
+python3.9.tcz: OK
+Downloading: libxml2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxml2.tcz'
+libxml2.tcz           52% |****************                |  313k  0:00:00 ETA
+libxml2.tcz          100% |********************************|  596k  0:00:00 ETA
+'libxml2.tcz' saved
+libxml2.tcz: OK
+Downloading: libxml2-python.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxml2-python.tcz'
+libxml2-python.tcz   100% |********************************|  200k  0:00:00 ETA
+'libxml2-python.tcz' saved
+libxml2-python.tcz: OK
+Downloading: libxml2-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxml2-bin.tcz'
+libxml2-bin.tcz      100% |********************************| 32768  0:00:00 ETA
+'libxml2-bin.tcz' saved
+libxml2-bin.tcz: OK
+Downloading: libxml2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxml2-dev.tcz'
+libxml2-dev.tcz      100% |********************************|  116k  0:00:00 ETA
+'libxml2-dev.tcz' saved
+libxml2-dev.tcz: OK
+Downloading: libffi-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libffi-dev.tcz'
+libffi-dev.tcz       100% |********************************|  8192  0:00:00 ETA
+'libffi-dev.tcz' saved
+libffi-dev.tcz: OK
+Downloading: libffi7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libffi7.tcz'
+libffi7.tcz          100% |********************************| 16384  0:00:00 ETA
+'libffi7.tcz' saved
+libffi7.tcz: OK
+Downloading: llvm19-lib.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'llvm19-lib.tcz'
+llvm19-lib.tcz        24% |*******                         | 8108k  0:00:03 ETA
+llvm19-lib.tcz       100% |********************************| 32.0M  0:00:00 ETA
+'llvm19-lib.tcz' saved
+llvm19-lib.tcz: OK
+Downloading: llvm19-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'llvm19-bin.tcz'
+llvm19-bin.tcz       100% |********************************| 19.4M  0:00:00 ETA
+'llvm19-bin.tcz' saved
+llvm19-bin.tcz: OK
+Downloading: llvm19-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'llvm19-dev.tcz'
+llvm19-dev.tcz        42% |*************                   | 37.7M  0:00:01 ETA
+llvm19-dev.tcz       100% |********************************| 89.7M  0:00:00 ETA
+'llvm19-dev.tcz' saved
+llvm19-dev.tcz: OK
+Downloading: Xorg-fonts.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xorg-fonts.tcz'
+Xorg-fonts.tcz       100% |********************************| 1584k  0:00:00 ETA
+'Xorg-fonts.tcz' saved
+Xorg-fonts.tcz: OK
+Downloading: font-util.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'font-util.tcz'
+font-util.tcz        100% |********************************| 20480  0:00:00 ETA
+'font-util.tcz' saved
+font-util.tcz: OK
+Downloading: libxcvt.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxcvt.tcz'
+libxcvt.tcz          100% |********************************|  8192  0:00:00 ETA
+'libxcvt.tcz' saved
+libxcvt.tcz: OK
+Downloading: libxcvt-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxcvt-dev.tcz'
+libxcvt-dev.tcz      100% |********************************|  4096  0:00:00 ETA
+'libxcvt-dev.tcz' saved
+libxcvt-dev.tcz: OK
+Downloading: pixman.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pixman.tcz'
+pixman.tcz           100% |********************************|  276k  0:00:00 ETA
+'pixman.tcz' saved
+pixman.tcz: OK
+Downloading: pixman-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pixman-dev.tcz'
+pixman-dev.tcz       100% |********************************| 12288  0:00:00 ETA
+'pixman-dev.tcz' saved
+pixman-dev.tcz: OK
+Downloading: openssl-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'openssl-dev.tcz'
+openssl-dev.tcz      100% |********************************|  464k  0:00:00 ETA
+'openssl-dev.tcz' saved
+openssl-dev.tcz: OK
+Downloading: expat2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'expat2-dev.tcz'
+expat2-dev.tcz       100% |********************************| 28672  0:00:00 ETA
+'expat2-dev.tcz' saved
+expat2-dev.tcz: OK
+Downloading: wayland.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'wayland.tcz'
+wayland.tcz          100% |********************************|  132k  0:00:00 ETA
+'wayland.tcz' saved
+wayland.tcz: OK
+Downloading: wayland-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'wayland-dev.tcz'
+wayland-dev.tcz      100% |********************************|  136k  0:00:00 ETA
+'wayland-dev.tcz' saved
+wayland-dev.tcz: OK
+Downloading: libEGL.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libEGL.tcz'
+libEGL.tcz           100% |********************************|  144k  0:00:00 ETA
+'libEGL.tcz' saved
+libEGL.tcz: OK
+Downloading: libEGL-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libEGL-dev.tcz'
+libEGL-dev.tcz       100% |********************************| 36864  0:00:00 ETA
+'libEGL-dev.tcz' saved
+libEGL-dev.tcz: OK
+Downloading: libepoxy.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libepoxy.tcz'
+libepoxy.tcz         100% |********************************|  300k  0:00:00 ETA
+'libepoxy.tcz' saved
+libepoxy.tcz: OK
+Downloading: libepoxy-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libepoxy-dev.tcz'
+libepoxy-dev.tcz     100% |********************************|  232k  0:00:00 ETA
+'libepoxy-dev.tcz' saved
+libepoxy-dev.tcz: OK
+Downloading: libfontenc.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libfontenc.tcz'
+libfontenc.tcz       100% |********************************| 12288  0:00:00 ETA
+'libfontenc.tcz' saved
+libfontenc.tcz: OK
+Downloading: libfontenc-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libfontenc-dev.tcz'
+libfontenc-dev.tcz   100% |********************************|  4096  0:00:00 ETA
+'libfontenc-dev.tcz' saved
+libfontenc-dev.tcz: OK
+Downloading: graphite.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'graphite.tcz'
+graphite.tcz         100% |********************************| 69632  0:00:00 ETA
+'graphite.tcz' saved
+graphite.tcz: OK
+Downloading: graphite-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'graphite-dev.tcz'
+graphite-dev.tcz     100% |********************************| 20480  0:00:00 ETA
+'graphite-dev.tcz' saved
+graphite-dev.tcz: OK
+Downloading: ncursesw-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'ncursesw-dev.tcz'
+ncursesw-dev.tcz     100% |********************************|  100k  0:00:00 ETA
+'ncursesw-dev.tcz' saved
+ncursesw-dev.tcz: OK
+Downloading: readline-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'readline-dev.tcz'
+readline-dev.tcz     100% |********************************| 28672  0:00:00 ETA
+'readline-dev.tcz' saved
+readline-dev.tcz: OK
+Downloading: pcre21042.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pcre21042.tcz'
+pcre21042.tcz        100% |********************************|  672k  0:00:00 ETA
+'pcre21042.tcz' saved
+pcre21042.tcz: OK
+Downloading: pcre21042-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pcre21042-dev.tcz'
+pcre21042-dev.tcz    100% |********************************| 20480  0:00:00 ETA
+'pcre21042-dev.tcz' saved
+pcre21042-dev.tcz: OK
+Downloading: glib2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glib2.tcz'
+glib2.tcz            100% |********************************| 1692k  0:00:00 ETA
+'glib2.tcz' saved
+glib2.tcz: OK
+Downloading: glib2-python.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glib2-python.tcz'
+glib2-python.tcz     100% |********************************| 90112  0:00:00 ETA
+'glib2-python.tcz' saved
+glib2-python.tcz: OK
+Downloading: glib2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glib2-dev.tcz'
+glib2-dev.tcz        100% |********************************|  728k  0:00:00 ETA
+'glib2-dev.tcz' saved
+glib2-dev.tcz: OK
+Downloading: harfbuzz.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'harfbuzz.tcz'
+harfbuzz.tcz         100% |********************************|  844k  0:00:00 ETA
+'harfbuzz.tcz' saved
+harfbuzz.tcz: OK
+Downloading: harfbuzz-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'harfbuzz-bin.tcz'
+harfbuzz-bin.tcz     100% |********************************| 81920  0:00:00 ETA
+'harfbuzz-bin.tcz' saved
+harfbuzz-bin.tcz: OK
+Downloading: harfbuzz-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'harfbuzz-dev.tcz'
+harfbuzz-dev.tcz     100% |********************************|  116k  0:00:00 ETA
+'harfbuzz-dev.tcz' saved
+harfbuzz-dev.tcz: OK
+Downloading: libpng.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpng.tcz'
+libpng.tcz           100% |********************************|  100k  0:00:00 ETA
+'libpng.tcz' saved
+libpng.tcz: OK
+Downloading: libpng-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpng-bin.tcz'
+libpng-bin.tcz       100% |********************************| 24576  0:00:00 ETA
+'libpng-bin.tcz' saved
+libpng-bin.tcz: OK
+Downloading: libpng-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpng-dev.tcz'
+libpng-dev.tcz       100% |********************************| 65536  0:00:00 ETA
+'libpng-dev.tcz' saved
+libpng-dev.tcz: OK
+Downloading: freetype.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'freetype.tcz'
+freetype.tcz         100% |********************************|  372k  0:00:00 ETA
+'freetype.tcz' saved
+freetype.tcz: OK
+Downloading: freetype-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'freetype-dev.tcz'
+freetype-dev.tcz     100% |********************************|  276k  0:00:00 ETA
+'freetype-dev.tcz' saved
+freetype-dev.tcz: OK
+Downloading: libXfont2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXfont2.tcz'
+libXfont2.tcz        100% |********************************|  100k  0:00:00 ETA
+'libXfont2.tcz' saved
+libXfont2.tcz: OK
+Downloading: libXfont2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXfont2-dev.tcz'
+libXfont2-dev.tcz    100% |********************************|  4096  0:00:00 ETA
+'libXfont2-dev.tcz' saved
+libXfont2-dev.tcz: OK
+Downloading: xorg-server.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xorg-server.tcz'
+xorg-server.tcz      100% |********************************| 2844k  0:00:00 ETA
+'xorg-server.tcz' saved
+xorg-server.tcz: OK
+Downloading: xorg-server-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xorg-server-dev.tcz'
+xorg-server-dev.tcz  100% |********************************|  372k  0:00:00 ETA
+'xorg-server-dev.tcz' saved
+xorg-server-dev.tcz: OK
+Downloading: xbitmaps.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xbitmaps.tcz'
+xbitmaps.tcz         100% |********************************| 28672  0:00:00 ETA
+'xbitmaps.tcz' saved
+xbitmaps.tcz: OK
+Downloading: libxkbfile.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxkbfile.tcz'
+libxkbfile.tcz       100% |********************************| 65536  0:00:00 ETA
+'libxkbfile.tcz' saved
+libxkbfile.tcz: OK
+Downloading: libxkbfile-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxkbfile-dev.tcz'
+libxkbfile-dev.tcz   100% |********************************| 16384  0:00:00 ETA
+'libxkbfile-dev.tcz' saved
+libxkbfile-dev.tcz: OK
+Downloading: libXxf86dga.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXxf86dga.tcz'
+libXxf86dga.tcz      100% |********************************| 12288  0:00:00 ETA
+'libXxf86dga.tcz' saved
+libXxf86dga.tcz: OK
+Downloading: libXxf86dga-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXxf86dga-dev.tcz'
+libXxf86dga-dev.tcz  100% |********************************|  4096  0:00:00 ETA
+'libXxf86dga-dev.tcz' saved
+libXxf86dga-dev.tcz: OK
+Downloading: libXv.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXv.tcz'
+libXv.tcz            100% |********************************|  8192  0:00:00 ETA
+'libXv.tcz' saved
+libXv.tcz: OK
+Downloading: libXv-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXv-dev.tcz'
+libXv-dev.tcz        100% |********************************|  4096  0:00:00 ETA
+'libXv-dev.tcz' saved
+libXv-dev.tcz: OK
+Downloading: libXvmc.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXvmc.tcz'
+libXvmc.tcz          100% |********************************| 12288  0:00:00 ETA
+'libXvmc.tcz' saved
+libXvmc.tcz: OK
+Downloading: libXvmc-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXvmc-dev.tcz'
+libXvmc-dev.tcz      100% |********************************|  8192  0:00:00 ETA
+'libXvmc-dev.tcz' saved
+libXvmc-dev.tcz: OK
+Downloading: libXi.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXi.tcz'
+libXi.tcz            100% |********************************| 28672  0:00:00 ETA
+'libXi.tcz' saved
+libXi.tcz: OK
+Downloading: libXi-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXi-dev.tcz'
+libXi-dev.tcz        100% |********************************| 16384  0:00:00 ETA
+'libXi-dev.tcz' saved
+libXi-dev.tcz: OK
+Downloading: libXtst.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXtst.tcz'
+libXtst.tcz          100% |********************************| 12288  0:00:00 ETA
+'libXtst.tcz' saved
+libXtst.tcz: OK
+Downloading: libXtst-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXtst-dev.tcz'
+libXtst-dev.tcz      100% |********************************|  4096  0:00:00 ETA
+'libXtst-dev.tcz' saved
+libXtst-dev.tcz: OK
+Downloading: libXss.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXss.tcz'
+libXss.tcz           100% |********************************|  8192  0:00:00 ETA
+'libXss.tcz' saved
+libXss.tcz: OK
+Downloading: libXss-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXss-dev.tcz'
+libXss-dev.tcz       100% |********************************|  4096  0:00:00 ETA
+'libXss-dev.tcz' saved
+libXss-dev.tcz: OK
+Downloading: libXres.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXres.tcz'
+libXres.tcz          100% |********************************|  8192  0:00:00 ETA
+'libXres.tcz' saved
+libXres.tcz: OK
+Downloading: libXres-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXres-dev.tcz'
+libXres-dev.tcz      100% |********************************|  4096  0:00:00 ETA
+'libXres-dev.tcz' saved
+libXres-dev.tcz: OK
+Downloading: libXrender.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXrender.tcz'
+libXrender.tcz       100% |********************************| 20480  0:00:00 ETA
+'libXrender.tcz' saved
+libXrender.tcz: OK
+Downloading: libXrender-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXrender-dev.tcz'
+libXrender-dev.tcz   100% |********************************|  8192  0:00:00 ETA
+'libXrender-dev.tcz' saved
+libXrender-dev.tcz: OK
+Downloading: libXrandr.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXrandr.tcz'
+libXrandr.tcz        100% |********************************| 20480  0:00:00 ETA
+'libXrandr.tcz' saved
+libXrandr.tcz: OK
+Downloading: libXrandr-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXrandr-dev.tcz'
+libXrandr-dev.tcz    100% |********************************|  8192  0:00:00 ETA
+'libXrandr-dev.tcz' saved
+libXrandr-dev.tcz: OK
+Downloading: libXinerama.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXinerama.tcz'
+libXinerama.tcz      100% |********************************|  4096  0:00:00 ETA
+'libXinerama.tcz' saved
+libXinerama.tcz: OK
+Downloading: libXinerama-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXinerama-dev.tcz'
+libXinerama-dev.tcz  100% |********************************|  4096  0:00:00 ETA
+'libXinerama-dev.tcz' saved
+libXinerama-dev.tcz: OK
+Downloading: fontconfig.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'fontconfig.tcz'
+fontconfig.tcz       100% |********************************|  184k  0:00:00 ETA
+'fontconfig.tcz' saved
+fontconfig.tcz: OK
+Downloading: fontconfig-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'fontconfig-dev.tcz'
+fontconfig-dev.tcz   100% |********************************| 12288  0:00:00 ETA
+'fontconfig-dev.tcz' saved
+fontconfig-dev.tcz: OK
+Downloading: libXft.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXft.tcz'
+libXft.tcz           100% |********************************| 36864  0:00:00 ETA
+'libXft.tcz' saved
+libXft.tcz: OK
+Downloading: libXft-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXft-dev.tcz'
+libXft-dev.tcz       100% |********************************|  8192  0:00:00 ETA
+'libXft-dev.tcz' saved
+libXft-dev.tcz: OK
+Downloading: libXcursor.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXcursor.tcz'
+libXcursor.tcz       100% |********************************| 20480  0:00:00 ETA
+'libXcursor.tcz' saved
+libXcursor.tcz: OK
+Downloading: libXcursor-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXcursor-dev.tcz'
+libXcursor-dev.tcz   100% |********************************|  8192  0:00:00 ETA
+'libXcursor-dev.tcz' saved
+libXcursor-dev.tcz: OK
+Downloading: libXcomposite.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXcomposite.tcz'
+libXcomposite.tcz    100% |********************************|  4096  0:00:00 ETA
+'libXcomposite.tcz' saved
+libXcomposite.tcz: OK
+Downloading: libXcomposite-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXcomposite-dev.tcz'
+libXcomposite-dev.tc 100% |********************************|  4096  0:00:00 ETA
+'libXcomposite-dev.tcz' saved
+libXcomposite-dev.tcz: OK
+Downloading: libXpm.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXpm.tcz'
+libXpm.tcz           100% |********************************| 49152  0:00:00 ETA
+'libXpm.tcz' saved
+libXpm.tcz: OK
+Downloading: libXpm-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXpm-dev.tcz'
+libXpm-dev.tcz       100% |********************************|  8192  0:00:00 ETA
+'libXpm-dev.tcz' saved
+libXpm-dev.tcz: OK
+Downloading: libSM.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libSM.tcz'
+libSM.tcz            100% |********************************| 16384  0:00:00 ETA
+'libSM.tcz' saved
+libSM.tcz: OK
+Downloading: libSM-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libSM-dev.tcz'
+libSM-dev.tcz        100% |********************************|  8192  0:00:00 ETA
+'libSM-dev.tcz' saved
+libSM-dev.tcz: OK
+Downloading: libICE.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libICE.tcz'
+libICE.tcz           100% |********************************| 40960  0:00:00 ETA
+'libICE.tcz' saved
+libICE.tcz: OK
+Downloading: libICE-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libICE-dev.tcz'
+libICE-dev.tcz       100% |********************************| 16384  0:00:00 ETA
+'libICE-dev.tcz' saved
+libICE-dev.tcz: OK
+Downloading: libXt.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXt.tcz'
+libXt.tcz            100% |********************************|  168k  0:00:00 ETA
+'libXt.tcz' saved
+libXt.tcz: OK
+Downloading: libXt-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXt-dev.tcz'
+libXt-dev.tcz        100% |********************************| 86016  0:00:00 ETA
+'libXt-dev.tcz' saved
+libXt-dev.tcz: OK
+Downloading: libXmu.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXmu.tcz'
+libXmu.tcz           100% |********************************| 53248  0:00:00 ETA
+'libXmu.tcz' saved
+libXmu.tcz: OK
+Downloading: libXmu-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXmu-dev.tcz'
+libXmu-dev.tcz       100% |********************************| 28672  0:00:00 ETA
+'libXmu-dev.tcz' saved
+libXmu-dev.tcz: OK
+Downloading: libXaw.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXaw.tcz'
+libXaw.tcz           100% |********************************|  320k  0:00:00 ETA
+'libXaw.tcz' saved
+libXaw.tcz: OK
+Downloading: libXaw-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libXaw-dev.tcz'
+libXaw-dev.tcz       100% |********************************|  120k  0:00:00 ETA
+'libXaw-dev.tcz' saved
+libXaw-dev.tcz: OK
+Downloading: libFS.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libFS.tcz'
+libFS.tcz            100% |********************************| 20480  0:00:00 ETA
+'libFS.tcz' saved
+libFS.tcz: OK
+Downloading: libFS-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libFS-dev.tcz'
+libFS-dev.tcz        100% |********************************|  8192  0:00:00 ETA
+'libFS-dev.tcz' saved
+libFS-dev.tcz: OK
+Downloading: makedepend.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'makedepend.tcz'
+makedepend.tcz       100% |********************************| 16384  0:00:00 ETA
+'makedepend.tcz' saved
+makedepend.tcz: OK
+Downloading: Xorg-7.7-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xorg-7.7-dev.tcz'
+Xorg-7.7-dev.tcz     100% |********************************|  4096  0:00:00 ETA
+'Xorg-7.7-dev.tcz' saved
+Xorg-7.7-dev.tcz: OK
+Downloading: xkeyboard-config.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xkeyboard-config.tcz'
+xkeyboard-config.tcz 100% |********************************|  824k  0:00:00 ETA
+'xkeyboard-config.tcz' saved
+xkeyboard-config.tcz: OK
+Downloading: xf86-video-vesa.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xf86-video-vesa.tcz'
+xf86-video-vesa.tcz  100% |********************************| 12288  0:00:00 ETA
+'xf86-video-vesa.tcz' saved
+xf86-video-vesa.tcz: OK
+Downloading: xf86-video-fbdev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xf86-video-fbdev.tcz'
+xf86-video-fbdev.tcz 100% |********************************| 12288  0:00:00 ETA
+'xf86-video-fbdev.tcz' saved
+xf86-video-fbdev.tcz: OK
+Downloading: gudev-lib.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gudev-lib.tcz'
+gudev-lib.tcz        100% |********************************| 16384  0:00:00 ETA
+'gudev-lib.tcz' saved
+gudev-lib.tcz: OK
+Downloading: libwacom.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libwacom.tcz'
+libwacom.tcz         100% |********************************|  156k  0:00:00 ETA
+'libwacom.tcz' saved
+libwacom.tcz: OK
+Downloading: libevdev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libevdev.tcz'
+libevdev.tcz         100% |********************************| 49152  0:00:00 ETA
+'libevdev.tcz' saved
+libevdev.tcz: OK
+Downloading: mtdev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'mtdev.tcz'
+mtdev.tcz            100% |********************************| 12288  0:00:00 ETA
+'mtdev.tcz' saved
+mtdev.tcz: OK
+Downloading: libinput.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libinput.tcz'
+libinput.tcz         100% |********************************|  284k  0:00:00 ETA
+'libinput.tcz' saved
+libinput.tcz: OK
+Downloading: xf86-input-libinput.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xf86-input-libinput.tcz'
+xf86-input-libinput. 100% |********************************| 32768  0:00:00 ETA
+'xf86-input-libinput.tcz' saved
+xf86-input-libinput.tcz: OK
+Downloading: xcursor-themes.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xcursor-themes.tcz'
+xcursor-themes.tcz   100% |********************************|  532k  0:00:00 ETA
+'xcursor-themes.tcz' saved
+xcursor-themes.tcz: OK
+Downloading: Xorg-7.7-lib.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xorg-7.7-lib.tcz'
+Xorg-7.7-lib.tcz     100% |********************************|  4096  0:00:00 ETA
+'Xorg-7.7-lib.tcz' saved
+Xorg-7.7-lib.tcz: OK
+Downloading: Xorg-7.7-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xorg-7.7-bin.tcz'
+Xorg-7.7-bin.tcz     100% |********************************|  496k  0:00:00 ETA
+'Xorg-7.7-bin.tcz' saved
+Xorg-7.7-bin.tcz: OK
+Downloading: libjpeg-turbo.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libjpeg-turbo.tcz'
+libjpeg-turbo.tcz    100% |********************************|  308k  0:00:00 ETA
+'libjpeg-turbo.tcz' saved
+libjpeg-turbo.tcz: OK
+Downloading: imlib2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'imlib2.tcz'
+imlib2.tcz           100% |********************************|  228k  0:00:00 ETA
+'imlib2.tcz' saved
+imlib2.tcz: OK
+Downloading: imlib2-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'imlib2-bin.tcz'
+imlib2-bin.tcz       100% |********************************| 45056  0:00:00 ETA
+'imlib2-bin.tcz' saved
+imlib2-bin.tcz: OK
+Downloading: fribidi.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'fribidi.tcz'
+fribidi.tcz          100% |********************************| 28672  0:00:00 ETA
+'fribidi.tcz' saved
+fribidi.tcz: OK
+Downloading: cairo.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'cairo.tcz'
+cairo.tcz            100% |********************************|  544k  0:00:00 ETA
+'cairo.tcz' saved
+cairo.tcz: OK
+Downloading: pango.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pango.tcz'
+pango.tcz             14% |****                            | 39727  0:00:06 ETA
+pango.tcz            100% |********************************|  276k  0:00:00 ETA
+'pango.tcz' saved
+pango.tcz: OK
+Downloading: libxkbcommon.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxkbcommon.tcz'
+libxkbcommon.tcz     100% |********************************|  184k  0:00:00 ETA
+'libxkbcommon.tcz' saved
+libxkbcommon.tcz: OK
+Downloading: fltk-1.4.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'fltk-1.4.tcz'
+fltk-1.4.tcz         100% |********************************|  684k  0:00:00 ETA
+'fltk-1.4.tcz' saved
+fltk-1.4.tcz: OK
+Downloading: Xlibs.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xlibs.tcz'
+Xlibs.tcz            100% |********************************| 1176k  0:00:00 ETA
+'Xlibs.tcz' saved
+Xlibs.tcz: OK
+Downloading: Xprogs.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xprogs.tcz'
+Xprogs.tcz           100% |********************************|  144k  0:00:00 ETA
+'Xprogs.tcz' saved
+Xprogs.tcz: OK
+Downloading: Xorg-7.7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xorg-7.7.tcz'
+Xorg-7.7.tcz         100% |********************************|  4096  0:00:00 ETA
+'Xorg-7.7.tcz' saved
+Xorg-7.7.tcz: OK
+Downloading: Xorg-7.7-3d.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xorg-7.7-3d.tcz'
+Xorg-7.7-3d.tcz        8% |**                              | 1733k  0:00:10 ETA
+Xorg-7.7-3d.tcz      100% |********************************| 19.3M  0:00:00 ETA
+'Xorg-7.7-3d.tcz' saved
+Xorg-7.7-3d.tcz: OK
+Downloading: Xorg-7.7-3d-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'Xorg-7.7-3d-dev.tcz'
+Xorg-7.7-3d-dev.tcz  100% |********************************| 90112  0:00:00 ETA
+'Xorg-7.7-3d-dev.tcz' saved
+Xorg-7.7-3d-dev.tcz: OK
+Downloading: libxkbcommon-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxkbcommon-dev.tcz'
+libxkbcommon-dev.tcz 100% |********************************|  100k  0:00:00 ETA
+'libxkbcommon-dev.tcz' saved
+libxkbcommon-dev.tcz: OK
+Downloading: json-glib.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'json-glib.tcz'
+json-glib.tcz        100% |********************************| 73728  0:00:00 ETA
+'json-glib.tcz' saved
+json-glib.tcz: OK
+Downloading: json-glib-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'json-glib-dev.tcz'
+json-glib-dev.tcz    100% |********************************| 24576  0:00:00 ETA
+'json-glib-dev.tcz' saved
+json-glib-dev.tcz: OK
+Downloading: util-linux.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'util-linux.tcz'
+util-linux.tcz       100% |********************************| 1612k  0:00:00 ETA
+'util-linux.tcz' saved
+util-linux.tcz: OK
+Downloading: util-linux-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'util-linux-dev.tcz'
+util-linux-dev.tcz   100% |********************************| 57344  0:00:00 ETA
+'util-linux-dev.tcz' saved
+util-linux-dev.tcz: OK
+Downloading: attr.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'attr.tcz'
+attr.tcz             100% |********************************| 24576  0:00:00 ETA
+'attr.tcz' saved
+attr.tcz: OK
+Downloading: attr-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'attr-dev.tcz'
+attr-dev.tcz         100% |********************************|  8192  0:00:00 ETA
+'attr-dev.tcz' saved
+attr-dev.tcz: OK
+Downloading: libcap.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libcap.tcz'
+libcap.tcz           100% |********************************| 24576  0:00:00 ETA
+'libcap.tcz' saved
+libcap.tcz: OK
+Downloading: libcap-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libcap-dev.tcz'
+libcap-dev.tcz       100% |********************************|  4096  0:00:00 ETA
+'libcap-dev.tcz' saved
+libcap-dev.tcz: OK
+Downloading: acl.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'acl.tcz'
+acl.tcz              100% |********************************| 40960  0:00:00 ETA
+'acl.tcz' saved
+acl.tcz: OK
+Downloading: acl-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'acl-dev.tcz'
+acl-dev.tcz          100% |********************************|  4096  0:00:00 ETA
+'acl-dev.tcz' saved
+acl-dev.tcz: OK
+Downloading: linux-pam.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'linux-pam.tcz'
+linux-pam.tcz        100% |********************************|  260k  0:00:00 ETA
+'linux-pam.tcz' saved
+linux-pam.tcz: OK
+Downloading: elogind.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'elogind.tcz'
+elogind.tcz          100% |********************************| 1188k  0:00:00 ETA
+'elogind.tcz' saved
+elogind.tcz: OK
+Downloading: elogind-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'elogind-dev.tcz'
+elogind-dev.tcz      100% |********************************| 57344  0:00:00 ETA
+'elogind-dev.tcz' saved
+elogind-dev.tcz: OK
+Downloading: linux-pam-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'linux-pam-dev.tcz'
+linux-pam-dev.tcz    100% |********************************| 20480  0:00:00 ETA
+'linux-pam-dev.tcz' saved
+linux-pam-dev.tcz: OK
+Downloading: icu67.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'icu67.tcz'
+icu67.tcz             26% |********                        | 3721k  0:00:02 ETA
+icu67.tcz            100% |********************************| 13.8M  0:00:00 ETA
+'icu67.tcz' saved
+icu67.tcz: OK
+Downloading: js78.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'js78.tcz'
+js78.tcz             100% |********************************| 7820k  0:00:00 ETA
+'js78.tcz' saved
+js78.tcz: OK
+Downloading: js78-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'js78-dev.tcz'
+js78-dev.tcz         100% |********************************|  936k  0:00:00 ETA
+'js78-dev.tcz' saved
+js78-dev.tcz: OK
+Downloading: dbus.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'dbus.tcz'
+dbus.tcz             100% |********************************|  272k  0:00:00 ETA
+'dbus.tcz' saved
+dbus.tcz: OK
+Downloading: polkit.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'polkit.tcz'
+polkit.tcz           100% |********************************|  144k  0:00:00 ETA
+'polkit.tcz' saved
+polkit.tcz: OK
+Downloading: polkit-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'polkit-dev.tcz'
+polkit-dev.tcz       100% |********************************| 32768  0:00:00 ETA
+'polkit-dev.tcz' saved
+polkit-dev.tcz: OK
+Downloading: sqlite3-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sqlite3-bin.tcz'
+sqlite3-bin.tcz      100% |********************************|  140k  0:00:00 ETA
+'sqlite3-bin.tcz' saved
+sqlite3-bin.tcz: OK
+Downloading: sqlite3-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sqlite3-dev.tcz'
+sqlite3-dev.tcz      100% |********************************|  240k  0:00:00 ETA
+'sqlite3-dev.tcz' saved
+sqlite3-dev.tcz: OK
+Downloading: nspr.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'nspr.tcz'
+nspr.tcz             100% |********************************|  132k  0:00:00 ETA
+'nspr.tcz' saved
+nspr.tcz: OK
+Downloading: nspr-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'nspr-dev.tcz'
+nspr-dev.tcz         100% |********************************|  172k  0:00:00 ETA
+'nspr-dev.tcz' saved
+nspr-dev.tcz: OK
+Downloading: nss.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'nss.tcz'
+nss.tcz              100% |********************************| 1704k  0:00:00 ETA
+'nss.tcz' saved
+nss.tcz: OK
+Downloading: nss-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'nss-dev.tcz'
+nss-dev.tcz          100% |********************************|  748k  0:00:00 ETA
+'nss-dev.tcz' saved
+nss-dev.tcz: OK
+Downloading: libjpeg-turbo-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libjpeg-turbo-bin.tcz'
+libjpeg-turbo-bin.tc 100% |********************************| 77824  0:00:00 ETA
+'libjpeg-turbo-bin.tcz' saved
+libjpeg-turbo-bin.tcz: OK
+Downloading: libjpeg-turbo-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libjpeg-turbo-dev.tcz'
+libjpeg-turbo-dev.tc 100% |********************************| 61440  0:00:00 ETA
+'libjpeg-turbo-dev.tcz' saved
+libjpeg-turbo-dev.tcz: OK
+Downloading: glu.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glu.tcz'
+glu.tcz               72% |***********************         | 92563  0:00:00 ETA
+glu.tcz              100% |********************************|  124k  0:00:00 ETA
+'glu.tcz' saved
+glu.tcz: OK
+Downloading: glu-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glu-dev.tcz'
+glu-dev.tcz          100% |********************************|  8192  0:00:00 ETA
+'glu-dev.tcz' saved
+glu-dev.tcz: OK
+Downloading: freeglut.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'freeglut.tcz'
+freeglut.tcz         100% |********************************|  108k  0:00:00 ETA
+'freeglut.tcz' saved
+freeglut.tcz: OK
+Downloading: freeglut-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'freeglut-dev.tcz'
+freeglut-dev.tcz     100% |********************************| 16384  0:00:00 ETA
+'freeglut-dev.tcz' saved
+freeglut-dev.tcz: OK
+Downloading: libtiff.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libtiff.tcz'
+libtiff.tcz          100% |********************************|  184k  0:00:00 ETA
+'libtiff.tcz' saved
+libtiff.tcz: OK
+Downloading: tiff-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'tiff-bin.tcz'
+tiff-bin.tcz         100% |********************************|  180k  0:00:00 ETA
+'tiff-bin.tcz' saved
+tiff-bin.tcz: OK
+Downloading: tiff-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'tiff-dev.tcz'
+tiff-dev.tcz         100% |********************************| 28672  0:00:00 ETA
+'tiff-dev.tcz' saved
+tiff-dev.tcz: OK
+Downloading: liblcms2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'liblcms2.tcz'
+liblcms2.tcz         100% |********************************|  160k  0:00:00 ETA
+'liblcms2.tcz' saved
+liblcms2.tcz: OK
+Downloading: lcms2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'lcms2-dev.tcz'
+lcms2-dev.tcz         38% |************                    | 14025  0:00:01 ETA
+lcms2-dev.tcz        100% |********************************| 36864  0:00:00 ETA
+'lcms2-dev.tcz' saved
+lcms2-dev.tcz: OK
+Downloading: openjpeg.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'openjpeg.tcz'
+openjpeg.tcz         100% |********************************|  284k  0:00:00 ETA
+'openjpeg.tcz' saved
+openjpeg.tcz: OK
+Downloading: openjpeg-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'openjpeg-dev.tcz'
+openjpeg-dev.tcz     100% |********************************|  184k  0:00:00 ETA
+'openjpeg-dev.tcz' saved
+openjpeg-dev.tcz: OK
+Downloading: ca-certificates.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'ca-certificates.tcz'
+ca-certificates.tcz  100% |********************************|  148k  0:00:00 ETA
+'ca-certificates.tcz' saved
+ca-certificates.tcz: OK
+Updating certificates in /usr/local/etc/ssl/certs...
+138 added, 0 removed; done.
+Downloading: curl.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'curl.tcz'
+curl.tcz              10% |***                             | 41155  0:00:08 ETA
+curl.tcz             100% |********************************|  384k  0:00:00 ETA
+'curl.tcz' saved
+curl.tcz: OK
+Downloading: curl-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'curl-dev.tcz'
+curl-dev.tcz         100% |********************************| 81920  0:00:00 ETA
+'curl-dev.tcz' saved
+curl-dev.tcz: OK
+Downloading: cairo-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'cairo-dev.tcz'
+cairo-dev.tcz        100% |********************************| 57344  0:00:00 ETA
+'cairo-dev.tcz' saved
+cairo-dev.tcz: OK
+Downloading: libpoppler23.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpoppler23.tcz'
+libpoppler23.tcz     100% |********************************| 1300k  0:00:00 ETA
+'libpoppler23.tcz' saved
+libpoppler23.tcz: OK
+Downloading: poppler23-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'poppler23-bin.tcz'
+poppler23-bin.tcz    100% |********************************|  200k  0:00:00 ETA
+'poppler23-bin.tcz' saved
+poppler23-bin.tcz: OK
+Downloading: poppler23-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'poppler23-dev.tcz'
+poppler23-dev.tcz    100% |********************************|  444k  0:00:00 ETA
+'poppler23-dev.tcz' saved
+poppler23-dev.tcz: OK
+Downloading: libusb.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libusb.tcz'
+libusb.tcz           100% |********************************| 49152  0:00:00 ETA
+'libusb.tcz' saved
+libusb.tcz: OK
+Downloading: libusb-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libusb-dev.tcz'
+libusb-dev.tcz       100% |********************************| 28672  0:00:00 ETA
+'libusb-dev.tcz' saved
+libusb-dev.tcz: OK
+Downloading: libltdl.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libltdl.tcz'
+libltdl.tcz          100% |********************************| 16384  0:00:00 ETA
+'libltdl.tcz' saved
+libltdl.tcz: OK
+Downloading: libtool.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libtool.tcz'
+libtool.tcz          100% |********************************|  652k  0:00:00 ETA
+'libtool.tcz' saved
+libtool.tcz: OK
+Downloading: libtool-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libtool-dev.tcz'
+libtool-dev.tcz      100% |********************************|  140k  0:00:00 ETA
+'libtool-dev.tcz' saved
+libtool-dev.tcz: OK
+Downloading: libexif.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libexif.tcz'
+libexif.tcz          100% |********************************| 86016  0:00:00 ETA
+'libexif.tcz' saved
+libexif.tcz: OK
+Downloading: libexif-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libexif-dev.tcz'
+libexif-dev.tcz      100% |********************************| 24576  0:00:00 ETA
+'libexif-dev.tcz' saved
+libexif-dev.tcz: OK
+Downloading: libgphoto2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libgphoto2.tcz'
+libgphoto2.tcz       100% |********************************|  788k  0:00:00 ETA
+'libgphoto2.tcz' saved
+libgphoto2.tcz: OK
+Downloading: libgphoto2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libgphoto2-dev.tcz'
+libgphoto2-dev.tcz   100% |********************************| 36864  0:00:00 ETA
+'libgphoto2-dev.tcz' saved
+libgphoto2-dev.tcz: OK
+Downloading: libavahi.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libavahi.tcz'
+libavahi.tcz         100% |********************************|  176k  0:00:00 ETA
+'libavahi.tcz' saved
+libavahi.tcz: OK
+Downloading: libsane.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libsane.tcz'
+libsane.tcz          100% |********************************| 4668k  0:00:00 ETA
+'libsane.tcz' saved
+libsane.tcz: OK
+Downloading: sane.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sane.tcz'
+sane.tcz             100% |********************************|  204k  0:00:00 ETA
+'sane.tcz' saved
+sane.tcz: OK
+Downloading: libdaemon.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libdaemon.tcz'
+libdaemon.tcz        100% |********************************| 12288  0:00:00 ETA
+'libdaemon.tcz' saved
+libdaemon.tcz: OK
+Downloading: libdaemon-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libdaemon-dev.tcz'
+libdaemon-dev.tcz    100% |********************************| 24576  0:00:00 ETA
+'libdaemon-dev.tcz' saved
+libdaemon-dev.tcz: OK
+Downloading: dbus-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'dbus-dev.tcz'
+dbus-dev.tcz         100% |********************************| 45056  0:00:00 ETA
+'dbus-dev.tcz' saved
+dbus-dev.tcz: OK
+Downloading: nss-mdns.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'nss-mdns.tcz'
+nss-mdns.tcz         100% |********************************| 12288  0:00:00 ETA
+'nss-mdns.tcz' saved
+nss-mdns.tcz: OK
+Downloading: avahi.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'avahi.tcz'
+avahi.tcz            100% |********************************|  108k  0:00:00 ETA
+'avahi.tcz' saved
+avahi.tcz: OK
+Downloading: avahi-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'avahi-dev.tcz'
+avahi-dev.tcz        100% |********************************| 86016  0:00:00 ETA
+'avahi-dev.tcz' saved
+avahi-dev.tcz: OK
+Downloading: sane-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sane-dev.tcz'
+sane-dev.tcz         100% |********************************| 12288  0:00:00 ETA
+'sane-dev.tcz' saved
+sane-dev.tcz: OK
+Downloading: libgusb.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libgusb.tcz'
+libgusb.tcz          100% |********************************| 32768  0:00:00 ETA
+'libgusb.tcz' saved
+libgusb.tcz: OK
+Downloading: libgusb-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libgusb-dev.tcz'
+libgusb-dev.tcz      100% |********************************| 12288  0:00:00 ETA
+'libgusb-dev.tcz' saved
+libgusb-dev.tcz: OK
+Downloading: colord.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'colord.tcz'
+colord.tcz           100% |********************************| 1092k  0:00:00 ETA
+'colord.tcz' saved
+colord.tcz: OK
+Downloading: colord-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'colord-dev.tcz'
+colord-dev.tcz       100% |********************************| 73728  0:00:00 ETA
+'colord-dev.tcz' saved
+colord-dev.tcz: OK
+Downloading: libunistring.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libunistring.tcz'
+libunistring.tcz     100% |********************************|  584k  0:00:00 ETA
+'libunistring.tcz' saved
+libunistring.tcz: OK
+Downloading: libunistring-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libunistring-dev.tcz'
+libunistring-dev.tcz 100% |********************************| 45056  0:00:00 ETA
+'libunistring-dev.tcz' saved
+libunistring-dev.tcz: OK
+Downloading: libidn2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libidn2.tcz'
+libidn2.tcz          100% |********************************| 73728  0:00:00 ETA
+'libidn2.tcz' saved
+libidn2.tcz: OK
+Downloading: libidn2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libidn2-dev.tcz'
+libidn2-dev.tcz      100% |********************************|  8192  0:00:00 ETA
+'libidn2-dev.tcz' saved
+libidn2-dev.tcz: OK
+Downloading: libpsl.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpsl.tcz'
+libpsl.tcz           100% |********************************| 57344  0:00:00 ETA
+'libpsl.tcz' saved
+libpsl.tcz: OK
+Downloading: libpsl-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpsl-dev.tcz'
+libpsl-dev.tcz       100% |********************************|  4096  0:00:00 ETA
+'libpsl-dev.tcz' saved
+libpsl-dev.tcz: OK
+Downloading: nettle39.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'nettle39.tcz'
+nettle39.tcz         100% |********************************|  380k  0:00:00 ETA
+'nettle39.tcz' saved
+nettle39.tcz: OK
+Downloading: libtasn1-4.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libtasn1-4.tcz'
+libtasn1-4.tcz       100% |********************************| 49152  0:00:00 ETA
+'libtasn1-4.tcz' saved
+libtasn1-4.tcz: OK
+Downloading: p11-kit.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'p11-kit.tcz'
+p11-kit.tcz          100% |********************************|  716k  0:00:00 ETA
+'p11-kit.tcz' saved
+p11-kit.tcz: OK
+Downloading: gnutls38.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gnutls38.tcz'
+gnutls38.tcz         100% |********************************| 1200k  0:00:00 ETA
+'gnutls38.tcz' saved
+gnutls38.tcz: OK
+Downloading: glib-networking.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glib-networking.tcz'
+glib-networking.tcz  100% |********************************|  100k  0:00:00 ETA
+'glib-networking.tcz' saved
+glib-networking.tcz: OK
+Downloading: libsoup.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libsoup.tcz'
+libsoup.tcz          100% |********************************|  236k  0:00:00 ETA
+'libsoup.tcz' saved
+libsoup.tcz: OK
+Downloading: libsoup-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libsoup-dev.tcz'
+libsoup-dev.tcz      100% |********************************| 73728  0:00:00 ETA
+'libsoup-dev.tcz' saved
+libsoup-dev.tcz: OK
+Downloading: rest.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'rest.tcz'
+rest.tcz             100% |********************************| 49152  0:00:00 ETA
+'rest.tcz' saved
+rest.tcz: OK
+Downloading: rest-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'rest-dev.tcz'
+rest-dev.tcz         100% |********************************| 20480  0:00:00 ETA
+'rest-dev.tcz' saved
+rest-dev.tcz: OK
+Downloading: fribidi-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'fribidi-dev.tcz'
+fribidi-dev.tcz      100% |********************************| 32768  0:00:00 ETA
+'fribidi-dev.tcz' saved
+fribidi-dev.tcz: OK
+Downloading: pango-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pango-dev.tcz'
+pango-dev.tcz        100% |********************************| 94208  0:00:00 ETA
+'pango-dev.tcz' saved
+pango-dev.tcz: OK
+Downloading: at-spi2-core.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'at-spi2-core.tcz'
+at-spi2-core.tcz     100% |********************************|  260k  0:00:00 ETA
+'at-spi2-core.tcz' saved
+at-spi2-core.tcz: OK
+Downloading: at-spi2-core-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'at-spi2-core-dev.tcz'
+at-spi2-core-dev.tcz 100% |********************************|  132k  0:00:00 ETA
+'at-spi2-core-dev.tcz' saved
+at-spi2-core-dev.tcz: OK
+Downloading: gdk-pixbuf2-xlib.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gdk-pixbuf2-xlib.tcz'
+gdk-pixbuf2-xlib.tcz 100% |********************************| 36864  0:00:00 ETA
+'gdk-pixbuf2-xlib.tcz' saved
+gdk-pixbuf2-xlib.tcz: OK
+Downloading: gdk-pixbuf2-xlib-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gdk-pixbuf2-xlib-dev.tcz'
+gdk-pixbuf2-xlib-dev 100% |********************************|  4096  0:00:00 ETA
+'gdk-pixbuf2-xlib-dev.tcz' saved
+gdk-pixbuf2-xlib-dev.tcz: OK
+Downloading: shared-mime-info.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'shared-mime-info.tcz'
+shared-mime-info.tcz 100% |********************************|  648k  0:00:00 ETA
+'shared-mime-info.tcz' saved
+shared-mime-info.tcz: OK
+Downloading: gdk-pixbuf2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gdk-pixbuf2.tcz'
+gdk-pixbuf2.tcz      100% |********************************|  164k  0:00:00 ETA
+'gdk-pixbuf2.tcz' saved
+gdk-pixbuf2.tcz: OK
+Downloading: gdk-pixbuf2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gdk-pixbuf2-dev.tcz'
+gdk-pixbuf2-dev.tcz  100% |********************************| 32768  0:00:00 ETA
+'gdk-pixbuf2-dev.tcz' saved
+gdk-pixbuf2-dev.tcz: OK
+Downloading: wayland-protocols.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'wayland-protocols.tcz'
+wayland-protocols.tc 100% |********************************|  288k  0:00:00 ETA
+'wayland-protocols.tcz' saved
+wayland-protocols.tcz: OK
+Downloading: gtk3.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gtk3.tcz'
+gtk3.tcz             100% |********************************| 5200k  0:00:00 ETA
+'gtk3.tcz' saved
+gtk3.tcz: OK
+Downloading: gtk3-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gtk3-dev.tcz'
+gtk3-dev.tcz         100% |********************************|  676k  0:00:00 ETA
+'gtk3-dev.tcz' saved
+gtk3-dev.tcz: OK
+Downloading: yasm.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'yasm.tcz'
+yasm.tcz             100% |********************************|  260k  0:00:00 ETA
+'yasm.tcz' saved
+yasm.tcz: OK
+Downloading: gdbm-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gdbm-dev.tcz'
+gdbm-dev.tcz         100% |********************************|  8192  0:00:00 ETA
+'gdbm-dev.tcz' saved
+gdbm-dev.tcz: OK
+Downloading: tzdata.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'tzdata.tcz'
+tzdata.tcz           100% |********************************|  276k  0:00:00 ETA
+'tzdata.tcz' saved
+tzdata.tcz: OK
+Downloading: tcl8.6.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'tcl8.6.tcz'
+tcl8.6.tcz           100% |********************************| 2492k  0:00:00 ETA
+'tcl8.6.tcz' saved
+tcl8.6.tcz: OK
+Downloading: tcl8.6-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'tcl8.6-dev.tcz'
+tcl8.6-dev.tcz       100% |********************************|  248k  0:00:00 ETA
+'tcl8.6-dev.tcz' saved
+tcl8.6-dev.tcz: OK
+Downloading: tk8.6.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'tk8.6.tcz'
+tk8.6.tcz            100% |********************************|  904k  0:00:00 ETA
+'tk8.6.tcz' saved
+tk8.6.tcz: OK
+Downloading: tk8.6-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'tk8.6-dev.tcz'
+tk8.6-dev.tcz        100% |********************************|  356k  0:00:00 ETA
+'tk8.6-dev.tcz' saved
+tk8.6-dev.tcz: OK
+Downloading: openssl-1.1.1-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'openssl-1.1.1-dev.tcz'
+openssl-1.1.1-dev.tc 100% |********************************|  332k  0:00:00 ETA
+'openssl-1.1.1-dev.tcz' saved
+openssl-1.1.1-dev.tcz: OK
+Downloading: python-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'python-dev.tcz'
+python-dev.tcz       100% |********************************| 1080k  0:00:00 ETA
+'python-dev.tcz' saved
+python-dev.tcz: OK
+Downloading: coreutils.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'coreutils.tcz'
+coreutils.tcz        100% |********************************| 2308k  0:00:00 ETA
+'coreutils.tcz' saved
+coreutils.tcz: OK
+Downloading: zip.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'zip.tcz'
+zip.tcz              100% |********************************|  180k  0:00:00 ETA
+'zip.tcz' saved
+zip.tcz: OK
+Downloading: perl5.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'perl5.tcz'
+perl5.tcz            100% |********************************| 16.7M  0:00:00 ETA
+'perl5.tcz' saved
+perl5.tcz: OK
+Downloading: fftw.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'fftw.tcz'
+fftw.tcz             100% |********************************|  480k  0:00:00 ETA
+'fftw.tcz' saved
+fftw.tcz: OK
+Downloading: fftw-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'fftw-dev.tcz'
+fftw-dev.tcz         100% |********************************| 24576  0:00:00 ETA
+'fftw-dev.tcz' saved
+fftw-dev.tcz: OK
+Downloading: libasound.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libasound.tcz'
+libasound.tcz        100% |********************************|  496k  0:00:00 ETA
+'libasound.tcz' saved
+libasound.tcz: OK
+Downloading: input-joystick-6.12.11-tinycore64.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'input-joystick-6.12.11-tinycore64.tcz'
+input-joystick-6.12. 100% |********************************|  160k  0:00:00 ETA
+'input-joystick-6.12.11-tinycore64.tcz' saved
+input-joystick-6.12.11-tinycore64.tcz: OK
+Downloading: alsa-modules-6.12.11-tinycore64.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'alsa-modules-6.12.11-tinycore64.tcz'
+alsa-modules-6.12.11 100% |********************************| 2356k  0:00:00 ETA
+'alsa-modules-6.12.11-tinycore64.tcz' saved
+alsa-modules-6.12.11-tinycore64.tcz: OK
+Downloading: alsa.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'alsa.tcz'
+alsa.tcz             100% |********************************|  304k  0:00:00 ETA
+'alsa.tcz' saved
+alsa.tcz: OK
+Downloading: alsa-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'alsa-dev.tcz'
+alsa-dev.tcz         100% |********************************|  136k  0:00:00 ETA
+'alsa-dev.tcz' saved
+alsa-dev.tcz: OK
+Downloading: libvulkan.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvulkan.tcz'
+libvulkan.tcz        100% |********************************|  148k  0:00:00 ETA
+'libvulkan.tcz' saved
+libvulkan.tcz: OK
+Downloading: libvulkan-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvulkan-dev.tcz'
+libvulkan-dev.tcz    100% |********************************| 5412k  0:00:00 ETA
+'libvulkan-dev.tcz' saved
+libvulkan-dev.tcz: OK
+Downloading: spirv-headers.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'spirv-headers.tcz'
+spirv-headers.tcz    100% |********************************|  644k  0:00:00 ETA
+'spirv-headers.tcz' saved
+spirv-headers.tcz: OK
+Downloading: spirv-tools.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'spirv-tools.tcz'
+spirv-tools.tcz       83% |**************************      | 1607k  0:00:00 ETA
+spirv-tools.tcz      100% |********************************| 1936k  0:00:00 ETA
+'spirv-tools.tcz' saved
+spirv-tools.tcz: OK
+Downloading: spirv-tools-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'spirv-tools-dev.tcz'
+spirv-tools-dev.tcz  100% |********************************| 57344  0:00:00 ETA
+'spirv-tools-dev.tcz' saved
+spirv-tools-dev.tcz: OK
+Downloading: glslang.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glslang.tcz'
+glslang.tcz          100% |********************************|  864k  0:00:00 ETA
+'glslang.tcz' saved
+glslang.tcz: OK
+Downloading: glslang-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'glslang-dev.tcz'
+glslang-dev.tcz      100% |********************************|  100k  0:00:00 ETA
+'glslang-dev.tcz' saved
+glslang-dev.tcz: OK
+Downloading: shaderc.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'shaderc.tcz'
+shaderc.tcz          100% |********************************| 77824  0:00:00 ETA
+'shaderc.tcz' saved
+shaderc.tcz: OK
+Downloading: shaderc-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'shaderc-dev.tcz'
+shaderc-dev.tcz      100% |********************************| 20480  0:00:00 ETA
+'shaderc-dev.tcz' saved
+shaderc-dev.tcz: OK
+Downloading: libplacebo.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libplacebo.tcz'
+libplacebo.tcz       100% |********************************|  388k  0:00:00 ETA
+'libplacebo.tcz' saved
+libplacebo.tcz: OK
+Downloading: libplacebo-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libplacebo-dev.tcz'
+libplacebo-dev.tcz    21% |******                          | 42583  0:00:03 ETA
+libplacebo-dev.tcz   100% |********************************|  192k  0:00:00 ETA
+'libplacebo-dev.tcz' saved
+libplacebo-dev.tcz: OK
+Downloading: gmp-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gmp-dev.tcz'
+gmp-dev.tcz          100% |********************************| 49152  0:00:00 ETA
+'gmp-dev.tcz' saved
+gmp-dev.tcz: OK
+Downloading: nettle39-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'nettle39-dev.tcz'
+nettle39-dev.tcz     100% |********************************| 94208  0:00:00 ETA
+'nettle39-dev.tcz' saved
+nettle39-dev.tcz: OK
+Downloading: libtasn1-4-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libtasn1-4-dev.tcz'
+libtasn1-4-dev.tcz   100% |********************************|  8192  0:00:00 ETA
+'libtasn1-4-dev.tcz' saved
+libtasn1-4-dev.tcz: OK
+Downloading: p11-kit-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'p11-kit-dev.tcz'
+p11-kit-dev.tcz      100% |********************************| 28672  0:00:00 ETA
+'p11-kit-dev.tcz' saved
+p11-kit-dev.tcz: OK
+Downloading: gnutls38-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'gnutls38-dev.tcz'
+gnutls38-dev.tcz     100% |********************************|  100k  0:00:00 ETA
+'gnutls38-dev.tcz' saved
+gnutls38-dev.tcz: OK
+Downloading: librsvg.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'librsvg.tcz'
+librsvg.tcz           83% |**************************      | 5922k  0:00:00 ETA
+librsvg.tcz          100% |********************************| 7124k  0:00:00 ETA
+'librsvg.tcz' saved
+librsvg.tcz: OK
+Downloading: librsvg-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'librsvg-dev.tcz'
+librsvg-dev.tcz      100% |********************************| 32768  0:00:00 ETA
+'librsvg-dev.tcz' saved
+librsvg-dev.tcz: OK
+Downloading: x265.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'x265.tcz'
+x265.tcz             100% |********************************| 1004k  0:00:00 ETA
+'x265.tcz' saved
+x265.tcz: OK
+Downloading: x265-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'x265-dev.tcz'
+x265-dev.tcz         100% |********************************| 36864  0:00:00 ETA
+'x265-dev.tcz' saved
+x265-dev.tcz: OK
+Downloading: opus.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'opus.tcz'
+opus.tcz             100% |********************************|  192k  0:00:00 ETA
+'opus.tcz' saved
+opus.tcz: OK
+Downloading: opus-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'opus-dev.tcz'
+opus-dev.tcz         100% |********************************| 53248  0:00:00 ETA
+'opus-dev.tcz' saved
+opus-dev.tcz: OK
+Downloading: libass.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libass.tcz'
+libass.tcz           100% |********************************|  100k  0:00:00 ETA
+'libass.tcz' saved
+libass.tcz: OK
+Downloading: libass-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libass-dev.tcz'
+libass-dev.tcz       100% |********************************| 20480  0:00:00 ETA
+'libass-dev.tcz' saved
+libass-dev.tcz: OK
+Downloading: wayland-protocols-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'wayland-protocols-dev.tcz'
+wayland-protocols-de 100% |********************************| 36864  0:00:00 ETA
+'wayland-protocols-dev.tcz' saved
+wayland-protocols-dev.tcz: OK
+Downloading: libogg.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libogg.tcz'
+libogg.tcz           100% |********************************| 12288  0:00:00 ETA
+'libogg.tcz' saved
+libogg.tcz: OK
+Downloading: libogg-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libogg-dev.tcz'
+libogg-dev.tcz       100% |********************************|  8192  0:00:00 ETA
+'libogg-dev.tcz' saved
+libogg-dev.tcz: OK
+Downloading: libvorbis.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvorbis.tcz'
+libvorbis.tcz        100% |********************************|  212k  0:00:00 ETA
+'libvorbis.tcz' saved
+libvorbis.tcz: OK
+Downloading: libvorbis-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvorbis-dev.tcz'
+libvorbis-dev.tcz    100% |********************************| 16384  0:00:00 ETA
+'libvorbis-dev.tcz' saved
+libvorbis-dev.tcz: OK
+Downloading: flac.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'flac.tcz'
+flac.tcz              17% |*****                           | 42583  0:00:04 ETA
+flac.tcz             100% |********************************|  240k  0:00:00 ETA
+'flac.tcz' saved
+flac.tcz: OK
+Downloading: flac-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'flac-dev.tcz'
+flac-dev.tcz         100% |********************************|  128k  0:00:00 ETA
+'flac-dev.tcz' saved
+flac-dev.tcz: OK
+Downloading: libsndfile.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libsndfile.tcz'
+libsndfile.tcz       100% |********************************|  264k  0:00:00 ETA
+'libsndfile.tcz' saved
+libsndfile.tcz: OK
+Downloading: libsndfile-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libsndfile-dev.tcz'
+libsndfile-dev.tcz   100% |********************************|  300k  0:00:00 ETA
+'libsndfile-dev.tcz' saved
+libsndfile-dev.tcz: OK
+Downloading: sbc.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sbc.tcz'
+sbc.tcz              100% |********************************| 69632  0:00:00 ETA
+'sbc.tcz' saved
+sbc.tcz: OK
+Downloading: sbc-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sbc-dev.tcz'
+sbc-dev.tcz          100% |********************************|  4096  0:00:00 ETA
+'sbc-dev.tcz' saved
+sbc-dev.tcz: OK
+Downloading: bluetooth-6.12.11-tinycore64.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'bluetooth-6.12.11-tinycore64.tcz'
+bluetooth-6.12.11-ti 100% |********************************|  484k  0:00:00 ETA
+'bluetooth-6.12.11-tinycore64.tcz' saved
+bluetooth-6.12.11-tinycore64.tcz: OK
+Downloading: icu74.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'icu74.tcz'
+icu74.tcz            100% |********************************| 14.7M  0:00:00 ETA
+'icu74.tcz' saved
+icu74.tcz: OK
+Downloading: libical3.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libical3.tcz'
+libical3.tcz         100% |********************************|  380k  0:00:00 ETA
+'libical3.tcz' saved
+libical3.tcz: OK
+Downloading: bluez.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'bluez.tcz'
+bluez.tcz             53% |****************                |  932k  0:00:00 ETA
+bluez.tcz            100% |********************************| 1756k  0:00:00 ETA
+'bluez.tcz' saved
+bluez.tcz: OK
+Downloading: libbluetooth.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libbluetooth.tcz'
+libbluetooth.tcz     100% |********************************| 77824  0:00:00 ETA
+'libbluetooth.tcz' saved
+libbluetooth.tcz: OK
+Downloading: libbluetooth-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libbluetooth-dev.tcz'
+libbluetooth-dev.tcz 100% |********************************| 40960  0:00:00 ETA
+'libbluetooth-dev.tcz' saved
+libbluetooth-dev.tcz: OK
+Downloading: speex.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'speex.tcz'
+speex.tcz            100% |********************************| 49152  0:00:00 ETA
+'speex.tcz' saved
+speex.tcz: OK
+Downloading: speex-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'speex-dev.tcz'
+speex-dev.tcz        100% |********************************| 16384  0:00:00 ETA
+'speex-dev.tcz' saved
+speex-dev.tcz: OK
+Downloading: speexdsp.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'speexdsp.tcz'
+speexdsp.tcz         100% |********************************| 36864  0:00:00 ETA
+'speexdsp.tcz' saved
+speexdsp.tcz: OK
+Downloading: speexdsp-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'speexdsp-dev.tcz'
+speexdsp-dev.tcz     100% |********************************| 16384  0:00:00 ETA
+'speexdsp-dev.tcz' saved
+speexdsp-dev.tcz: OK
+Downloading: libpulseaudio.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpulseaudio.tcz'
+libpulseaudio.tcz    100% |********************************|  620k  0:00:00 ETA
+'libpulseaudio.tcz' saved
+libpulseaudio.tcz: OK
+Downloading: pulseaudio.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pulseaudio.tcz'
+pulseaudio.tcz       100% |********************************| 1128k  0:00:00 ETA
+'pulseaudio.tcz' saved
+pulseaudio.tcz: OK
+Downloading: pulseaudio-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pulseaudio-dev.tcz'
+pulseaudio-dev.tcz   100% |********************************|  136k  0:00:00 ETA
+'pulseaudio-dev.tcz' saved
+pulseaudio-dev.tcz: OK
+Downloading: pipewire.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pipewire.tcz'
+pipewire.tcz          45% |**************                  | 1654k  0:00:01 ETA
+pipewire.tcz         100% |********************************| 3664k  0:00:00 ETA
+'pipewire.tcz' saved
+pipewire.tcz: OK
+Downloading: pipewire-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'pipewire-dev.tcz'
+pipewire-dev.tcz     100% |********************************|  276k  0:00:00 ETA
+'pipewire-dev.tcz' saved
+pipewire-dev.tcz: OK
+Downloading: sdl2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sdl2.tcz'
+sdl2.tcz             100% |********************************|  692k  0:00:00 ETA
+'sdl2.tcz' saved
+sdl2.tcz: OK
+Downloading: sdl2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'sdl2-dev.tcz'
+sdl2-dev.tcz         100% |********************************|  616k  0:00:00 ETA
+'sdl2-dev.tcz' saved
+sdl2-dev.tcz: OK
+Downloading: i2c-6.12.11-tinycore64.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'i2c-6.12.11-tinycore64.tcz'
+i2c-6.12.11-tinycore 100% |********************************|  184k  0:00:00 ETA
+'i2c-6.12.11-tinycore64.tcz' saved
+i2c-6.12.11-tinycore64.tcz: OK
+Downloading: v4l-dvb-6.12.11-tinycore64.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'v4l-dvb-6.12.11-tinycore64.tcz'
+v4l-dvb-6.12.11-tiny 100% |********************************| 4556k  0:00:00 ETA
+'v4l-dvb-6.12.11-tinycore64.tcz' saved
+v4l-dvb-6.12.11-tinycore64.tcz: OK
+Downloading: libv4l2.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libv4l2.tcz'
+libv4l2.tcz          100% |********************************|  204k  0:00:00 ETA
+'libv4l2.tcz' saved
+libv4l2.tcz: OK
+Downloading: libv4l2-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libv4l2-dev.tcz'
+libv4l2-dev.tcz      100% |********************************|  132k  0:00:00 ETA
+'libv4l2-dev.tcz' saved
+libv4l2-dev.tcz: OK
+Downloading: lame.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'lame.tcz'
+lame.tcz             100% |********************************|  192k  0:00:00 ETA
+'lame.tcz' saved
+lame.tcz: OK
+Downloading: lame-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'lame-dev.tcz'
+lame-dev.tcz         100% |********************************| 16384  0:00:00 ETA
+'lame-dev.tcz' saved
+lame-dev.tcz: OK
+Downloading: giflib7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'giflib7.tcz'
+giflib7.tcz          100% |********************************| 16384  0:00:00 ETA
+'giflib7.tcz' saved
+giflib7.tcz: OK
+Downloading: giflib7-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'giflib7-bin.tcz'
+giflib7-bin.tcz      100% |********************************| 77824  0:00:00 ETA
+'giflib7-bin.tcz' saved
+giflib7-bin.tcz: OK
+Downloading: giflib7-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'giflib7-dev.tcz'
+giflib7-dev.tcz      100% |********************************|  8192  0:00:00 ETA
+'giflib7-dev.tcz' saved
+giflib7-dev.tcz: OK
+Downloading: libwebp1.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libwebp1.tcz'
+libwebp1.tcz         100% |********************************|  296k  0:00:00 ETA
+'libwebp1.tcz' saved
+libwebp1.tcz: OK
+Downloading: libwebp1-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libwebp1-bin.tcz'
+libwebp1-bin.tcz     100% |********************************| 90112  0:00:00 ETA
+'libwebp1-bin.tcz' saved
+libwebp1-bin.tcz: OK
+Downloading: libwebp1-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libwebp1-dev.tcz'
+libwebp1-dev.tcz     100% |********************************| 40960  0:00:00 ETA
+'libwebp1-dev.tcz' saved
+libwebp1-dev.tcz: OK
+Downloading: libtheora.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libtheora.tcz'
+libtheora.tcz         38% |************                    | 92563  0:00:01 ETA
+libtheora.tcz        100% |********************************|  236k  0:00:00 ETA
+'libtheora.tcz' saved
+libtheora.tcz: OK
+Downloading: libtheora-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libtheora-dev.tcz'
+libtheora-dev.tcz    100% |********************************|  332k  0:00:00 ETA
+'libtheora-dev.tcz' saved
+libtheora-dev.tcz: OK
+Downloading: libvpx113.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvpx113.tcz'
+libvpx113.tcz        100% |********************************|  732k  0:00:00 ETA
+'libvpx113.tcz' saved
+libvpx113.tcz: OK
+Downloading: libvpx113-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvpx113-bin.tcz'
+libvpx113-bin.tcz    100% |********************************|  292k  0:00:00 ETA
+'libvpx113-bin.tcz' saved
+libvpx113-bin.tcz: OK
+Downloading: libvpx113-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libvpx113-dev.tcz'
+libvpx113-dev.tcz    100% |********************************| 53248  0:00:00 ETA
+'libvpx113-dev.tcz' saved
+libvpx113-dev.tcz: OK
+Downloading: x264_164.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'x264_164.tcz'
+x264_164.tcz         100% |********************************|  760k  0:00:00 ETA
+'x264_164.tcz' saved
+x264_164.tcz: OK
+Downloading: x264_164-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'x264_164-dev.tcz'
+x264_164-dev.tcz     100% |********************************| 20480  0:00:00 ETA
+'x264_164-dev.tcz' saved
+x264_164-dev.tcz: OK
+Downloading: libva22.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libva22.tcz'
+libva22.tcz          100% |********************************|  100k  0:00:00 ETA
+'libva22.tcz' saved
+libva22.tcz: OK
+Downloading: libva22-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libva22-dev.tcz'
+libva22-dev.tcz      100% |********************************|  228k  0:00:00 ETA
+'libva22-dev.tcz' saved
+libva22-dev.tcz: OK
+Downloading: libaom.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libaom.tcz'
+libaom.tcz           100% |********************************| 6844k  0:00:00 ETA
+'libaom.tcz' saved
+libaom.tcz: OK
+Downloading: libaom-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libaom-bin.tcz'
+libaom-bin.tcz        74% |***********************         |  603k  0:00:00 ETA
+libaom-bin.tcz       100% |********************************|  808k  0:00:00 ETA
+'libaom-bin.tcz' saved
+libaom-bin.tcz: OK
+Downloading: libaom-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libaom-dev.tcz'
+libaom-dev.tcz       100% |********************************| 69632  0:00:00 ETA
+'libaom-dev.tcz' saved
+libaom-dev.tcz: OK
+Downloading: libavutil7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libavutil7.tcz'
+libavutil7.tcz       100% |********************************|  316k  0:00:00 ETA
+'libavutil7.tcz' saved
+libavutil7.tcz: OK
+Downloading: libswscale7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libswscale7.tcz'
+libswscale7.tcz      100% |********************************|  176k  0:00:00 ETA
+'libswscale7.tcz' saved
+libswscale7.tcz: OK
+Downloading: libpostproc7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libpostproc7.tcz'
+libpostproc7.tcz     100% |********************************| 16384  0:00:00 ETA
+'libpostproc7.tcz' saved
+libpostproc7.tcz: OK
+Downloading: libswresample7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libswresample7.tcz'
+libswresample7.tcz   100% |********************************| 36864  0:00:00 ETA
+'libswresample7.tcz' saved
+libswresample7.tcz: OK
+Downloading: libavcodec7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libavcodec7.tcz'
+libavcodec7.tcz       21% |******                          | 1073k  0:00:03 ETA
+libavcodec7.tcz      100% |********************************| 5048k  0:00:00 ETA
+'libavcodec7.tcz' saved
+libavcodec7.tcz: OK
+Downloading: libavformat7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libavformat7.tcz'
+libavformat7.tcz     100% |********************************| 1128k  0:00:00 ETA
+'libavformat7.tcz' saved
+libavformat7.tcz: OK
+Downloading: libavfilter7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libavfilter7.tcz'
+libavfilter7.tcz     100% |********************************| 1520k  0:00:00 ETA
+'libavfilter7.tcz' saved
+libavfilter7.tcz: OK
+Downloading: libavdevice7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libavdevice7.tcz'
+libavdevice7.tcz     100% |********************************| 53248  0:00:00 ETA
+'libavdevice7.tcz' saved
+libavdevice7.tcz: OK
+Downloading: ffmpeg7.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'ffmpeg7.tcz'
+ffmpeg7.tcz            5% |*                               | 14023  0:00:18 ETA
+ffmpeg7.tcz          100% |********************************|  272k  0:00:00 ETA
+'ffmpeg7.tcz' saved
+ffmpeg7.tcz: OK
+Downloading: ffmpeg7-dev.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'ffmpeg7-dev.tcz'
+ffmpeg7-dev.tcz      100% |********************************|  444k  0:00:00 ETA
+'ffmpeg7-dev.tcz' saved
+ffmpeg7-dev.tcz: OK
+Connecting to repo.palemoon.org (81.17.96.111:443)
+writing to stdout
+-                      1% |                                | 80966  0:01:08 ETA
+-                    100% |********************************| 5475k  0:00:00 ETA
+written to stdout
+Connecting to repo.palemoon.org (81.17.96.111:443)
+writing to stdout
+-                      1% |                                | 4825k  0:00:52 ETA
+-                      7% |**                              | 19.3M  0:00:24 ETA
+-                     12% |***                             | 31.2M  0:00:21 ETA
+-                     21% |******                          | 53.0M  0:00:15 ETA
+-                     23% |*******                         | 60.1M  0:00:15 ETA
+-                     29% |*********                       | 74.0M  0:00:14 ETA
+-                     34% |**********                      | 86.5M  0:00:13 ETA
+-                     36% |***********                     | 93.1M  0:00:13 ETA
+-                     38% |************                    | 97.0M  0:00:14 ETA
+-                     40% |************                    |  102M  0:00:14 ETA
+-                     44% |**************                  |  111M  0:00:13 ETA
+-                     44% |**************                  |  113M  0:00:14 ETA
+-                     50% |****************                |  126M  0:00:12 ETA
+-                     54% |*****************               |  136M  0:00:11 ETA
+-                     58% |******************              |  148M  0:00:10 ETA
+-                     63% |********************            |  158M  0:00:09 ETA
+-                     74% |***********************         |  187M  0:00:05 ETA
+-                     87% |***************************     |  220M  0:00:02 ETA
+-                     97% |******************************* |  244M  0:00:00 ETA
+-                    100% |********************************|  252M  0:00:00 ETA
+written to stdout
+ 0:00.46 /usr/local/bin/make -f client.mk -s configure
+ 0:01.47 Clobber not needed.
+ 0:02.40 Generating /tmp/tmp.OGZSYz/pale-moon/configure
+ 0:02.40 Generating /tmp/tmp.OGZSYz/pale-moon/platform/configure
+ 0:02.41 Generating /tmp/tmp.OGZSYz/pale-moon/platform/js/src/configure
+ 0:02.41 cd /tmp/tmp.OGZSYz/pale-moon/obj-x86_64-pc-linux-gnu
+ 0:02.41 /tmp/tmp.OGZSYz/pale-moon/configure
+ 0:02.65 Creating Python environment
+ 0:04.18 New python executable in /tmp/tmp.OGZSYz/pale-moon/obj-x86_64-pc-linux-gnu/_virtualenv/bin/python2.7
+ 0:04.18 Also creating executable in /tmp/tmp.OGZSYz/pale-moon/obj-x86_64-pc-linux-gnu/_virtualenv/bin/python
+ 0:04.18 Installing setuptools, pip, wheel...done.
+ 0:04.52 running build_ext
+ 0:04.52 building 'psutil._psutil_linux' extension
+ 0:04.52 creating build
+ 0:04.52 creating build/temp.linux-x86_64-2.7
+ 0:04.52 creating build/temp.linux-x86_64-2.7/psutil
+ 0:04.52 gcc -flto -mtune=generic -Os -pipe -pthread -fno-strict-aliasing -DNDEBUG -Wall -Wstrict-prototypes -fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=x86-64-v2 -mtune=x86-64-v2 -flto -fPIC -DPSUTIL_VERSION=311 -I/usr/local/include/python2.7 -c psutil/_psutil_linux.c -o build/temp.linux-x86_64-2.7/psutil/_psutil_linux.o
+ 0:04.52 cc1: error: bad value 'x86-64-v2' for '-mtune=' switch
+ 0:04.52 cc1: note: valid arguments to '-mtune=' switch are: nocona core2 nehalem corei7 westmere sandybridge corei7-avx ivybridge core-avx-i haswell core-avx2 broadwell skylake skylake-avx512 cannonlake icelake-client rocketlake icelake-server cascadelake tigerlake cooperlake sapphirerapids emeraldrapids alderlake raptorlake meteorlake graniterapids graniterapids-d arrowlake arrowlake-s lunarlake pantherlake bonnell atom silvermont slm goldmont goldmont-plus tremont gracemont sierraforest grandridge clearwaterforest knl knm intel x86-64 eden-x2 nano nano-1000 nano-2000 nano-3000 nano-x2 eden-x4 nano-x4 lujiazui yongfeng k8 k8-sse3 opteron opteron-sse3 athlon64 athlon64-sse3 athlon-fx amdfam10 barcelona bdver1 bdver2 bdver3 bdver4 znver1 znver2 znver3 znver4 znver5 btver1 btver2 generic native; did you mean 'x86-64'?
+ 0:04.52 error: command 'gcc' failed with exit status 1
+ 0:04.52 
+ 0:04.52 Error processing command. Ignoring because optional. (optional:setup.py:python/psutil:build_ext:--inplace)
+ 0:04.52 Reexecuting in the virtualenv
+ 0:04.89 Adding configure options from /tmp/tmp.OGZSYz/pale-moon/.mozconfig
+ 0:04.89   --disable-dbus
+ 0:04.89   --disable-pulseaudio
+ 0:04.89   --disable-clang-plugin
+ 0:04.89   --disable-gconf
+ 0:04.89   --enable-release
+ 0:04.89   --disable-debug
+ 0:04.89   --disable-debug-symbols
+ 0:04.89   --disable-debug-js-modules
+ 0:04.89   --disable-tests
+ 0:04.89   --enable-strip
+ 0:04.89   --enable-install-strip
+ 0:04.89   --disable-elf-hack
+ 0:04.89   --enable-jemalloc
+ 0:04.89   --enable-optimize=-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=x86-64-v2 -mtune=x86-64-v2 -flto
+ 0:04.89   --disable-gpsd
+ 0:04.89   --disable-necko-wifi
+ 0:04.89   --disable-trace-logging
+ 0:04.89   --enable-sandbox
+ 0:04.89   --enable-raw
+ 0:04.89   --enable-webrtc
+ 0:04.89   --enable-alsa
+ 0:04.89   --enable-jxl
+ 0:04.89   --enable-av1
+ 0:04.89   --enable-ffmpeg
+ 0:04.89   --disable-parental-controls
+ 0:04.89   --disable-crashreporter
+ 0:04.89   --disable-updater
+ 0:04.89   --enable-application=palemoon
+ 0:04.89   --enable-jemalloc
+ 0:04.89   --enable-strip
+ 0:04.89   --enable-devtools
+ 0:04.89   --enable-av1
+ 0:04.89   --enable-jxl
+ 0:04.89   --disable-webrtc
+ 0:04.89   --disable-gamepad
+ 0:04.89   --disable-tests
+ 0:04.89   --disable-debug
+ 0:04.89   --disable-necko-wifi
+ 0:04.89   --disable-updater
+ 0:04.89   --with-pthreads
+ 0:04.89   --enable-libjpeg-turbo
+ 0:04.89   --with-system-bz2
+ 0:04.89   --with-system-zlib
+ 0:04.89   --enable-official-branding
+ 0:04.89   --x-libraries=/usr/local/lib
+ 0:04.89   --disable-npapi
+ 0:04.89   MOZ_CRASHREPORTER=0
+ 0:04.89   MOZ_TELEMETRY_REPORTING=
+ 0:04.89   MOZ_PACKAGE_JSSHELL=1
+ 0:04.89   MOZ_REQUIRE_SIGNING=
+ 0:04.89   MOZILLA_OFFICIAL=1
+ 0:04.89   MOZ_OPTIMIZE=1
+ 0:04.89   MOZ_PKG_SPECIAL=gtk3
+ 0:04.89   MOZ_DATA_REPORTING=0
+ 0:04.89   STRIP_FLAGS=-s
+ 0:04.89   _BUILD_64=1
+ 0:04.89   _GTK_VERSION=3
+ 0:05.03 checking for a shell... /bin/sh
+ 0:05.06 checking for host system type... x86_64-pc-linux-gnu
+ 0:05.06 checking for target system type... x86_64-pc-linux-gnu
+ 0:05.07 checking whether cross compiling... no
+ 0:05.07 checking for pkg_config... /usr/local/bin/pkg-config
+ 0:05.07 checking for pkg-config version... 0.29.2
+ 0:05.07 checking for yasm... /usr/local/bin/yasm
+ 0:05.08 checking yasm version... 1.3.0
+ 0:05.08 checking for the target C compiler... /usr/local/bin/gcc
+ 0:05.10 checking whether the target C compiler can be used... yes
+ 0:05.10 checking the target C compiler version... 14.2.0
+ 0:05.12 checking the target C compiler works... yes
+ 0:05.13 checking for the target C++ compiler... /usr/local/bin/g++
+ 0:05.14 checking whether the target C++ compiler can be used... yes
+ 0:05.14 checking the target C++ compiler version... 14.2.0
+ 0:05.16 checking the target C++ compiler works... yes
+ 0:05.16 checking for the host C compiler... /usr/local/bin/gcc
+ 0:05.18 checking whether the host C compiler can be used... yes
+ 0:05.18 checking the host C compiler version... 14.2.0
+ 0:05.20 checking the host C compiler works... yes
+ 0:05.20 checking for the host C++ compiler... /usr/local/bin/g++
+ 0:05.21 checking whether the host C++ compiler can be used... yes
+ 0:05.21 checking the host C++ compiler version... 14.2.0
+ 0:05.23 checking the host C++ compiler works... yes
+ 0:05.25 checking for 64-bit OS... yes
+ 0:05.28 checking for stdint.h... yes
+ 0:05.30 checking for inttypes.h... yes
+ 0:05.34 checking for malloc.h... yes
+ 0:05.35 checking for alloca.h... yes
+ 0:05.37 checking for sys/byteorder.h... no
+ 0:05.39 checking for getopt.h... yes
+ 0:05.43 checking for unistd.h... yes
+ 0:05.44 checking for nl_types.h... yes
+ 0:05.46 checking for cpuid.h... yes
+ 0:05.49 checking for sys/statvfs.h... yes
+ 0:05.51 checking for sys/statfs.h... yes
+ 0:05.53 checking for sys/vfs.h... yes
+ 0:05.57 checking for sys/mount.h... yes
+ 0:05.59 checking for sys/quota.h... yes
+ 0:05.63 checking for linux/quota.h... yes
+ 0:05.67 checking for linux/if_addr.h... yes
+ 0:05.70 checking for linux/rtnetlink.h... yes
+ 0:05.72 checking for sys/queue.h... yes
+ 0:05.75 checking for sys/types.h... yes
+ 0:05.78 checking for netinet/in.h... yes
+ 0:05.80 checking for byteswap.h... yes
+ 0:05.84 checking for linux/perf_event.h... yes
+ 0:05.86 checking for perf_event_open system call... yes
+ 0:05.87 checking whether the C compiler supports -Wclass-varargs... no
+ 0:05.89 checking whether the C++ compiler supports -Wclass-varargs... no
+ 0:05.89 checking whether the C compiler supports -Wloop-analysis... no
+ 0:05.91 checking whether the C++ compiler supports -Wloop-analysis... no
+ 0:05.92 checking whether the C++ compiler supports -Wimplicit-fallthrough... yes
+ 0:05.94 checking whether the C compiler supports -Wstring-conversion... no
+ 0:05.96 checking whether the C++ compiler supports -Wstring-conversion... no
+ 0:05.97 checking whether the C compiler supports -Wthread-safety... no
+ 0:05.98 checking whether the C++ compiler supports -Wthread-safety... no
+ 0:05.99 checking whether the C++ compiler supports -Wno-inline-new-delete... no
+ 0:06.01 checking whether the C compiler supports -Wno-error=maybe-uninitialized... yes
+ 0:06.03 checking whether the C++ compiler supports -Wno-error=maybe-uninitialized... yes
+ 0:06.05 checking whether the C compiler supports -Wno-error=deprecated-declarations... yes
+ 0:06.07 checking whether the C++ compiler supports -Wno-error=deprecated-declarations... yes
+ 0:06.09 checking whether the C compiler supports -Wno-error=array-bounds... yes
+ 0:06.11 checking whether the C++ compiler supports -Wno-error=array-bounds... yes
+ 0:06.14 checking whether the C compiler supports -Wno-error=multistatement-macros... yes
+ 0:06.16 checking whether the C++ compiler supports -Wno-error=multistatement-macros... yes
+ 0:06.18 checking whether the C++ compiler supports -fno-sized-deallocation... yes
+ 0:06.18 checking for tar... /bin/tar
+ 0:06.18 checking for unzip... /usr/bin/unzip
+ 0:06.18 checking for zip... /usr/local/bin/zip
+ 0:06.18 checking for the Mozilla API key... no
+ 0:06.18 checking for the Google API key... no
+ 0:06.18 checking for the Bing API key... no
+ 0:06.18 checking for the Adjust SDK key... no
+ 0:06.18 checking for awk... /usr/local/bin/gawk
+ 0:06.18 checking for perl... /usr/local/bin/perl
+ 0:06.19 checking for minimum required perl version >= 5.006... 5.036000
+ 0:06.20 checking for full perl installation... yes
+ 0:06.20 checking for gmake... /usr/local/bin/make
+ 0:06.20 checking for doxygen... not found
+ 0:06.20 checking for xargs... /usr/local/bin/xargs
+ 0:06.20 checking for rpmbuild... not found
+ 0:06.20 checking for m4... /usr/local/bin/m4
+ 0:06.20 Refreshing /tmp/tmp.OGZSYz/pale-moon/platform/old-configure with /tmp/tmp.OGZSYz/pale-moon/platform/build/autoconf/autoconf.sh
+ 0:06.44 creating cache ./config.cache
+ 0:06.45 checking host system type... x86_64-pc-linux-gnu
+ 0:06.46 checking target system type... x86_64-pc-linux-gnu
+ 0:06.47 checking build system type... x86_64-pc-linux-gnu
+ 0:06.47 checking for objcopy... /usr/local/bin/objcopy
+ 0:06.47 checking for gcc... /usr/local/bin/gcc -std=gnu99
+ 0:06.52 checking whether the C compiler (/usr/local/bin/gcc -std=gnu99 -fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=x86-64-v2 -mtune=x86-64-v2 -flto -Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin) works... no
+ 0:06.52 configure: error: installation or configuration problem: C compiler cannot create executables.
+ 0:06.52 DEBUG: This file contains any messages produced by compilers while
+ 0:06.52 DEBUG: running configure, to aid debugging if configure makes a mistake.
+ 0:06.52 DEBUG:
+ 0:06.52 DEBUG: configure:882: checking host system type
+ 0:06.52 DEBUG: configure:903: checking target system type
+ 0:06.52 DEBUG: configure:921: checking build system type
+ 0:06.52 DEBUG: configure:1048: checking for objcopy
+ 0:06.52 DEBUG: configure:1861: checking for gcc
+ 0:06.52 DEBUG: configure:1974: checking whether the C compiler (/usr/local/bin/gcc -std=gnu99 -fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=x86-64-v2 -mtune=x86-64-v2 -flto -Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin) works
+ 0:06.52 DEBUG: configure:1990: /usr/local/bin/gcc -std=gnu99 -o conftest -fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=x86-64-v2 -mtune=x86-64-v2 -flto -fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=x86-64-v2 -mtune=x86-64-v2 -flto -Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin conftest.c  1>&5
+ 0:06.52 DEBUG: cc1: error: bad value 'x86-64-v2' for '-mtune=' switch
+ 0:06.52 DEBUG: cc1: note: valid arguments to '-mtune=' switch are: nocona core2 nehalem corei7 westmere sandybridge corei7-avx ivybridge core-avx-i haswell core-avx2 broadwell skylake skylake-avx512 cannonlake icelake-client rocketlake icelake-server cascadelake tigerlake cooperlake sapphirerapids emeraldrapids alderlake raptorlake meteorlake graniterapids graniterapids-d arrowlake arrowlake-s lunarlake pantherlake bonnell atom silvermont slm goldmont goldmont-plus tremont gracemont sierraforest grandridge clearwaterforest knl knm intel x86-64 eden-x2 nano nano-1000 nano-2000 nano-3000 nano-x2 eden-x4 nano-x4 lujiazui yongfeng k8 k8-sse3 opteron opteron-sse3 athlon64 athlon64-sse3 athlon-fx amdfam10 barcelona bdver1 bdver2 bdver3 bdver4 znver1 znver2 znver3 znver4 znver5 btver1 btver2 generic native; did you mean 'x86-64'?
+ 0:06.52 DEBUG: configure: failed program was:
+ 0:06.52 DEBUG:
+ 0:06.52 DEBUG: #line 1985 "configure"
+ 0:06.52 DEBUG: #include "confdefs.h"
+ 0:06.52 DEBUG:
+ 0:06.52 DEBUG: int main(){return(0);}
+ 0:06.52 DEBUG: configure: error: installation or configuration problem: C compiler cannot create executables.
+ 0:06.52 ERROR: old-configure failed
+ 0:06.54 *** Fix above errors and then restart with\
+ 0:06.54                "/usr/local/bin/make -f client.mk build"
+ 0:06.54 make: *** [client.mk:370: configure] Error 1
+ 0:00.24 /usr/local/bin/make -C . -j4 -s -w package
+ 0:00.25 make: Entering directory '/tmp/tmp.OGZSYz/pale-moon/obj-x86_64-pc-linux-gnu'
+ 0:00.25 make: *** No rule to make target 'package'.  Stop.
+ 0:00.25 make: Leaving directory '/tmp/tmp.OGZSYz/pale-moon/obj-x86_64-pc-linux-gnu'
