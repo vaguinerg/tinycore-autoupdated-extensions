@@ -38,12 +38,12 @@ These flags prioritize **performance** over **portability** and **standards comp
 
 ## Supported CPU Architectures
 The binaries are currently compiled and available as artifacts for the following processors:
-| Level            | Features                                                         | Since                                                  |
-|------------------|------------------------------------------------------------------|--------------------------------------------------------|
-| **x86-64**       | CMOV, CX8, FPU, FXSR, MMX, OSFXSR, SCE, SSE, SSE2                | AMD64, K8, Prescott                                    |
-| **x86-64-v2**    | CMPXCHG16B, LAHF-SAHF, POPCNT, SSE3, SSSE3, SSE4.1, SSE4.2       | Nehalem, Silvermont, Bulldozer, Jaguar, Nano, Eden "C" |
-| **x86-64-v3**    | AVX, AVX2, BMI1, BMI2, F16C, FMA, LZCNT, MOVBE, OSXSAVE          | Haswell, Gracemont, Excavator, QEMU 7.2+               |
-| **x86-64-v4**    | AVX512F, AVX512BW, AVX512CD, AVX512DQ, AVX512VL                  | Skylake-X, Zen 4                                       |
+| Level               | Enabled SIMD extensions                                          | Since                                                  |
+|---------------------|------------------------------------------------------------------|--------------------------------------------------------|
+| **x86-64**          | MMX, SSE, SSE2                                                   | AMD64, K8, Prescott                                    |
+| **x86-64-v2**       | SSE3, SSE4                                                       | Nehalem, Silvermont, Bulldozer, Jaguar, Nano, Eden "C" |
+| **x86-64-v3**       | AVX, AVX2, FMA                                                   | Haswell, Gracemont, Excavator, QEMU 7.2+               |
+| **x86-64-v4**       | AVX512                                                           | Skylake-X, Zen 4                                       |
 
 ### A deeper look at flags
 ### **`-Ofast`**  
