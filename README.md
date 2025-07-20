@@ -45,3 +45,67 @@ The binaries are currently compiled and available as artifacts for the following
 | **x86-64-v3**    | AVX, AVX2, BMI1, BMI2, F16C, FMA, LZCNT, MOVBE, OSXSAVE          | Haswell, Gracemont, Excavator, QEMU 7.2+               |
 | **x86-64-v4**    | AVX512F, AVX512BW, AVX512CD, AVX512DQ, AVX512VL                  | Skylake-X, Zen 4                                       |
 
+### A deeper look at flags
+### **`-Ofast`**  
+
+Original loop:
+```c
+float sum = 0.0f;
+for (int i = 0; i < n; i++) {
+    if (a[i] > 0.0f)
+        sum += a[i];
+}
+```
+
+`-O3` (not vectorized: unsupported control flow in loop)
+
+```c
+float sum = 0.0f;
+for (int i = 0; i < n; i++) {
+    if (a[i] > 0.0f) {
+        sum += a[i];  // Branch for each element
+    }
+}
+```
+
+`-Ofast` (optimized: loop vectorized)
+
+```c
+// Process 4 elements at once
+float sum = 0.0f;
+for (int i = 0; i < n; i += 4) {
+    // Load 4 values
+    float v0 = a[i], v1 = a[i+1], v2 = a[i+2], v3 = a[i+3];
+    
+    // Create masks (1.0f if positive, 0.0f if not)
+    float m0 = (v0 > 0.0f) ? 1.0f : 0.0f;
+    float m1 = (v1 > 0.0f) ? 1.0f : 0.0f;
+    float m2 = (v2 > 0.0f) ? 1.0f : 0.0f;
+    float m3 = (v3 > 0.0f) ? 1.0f : 0.0f;
+    
+    // Apply masks and accumulate
+    sum += (v0 * m0) + (v1 * m1) + (v2 * m2) + (v3 * m3);
+}
+```
+
+### Potential problems with `-Ofast`
+
+```c
+float a[] = {1.0f, -0.0f, NAN, INFINITY, 2.0f};
+```
+
+**With `-O3`:**
+```
+sum = 1.0f + 0.0f + 0.0f + INFINITY = INFINITY
+```
+
+**With `-Ofast`:**
+```
+sum = 1.0f + (-0.0f) + NAN + INFINITY = NAN  // Different result!
+```
+
+### Issues:
+- **NaN handling**: May propagate differently
+- **Signed zero**: `-0.0f` vs `+0.0f` distinction lost
+- **Infinity**: Operations may produce unexpected results
+- **Precision**: Floating-point associativity changes can affect accuracy
