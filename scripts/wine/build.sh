@@ -67,7 +67,7 @@ export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-in
 
 ./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --without-dbus --enable-archs=i386,x86_64 --disable-win16 --disable-tests
 cat config.log
-find . -name Makefile -type f -exec sed -i 's/-g -O2/-O3 -march=$MARCH -Rpass=loop-vectorize/g' {} \;
+find . -name Makefile -type f -exec sed -i "s/-g -O2/-O3 -march=$MARCH -Rpass=loop-vectorize/g" {} \;
 
 make -j8
 make install DESTDIR=/tmp/wine
