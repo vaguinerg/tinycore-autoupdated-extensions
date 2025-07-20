@@ -20,7 +20,7 @@ ac_add_options --enable-strip
 ac_add_options --enable-install-strip
 ac_add_options --disable-elf-hack
 ac_add_options --enable-jemalloc
-ac_add_options --enable-optimize="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -flto"
+ac_add_options --enable-optimize="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
 ac_add_options --disable-gpsd
 ac_add_options --disable-necko-wifi
 ac_add_options --disable-trace-logging
@@ -28,10 +28,6 @@ mk_add_options MOZ_OPTIMIZE=1
 MOZ_OPTIMIZE=1
 export MOZ_OPTIMIZE=1
 export STRIP_FLAGS="-s"
-export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -flto"
-export CPPFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -flto"
-export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -flto"
-export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 
 # Media settings
 ac_add_options --enable-sandbox
