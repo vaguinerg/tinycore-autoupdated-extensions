@@ -1,4 +1,4 @@
-
+echo https://mirror.math.princeton.edu/pub/tinycorelinux/ > /opt/tcemirror
 MARCH="$1"
 
 if [ -z "$MARCH" ]; then
