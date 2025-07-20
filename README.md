@@ -31,10 +31,10 @@ These flags prioritize **performance** over **portability** and **standards comp
 
 ## Package Optimization Summary
 
-| Package        | Version  | Flags Changed                          | Notes                                                              |
-|----------------|----------|----------------------------------------|--------------------------------------------------------------------|
-| MicroPython    | 1.25.0   | + `-flto`                              |                                                                    |
-| Wine (Staging) | 10.12    | `-O3`                                  | `-Ofast` causes runtime issues; downgraded to `-O3`.               |
+| Package        | Version  | Notes                                                                              |
+|----------------|----------|------------------------------------------------------------------------------------|
+| MicroPython    | 1.25.0   | `-flto`                                                                            |
+| Wine (Staging) | 10.12    |  `-Ofast` broke runtime: `-O3` <br>`x86-64-v4`  broke compilation: `Ignored`       |
 
 ## Supported CPU Architectures
 The binaries are currently compiled and available as artifacts for the following processors:
