@@ -32,12 +32,15 @@ workdir=$(mktemp -d)
 cp /scripts/mozconfig $workdir
 cd $workdir
 
-export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
-export CPPFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
-export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
+#export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
+#export CPPFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
+#export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
 #export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 
-tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev
+tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang
+
+#Fix broken clang
+sudo ln -s /usr/local/lib/gcc/ /usr/lib/
 
 wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/Pale-Moon/archive/33.8.0_Release-r2.tar.gz | tar -xz
 wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/UXP/archive/RB_20250703.tar.gz | tar -xz --strip-components=1 -C pale-moon/platform
