@@ -61,12 +61,13 @@ export PATH=$PATH:./llvm-mingw-20250709-ucrt-ubuntu-22.04-x86_64/bin/
 sudo ln -s /lib /lib64
 
 #compile
-export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH"
-export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -mtune=$MARCH"
+export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
+export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
 export LDFLAGS="-Wl,-O2,--as-needed"
 
 ./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --without-dbus --enable-archs=i386,x86_64 --disable-win16 --disable-tests
-find . -name Makefile -type f -exec sed -i 's/-g -O2/-O3 -march=$MARCH -mtune=$MARCH -Rpass=loop-vectorize/g' {} \;
+cat config.log
+find . -name Makefile -type f -exec sed -i 's/-g -O2/-O3 -march=$MARCH -Rpass=loop-vectorize/g' {} \;
 
 make -j8
 make install DESTDIR=/tmp/wine
