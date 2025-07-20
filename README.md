@@ -38,7 +38,7 @@ These flags prioritize **performance** over **portability** and **standards comp
 
 ## Supported CPU Architectures
 The binaries are currently compiled and available as artifacts for the following processors:
-| Level Name       | CPU Features                                                     | Support since                                          |
+| Level            | Features                                                         | Since                                                  |
 |------------------|------------------------------------------------------------------|--------------------------------------------------------|
 | **x86-64**       | CMOV, CX8, FPU, FXSR, MMX, OSFXSR, SCE, SSE, SSE2                | AMD64, K8, Prescott                                    |
 | **x86-64-v2**    | CMPXCHG16B, LAHF-SAHF, POPCNT, SSE3, SSSE3, SSE4.1, SSE4.2       | Nehalem, Silvermont, Bulldozer, Jaguar, Nano, Eden "C" |
