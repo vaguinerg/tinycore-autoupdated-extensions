@@ -1,13 +1,14 @@
-Building with -march=x86-64-v2
+Building with -march=x86-64-v4
 squashfs-tools is already installed!
 compiletc.tcz.dep OK
 Downloading: compiletc.tcz
+libffi-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:443)
 wget: can't execute 'openssl': No such file or directory
 md5sum: compiletc.tcz.md5.txt: No such file or directory
 Error on compiletc.tcz
-libffi-dev.tcz.dep OK
-Connecting to github.com (140.82.116.4:443)
+python3.9.tcz.dep OK
+Connecting to github.com (140.82.116.3:443)
 wget: can't execute 'openssl': No such file or directory
 tar: short read
 /scripts/build.sh: cd: line 38: can't cd to micropython-1.25.0/ports/unix/: No such file or directory
