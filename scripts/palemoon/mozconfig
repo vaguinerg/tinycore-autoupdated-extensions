@@ -32,6 +32,10 @@ ac_add_options --enable-official-branding
 export MOZILLA_OFFICIAL=1
 
 # Processor architecture specific build options
-ac_add_options --x-libraries=/usr/lib
+if [ -n "$_BUILD_64" ]; then
+  ac_add_options --x-libraries=/usr/lib64
+else
+  ac_add_options --x-libraries=/usr/lib
+fi
 
 export MOZ_PKG_SPECIAL=gtk$_GTK_VERSION
