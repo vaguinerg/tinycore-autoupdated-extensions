@@ -1,4 +1,4 @@
-echo https://mirror.math.princeton.edu/pub/tinycorelinux/ > /opt/tcemirror
+echo http://mirror.math.princeton.edu/pub/tinycorelinux/ > /opt/tcemirror
 MARCH="$1"
 
 if [ -z "$MARCH" ]; then
@@ -28,7 +28,7 @@ case "$1" in
     ;;
 esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
-tce-load -lwi compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev
+tce-load -lwi compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
 
 workdir=$(mktemp -d)
 cd $workdir
