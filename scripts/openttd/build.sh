@@ -37,7 +37,7 @@ case "$1" in
 esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
 
-tce-load -lwi sdl2-dev git compiletc cmake curl-dev tce-load fontconfig-dev freetype-dev Xorg-7.7-3d-dev liblzma-dev opus-dev squashfs-tools submitqc
+tce-load -lwi sdl2-dev git compiletc cmake curl-dev fontconfig-dev freetype-dev Xorg-7.7-3d-dev liblzma-dev opus-dev squashfs-tools submitqc sstrip
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
@@ -51,7 +51,7 @@ make -j4
 make install DESTDIR=/tmp/openttd
 
 find /tmp/openttd
-strip -s /tmp/openttd/usr/local/games/openttd
+sstrip -z /tmp/openttd/usr/local/games/openttd
 mkdir -p /tmp/openttd/usr/local/bin
 mv /tmp/openttd/usr/local/games/openttd /tmp/openttd/usr/local/bin
 rm -rf /tmp/openttd/usr/local/games
