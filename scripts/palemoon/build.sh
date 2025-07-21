@@ -53,6 +53,11 @@ wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/U
 cp mozconfig pale-moon/.mozconfig
 cd pale-moon
 ./mach build
-mksquashfs obj-x86_64-pc-linux-gnu/dist/bin/ palemoon.tcz
+find . -iname "*.xz*"
+find . -iname "*.tar*"
+find . -iname palemoon
+find ./obj-x86_64-pc-linux-gnu/dist/bin/
+find ./obj-x86_64-pc-linux-gnu/dist/
+mksquashfs ./obj-x86_64-pc-linux-gnu/dist/bin/ palemoon.tcz
 mv -f palemoon.tcz /output
 ./mach package
