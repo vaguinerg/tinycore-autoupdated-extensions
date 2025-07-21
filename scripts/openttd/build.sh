@@ -48,12 +48,13 @@ cd OpenTTD
 cmake -DCMAKE_BUILD_TYPE=Release -B build .
 cd build
 make -j4
-sudo make install DESTDIR=/tmp/openttd
+make install DESTDIR=/tmp/openttd
 
-sudo sstrip -z /tmp/openttd/usr/local/games/openttd
-sudo mkdir -p /tmp/openttd/usr/local/bin
-sudo rm -rf /tmp/openttd/usr/local/games
-sudo mv /tmp/openttd/usr/local/games/openttd /tmp/openttd/usr/local/bin
+sstrip -z /tmp/openttd/usr/local/games/openttd
+strip -s /tmp/openttd/usr/local/games/openttd
+mkdir -p /tmp/openttd/usr/local/bin
+rm -rf /tmp/openttd/usr/local/games
+mv /tmp/openttd/usr/local/games/openttd /tmp/openttd/usr/local/bin
 mksquashfs /tmp/openttd openttd.tcz
 
 sudo submitqc --nonet --blocksize=65536 openttd.tcz
