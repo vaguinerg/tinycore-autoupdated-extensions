@@ -32,12 +32,13 @@ workdir=$(mktemp -d)
 cp /scripts/mozconfig $workdir
 cd $workdir
 
-export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
-export CPPFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
-export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
+#Cannot build libopus with -ffast-math unless FLOAT_APPROX is defined.
+export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -DFLOAT_APPROX"
+export CPPFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -DFLOAT_APPROX"
+export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -DFLOAT_APPROX"
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 
-tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar
+tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar squashfs-tools
 sudo rm -rf /usr/bin/xz
 sudo rm -rf /bin/tar
 sudo cp /usr/local/bin/tar /bin/tar
@@ -52,7 +53,5 @@ wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/U
 cp mozconfig pale-moon/.mozconfig
 cd pale-moon
 ./mach build
-find obj-x86_64-pc-linux-gnu/dist
-find
-./mach package
-find . -iname *.tar.xz
+mksquashfs obj-x86_64-pc-linux-gnu/dist/bin/ palemoon.tcz
+mv -f palemoon.tcz /output
