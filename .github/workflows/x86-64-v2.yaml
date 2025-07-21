@@ -32,7 +32,7 @@ jobs:
             -v ${{ github.workspace }}/output/${{ matrix.package}}:/output \
             -e MARCH=${{ env.MARCH }} \
             ghcr.io/vaguinerg/docker-tinycore:main \
-            sh -c 'sh /scripts/build.sh "$MARCH" 2>&1 | sort | uniq > /scripts/${{ env.MARCH }}_log.txt || true'
+            sh -c 'sh /scripts/build.sh "$MARCH" &> /scripts/${{ env.MARCH }}_log.txt || true'
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
