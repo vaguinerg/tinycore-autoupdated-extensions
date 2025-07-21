@@ -54,8 +54,8 @@ find /tmp/openttd
 sstrip -z /tmp/openttd/usr/local/games/openttd
 strip -s /tmp/openttd/usr/local/games/openttd
 mkdir -p /tmp/openttd/usr/local/bin
-rm -rf /tmp/openttd/usr/local/games
 mv /tmp/openttd/usr/local/games/openttd /tmp/openttd/usr/local/bin
+rm -rf /tmp/openttd/usr/local/games
 mksquashfs /tmp/openttd openttd.tcz
 
 sudo submitqc --nonet --blocksize=65536 openttd.tcz
