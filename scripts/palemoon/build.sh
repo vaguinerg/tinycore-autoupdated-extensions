@@ -52,5 +52,7 @@ wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/U
 cp mozconfig pale-moon/.mozconfig
 cd pale-moon
 ./mach build
+find obj-x86_64-pc-linux-gnu/dist
+find
 ./mach package
 find . -iname *.tar.xz
