@@ -24,7 +24,7 @@ ac_add_options --disable-necko-wifi
 ac_add_options --disable-updater
 
 # Optimizations
-ac_add_options --enable-optimize="-O2 -w"
+ac_add_options --enable-optimize="-O3 -w"
 ac_add_options --enable-jemalloc
 ac_add_options --enable-strip
 ac_add_options --with-pthreads
