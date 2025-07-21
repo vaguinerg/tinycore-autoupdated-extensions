@@ -71,20 +71,9 @@ for (int i = 0; i < n; i++) {
 `-Ofast` (optimized: loop vectorized)
 
 ```c
-// Process 4 elements at once
 float sum = 0.0f;
-for (int i = 0; i < n; i += 4) {
-    // Load 4 values
-    float v0 = a[i], v1 = a[i+1], v2 = a[i+2], v3 = a[i+3];
-    
-    // Create masks (1.0f if positive, 0.0f if not)
-    float m0 = (v0 > 0.0f) ? 1.0f : 0.0f;
-    float m1 = (v1 > 0.0f) ? 1.0f : 0.0f;
-    float m2 = (v2 > 0.0f) ? 1.0f : 0.0f;
-    float m3 = (v3 > 0.0f) ? 1.0f : 0.0f;
-    
-    // Apply masks and accumulate
-    sum += (v0 * m0) + (v1 * m1) + (v2 * m2) + (v3 * m3);
+for (int i = 0; i < n; i++) {
+    sum += a[i] * (a[i] > 0.0f);
 }
 ```
 
