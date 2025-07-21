@@ -50,6 +50,7 @@ cd build
 make -j4
 make install DESTDIR=/tmp/openttd
 
+find /tmp/openttd
 sstrip -z /tmp/openttd/usr/local/games/openttd
 strip -s /tmp/openttd/usr/local/games/openttd
 mkdir -p /tmp/openttd/usr/local/bin
