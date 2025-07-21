@@ -54,6 +54,6 @@ cp mozconfig pale-moon/.mozconfig
 cd pale-moon
 ./mach build
 cp -rH ./obj-x86_64-pc-linux-gnu/dist/bin/ ./saida
-mksquashfs ./saida palemoon.tcz
-mv -f palemoon.tcz /output
+rm -rf /output/palemoon.tcz
+mksquashfs . /output/palemoon.tcz
 ./mach package
