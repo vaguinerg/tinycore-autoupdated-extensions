@@ -38,7 +38,7 @@ export CPPFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-in
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -DFLOAT_APPROX"
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 
-tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar squashfs-tools
+tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar squashfs-tools node
 sudo rm -rf /usr/bin/xz
 sudo rm -rf /bin/tar
 sudo cp /usr/local/bin/tar /bin/tar
@@ -55,3 +55,4 @@ cd pale-moon
 ./mach build
 mksquashfs obj-x86_64-pc-linux-gnu/dist/bin/ palemoon.tcz
 mv -f palemoon.tcz /output
+./mach package
