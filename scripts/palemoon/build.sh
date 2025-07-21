@@ -53,7 +53,7 @@ wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/U
 cp mozconfig pale-moon/.mozconfig
 cd pale-moon
 ./mach build
-cp -rH ./obj-x86_64-pc-linux-gnu/dist/bin/ ./saida
+./mach package
+find . -iname *.xz
 rm -rf /output/palemoon.tcz
 mksquashfs . /output/palemoon.tcz
-./mach package
