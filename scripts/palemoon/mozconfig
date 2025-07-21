@@ -34,16 +34,9 @@ ac_add_options --enable-av1
 ac_add_options --enable-jxl
 ac_add_options --enable-ffmpeg
 
-
-# Please see https://www.palemoon.org/redist.shtml for restrictions when using the official branding.
 ac_add_options --enable-official-branding
 export MOZILLA_OFFICIAL=1
 
-# Processor architecture specific build options
-if [ -n "$_BUILD_64" ]; then
-  ac_add_options --x-libraries=/usr/lib64
-else
-  ac_add_options --x-libraries=/usr/lib
-fi
+ac_add_options --x-libraries=/usr/lib
 
 export MOZ_PKG_SPECIAL=gtk$_GTK_VERSION
