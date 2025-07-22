@@ -54,14 +54,12 @@ cp mozconfig pale-moon/.mozconfig
 cd pale-moon
 ./mach build
 ./mach package
-mkdir pale
-rm -rf /output/palemoon.tcz
 wget http://mirror.math.princeton.edu/pub/tinycorelinux/16.x/x86_64/tcz/palemoon.tcz
 unsquashfs palemoon.tcz
 cd squashfs-root/usr/local/
 rm -rf palemoon/
 tar xvf ../../../obj-x86_64-pc-linux-gnu/dist/*.tar.xz
-sstrip -s palemoon/*
+sstrip -z palemoon/*
 cd ../../../
 mksquashfs squashfs-root palemoon.tcz
 sudo submitqc --nonet --blocksize=65536 palemoon.tcz
