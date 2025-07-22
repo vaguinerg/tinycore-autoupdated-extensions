@@ -33,9 +33,9 @@ These flags prioritize **performance** over **portability** and **standards comp
 
 | Package        | Version  | Notes                                                                              |
 |----------------|----------|------------------------------------------------------------------------------------|
-| MicroPython    | 1.25.0   | `-flto`                                                                            |
-| Wine (Staging) | 10.12    |  `-Ofast` broke runtime: `-O3` <br>`x86-64-v4`  broke compilation: `Ignored`       |
-| OpenTTD        | Main     |  `-flto` <br>`x86-64-v4`  broke compilation: `Ignored`                             |
+| MicroPython    | 1.25.0   |                                                                                    |
+| Wine (Staging) | 10.12    |  `-Ofast` broken runtime: `-O3` <br>`x86-64-v4`  broken: `Ignored`                 |
+| OpenTTD        | Main     |  `x86-64-v4`  broken: `Ignored`                                                    |
 
 ## Supported CPU Architectures
 The binaries are currently compiled and available as artifacts for the following processors:
