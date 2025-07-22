@@ -38,7 +38,7 @@ cd $workdir
 #export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH -DFLOAT_APPROX"
 #export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 
-tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar squashfs-tools node
+tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar squashfs-tools node sstrip
 sudo rm -rf /usr/bin/xz
 sudo rm -rf /bin/tar
 sudo cp /usr/local/bin/tar /bin/tar
@@ -61,6 +61,7 @@ unsquashfs palemoon.tcz
 cd squashfs-root/usr/local/
 rm -rf palemoon/
 tar xvf ../../../obj-x86_64-pc-linux-gnu/dist/*.tar.xz
+sstrip -s palemoon/*
 cd ../../../
 mksquashfs squashfs-root palemoon.tcz
 sudo submitqc --nonet --blocksize=65536 palemoon.tcz
