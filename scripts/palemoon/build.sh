@@ -55,6 +55,13 @@ cd pale-moon
 ./mach build
 ./mach package
 mkdir pale
-cp ./obj-x86_64-pc-linux-gnu/dist/*.tar.xz pale
 rm -rf /output/palemoon.tcz
-mksquashfs ./pale /output/palemoon.tcz
+wget http://mirror.math.princeton.edu/pub/tinycorelinux/16.x/x86_64/tcz/palemoon.tcz
+unsquashfs palemoon.tcz
+cd squashfs-root/usr/local/
+rm -rf palemoon/
+tar xvf ../../../obj-x86_64-pc-linux-gnu/dist/*.tar.xz
+cd ../../../
+mksquashfs squashfs-root palemoon.tcz
+sudo submitqc --nonet --blocksize=65536 palemoon.tcz
+mv -f palemoon.tcz /output
