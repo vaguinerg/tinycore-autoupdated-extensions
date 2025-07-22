@@ -36,7 +36,7 @@ ac_add_options --disable-necko-wifi
 ac_add_options --disable-updater
 
 # Optimizations
-#ac_add_options --enable-optimize="-O3 -w"
+ac_add_options --enable-optimize="-Ofast -w -march=$MARCH"
 ac_add_options --enable-libjpeg-turbo
 ac_add_options --enable-jemalloc
 ac_add_options --enable-strip
