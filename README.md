@@ -45,3 +45,10 @@ The binaries are currently compiled and available as artifacts for the following
 | **x86-64-v2**       | SSE3, SSE4                                                       | Nehalem, Silvermont, Bulldozer, Jaguar, Nano, Eden "C" |
 | **x86-64-v3**       | AVX, AVX2, FMA                                                   | Haswell, Gracemont, Excavator, QEMU 7.2+               |
 | **x86-64-v4**       | AVX512                                                           | Skylake-X, Zen 4                                       |
+
+
+## Aditional CPU Architectures
+Feel free to send a pr with [your cpu type](https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html)
+| Arch              | Features                                                                                                                 |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **alderlake**     | MOVBE, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, POPCNT, AES, PREFETCHW, PCLMUL, RDRND, XSAVE, XSAVEC, XSAVES,<br>XSAVEOPT, FSGSBASE, PTWRITE, RDPID, SGX, GFNI-SSE, CLWB, MOVDIRI, MOVDIR64B, WAITPKG, ADCX, AVX, AVX2, BMI, BMI2, F16C,<br>FMA, LZCNT, PCONFIG, PKU, VAES, VPCLMULQDQ, SERIALIZE, HRESET, KL, WIDEKL, AVX-VNNI, UINTR, VXIFMA, AVXVNNIINT8,<br> AVXNECONVERT and CMPCCXADD  |
