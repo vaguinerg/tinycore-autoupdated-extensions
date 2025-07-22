@@ -53,6 +53,9 @@ wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/U
 cp mozconfig pale-moon/.mozconfig
 cd pale-moon
 ./mach build
+unset CFLAGS
+unset CPPFLAGS
+unset CXXFLAGS
 ./mach package
 wget http://mirror.math.princeton.edu/pub/tinycorelinux/16.x/x86_64/tcz/palemoon.tcz
 unsquashfs palemoon.tcz
