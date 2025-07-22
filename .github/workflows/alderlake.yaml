@@ -1,0 +1,49 @@
+name: Compile for alderlake
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+jobs:
+  cancel-previous:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: styfle/cancel-workflow-action@0.12.1
+        with:
+          access_token: ${{ github.token }}
+  compile:
+    runs-on: ubuntu-latest
+    env:
+      MARCH: alderlake
+    strategy:
+      matrix:
+        package: [micropython, wine, palemoon, openttd]
+    name: ${{ matrix.package }} (alderlake)
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Compile ${{ matrix.package }} with -march=${{ env.MARCH }}
+        run: |
+          mkdir -p output/${{ matrix.package }}
+          docker run --rm \
+            -v ${{ github.workspace }}/scripts/${{ matrix.package}}:/scripts \
+            -v ${{ github.workspace }}/output/${{ matrix.package}}:/output \
+            -e MARCH=${{ env.MARCH }} \
+            ghcr.io/vaguinerg/docker-tinycore:main \
+            sh -c 'sh /scripts/build.sh "$MARCH" &> /scripts/${{ env.MARCH }}_log.txt || true'
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.MARCH }}-${{ matrix.package }}
+          path: ${{ github.workspace }}/output/${{ matrix.package }}/${{ matrix.package }}.tcz
+      - name: Finish
+        run: |
+          rm -rf output
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update ${{ matrix.package }} (${{ env.MARCH }}) build log [skip ci]" || echo "Nothing to commit"
+          git pull --rebase origin $(git rev-parse --abbrev-ref HEAD) || true
+          git push origin HEAD || echo "Push failed"
