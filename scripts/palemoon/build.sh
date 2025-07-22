@@ -54,6 +54,7 @@ cp mozconfig pale-moon/.mozconfig
 cd pale-moon
 ./mach build
 ./mach package
-find . -iname *.xz
+mkdir pale
+cp ./obj-x86_64-pc-linux-gnu/dist/*.tar.xz pale
 rm -rf /output/palemoon.tcz
-mksquashfs . /output/palemoon.tcz
+mksquashfs ./pale /output/palemoon.tcz
