@@ -1,5 +1,5 @@
 echo http://mirror.math.princeton.edu/pub/tinycorelinux/ > /opt/tcemirror
-MARCH="$1"
+export MARCH="$1"
 
 if [ -z "$MARCH" ]; then
   echo "Missing -march argument"
