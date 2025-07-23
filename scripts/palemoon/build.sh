@@ -36,7 +36,7 @@ cd $workdir
 #export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 
 tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar \
- squashfs-tools node sstrip gstreamer cairo-dev cairomm-dev pixman-dev
+ squashfs-tools node sstrip gstreamer cairo-dev cairomm-dev pixman-dev submitqc
 tce-load -lwi hunspell-dev readline-dev
 sudo rm -rf /usr/bin/xz
 sudo rm -rf /bin/tar
