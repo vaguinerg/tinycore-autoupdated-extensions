@@ -32,8 +32,7 @@ workdir=$(mktemp -d)
 cp /scripts/mozconfig $workdir
 cd $workdir
 
-#Cannot build libopus with -ffast-math unless FLOAT_APPROX is defined.
-#export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
+export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 
 tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar \
  squashfs-tools node sstrip gstreamer cairo-dev cairomm-dev pixman-dev submitqc
