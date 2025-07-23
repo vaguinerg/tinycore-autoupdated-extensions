@@ -32,7 +32,8 @@ workdir=$(mktemp -d)
 cp /scripts/mozconfig $workdir
 cd $workdir
 
-export LDFLAGS="-Wl,-O2,--as-needed -flto -fuse-linker-plugin"
+#export LDFLAGS="-Wl,-O2,--as-needed -flto -fuse-linker-plugin"
+export LDFLAGS="-flto"
 
 tce-load -lwi python compiletc Xorg-7.7-3d-dev gtk3-dev yasm python-dev coreutils binutils zip perl5 alsa-dev ffmpeg7-dev clang xz tar \
  squashfs-tools node sstrip gstreamer cairo-dev cairomm-dev pixman-dev submitqc
