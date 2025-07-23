@@ -19,7 +19,7 @@ jobs:
       MARCH: x86-64-v4
     strategy:
       matrix:
-        package: [micropython, wine, palemoon, openttd]
+        package: [micropython, wine, palemoon, openttd, basilisk]
     name: ${{ matrix.package }} (x86-64-v4)
     steps:
       - name: Checkout repo
