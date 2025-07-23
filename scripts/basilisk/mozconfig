@@ -41,7 +41,7 @@ ac_add_options --disable-necko-wifi
 ac_add_options --disable-updater
 
 # Optimizations
-ac_add_options --enable-optimize="-fipa-pta -floop-nest-optimize -O3 -w -march=$MARCH -flto"
+ac_add_options --enable-optimize="-fipa-pta -floop-nest-optimize -O3 -w -march=$MARCH"
 ac_add_options --enable-libjpeg-turbo
 ac_add_options --enable-jemalloc
 ac_add_options --enable-strip
