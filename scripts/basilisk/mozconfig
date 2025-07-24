@@ -23,41 +23,32 @@ ac_add_options --disable-pulseaudio
 ac_add_options --disable-npapi
 ac_add_options --disable-gconf
 
-# Use system links
-ac_add_options --enable-readline
-ac_add_options --with-system-bz2
-ac_add_options --with-system-zlib
-ac_add_options --enable-system-cairo
-ac_add_options --enable-system-extension-dirs
-ac_add_options --enable-system-pixman
-
-# Debloat
-ac_add_options --disable-parental-controls
-ac_add_options --disable-accessibility
-ac_add_options --disable-gamepad
+# Standard build options for Basilisk
+ac_add_options --enable-application=basilisk
+ac_add_options --enable-optimize="-O3 -w"
+ac_add_options --enable-default-toolkit=cairo-gtk$_GTK_VERSION
+ac_add_options --enable-jemalloc
+ac_add_options --enable-strip
+ac_add_options --enable-devtools
+ac_add_options --enable-av1
+ac_add_options --enable-jxl
+ac_add_options --enable-gamepad
+ac_add_options --enable-pie
+ac_add_options --enable-update-channel=release
 ac_add_options --disable-tests
 ac_add_options --disable-debug
 ac_add_options --disable-necko-wifi
 ac_add_options --disable-updater
-
-# Optimizations
-ac_add_options --enable-optimize="-fipa-pta -floop-nest-optimize -O3 -w -march=$MARCH"
-ac_add_options --enable-libjpeg-turbo
-ac_add_options --enable-jemalloc
-ac_add_options --enable-strip
 ac_add_options --with-pthreads
-
-# Codecs
-#ac_add_options --enable-av1
-#ac_add_options --enable-jxl
-#ac_add_options --enable-alsa
-#ac_add_options --enable-ffmpeg
-
 ac_add_options --disable-official-branding
 
-# Automatically clobber if CLOBBER was touched
-mk_add_options AUTOCLOBBER=1
+export MOZILLA_OFFICIAL=1
 
-ac_add_options --x-libraries=/usr/lib
+# Processor architecture specific build options
+if [ -n "$_BUILD_64" ]; then
+  ac_add_options --x-libraries=/usr/lib64
+else
+  ac_add_options --x-libraries=/usr/lib
+fi
 
 export MOZ_PKG_SPECIAL=gtk$_GTK_VERSION
