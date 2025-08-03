@@ -70,7 +70,7 @@ export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-inte
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common" 
 
-./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --without-dbus --enable-archs=i386,x86_64 --disable-win16 --disable-tests
+./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --without-dbus --enable-archs=i386,x86_64 --disable-win16 --disable-tests --without-x --with-wayland
 cat config.log
 find . -name Makefile -type f -exec sed -i "s/-g -O2/-O3 -march=$MARCH -Rpass=loop-vectorize/g" {} \;
 
