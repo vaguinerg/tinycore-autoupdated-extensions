@@ -31,12 +31,12 @@ These flags prioritize **performance** over **portability** and **standards comp
 
 ## Package Optimization Summary
 
-| Package        | Version  | Notes                                                                              |
-|----------------|----------|------------------------------------------------------------------------------------|
-| MicroPython    | 1.25.0   |                                                                                    |
-| Wine (Staging) | 10.12    |  `-Ofast` broken: `-O3` <br>`x86-64-v4`  broken: `Ignored`                         |
-| OpenTTD        | Main     |  `x86-64-v4`  broken: `Ignored`                                                    |
-| PaleMoon       | 33.8.0r2 |  `x86-64-v4`, `-Ofast`, alll broken                                                |
+| Package        | Version  | Notes                                                                                 |
+|----------------|----------|---------------------------------------------------------------------------------------|
+| MicroPython    | 1.25.0   |                                                                                       |
+| Wine (Staging) | 10.12    |  Compiled for wayland <br> `-Ofast` broken: `-O3` <br>`x86-64-v4`  broken: `Ignored`  |
+| OpenTTD        | Main     |  `x86-64-v4`  broken: `Ignored`                                                       |
+| PaleMoon       | 33.8.0r2 |  `x86-64-v4`, `-Ofast`, alll broken                                                   |
 
 ## Supported CPU Architectures
 The binaries are currently compiled and available as artifacts for the following processors:
