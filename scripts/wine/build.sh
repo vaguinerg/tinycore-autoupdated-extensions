@@ -33,7 +33,7 @@ case "$1" in
     ;;
 esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
-tce-load -lwi autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev weston-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
+tce-load -lwi pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev weston-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
 # required for staging autoconf, tools/make_requests, wich rebuilds protocols.def, changed by some patches including eventd, needs to be rebuild, and perl link is hardcoded to /usr/bin
 sudo cp /usr/local/bin/perl /usr/bin/perl
@@ -70,8 +70,7 @@ export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-inte
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common" 
 
-./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --without-dbus --enable-archs=i386,x86_64 --disable-win16 --disable-tests --without-x --with-wayland
-cat config.log
+./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --enable-archs=i386,x86_64 --disable-win16 --disable-tests --with-wayland
 find . -name Makefile -type f -exec sed -i "s/-g -O2/-O3 -march=$MARCH -Rpass=loop-vectorize/g" {} \;
 
 make -j8
