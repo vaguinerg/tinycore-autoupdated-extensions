@@ -40,7 +40,7 @@ sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
 cd $workdir
 
-git clone --recurse-submodules --branch cachyos_10.0_20251023/main https://github.com/CachyOS/wine-cachyos
+git clone --recurse --branch cachyos_10.0_20251023/main https://github.com/CachyOS/wine-cachyos
 cd wine-cachyos
 
 #fix ca-certificates & ca-bundle location
