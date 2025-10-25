@@ -33,29 +33,15 @@ case "$1" in
     ;;
 esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
-tce-load -lwi ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev weston-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
+tce-load -lwi git ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev weston-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
 # required for staging autoconf, tools/make_requests, wich rebuilds protocols.def, changed by some patches including eventd, needs to be rebuild, and perl link is hardcoded to /usr/bin
 sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
 cd $workdir
 
-#Eventfd disabled from version 10.11, to prepare for NTSYNC, which is only available in kernel 6.14, while tinycore is still in 6.12.
-#wine=10.10
-#staging=c37f9f50912bd801e217ba81d2512feb7386f0d1
-wine=10.17
-staging=f686957b39fb341e3586f33c3888160deb8d2478
-
-#get wine
-wget -O- --no-check-certificate https://dl.winehq.org/wine/source/10.x/wine-$wine.tar.xz | tar -xJ
-
-#get staging
-wget --no-check-certificate -O- https://codeload.github.com/wine-staging/wine-staging/zip/$staging | busybox unzip -qq -
-cd wine-staging-$staging/
-chmod u+x ./patches/gitapply.sh
-python3.9 ./staging/patchinstall.py DESTDIR=../wine-$wine/ --all -W server-Stored_ACLs
-
-cd ../wine-$wine/
+git clone --recursive https://github.com/Kron4ek/wine-tkg
+cd wine-tkg
 
 #fix ca-certificates & ca-bundle location
 sed -i 's#/etc/ssl/certs/ca-certificates.crt#/usr/local/etc/ssl/certs/ca-certificates.crt#' ./dlls/crypt32/unixlib.c
@@ -85,4 +71,4 @@ find /tmp/wine/ -exec i686-w64-mingw32-strip -s {} \;
 find /tmp/wine/ -iname *.a -delete
 mksquashfs /tmp/wine/ wine-latest.tcz -e usr/local/bin/winegcc -e usr/local/bin/wineg++ -e usr/local/bin/winecpp -e usr/local/bin/function_grep.pl -e usr/local/include -e usr/local/share/man
 sudo submitqc --nonet --blocksize=65536 wine-latest.tcz
-mv -f wine-latest.tcz /output/wine.tcz
+mv -f wine-latest.tcz /output/wine-tkg.tcz
