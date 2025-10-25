@@ -40,8 +40,11 @@ sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
 cd $workdir
 
-git clone --recursive https://github.com/Kron4ek/wine-tkg
-cd wine-tkg
+#git clone --recursive https://github.com/Kron4ek/wine-tkg
+#cd wine-tkg
+
+git clone --recursive -b cachyos_10.0_20251023/main https://github.com/CachyOS/wine-cachyos.git
+cd wine-cachyos
 
 #fix ca-certificates & ca-bundle location
 sed -i 's#/etc/ssl/certs/ca-certificates.crt#/usr/local/etc/ssl/certs/ca-certificates.crt#' ./dlls/crypt32/unixlib.c
