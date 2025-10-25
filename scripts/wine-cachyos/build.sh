@@ -33,7 +33,7 @@ case "$1" in
     ;;
 esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
-tce-load -lwi giflib7-dev v4l2-utils fontconfig-dev gettext-dev freetype-dev git ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev weston-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
+tce-load -lwi libva22-dev giflib7-dev v4l2-utils fontconfig-dev gettext-dev freetype-dev git ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev weston-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
 # required for staging autoconf, tools/make_requests, wich rebuilds protocols.def, changed by some patches including eventd, needs to be rebuild, and perl link is hardcoded to /usr/bin
 sudo cp /usr/local/bin/perl /usr/bin/perl
