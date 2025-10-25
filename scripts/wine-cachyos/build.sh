@@ -58,7 +58,7 @@ export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-inte
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -O3 -march=$MARCH"
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common" 
 
-./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --enable-archs=i386,x86_64 --disable-win16 --disable-tests --with-wayland
+./configure --libdir=/usr/local/lib --prefix=/usr/local --localstatedir=/var --enable-archs=i386,x86_64 --disable-win16 --disable-tests --with-x
 find . -name Makefile -type f -exec sed -i "s/-g -O2/-O3 -march=$MARCH -Rpass=loop-vectorize/g" {} \;
 
 make -j8
