@@ -69,8 +69,8 @@ ac_add_options --enable-lto
 ac_add_options --enable-profile-generate=cross
 ac_add_options --enable-lto=cross,full
 ac_add_options --enable-profile-use=cross
-ac_add_options --with-pgo-profile-path=${PWD@Q}/merged.profdata
-ac_add_options --with-pgo-jarlog=${PWD@Q}/jarlog
+ac_add_options --with-pgo-profile-path="${PWD}/merged.profdata"
+ac_add_options --with-pgo-jarlog="${PWD}/jarlog"
 
 ac_add_options --prefix=/usr/local
 
