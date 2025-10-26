@@ -32,7 +32,7 @@ tce-load -lwi compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl
 
 workdir=$(mktemp -d)
 cd $workdir
-version=1.25.0
+version=1.26.1
 
 wget --no-check-certificate -O- https://github.com/micropython/micropython/releases/download/v$version/micropython-$version.tar.xz | tar -xJ
 cd micropython-$version/ports/unix/
@@ -42,7 +42,10 @@ sed -i 's/-Os//g' Makefile
 #for some reason, the first make with cflags causes error. you need to compile with just "make" then pass the flags
 make
 make clean
-LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin" CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto" CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto" make V=1 -j4
+export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
+export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
+export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
+make V=1 -j4
 bindir=$(mktemp -d)
 mkdir -p $bindir/usr/local/bin/
 mv build-standard/micropython $bindir/usr/local/bin/
