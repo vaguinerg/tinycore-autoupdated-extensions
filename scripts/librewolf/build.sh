@@ -64,7 +64,7 @@ cat << 'EOF' >> mozconfig
 ac_add_options --enable-optimize="-O3 -march=$MARCH"
 ac_add_options --disable-debug-symbols
 ac_add_options --disable-elf-hack
-ac_add_options --enable-lto=cross,full
+ac_add_options --enable-lto=full
 
 #ac_add_options --enable-profile-generate=cross
 #ac_add_options --enable-profile-use=cross
