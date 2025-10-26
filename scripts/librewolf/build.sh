@@ -45,6 +45,20 @@ cd $workdir
 git clone --recursive https://gitlab.com/librewolf-community/browser/source.git librewolf-source
 cd librewolf-source
 make dir
-make bootstrap
+cd librewolf*
+
+sed -i 's/^ac_add_options --enable-bootstrap/#&/' .mozconfig
+
+cat << 'EOF' >> .mozconfig
+ac_add_options --without-wasm-sandboxed-libraries
+ac_add_options --disable-bootstrap
+ac_add_options --disable-dbus
+ac_add_options --enable-ffmpeg
+ac_add_options --enable-alsa
+EOF
+
+cd ..
+
+#make bootstrap
 make build
 make package
