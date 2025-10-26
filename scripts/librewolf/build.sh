@@ -47,9 +47,9 @@ cd librewolf-source
 make dir
 cd librewolf*
 
-sed -i 's/^ac_add_options --enable-bootstrap/#&/' .mozconfig
+sed -i 's/^ac_add_options --enable-bootstrap/#&/' mozconfig
 
-cat << 'EOF' >> .mozconfig
+cat << 'EOF' >> mozconfig
 ac_add_options --without-wasm-sandboxed-libraries
 ac_add_options --disable-bootstrap
 ac_add_options --disable-dbus
