@@ -35,9 +35,8 @@ esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
 sudo ln -s /lib /lib64
 
-tce-load -lwi boost-1.84-dev libaom-dev libdrm-dev libEGL-dev libffi-dev gnupg libvpx113-dev gtk3-dev nspr-dev rust cbindgen node nasm nss-dev libevent-dev python3.9-pip python3.9-setuptools patchelf freetype-dev fontconfig-dev libXext-dev libxshmfence-dev bash libva22-dev gettext-dev git libvulkan-dev ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
+tce-load -lwi pixman-dev libvpx113-dev libjpeg-turbo-dev libpng-dev libwebp1-dev boost-1.84-dev libaom-dev libdrm-dev libEGL-dev libffi-dev gnupg libvpx113-dev gtk3-dev nspr-dev rust cbindgen node nasm nss-dev libevent-dev python3.9-pip python3.9-setuptools patchelf freetype-dev fontconfig-dev libXext-dev libxshmfence-dev bash libva22-dev gettext-dev git libvulkan-dev ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
-# required for staging autoconf, tools/make_requests, wich rebuilds protocols.def, changed by some patches including eventd, needs to be rebuild, and perl link is hardcoded to /usr/bin
 sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
 cd $workdir
@@ -53,8 +52,16 @@ make dir
 cd librewolf*
 
 sed -i 's/^ac_add_options --enable-bootstrap/#&/' mozconfig
+sed -i 's/^ac_add_options --enable-optimize/#&/' mozconfig
 
 cat << 'EOF' >> mozconfig
+ac_add_options --enable-optimize="-O3 -march=$MARCH"
+ac_add_options --disable-debug-symbols
+ac_add_options --disable-elf-hack
+ac_add_options --enable-lto
+
+ac_add_options --prefix=/usr/local
+
 ac_add_options --without-wasm-sandboxed-libraries
 ac_add_options --disable-bootstrap
 ac_add_options --disable-dbus
@@ -66,6 +73,16 @@ ac_add_options --enable-alsa
 ac_add_options --with-system-ffi
 ac_add_options --with-system-gbm
 ac_add_options --with-system-libdrm
+ac_add_options --with-system-zlib
+ac_add_options --with-system-nspr
+ac_add_options --with-system-libevent
+ac_add_options --with-system-pixman
+
+ac_add_options --with-system-webp
+ac_add_options --with-system-jpeg
+ac_add_options --with-system-png
+ac_add_options --with-system-libvpx
+
 EOF
 
 #ac_add_options --with-system-av1 > Wont work with aom? Dav1 required version is 1.2.1
