@@ -35,7 +35,8 @@ These flags prioritize **performance** over **portability** and **standards comp
 |----------------|----------|---------------------------------------------------------------------------------------|
 | MicroPython    | 1.25.0   |                                                                                       |
 | Wine (Staging) | 10.17    |  `-Ofast` broken: `-O3` <br>`x86-64-v4`  broken: `Ignored`  |
-| Wine (TKG Staging) | 10.17    |  Same as wine  |
+| Wine (TKG) | 10.17    |  Same as wine  |
+| Wine (CachyOS) | 10.0_20251023    |  Same as wine  |
 | OpenTTD        | Main     |  `x86-64-v4`  broken: `Ignored`                                                       |
 | PaleMoon       | 33.8.0r2 |  `x86-64-v4`, `-Ofast`, alll broken                                                   |
 
