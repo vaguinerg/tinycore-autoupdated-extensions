@@ -84,12 +84,14 @@ ac_add_options --with-system-pixman
 
 ac_add_options --with-system-webp
 ac_add_options --with-system-jpeg
-ac_add_options --with-system-png
 ac_add_options --with-system-libvpx
 
 EOF
 
 #ac_add_options --with-system-av1 > Wont work with aom? Dav1 required version is 1.2.1
+#ac_add_options --with-system-nss: Requested 'nss >= 3.105' but version of NSS is 3.104.0
+#ac_add_options --with-system-png: Requested 'libpng >= 1.6.45' but version of libpng is 1.6.40
+
 cd ..
 
 #make bootstrap
