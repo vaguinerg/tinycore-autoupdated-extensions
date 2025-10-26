@@ -66,3 +66,5 @@ cd ..
 #make bootstrap
 make build
 make package
+
+find
