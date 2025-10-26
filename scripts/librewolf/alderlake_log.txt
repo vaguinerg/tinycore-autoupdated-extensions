@@ -4,8 +4,8 @@ libaom-dev.tcz.dep OK
 libaom-bin.tcz.dep OK
 Downloading: libaom.tcz
 libdrm-dev.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
 libdrm.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libaom.tcz'
 libpciaccess-dev.tcz.dep OK
 libaom.tcz           100% |********************************| 6844k  0:00:00 ETA
@@ -14,64 +14,63 @@ libaom.tcz: OK
 udev-lib-dev.tcz.dep OK
 Downloading: libaom-bin.tcz
 libEGL-dev.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
-saving to 'libaom-bin.tcz'
 libEGL.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+mesa.tcz.dep OK
+saving to 'libaom-bin.tcz'
 libaom-bin.tcz       100% |********************************|  808k  0:00:00 ETA
 'libaom-bin.tcz' saved
 libaom-bin.tcz: OK
-mesa.tcz.dep OK
 Downloading: libaom-dev.tcz
+elfutils.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libaom-dev.tcz'
-elfutils.tcz.dep OK
 libaom-dev.tcz       100% |********************************| 69632  0:00:00 ETA
 'libaom-dev.tcz' saved
 libaom-dev.tcz: OK
 Downloading: udev-lib.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-saving to 'udev-lib.tcz'
 llvm19-lib.tcz.dep OK
+saving to 'udev-lib.tcz'
 udev-lib.tcz         100% |********************************| 24576  0:00:00 ETA
 'udev-lib.tcz' saved
 udev-lib.tcz: OK
 Downloading: udev-lib-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libxml2.tcz.dep OK
 saving to 'udev-lib-dev.tcz'
 udev-lib-dev.tcz     100% |********************************|  4096  0:00:00 ETA
 'udev-lib-dev.tcz' saved
 udev-lib-dev.tcz: OK
 Downloading: libpciaccess.tcz
+libxml2.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libpciaccess.tcz'
 libpciaccess.tcz     100% |********************************| 16384  0:00:00 ETA
 'libpciaccess.tcz' saved
 libpciaccess.tcz: OK
-libvdpau.tcz.dep OK
 Downloading: libpciaccess-dev.tcz
-libXext.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libpciaccess-dev.tcz'
 libpciaccess-dev.tcz 100% |********************************|  8192  0:00:00 ETA
 'libpciaccess-dev.tcz' saved
 libpciaccess-dev.tcz: OK
-libX11.tcz.dep OK
 Downloading: libdrm.tcz
-libxcb.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libdrm.tcz'
+libvdpau.tcz.dep OK
+libXext.tcz.dep OK
 libdrm.tcz           100% |********************************|  148k  0:00:00 ETA
 'libdrm.tcz' saved
 libdrm.tcz: OK
 Downloading: libdrm-dev.tcz
+libX11.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
+libxcb.tcz.dep OK
 saving to 'libdrm-dev.tcz'
-libdrm-dev.tcz         5% |*                               | 14029  0:00:16 ETA
-wayland.tcz.dep OK
 libdrm-dev.tcz       100% |********************************|  240k  0:00:00 ETA
 'libdrm-dev.tcz' saved
 libdrm-dev.tcz: OK
+wayland.tcz.dep OK
 mesa-dev.tcz.dep OK
 wayland-protocols-dev.tcz.dep OK
 wayland-protocols.tcz.dep OK
@@ -119,34 +118,33 @@ bzip2-dev.tcz.dep OK
 bzip2.tcz.dep OK
 spirv-tools-dev.tcz.dep OK
 Downloading: liblzma.tcz
-gnupg.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
+gnupg.tcz.dep OK
 saving to 'liblzma.tcz'
 libassuan.tcz.dep OK
 liblzma.tcz          100% |********************************| 94208  0:00:00 ETA
 'liblzma.tcz' saved
 liblzma.tcz: OK
 Downloading: liblzma-dev.tcz
-libgcrypt.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
+libgcrypt.tcz.dep OK
 saving to 'liblzma-dev.tcz'
 libksba.tcz.dep OK
-liblzma-dev.tcz       17% |*****                           | 14029  0:00:04 ETA
 liblzma-dev.tcz      100% |********************************| 81920  0:00:00 ETA
 'liblzma-dev.tcz' saved
 liblzma-dev.tcz: OK
-libusb.tcz.dep OK
 Downloading: libffi.tcz
-gnutls38.tcz.dep OK
+libusb.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-p11-kit.tcz.dep OK
+gnutls38.tcz.dep OK
 saving to 'libffi.tcz'
+p11-kit.tcz.dep OK
 libffi.tcz           100% |********************************| 20480  0:00:00 ETA
 'libffi.tcz' saved
 libffi.tcz: OK
 Downloading: ncursesw.tcz
-nettle39.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
+nettle39.tcz.dep OK
 saving to 'ncursesw.tcz'
 libidn2.tcz.dep OK
 ncursesw.tcz         100% |********************************|  256k  0:00:00 ETA
@@ -157,458 +155,439 @@ Connecting to distro.ibiblio.org (152.19.134.43:80)
 libvpx113-dev.tcz.dep OK
 saving to 'readline.tcz'
 libvpx113-bin.tcz.dep OK
+readline.tcz          28% |********                        | 42588  0:00:02 ETA
 readline.tcz         100% |********************************|  148k  0:00:00 ETA
 'readline.tcz' saved
 readline.tcz: OK
 Downloading: bzip2-lib.tcz
-Connecting to distro.ibiblio.org (152.19.134.43:80)
 gtk3-dev.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+gtk3.tcz.dep OK
 saving to 'bzip2-lib.tcz'
 bzip2-lib.tcz        100% |********************************| 28672  0:00:00 ETA
 'bzip2-lib.tcz' saved
 bzip2-lib.tcz: OK
-gtk3.tcz.dep OK
 Downloading: gdbm.tcz
-Connecting to distro.ibiblio.org (152.19.134.43:80)
-saving to 'gdbm.tcz'
 at-spi2-core.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+dbus.tcz.dep OK
+saving to 'gdbm.tcz'
+elogind.tcz.dep OK
 gdbm.tcz             100% |********************************| 81920  0:00:00 ETA
 'gdbm.tcz' saved
 gdbm.tcz: OK
-dbus.tcz.dep OK
 Downloading: sqlite3.tcz
-elogind.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
 acl.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'sqlite3.tcz'
 libcap.tcz.dep OK
+util-linux.tcz.dep OK
 sqlite3.tcz          100% |********************************|  612k  0:00:00 ETA
 'sqlite3.tcz' saved
 sqlite3.tcz: OK
 Downloading: openssl.tcz
-util-linux.tcz.dep OK
+glib2.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'openssl.tcz'
-glib2.tcz.dep OK
-openssl.tcz            1% |                                | 42588  0:01:14 ETA
 libXi.tcz.dep OK
 libXtst.tcz.dep OK
 openssl.tcz          100% |********************************| 3132k  0:00:00 ETA
 'openssl.tcz' saved
-openssl.tcz: OK
-Downloading: python3.9.tcz
 gdk-pixbuf2.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
+openssl.tcz: OK
 libtiff.tcz.dep OK
+Downloading: python3.9.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'python3.9.tcz'
-python3.9.tcz          0% |                                | 99706  0:02:38 ETA
+python3.9.tcz          0% |                                | 42586  0:06:12 ETA
 shared-mime-info.tcz.dep OK
 libXcomposite.tcz.dep OK
 pango.tcz.dep OK
 python3.9.tcz        100% |********************************| 15.1M  0:00:00 ETA
 'python3.9.tcz' saved
-python3.9.tcz: OK
 cairo.tcz.dep OK
+python3.9.tcz: OK
 fontconfig.tcz.dep OK
 freetype.tcz.dep OK
 harfbuzz.tcz.dep OK
-Downloading: libxml2.tcz
-Connecting to distro.ibiblio.org (152.19.134.43:80)
-saving to 'libxml2.tcz'
 libXft.tcz.dep OK
 fribidi.tcz.dep OK
-libxml2.tcz           16% |*****                           | 99709  0:00:05 ETA
 libXcursor.tcz.dep OK
-libxml2.tcz          100% |********************************|  596k  0:00:00 ETA
-'libxml2.tcz' saved
-libxml2.tcz: OK
-Downloading: libxml2-python.tcz
 libXinerama.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
 libxkbcommon.tcz.dep OK
-saving to 'libxml2-python.tcz'
 gdk-pixbuf2-dev.tcz.dep OK
-libxml2-python.tcz   100% |********************************|  200k  0:00:00 ETA
-'libxml2-python.tcz' saved
-libxml2-python.tcz: OK
-Downloading: libxml2-bin.tcz
+Downloading: libxml2.tcz
 glib2-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 glib2-python.tcz.dep OK
+saving to 'libxml2.tcz'
+pcre21042-dev.tcz.dep OK
+libxml2.tcz           16% |*****                           | 99709  0:00:05 ETA
+readline-dev.tcz.dep OK
+libxml2.tcz          100% |********************************|  596k  0:00:00 ETA
+'libxml2.tcz' saved
+libxml2.tcz: OK
+ncursesw-dev.tcz.dep OK
+Downloading: libxml2-python.tcz
+tiff-dev.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+tiff-bin.tcz.dep OK
+saving to 'libxml2-python.tcz'
+freeglut-dev.tcz.dep OK
+libxml2-python.tcz   100% |********************************|  200k  0:00:00 ETA
+'libxml2-python.tcz' saved
+libxml2-python.tcz: OK
+freeglut.tcz.dep OK
+Downloading: libxml2-bin.tcz
+libGL.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+libGL-dev.tcz.dep OK
 saving to 'libxml2-bin.tcz'
 libxml2-bin.tcz      100% |********************************| 32768  0:00:00 ETA
 'libxml2-bin.tcz' saved
 libxml2-bin.tcz: OK
+libXi-dev.tcz.dep OK
 Downloading: libxml2-dev.tcz
-pcre21042-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-readline-dev.tcz.dep OK
+glu-dev.tcz.dep OK
 saving to 'libxml2-dev.tcz'
-ncursesw-dev.tcz.dep OK
-tiff-dev.tcz.dep OK
+glu.tcz.dep OK
+libjpeg-turbo-dev.tcz.dep OK
 libxml2-dev.tcz      100% |********************************|  116k  0:00:00 ETA
 'libxml2-dev.tcz' saved
 libxml2-dev.tcz: OK
+libjpeg-turbo-bin.tcz.dep OK
 Downloading: expat2.tcz
-tiff-bin.tcz.dep OK
+libpng-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-freeglut-dev.tcz.dep OK
+libpng-bin.tcz.dep OK
 saving to 'expat2.tcz'
-freeglut.tcz.dep OK
 expat2.tcz           100% |********************************| 81920  0:00:00 ETA
 'expat2.tcz' saved
 expat2.tcz: OK
+gdk-pixbuf2-xlib-dev.tcz.dep OK
 Downloading: expat2-dev.tcz
-libGL.tcz.dep OK
+at-spi2-core-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libGL-dev.tcz.dep OK
+dbus-dev.tcz.dep OK
 saving to 'expat2-dev.tcz'
 expat2-dev.tcz       100% |********************************| 28672  0:00:00 ETA
+elogind-dev.tcz.dep OK
 'expat2-dev.tcz' saved
 expat2-dev.tcz: OK
 Downloading: libffi-dev.tcz
-libXi-dev.tcz.dep OK
-glu-dev.tcz.dep OK
+acl-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
+attr-dev.tcz.dep OK
 saving to 'libffi-dev.tcz'
 libffi-dev.tcz       100% |********************************|  8192  0:00:00 ETA
 'libffi-dev.tcz' saved
 libffi-dev.tcz: OK
-glu.tcz.dep OK
 Downloading: wayland.tcz
-libjpeg-turbo-dev.tcz.dep OK
+libcap-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libjpeg-turbo-bin.tcz.dep OK
+util-linux-dev.tcz.dep OK
 saving to 'wayland.tcz'
-libpng-dev.tcz.dep OK
+libXtst-dev.tcz.dep OK
 wayland.tcz          100% |********************************|  132k  0:00:00 ETA
 'wayland.tcz' saved
 wayland.tcz: OK
+pango-dev.tcz.dep OK
 Downloading: wayland-dev.tcz
-libpng-bin.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-gdk-pixbuf2-xlib-dev.tcz.dep OK
+cairo-dev.tcz.dep OK
 saving to 'wayland-dev.tcz'
-at-spi2-core-dev.tcz.dep OK
+fontconfig-dev.tcz.dep OK
+freetype-dev.tcz.dep OK
 wayland-dev.tcz      100% |********************************|  136k  0:00:00 ETA
 'wayland-dev.tcz' saved
 wayland-dev.tcz: OK
-dbus-dev.tcz.dep OK
 Downloading: spirv-headers.tcz
-elogind-dev.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
-acl-dev.tcz.dep OK
-saving to 'spirv-headers.tcz'
-attr-dev.tcz.dep OK
-libcap-dev.tcz.dep OK
-spirv-headers.tcz     67% |*********************           |  432k  0:00:00 ETA
-spirv-headers.tcz    100% |********************************|  644k  0:00:00 ETA
-'spirv-headers.tcz' saved
-spirv-headers.tcz: OK
-Downloading: spirv-tools.tcz
-util-linux-dev.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
-libXtst-dev.tcz.dep OK
-saving to 'spirv-tools.tcz'
-pango-dev.tcz.dep OK
-cairo-dev.tcz.dep OK
-fontconfig-dev.tcz.dep OK
-freetype-dev.tcz.dep OK
-spirv-tools.tcz      100% |********************************| 1936k  0:00:00 ETA
-'spirv-tools.tcz' saved
-spirv-tools.tcz: OK
-Downloading: spirv-tools-dev.tcz
 harfbuzz-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 harfbuzz-bin.tcz.dep OK
-saving to 'spirv-tools-dev.tcz'
+saving to 'spirv-headers.tcz'
 graphite-dev.tcz.dep OK
+pixman-dev.tcz.dep OK
+spirv-headers.tcz    100% |********************************|  644k  0:00:00 ETA
+'spirv-headers.tcz' saved
+spirv-headers.tcz: OK
+libXft-dev.tcz.dep OK
+Downloading: spirv-tools.tcz
+fribidi-dev.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+rest-dev.tcz.dep OK
+saving to 'spirv-tools.tcz'
+rest.tcz.dep OK
+libsoup.tcz.dep OK
+glib-networking.tcz.dep OK
+spirv-tools.tcz      100% |********************************| 1936k  0:00:00 ETA
+'spirv-tools.tcz' saved
+libpsl.tcz.dep OK
+spirv-tools.tcz: OK
+Downloading: spirv-tools-dev.tcz
+libsoup-dev.tcz.dep OK
+sqlite3-dev.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+sqlite3-bin.tcz.dep OK
+saving to 'spirv-tools-dev.tcz'
 spirv-tools-dev.tcz  100% |********************************| 57344  0:00:00 ETA
 'spirv-tools-dev.tcz' saved
 spirv-tools-dev.tcz: OK
+libpsl-dev.tcz.dep OK
 Downloading: bzip2.tcz
-pixman-dev.tcz.dep OK
+libidn2-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libXft-dev.tcz.dep OK
+libunistring-dev.tcz.dep OK
 saving to 'bzip2.tcz'
-fribidi-dev.tcz.dep OK
+colord-dev.tcz.dep OK
 bzip2.tcz            100% |********************************| 20480  0:00:00 ETA
 'bzip2.tcz' saved
 bzip2.tcz: OK
 Downloading: bzip2-dev.tcz
-rest-dev.tcz.dep OK
+colord.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-rest.tcz.dep OK
 saving to 'bzip2-dev.tcz'
 bzip2-dev.tcz        100% |********************************| 32768  0:00:00 ETA
 'bzip2-dev.tcz' saved
 bzip2-dev.tcz: OK
+libgusb.tcz.dep OK
 Downloading: elfutils.tcz
-libsoup.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-glib-networking.tcz.dep OK
+libsane.tcz.dep OK
 saving to 'elfutils.tcz'
-libpsl.tcz.dep OK
-libsoup-dev.tcz.dep OK
-elfutils.tcz          37% |************                    |  208k  0:00:01 ETA
-sqlite3-dev.tcz.dep OK
+libgphoto2.tcz.dep OK
 elfutils.tcz         100% |********************************|  552k  0:00:00 ETA
 'elfutils.tcz' saved
 elfutils.tcz: OK
+curl.tcz.dep OK
 Downloading: elfutils-dev.tcz
-sqlite3-bin.tcz.dep OK
+ca-certificates.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libpsl-dev.tcz.dep OK
+libpoppler23.tcz.dep OK
 saving to 'elfutils-dev.tcz'
-libidn2-dev.tcz.dep OK
-libunistring-dev.tcz.dep OK
 elfutils-dev.tcz     100% |********************************|  384k  0:00:00 ETA
 'elfutils-dev.tcz' saved
 elfutils-dev.tcz: OK
+nss.tcz.dep OK
 Downloading: xtrans.tcz
-colord-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-colord.tcz.dep OK
+libavahi.tcz.dep OK
 saving to 'xtrans.tcz'
+polkit.tcz.dep OK
 xtrans.tcz           100% |********************************| 69632  0:00:00 ETA
 'xtrans.tcz' saved
 xtrans.tcz: OK
 Downloading: m4.tcz
-libgusb.tcz.dep OK
+js78.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libsane.tcz.dep OK
 saving to 'm4.tcz'
-libgphoto2.tcz.dep OK
+lcms2-dev.tcz.dep OK
+libgusb-dev.tcz.dep OK
 m4.tcz               100% |********************************|  112k  0:00:00 ETA
 'm4.tcz' saved
 m4.tcz: OK
 Downloading: util-macros.tcz
+libusb-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-curl.tcz.dep OK
+sane-dev.tcz.dep OK
 saving to 'util-macros.tcz'
+avahi-dev.tcz.dep OK
 util-macros.tcz      100% |********************************| 36864  0:00:00 ETA
 'util-macros.tcz' saved
 util-macros.tcz: OK
 Downloading: xorg-proto.tcz
-ca-certificates.tcz.dep OK
-libpoppler23.tcz.dep OK
+avahi.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'xorg-proto.tcz'
-nss.tcz.dep OK
-xorg-proto.tcz        48% |***************                 |  182k  0:00:01 ETA
 xorg-proto.tcz       100% |********************************|  380k  0:00:00 ETA
 'xorg-proto.tcz' saved
+gcc_libs-dev.tcz.dep OK
 xorg-proto.tcz: OK
+libdaemon-dev.tcz.dep OK
 Downloading: xcb-proto.tcz
-libavahi.tcz.dep OK
+sane.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-polkit.tcz.dep OK
+libgphoto2-dev.tcz.dep OK
 saving to 'xcb-proto.tcz'
-js78.tcz.dep OK
+libexif-dev.tcz.dep OK
 xcb-proto.tcz        100% |********************************|  188k  0:00:00 ETA
 'xcb-proto.tcz' saved
 xcb-proto.tcz: OK
+libtool-dev.tcz.dep OK
 Downloading: libXdmcp.tcz
+libtool.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-lcms2-dev.tcz.dep OK
 saving to 'libXdmcp.tcz'
 libXdmcp.tcz         100% |********************************| 12288  0:00:00 ETA
 'libXdmcp.tcz' saved
 libXdmcp.tcz: OK
-libgusb-dev.tcz.dep OK
+curl-dev.tcz.dep OK
 Downloading: libXdmcp-dev.tcz
-libusb-dev.tcz.dep OK
+openssl-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-sane-dev.tcz.dep OK
+poppler23-dev.tcz.dep OK
 saving to 'libXdmcp-dev.tcz'
 libXdmcp-dev.tcz     100% |********************************|  4096  0:00:00 ETA
 'libXdmcp-dev.tcz' saved
 libXdmcp-dev.tcz: OK
+poppler23-bin.tcz.dep OK
 Downloading: libXau.tcz
-avahi-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-avahi.tcz.dep OK
+openjpeg-dev.tcz.dep OK
 saving to 'libXau.tcz'
 libXau.tcz           100% |********************************|  8192  0:00:00 ETA
 'libXau.tcz' saved
 libXau.tcz: OK
+nss-dev.tcz.dep OK
 Downloading: libXau-dev.tcz
+nspr-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
+polkit-dev.tcz.dep OK
 saving to 'libXau-dev.tcz'
 libXau-dev.tcz       100% |********************************|  4096  0:00:00 ETA
 'libXau-dev.tcz' saved
 libXau-dev.tcz: OK
 Downloading: libxcb.tcz
-gcc_libs-dev.tcz.dep OK
+js78-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libdaemon-dev.tcz.dep OK
+linux-pam-dev.tcz.dep OK
 saving to 'libxcb.tcz'
-sane.tcz.dep OK
-libgphoto2-dev.tcz.dep OK
+json-glib-dev.tcz.dep OK
 libxcb.tcz           100% |********************************|  384k  0:00:00 ETA
 'libxcb.tcz' saved
 libxcb.tcz: OK
+json-glib.tcz.dep OK
 Downloading: libxcb-dev.tcz
-libexif-dev.tcz.dep OK
+libxkbcommon-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libtool-dev.tcz.dep OK
+libXcursor-dev.tcz.dep OK
 saving to 'libxcb-dev.tcz'
-libtool.tcz.dep OK
-curl-dev.tcz.dep OK
+libXcomposite-dev.tcz.dep OK
+libXinerama-dev.tcz.dep OK
 libxcb-dev.tcz       100% |********************************|  428k  0:00:00 ETA
 'libxcb-dev.tcz' saved
 libxcb-dev.tcz: OK
+libepoxy-dev.tcz.dep OK
 Downloading: libX11.tcz
-openssl-dev.tcz.dep OK
+rust.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-poppler23-dev.tcz.dep OK
+libssh2.tcz.dep OK
 saving to 'libX11.tcz'
-poppler23-bin.tcz.dep OK
-openjpeg-dev.tcz.dep OK
-libX11.tcz            10% |***                             | 99708  0:00:08 ETA
-nss-dev.tcz.dep OK
+cbindgen.tcz.dep OK
 libX11.tcz           100% |********************************|  928k  0:00:00 ETA
 'libX11.tcz' saved
 libX11.tcz: OK
-nspr-dev.tcz.dep OK
+libevent-dev.tcz.dep OK
+libevent.tcz.dep OK
 Downloading: libX11-dev.tcz
-polkit-dev.tcz.dep OK
+python3.9-pip.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-js78-dev.tcz.dep OK
+python3.9-setuptools.tcz.dep OK
 saving to 'libX11-dev.tcz'
-linux-pam-dev.tcz.dep OK
 libX11-dev.tcz       100% |********************************| 73728  0:00:00 ETA
 'libX11-dev.tcz' saved
 libX11-dev.tcz: OK
+python3.9-pyyaml.tcz.dep OK
 Downloading: libXext.tcz
-json-glib-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-json-glib.tcz.dep OK
 saving to 'libXext.tcz'
 libXext.tcz          100% |********************************| 28672  0:00:00 ETA
 'libXext.tcz' saved
 libXext.tcz: OK
-libxkbcommon-dev.tcz.dep OK
+bash.tcz.dep OK
 Downloading: libXext-dev.tcz
-libXcursor-dev.tcz.dep OK
+libva22-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libXcomposite-dev.tcz.dep OK
+libva22.tcz.dep OK
 saving to 'libXext-dev.tcz'
 libXext-dev.tcz      100% |********************************| 24576  0:00:00 ETA
 'libXext-dev.tcz' saved
 libXext-dev.tcz: OK
+gettext-dev.tcz.dep OK
 Downloading: libvdpau.tcz
-libXinerama-dev.tcz.dep OK
+gettext.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libepoxy-dev.tcz.dep OK
+git.tcz.dep OK
 saving to 'libvdpau.tcz'
-rust.tcz.dep OK
 libvdpau.tcz         100% |********************************| 28672  0:00:00 ETA
 'libvdpau.tcz' saved
 libvdpau.tcz: OK
+libvulkan-dev.tcz.dep OK
 Downloading: libvdpau-dev.tcz
-libssh2.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-cbindgen.tcz.dep OK
+Xorg-7.7-3d-dev.tcz.dep OK
 saving to 'libvdpau-dev.tcz'
+Xorg-7.7-dev.tcz.dep OK
 libvdpau-dev.tcz     100% |********************************| 65536  0:00:00 ETA
 'libvdpau-dev.tcz' saved
 libvdpau-dev.tcz: OK
 Downloading: liblz4.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libevent-dev.tcz.dep OK
+libFS-dev.tcz.dep OK
 saving to 'liblz4.tcz'
-libevent.tcz.dep OK
 liblz4.tcz           100% |********************************| 61440  0:00:00 ETA
 'liblz4.tcz' saved
 liblz4.tcz: OK
 Downloading: liblz4-dev.tcz
-python3.9-pip.tcz.dep OK
+libXaw-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-python3.9-setuptools.tcz.dep OK
 saving to 'liblz4-dev.tcz'
+libXaw.tcz.dep OK
 liblz4-dev.tcz       100% |********************************| 40960  0:00:00 ETA
 'liblz4-dev.tcz' saved
 liblz4-dev.tcz: OK
 Downloading: libzstd.tcz
+libXmu.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-bash.tcz.dep OK
+libXt.tcz.dep OK
 saving to 'libzstd.tcz'
-libzstd.tcz            4% |*                               | 14028  0:00:22 ETA
-libva22-dev.tcz.dep OK
 libzstd.tcz          100% |********************************|  328k  0:00:00 ETA
 'libzstd.tcz' saved
 libzstd.tcz: OK
 Downloading: zstd.tcz
-libva22.tcz.dep OK
+libXpm.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-gettext-dev.tcz.dep OK
+libXmu-dev.tcz.dep OK
 saving to 'zstd.tcz'
-gettext.tcz.dep OK
 zstd.tcz             100% |********************************| 86016  0:00:00 ETA
 'zstd.tcz' saved
+libXt-dev.tcz.dep OK
 zstd.tcz: OK
 Downloading: zstd-dev.tcz
-git.tcz.dep OK
+libICE-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libvulkan-dev.tcz.dep OK
+libSM-dev.tcz.dep OK
 saving to 'zstd-dev.tcz'
+libXpm-dev.tcz.dep OK
 zstd-dev.tcz         100% |********************************| 81920  0:00:00 ETA
 'zstd-dev.tcz' saved
 zstd-dev.tcz: OK
-Xorg-7.7-3d-dev.tcz.dep OK
+libXfont2-dev.tcz.dep OK
 Downloading: libffi7.tcz
+libXfont2.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-Xorg-7.7-dev.tcz.dep OK
 saving to 'libffi7.tcz'
+libfontenc-dev.tcz.dep OK
 libffi7.tcz          100% |********************************| 16384  0:00:00 ETA
 'libffi7.tcz' saved
 libffi7.tcz: OK
 Downloading: llvm19-lib.tcz
-libFS-dev.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
-saving to 'llvm19-lib.tcz'
-libXaw-dev.tcz.dep OK
-libXaw.tcz.dep OK
-libXmu.tcz.dep OK
-libXt.tcz.dep OK
-llvm19-lib.tcz        53% |*****************               | 17.2M  0:00:00 ETA
-libXpm.tcz.dep OK
-libXmu-dev.tcz.dep OK
-libXt-dev.tcz.dep OK
-llvm19-lib.tcz       100% |********************************| 32.0M  0:00:00 ETA
-'llvm19-lib.tcz' saved
-llvm19-lib.tcz: OK
-libICE-dev.tcz.dep OK
-libSM-dev.tcz.dep OK
-Downloading: llvm19-bin.tcz
-libXpm-dev.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
-libXfont2-dev.tcz.dep OK
-saving to 'llvm19-bin.tcz'
-libXfont2.tcz.dep OK
-libfontenc-dev.tcz.dep OK
 libXres-dev.tcz.dep OK
+Connecting to distro.ibiblio.org (152.19.134.43:80)
 libXres.tcz.dep OK
-llvm19-bin.tcz        58% |******************              | 11.3M  0:00:00 ETA
+saving to 'llvm19-lib.tcz'
 libXss-dev.tcz.dep OK
-llvm19-bin.tcz       100% |********************************| 19.4M  0:00:00 ETA
-'llvm19-bin.tcz' saved
-llvm19-bin.tcz: OK
 libXss.tcz.dep OK
 libXxf86dga-dev.tcz.dep OK
-Downloading: llvm19-dev.tcz
 libXxf86dga.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
 libxkbfile-dev.tcz.dep OK
-saving to 'llvm19-dev.tcz'
+llvm19-lib.tcz        49% |***************                 | 15.7M  0:00:01 ETA
 libxkbfile.tcz.dep OK
-llvm19-dev.tcz         0% |                                |  208k  0:07:19 ETA
 xorg-server-dev.tcz.dep OK
 xorg-server.tcz.dep OK
 xkbcomp.tcz.dep OK
 libxcvt-dev.tcz.dep OK
-llvm19-dev.tcz        28% |*********                       | 25.3M  0:00:05 ETA
 font-util.tcz.dep OK
 libGLESv2-dev.tcz.dep OK
 libGLESv2.tcz.dep OK
@@ -616,49 +595,51 @@ ffmpeg7-dev.tcz.dep OK
 ffmpeg7.tcz.dep OK
 libavdevice7.tcz.dep OK
 libavfilter7.tcz.dep OK
-llvm19-dev.tcz        58% |******************              | 52.3M  0:00:02 ETA
 libswresample7.tcz.dep OK
 libavutil7.tcz.dep OK
 libavformat7.tcz.dep OK
 libavcodec7.tcz.dep OK
-llvm19-dev.tcz        85% |***************************     | 76.3M  0:00:00 ETA
+llvm19-lib.tcz        74% |***********************         | 23.9M  0:00:00 ETA
 libtheora.tcz.dep OK
-llvm19-dev.tcz       100% |********************************| 89.7M  0:00:00 ETA
-'llvm19-dev.tcz' saved
-llvm19-dev.tcz: OK
 speex.tcz.dep OK
 librsvg.tcz.dep OK
 libpostproc7.tcz.dep OK
+llvm19-lib.tcz       100% |********************************| 32.0M  0:00:00 ETA
+'llvm19-lib.tcz' saved
 libswscale7.tcz.dep OK
 libass.tcz.dep OK
-Downloading: libclc.tcz
+llvm19-lib.tcz: OK
 libv4l2.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
 v4l-dvb-6.12.11-tinycore64.tcz.dep OK
-saving to 'libclc.tcz'
 alsa-modules-6.12.11-tinycore64.tcz.dep OK
-libclc.tcz             0% |                                |  208k  0:09:29 ETA
+Downloading: llvm19-bin.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
 libpulseaudio.tcz.dep OK
+saving to 'llvm19-bin.tcz'
 libsndfile.tcz.dep OK
 flac.tcz.dep OK
+llvm19-bin.tcz         1% |                                |  208k  0:01:34 ETA
 libvorbis.tcz.dep OK
 libplacebo.tcz.dep OK
 shaderc.tcz.dep OK
-libclc.tcz            24% |*******                         | 28.2M  0:00:06 ETA
 glslang.tcz.dep OK
+llvm19-bin.tcz       100% |********************************| 19.4M  0:00:00 ETA
+'llvm19-bin.tcz' saved
 x264_164-dev.tcz.dep OK
+llvm19-bin.tcz: OK
 libtheora-dev.tcz.dep OK
 libogg-dev.tcz.dep OK
 pulseaudio-dev.tcz.dep OK
 pulseaudio.tcz.dep OK
+Downloading: llvm19-dev.tcz
 alsa.tcz.dep OK
-libclc.tcz            45% |**************                  | 52.5M  0:00:03 ETA
+Connecting to distro.ibiblio.org (152.19.134.43:80)
 speexdsp.tcz.dep OK
+saving to 'llvm19-dev.tcz'
 alsa-dev.tcz.dep OK
 fftw-dev.tcz.dep OK
 speexdsp-dev.tcz.dep OK
 speex-dev.tcz.dep OK
-libclc.tcz            65% |*********************           | 76.5M  0:00:02 ETA
 libsndfile-dev.tcz.dep OK
 flac-dev.tcz.dep OK
 libvorbis-dev.tcz.dep OK
@@ -666,122 +647,162 @@ libbluetooth-dev.tcz.dep OK
 libbluetooth.tcz.dep OK
 bluez.tcz.dep OK
 libical3.tcz.dep OK
-libclc.tcz            86% |***************************     |  100M  0:00:00 ETA
-libclc.tcz           100% |********************************|  116M  0:00:00 ETA
-'libclc.tcz' saved
 sbc-dev.tcz.dep OK
-libclc.tcz: OK
 libwebp1-dev.tcz.dep OK
 libwebp1-bin.tcz.dep OK
 giflib7-dev.tcz.dep OK
-Downloading: libclc-dev.tcz
 giflib7-bin.tcz.dep OK
-Connecting to distro.ibiblio.org (152.19.134.43:80)
 lame-dev.tcz.dep OK
+libv4l2-dev.tcz.dep OK
+sdl2-dev.tcz.dep OK
+pipewire-dev.tcz.dep OK
+pipewire.tcz.dep OK
+libass-dev.tcz.dep OK
+llvm19-dev.tcz        26% |********                        | 23.9M  0:00:02 ETA
+opus-dev.tcz.dep OK
+x265-dev.tcz.dep OK
+librsvg-dev.tcz.dep OK
+gnutls38-dev.tcz.dep OK
+p11-kit-dev.tcz.dep OK
+libtasn1-4-dev.tcz.dep OK
+nettle39-dev.tcz.dep OK
+gmp-dev.tcz.dep OK
+llvm19-dev.tcz        26% |********                        | 23.9M  0:00:05 ETA
+libplacebo-dev.tcz.dep OK
+shaderc-dev.tcz.dep OK
+glslang-dev.tcz.dep OK
+openal-dev.tcz.dep OK
+autoconf.tcz.dep OK
+perl_xml_parser.tcz.dep OK
+perl5.tcz.dep OK
+submitqc.tcz.dep OK
+file.tcz.dep OK
+wget.tcz.dep OK
+coreutils.tcz.dep OK
+binutils.tcz.dep OK
+squashfs-tools.tcz.dep OK
+unixODBC-dev.tcz.dep OK
+llvm19-dev.tcz        53% |*****************               | 47.9M  0:00:02 ETA
+unixODBC.tcz.dep OK
+compiletc.tcz.dep OK
+bison.tcz.dep OK
+gawk.tcz.dep OK
+mpfr.tcz.dep OK
+gcc.tcz.dep OK
+mpc.tcz.dep OK
+isl.tcz.dep OK
+llvm19-dev.tcz        80% |*************************       | 71.9M  0:00:00 ETA
+krb5-dev.tcz.dep OK
+krb5.tcz.dep OK
+libpcap-dev.tcz.dep OK
+llvm19-dev.tcz       100% |********************************| 89.7M  0:00:00 ETA
+'llvm19-dev.tcz' saved
+libpcap.tcz.dep OK
+libnl-dev.tcz.dep OK
+llvm19-dev.tcz: OK
+pcsc-lite-dev.tcz.dep OK
+pcsc-lite.tcz.dep OK
+gstreamer-dev.tcz.dep OK
+gstreamer.tcz.dep OK
+gst-plugins-base-dev.tcz.dep OK
+gst-plugins-base.tcz.dep OK
+cdparanoia-dev.tcz.dep OK
+gudev-lib-dev.tcz.dep OK
+gudev-lib.tcz.dep OK
+graphene-dev.tcz.dep OK
+graphene.tcz.dep OK
+clang.tcz.dep OK
+Downloading: libclc.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libclc.tcz'
+libclc.tcz            20% |******                          | 23.9M  0:00:03 ETA
+libclc.tcz            21% |******                          | 24.6M  0:00:07 ETA
+libclc.tcz            43% |*************                   | 50.7M  0:00:03 ETA
+libclc.tcz            63% |********************            | 74.1M  0:00:02 ETA
+libclc.tcz            84% |**************************      | 98.1M  0:00:00 ETA
+libclc.tcz           100% |********************************|  116M  0:00:00 ETA
+'libclc.tcz' saved
+libclc.tcz: OK
+Downloading: libclc-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libclc-dev.tcz'
 libclc-dev.tcz       100% |********************************| 40960  0:00:00 ETA
 'libclc-dev.tcz' saved
 libclc-dev.tcz: OK
-libv4l2-dev.tcz.dep OK
 Downloading: libXrender.tcz
-sdl2-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-pipewire-dev.tcz.dep OK
 saving to 'libXrender.tcz'
 libXrender.tcz       100% |********************************| 20480  0:00:00 ETA
 'libXrender.tcz' saved
 libXrender.tcz: OK
 Downloading: libXrender-dev.tcz
-pipewire.tcz.dep OK
-libass-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-opus-dev.tcz.dep OK
 saving to 'libXrender-dev.tcz'
 libXrender-dev.tcz   100% |********************************|  8192  0:00:00 ETA
 'libXrender-dev.tcz' saved
 libXrender-dev.tcz: OK
 Downloading: libXrandr.tcz
-x265-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-librsvg-dev.tcz.dep OK
 saving to 'libXrandr.tcz'
 libXrandr.tcz        100% |********************************| 20480  0:00:00 ETA
 'libXrandr.tcz' saved
 libXrandr.tcz: OK
 Downloading: libXrandr-dev.tcz
-gnutls38-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-p11-kit-dev.tcz.dep OK
 saving to 'libXrandr-dev.tcz'
 libXrandr-dev.tcz    100% |********************************|  8192  0:00:00 ETA
 'libXrandr-dev.tcz' saved
 libXrandr-dev.tcz: OK
 Downloading: libXxf86vm.tcz
-libtasn1-4-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-nettle39-dev.tcz.dep OK
 saving to 'libXxf86vm.tcz'
 libXxf86vm.tcz       100% |********************************|  8192  0:00:00 ETA
 'libXxf86vm.tcz' saved
 libXxf86vm.tcz: OK
 Downloading: libXxf86vm-dev.tcz
-gmp-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libplacebo-dev.tcz.dep OK
 saving to 'libXxf86vm-dev.tcz'
 libXxf86vm-dev.tcz   100% |********************************|  4096  0:00:00 ETA
 'libXxf86vm-dev.tcz' saved
 libXxf86vm-dev.tcz: OK
-shaderc-dev.tcz.dep OK
 Downloading: libxshmfence.tcz
-glslang-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-openal-dev.tcz.dep OK
 saving to 'libxshmfence.tcz'
 libxshmfence.tcz     100% |********************************|  4096  0:00:00 ETA
 'libxshmfence.tcz' saved
 libxshmfence.tcz: OK
 Downloading: libxshmfence-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-autoconf.tcz.dep OK
 saving to 'libxshmfence-dev.tcz'
 libxshmfence-dev.tcz 100% |********************************|  4096  0:00:00 ETA
 'libxshmfence-dev.tcz' saved
 libxshmfence-dev.tcz: OK
 Downloading: libXfixes.tcz
-perl_xml_parser.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-perl5.tcz.dep OK
 saving to 'libXfixes.tcz'
 libXfixes.tcz        100% |********************************|  8192  0:00:00 ETA
 'libXfixes.tcz' saved
 libXfixes.tcz: OK
 Downloading: libXfixes-dev.tcz
-submitqc.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-file.tcz.dep OK
 saving to 'libXfixes-dev.tcz'
 libXfixes-dev.tcz    100% |********************************|  4096  0:00:00 ETA
 'libXfixes-dev.tcz' saved
 libXfixes-dev.tcz: OK
 Downloading: libXdamage.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-wget.tcz.dep OK
 saving to 'libXdamage.tcz'
 libXdamage.tcz       100% |********************************|  4096  0:00:00 ETA
 'libXdamage.tcz' saved
 libXdamage.tcz: OK
 Downloading: libXdamage-dev.tcz
-coreutils.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libXdamage-dev.tcz'
 libXdamage-dev.tcz   100% |********************************|  4096  0:00:00 ETA
 'libXdamage-dev.tcz' saved
 libXdamage-dev.tcz: OK
-binutils.tcz.dep OK
 Downloading: libXv.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-squashfs-tools.tcz.dep OK
 saving to 'libXv.tcz'
 libXv.tcz            100% |********************************|  8192  0:00:00 ETA
 'libXv.tcz' saved
@@ -793,109 +814,80 @@ libXv-dev.tcz        100% |********************************|  4096  0:00:00 ETA
 'libXv-dev.tcz' saved
 libXv-dev.tcz: OK
 Downloading: libXvmc.tcz
-unixODBC-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-unixODBC.tcz.dep OK
 saving to 'libXvmc.tcz'
 libXvmc.tcz          100% |********************************| 12288  0:00:00 ETA
 'libXvmc.tcz' saved
 libXvmc.tcz: OK
 Downloading: libXvmc-dev.tcz
-compiletc.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-bison.tcz.dep OK
 saving to 'libXvmc-dev.tcz'
 libXvmc-dev.tcz      100% |********************************|  8192  0:00:00 ETA
 'libXvmc-dev.tcz' saved
 libXvmc-dev.tcz: OK
 Downloading: wayland-protocols.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-gawk.tcz.dep OK
 saving to 'wayland-protocols.tcz'
-mpfr.tcz.dep OK
-gcc.tcz.dep OK
 wayland-protocols.tc 100% |********************************|  288k  0:00:00 ETA
 'wayland-protocols.tcz' saved
 wayland-protocols.tcz: OK
 Downloading: wayland-protocols-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-mpc.tcz.dep OK
 saving to 'wayland-protocols-dev.tcz'
-isl.tcz.dep OK
 wayland-protocols-de 100% |********************************| 36864  0:00:00 ETA
 'wayland-protocols-dev.tcz' saved
 wayland-protocols-dev.tcz: OK
 Downloading: gcc_libs.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'gcc_libs.tcz'
-gcc_libs.tcz          67% |*********************           | 1770k  0:00:00 ETA
 gcc_libs.tcz         100% |********************************| 2616k  0:00:00 ETA
 'gcc_libs.tcz' saved
 gcc_libs.tcz: OK
 Downloading: mesa.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'mesa.tcz'
-mesa.tcz              31% |**********                      | 3555k  0:00:02 ETA
-krb5-dev.tcz.dep OK
 mesa.tcz             100% |********************************| 10.9M  0:00:00 ETA
 'mesa.tcz' saved
-krb5.tcz.dep OK
 mesa.tcz: OK
 Downloading: mesa-dev.tcz
-libpcap-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-libpcap.tcz.dep OK
 saving to 'mesa-dev.tcz'
 mesa-dev.tcz         100% |********************************| 86016  0:00:00 ETA
 'mesa-dev.tcz' saved
 mesa-dev.tcz: OK
-libnl-dev.tcz.dep OK
 Downloading: libEGL.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libEGL.tcz'
-pcsc-lite-dev.tcz.dep OK
-pcsc-lite.tcz.dep OK
 libEGL.tcz           100% |********************************|  116k  0:00:00 ETA
 'libEGL.tcz' saved
 libEGL.tcz: OK
 Downloading: libEGL-dev.tcz
-gstreamer-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-gstreamer.tcz.dep OK
 saving to 'libEGL-dev.tcz'
 libEGL-dev.tcz       100% |********************************| 40960  0:00:00 ETA
 'libEGL-dev.tcz' saved
 libEGL-dev.tcz: OK
-gst-plugins-base-dev.tcz.dep OK
 Downloading: npth.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-gst-plugins-base.tcz.dep OK
 saving to 'npth.tcz'
 npth.tcz             100% |********************************|  8192  0:00:00 ETA
 'npth.tcz' saved
 npth.tcz: OK
 Downloading: libunistring.tcz
-cdparanoia-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libunistring.tcz'
-gudev-lib-dev.tcz.dep OK
-gudev-lib.tcz.dep OK
 libunistring.tcz     100% |********************************|  584k  0:00:00 ETA
 'libunistring.tcz' saved
 libunistring.tcz: OK
 Downloading: libidn2.tcz
-graphene-dev.tcz.dep OK
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-graphene.tcz.dep OK
 saving to 'libidn2.tcz'
-clang.tcz.dep OK
 libidn2.tcz          100% |********************************| 73728  0:00:00 ETA
 'libidn2.tcz' saved
 libidn2.tcz: OK
 Downloading: gmp.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'gmp.tcz'
-gmp.tcz               16% |*****                           | 42588  0:00:05 ETA
 gmp.tcz              100% |********************************|  252k  0:00:00 ETA
 'gmp.tcz' saved
 gmp.tcz: OK
@@ -908,20 +900,19 @@ nettle39.tcz: OK
 Downloading: libtasn1-4.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libtasn1-4.tcz'
+libtasn1-4.tcz        86% |***************************     | 42589  0:00:00 ETA
 libtasn1-4.tcz       100% |********************************| 49152  0:00:00 ETA
 'libtasn1-4.tcz' saved
 libtasn1-4.tcz: OK
 Downloading: p11-kit.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'p11-kit.tcz'
-p11-kit.tcz            5% |*                               | 42588  0:00:16 ETA
 p11-kit.tcz          100% |********************************|  716k  0:00:00 ETA
 'p11-kit.tcz' saved
 p11-kit.tcz: OK
 Downloading: gnutls38.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'gnutls38.tcz'
-gnutls38.tcz          36% |***********                     |  432k  0:00:01 ETA
 gnutls38.tcz         100% |********************************| 1200k  0:00:00 ETA
 'gnutls38.tcz' saved
 gnutls38.tcz: OK
@@ -970,7 +961,6 @@ libvpx113.tcz: OK
 Downloading: libvpx113-bin.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libvpx113-bin.tcz'
-libvpx113-bin.tcz      4% |*                               | 14028  0:00:20 ETA
 libvpx113-bin.tcz    100% |********************************|  292k  0:00:00 ETA
 'libvpx113-bin.tcz' saved
 libvpx113-bin.tcz: OK
@@ -983,7 +973,6 @@ libvpx113-dev.tcz: OK
 Downloading: libepoxy.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libepoxy.tcz'
-libepoxy.tcz          13% |****                            | 42588  0:00:06 ETA
 libepoxy.tcz         100% |********************************|  300k  0:00:00 ETA
 'libepoxy.tcz' saved
 libepoxy.tcz: OK
@@ -1044,7 +1033,6 @@ libxkbcommon.tcz: OK
 Downloading: libxkbcommon-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libxkbcommon-dev.tcz'
-libxkbcommon-dev.tcz  41% |*************                   | 42588  0:00:01 ETA
 libxkbcommon-dev.tcz 100% |********************************|  100k  0:00:00 ETA
 'libxkbcommon-dev.tcz' saved
 libxkbcommon-dev.tcz: OK
@@ -1075,7 +1063,6 @@ pcre21042-dev.tcz: OK
 Downloading: glib2.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'glib2.tcz'
-glib2.tcz             11% |***                             |  193k  0:00:07 ETA
 glib2.tcz            100% |********************************| 1692k  0:00:00 ETA
 'glib2.tcz' saved
 glib2.tcz: OK
@@ -1112,7 +1099,6 @@ util-linux.tcz: OK
 Downloading: util-linux-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'util-linux-dev.tcz'
-util-linux-dev.tcz    74% |***********************         | 42589  0:00:00 ETA
 util-linux-dev.tcz   100% |********************************| 57344  0:00:00 ETA
 'util-linux-dev.tcz' saved
 util-linux-dev.tcz: OK
@@ -1161,7 +1147,6 @@ linux-pam.tcz: OK
 Downloading: elogind.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'elogind.tcz'
-elogind.tcz           15% |****                            |  182k  0:00:05 ETA
 elogind.tcz          100% |********************************| 1188k  0:00:00 ETA
 'elogind.tcz' saved
 elogind.tcz: OK
@@ -1180,27 +1165,25 @@ linux-pam-dev.tcz: OK
 Downloading: icu67.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'icu67.tcz'
-icu67.tcz              6% |*                               |  878k  0:00:15 ETA
 icu67.tcz            100% |********************************| 13.8M  0:00:00 ETA
 'icu67.tcz' saved
 icu67.tcz: OK
 Downloading: js78.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'js78.tcz'
-js78.tcz               0% |                                | 14027  0:09:38 ETA
 js78.tcz             100% |********************************| 7820k  0:00:00 ETA
 'js78.tcz' saved
 js78.tcz: OK
 Downloading: js78-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'js78-dev.tcz'
+js78-dev.tcz          10% |***                             | 99709  0:00:08 ETA
 js78-dev.tcz         100% |********************************|  936k  0:00:00 ETA
 'js78-dev.tcz' saved
 js78-dev.tcz: OK
 Downloading: dbus.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'dbus.tcz'
-dbus.tcz               4% |*                               | 14029  0:00:19 ETA
 dbus.tcz             100% |********************************|  284k  0:00:00 ETA
 'dbus.tcz' saved
 dbus.tcz: OK
@@ -1249,13 +1232,13 @@ nss.tcz: OK
 Downloading: nss-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'nss-dev.tcz'
+nss-dev.tcz           57% |******************              |  432k  0:00:00 ETA
 nss-dev.tcz          100% |********************************|  748k  0:00:00 ETA
 'nss-dev.tcz' saved
 nss-dev.tcz: OK
 Downloading: libpng.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libpng.tcz'
-libpng.tcz            13% |****                            | 14028  0:00:06 ETA
 libpng.tcz           100% |********************************|  100k  0:00:00 ETA
 'libpng.tcz' saved
 libpng.tcz: OK
@@ -1268,7 +1251,6 @@ libpng-bin.tcz: OK
 Downloading: libpng-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libpng-dev.tcz'
-libpng-dev.tcz        21% |******                          | 14029  0:00:03 ETA
 libpng-dev.tcz       100% |********************************| 65536  0:00:00 ETA
 'libpng-dev.tcz' saved
 libpng-dev.tcz: OK
@@ -1353,7 +1335,6 @@ tiff-bin.tcz: OK
 Downloading: tiff-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'tiff-dev.tcz'
-tiff-dev.tcz          48% |***************                 | 14029  0:00:01 ETA
 tiff-dev.tcz         100% |********************************| 28672  0:00:00 ETA
 'tiff-dev.tcz' saved
 tiff-dev.tcz: OK
@@ -1366,7 +1347,6 @@ liblcms2.tcz: OK
 Downloading: lcms2-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'lcms2-dev.tcz'
-lcms2-dev.tcz         38% |************                    | 14029  0:00:01 ETA
 lcms2-dev.tcz        100% |********************************| 36864  0:00:00 ETA
 'lcms2-dev.tcz' saved
 lcms2-dev.tcz: OK
@@ -1385,7 +1365,6 @@ openjpeg-dev.tcz: OK
 Downloading: openssl-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'openssl-dev.tcz'
-openssl-dev.tcz       37% |***********                     |  185k  0:00:01 ETA
 openssl-dev.tcz      100% |********************************|  500k  0:00:00 ETA
 'openssl-dev.tcz' saved
 openssl-dev.tcz: OK
@@ -1400,7 +1379,6 @@ Updating certificates in /usr/local/etc/ssl/certs...
 Downloading: curl.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'curl.tcz'
-curl.tcz              48% |***************                 |  185k  0:00:01 ETA
 curl.tcz             100% |********************************|  384k  0:00:00 ETA
 'curl.tcz' saved
 curl.tcz: OK
@@ -1413,7 +1391,6 @@ curl-dev.tcz: OK
 Downloading: pixman.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'pixman.tcz'
-pixman.tcz             4% |*                               | 14028  0:00:19 ETA
 pixman.tcz           100% |********************************|  276k  0:00:00 ETA
 'pixman.tcz' saved
 pixman.tcz: OK
@@ -1438,7 +1415,6 @@ graphite-dev.tcz: OK
 Downloading: harfbuzz.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'harfbuzz.tcz'
-harfbuzz.tcz           1% |                                | 14028  0:01:00 ETA
 harfbuzz.tcz         100% |********************************|  844k  0:00:00 ETA
 'harfbuzz.tcz' saved
 harfbuzz.tcz: OK
@@ -1457,7 +1433,6 @@ harfbuzz-dev.tcz: OK
 Downloading: freetype.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'freetype.tcz'
-freetype.tcz          11% |***                             | 42588  0:00:07 ETA
 freetype.tcz         100% |********************************|  372k  0:00:00 ETA
 'freetype.tcz' saved
 freetype.tcz: OK
@@ -1494,7 +1469,7 @@ cairo-dev.tcz: OK
 Downloading: libpoppler23.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libpoppler23.tcz'
-libpoppler23.tcz      28% |*********                       |  376k  0:00:02 ETA
+libpoppler23.tcz       1% |                                | 14027  0:01:35 ETA
 libpoppler23.tcz     100% |********************************| 1300k  0:00:00 ETA
 'libpoppler23.tcz' saved
 libpoppler23.tcz: OK
@@ -1513,7 +1488,6 @@ poppler23-dev.tcz: OK
 Downloading: libusb-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libusb-dev.tcz'
-libusb-dev.tcz        48% |***************                 | 14029  0:00:01 ETA
 libusb-dev.tcz       100% |********************************| 28672  0:00:00 ETA
 'libusb-dev.tcz' saved
 libusb-dev.tcz: OK
@@ -1526,7 +1500,6 @@ libltdl.tcz: OK
 Downloading: libtool.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libtool.tcz'
-libtool.tcz           14% |****                            | 99708  0:00:05 ETA
 libtool.tcz          100% |********************************|  652k  0:00:00 ETA
 'libtool.tcz' saved
 libtool.tcz: OK
@@ -1569,13 +1542,13 @@ libavahi.tcz: OK
 Downloading: libsane.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libsane.tcz'
-libsane.tcz            0% |                                | 14027  0:05:44 ETA
 libsane.tcz          100% |********************************| 4668k  0:00:00 ETA
 'libsane.tcz' saved
 libsane.tcz: OK
 Downloading: sane.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'sane.tcz'
+sane.tcz               6% |**                              | 14028  0:00:13 ETA
 sane.tcz             100% |********************************|  204k  0:00:00 ETA
 'sane.tcz' saved
 sane.tcz: OK
@@ -1594,7 +1567,6 @@ libdaemon-dev.tcz: OK
 Downloading: gcc_libs-dev.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'gcc_libs-dev.tcz'
-gcc_libs-dev.tcz      29% |*********                       | 1770k  0:00:02 ETA
 gcc_libs-dev.tcz     100% |********************************| 5924k  0:00:00 ETA
 'gcc_libs-dev.tcz' saved
 gcc_libs-dev.tcz: OK
@@ -1643,7 +1615,6 @@ libgusb-dev.tcz: OK
 Downloading: colord.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'colord.tcz'
-colord.tcz             8% |**                              | 99707  0:00:10 ETA
 colord.tcz           100% |********************************| 1092k  0:00:00 ETA
 'colord.tcz' saved
 colord.tcz: OK
@@ -1686,7 +1657,6 @@ glib-networking.tcz: OK
 Downloading: libsoup.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libsoup.tcz'
-libsoup.tcz           88% |****************************    |  208k  0:00:00 ETA
 libsoup.tcz          100% |********************************|  236k  0:00:00 ETA
 'libsoup.tcz' saved
 libsoup.tcz: OK
@@ -1699,7 +1669,6 @@ libsoup-dev.tcz: OK
 Downloading: rest.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'rest.tcz'
-rest.tcz              28% |*********                       | 14029  0:00:02 ETA
 rest.tcz             100% |********************************| 49152  0:00:00 ETA
 'rest.tcz' saved
 rest.tcz: OK
@@ -1736,6 +1705,7 @@ libXft-dev.tcz: OK
 Downloading: pango.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'pango.tcz'
+pango.tcz              4% |*                               | 14028  0:00:19 ETA
 pango.tcz            100% |********************************|  276k  0:00:00 ETA
 'pango.tcz' saved
 pango.tcz: OK
@@ -1772,7 +1742,6 @@ at-spi2-core-dev.tcz: OK
 Downloading: gdk-pixbuf2-xlib.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'gdk-pixbuf2-xlib.tcz'
-gdk-pixbuf2-xlib.tcz  38% |************                    | 14030  0:00:01 ETA
 gdk-pixbuf2-xlib.tcz 100% |********************************| 36864  0:00:00 ETA
 'gdk-pixbuf2-xlib.tcz' saved
 gdk-pixbuf2-xlib.tcz: OK
@@ -1785,7 +1754,6 @@ gdk-pixbuf2-xlib-dev.tcz: OK
 Downloading: shared-mime-info.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'shared-mime-info.tcz'
-shared-mime-info.tcz  15% |****                            | 99708  0:00:05 ETA
 shared-mime-info.tcz 100% |********************************|  648k  0:00:00 ETA
 'shared-mime-info.tcz' saved
 shared-mime-info.tcz: OK
@@ -1804,7 +1772,6 @@ gdk-pixbuf2-dev.tcz: OK
 Downloading: gtk3.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'gtk3.tcz'
-gtk3.tcz              68% |*********************           | 3555k  0:00:00 ETA
 gtk3.tcz             100% |********************************| 5200k  0:00:00 ETA
 'gtk3.tcz' saved
 gtk3.tcz: OK
@@ -1824,9 +1791,10 @@ Downloading: rust.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'rust.tcz'
 rust.tcz              11% |***                             | 11.7M  0:00:07 ETA
-rust.tcz              36% |***********                     | 35.7M  0:00:03 ETA
-rust.tcz              60% |*******************             | 59.7M  0:00:01 ETA
-rust.tcz              84% |***************************     | 83.7M  0:00:00 ETA
+rust.tcz              24% |*******                         | 23.9M  0:00:06 ETA
+rust.tcz              48% |***************                 | 47.9M  0:00:03 ETA
+rust.tcz              72% |***********************         | 71.9M  0:00:01 ETA
+rust.tcz              96% |******************************* | 95.9M  0:00:00 ETA
 rust.tcz             100% |********************************| 99.0M  0:00:00 ETA
 'rust.tcz' saved
 rust.tcz: OK
@@ -1839,7 +1807,8 @@ cbindgen.tcz: OK
 Downloading: node.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'node.tcz'
-node.tcz              28% |*********                       |  9.9M  0:00:02 ETA
+node.tcz              68% |*********************           | 23.9M  0:00:00 ETA
+node.tcz              69% |**********************          | 24.2M  0:00:00 ETA
 node.tcz             100% |********************************| 34.9M  0:00:00 ETA
 'node.tcz' saved
 node.tcz: OK
@@ -1852,7 +1821,6 @@ nasm.tcz: OK
 Downloading: libevent.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'libevent.tcz'
-libevent.tcz          31% |**********                      | 99709  0:00:02 ETA
 libevent.tcz         100% |********************************|  308k  0:00:00 ETA
 'libevent.tcz' saved
 libevent.tcz: OK
@@ -1865,6 +1833,7 @@ libevent-dev.tcz: OK
 Downloading: python3.9-setuptools.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
 saving to 'python3.9-setuptools.tcz'
+python3.9-setuptools  31% |**********                      |  432k  0:00:02 ETA
 python3.9-setuptools 100% |********************************| 1372k  0:00:00 ETA
 'python3.9-setuptools.tcz' saved
 python3.9-setuptools.tcz: OK
@@ -1874,16 +1843,1944 @@ saving to 'python3.9-pip.tcz'
 python3.9-pip.tcz    100% |********************************| 2368k  0:00:00 ETA
 'python3.9-pip.tcz' saved
 python3.9-pip.tcz: OK
-Downloading: python3.9-pyaml.tcz
+Downloading: yaml.tcz
 Connecting to distro.ibiblio.org (152.19.134.43:80)
-wget: server returned error: HTTP/1.1 404 Not Found
-md5sum: python3.9-pyaml.tcz.md5.txt: No such file or directory
-Error on python3.9-pyaml.tcz
-cp: can't stat '/usr/local/bin/perl': No such file or directory
-/scripts/build.sh: line 45: git: not found
-/scripts/build.sh: cd: line 46: can't cd to librewolf-source: No such file or directory
-/scripts/build.sh: line 47: make: not found
-/scripts/build.sh: cd: line 48: can't cd to librewolf*: No such file or directory
-sed: mozconfig: No such file or directory
-/scripts/build.sh: line 67: make: not found
-/scripts/build.sh: line 68: make: not found
+saving to 'yaml.tcz'
+yaml.tcz             100% |********************************| 53248  0:00:00 ETA
+'yaml.tcz' saved
+yaml.tcz: OK
+Downloading: python3.9-pyyaml.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'python3.9-pyyaml.tcz'
+python3.9-pyyaml.tcz 100% |********************************| 61440  0:00:00 ETA
+'python3.9-pyyaml.tcz' saved
+python3.9-pyyaml.tcz: OK
+Downloading: patchelf.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'patchelf.tcz'
+patchelf.tcz         100% |********************************| 57344  0:00:00 ETA
+'patchelf.tcz' saved
+patchelf.tcz: OK
+Downloading: bash.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'bash.tcz'
+bash.tcz             100% |********************************|  532k  0:00:00 ETA
+'bash.tcz' saved
+bash.tcz: OK
+Downloading: libva22.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libva22.tcz'
+libva22.tcz          100% |********************************|  100k  0:00:00 ETA
+'libva22.tcz' saved
+libva22.tcz: OK
+Downloading: libva22-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libva22-dev.tcz'
+libva22-dev.tcz      100% |********************************|  228k  0:00:00 ETA
+'libva22-dev.tcz' saved
+libva22-dev.tcz: OK
+Downloading: gettext.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gettext.tcz'
+gettext.tcz           10% |***                             |  167k  0:00:08 ETA
+gettext.tcz          100% |********************************| 1560k  0:00:00 ETA
+'gettext.tcz' saved
+gettext.tcz: OK
+Downloading: gettext-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gettext-dev.tcz'
+gettext-dev.tcz      100% |********************************|  648k  0:00:00 ETA
+'gettext-dev.tcz' saved
+gettext-dev.tcz: OK
+Downloading: git.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'git.tcz'
+git.tcz              100% |********************************| 6176k  0:00:00 ETA
+'git.tcz' saved
+git.tcz: OK
+Downloading: libGLESv2.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libGLESv2.tcz'
+libGLESv2.tcz        100% |********************************| 12288  0:00:00 ETA
+'libGLESv2.tcz' saved
+libGLESv2.tcz: OK
+Downloading: libGLESv2-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libGLESv2-dev.tcz'
+libGLESv2-dev.tcz    100% |********************************| 65536  0:00:00 ETA
+'libGLESv2-dev.tcz' saved
+libGLESv2-dev.tcz: OK
+Downloading: Xorg-fonts.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'Xorg-fonts.tcz'
+Xorg-fonts.tcz         6% |*                               | 99708  0:00:15 ETA
+Xorg-fonts.tcz       100% |********************************| 1584k  0:00:00 ETA
+'Xorg-fonts.tcz' saved
+Xorg-fonts.tcz: OK
+Downloading: font-util.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'font-util.tcz'
+font-util.tcz        100% |********************************| 20480  0:00:00 ETA
+'font-util.tcz' saved
+font-util.tcz: OK
+Downloading: libxcvt.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libxcvt.tcz'
+libxcvt.tcz          100% |********************************|  8192  0:00:00 ETA
+'libxcvt.tcz' saved
+libxcvt.tcz: OK
+Downloading: libxcvt-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libxcvt-dev.tcz'
+libxcvt-dev.tcz      100% |********************************|  4096  0:00:00 ETA
+'libxcvt-dev.tcz' saved
+libxcvt-dev.tcz: OK
+Downloading: libfontenc.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libfontenc.tcz'
+libfontenc.tcz       100% |********************************| 12288  0:00:00 ETA
+'libfontenc.tcz' saved
+libfontenc.tcz: OK
+Downloading: libfontenc-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libfontenc-dev.tcz'
+libfontenc-dev.tcz   100% |********************************|  4096  0:00:00 ETA
+'libfontenc-dev.tcz' saved
+libfontenc-dev.tcz: OK
+Downloading: libXfont2.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXfont2.tcz'
+libXfont2.tcz        100% |********************************|  100k  0:00:00 ETA
+'libXfont2.tcz' saved
+libXfont2.tcz: OK
+Downloading: libXfont2-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXfont2-dev.tcz'
+libXfont2-dev.tcz    100% |********************************|  4096  0:00:00 ETA
+'libXfont2-dev.tcz' saved
+libXfont2-dev.tcz: OK
+Downloading: libxkbfile.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libxkbfile.tcz'
+libxkbfile.tcz       100% |********************************| 65536  0:00:00 ETA
+'libxkbfile.tcz' saved
+libxkbfile.tcz: OK
+Downloading: xkbcomp.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'xkbcomp.tcz'
+xkbcomp.tcz          100% |********************************| 86016  0:00:00 ETA
+'xkbcomp.tcz' saved
+xkbcomp.tcz: OK
+Downloading: xorg-server.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'xorg-server.tcz'
+xorg-server.tcz      100% |********************************| 2844k  0:00:00 ETA
+'xorg-server.tcz' saved
+xorg-server.tcz: OK
+Downloading: xorg-server-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'xorg-server-dev.tcz'
+xorg-server-dev.tcz  100% |********************************|  372k  0:00:00 ETA
+'xorg-server-dev.tcz' saved
+xorg-server-dev.tcz: OK
+Downloading: xbitmaps.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'xbitmaps.tcz'
+xbitmaps.tcz         100% |********************************| 28672  0:00:00 ETA
+'xbitmaps.tcz' saved
+xbitmaps.tcz: OK
+Downloading: libxkbfile-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libxkbfile-dev.tcz'
+libxkbfile-dev.tcz   100% |********************************| 16384  0:00:00 ETA
+'libxkbfile-dev.tcz' saved
+libxkbfile-dev.tcz: OK
+Downloading: libXxf86dga.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXxf86dga.tcz'
+libXxf86dga.tcz      100% |********************************| 12288  0:00:00 ETA
+'libXxf86dga.tcz' saved
+libXxf86dga.tcz: OK
+Downloading: libXxf86dga-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXxf86dga-dev.tcz'
+libXxf86dga-dev.tcz  100% |********************************|  4096  0:00:00 ETA
+'libXxf86dga-dev.tcz' saved
+libXxf86dga-dev.tcz: OK
+Downloading: libXss.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXss.tcz'
+libXss.tcz           100% |********************************|  8192  0:00:00 ETA
+'libXss.tcz' saved
+libXss.tcz: OK
+Downloading: libXss-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXss-dev.tcz'
+libXss-dev.tcz       100% |********************************|  4096  0:00:00 ETA
+'libXss-dev.tcz' saved
+libXss-dev.tcz: OK
+Downloading: libXres.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXres.tcz'
+libXres.tcz          100% |********************************|  8192  0:00:00 ETA
+'libXres.tcz' saved
+libXres.tcz: OK
+Downloading: libXres-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXres-dev.tcz'
+libXres-dev.tcz      100% |********************************|  4096  0:00:00 ETA
+'libXres-dev.tcz' saved
+libXres-dev.tcz: OK
+Downloading: libXpm.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXpm.tcz'
+libXpm.tcz           100% |********************************| 49152  0:00:00 ETA
+'libXpm.tcz' saved
+libXpm.tcz: OK
+Downloading: libXpm-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXpm-dev.tcz'
+libXpm-dev.tcz       100% |********************************|  8192  0:00:00 ETA
+'libXpm-dev.tcz' saved
+libXpm-dev.tcz: OK
+Downloading: libSM.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libSM.tcz'
+libSM.tcz            100% |********************************| 16384  0:00:00 ETA
+'libSM.tcz' saved
+libSM.tcz: OK
+Downloading: libSM-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libSM-dev.tcz'
+libSM-dev.tcz        100% |********************************|  8192  0:00:00 ETA
+'libSM-dev.tcz' saved
+libSM-dev.tcz: OK
+Downloading: libICE.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libICE.tcz'
+libICE.tcz           100% |********************************| 40960  0:00:00 ETA
+'libICE.tcz' saved
+libICE.tcz: OK
+Downloading: libICE-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libICE-dev.tcz'
+libICE-dev.tcz       100% |********************************| 16384  0:00:00 ETA
+'libICE-dev.tcz' saved
+libICE-dev.tcz: OK
+Downloading: libXt.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXt.tcz'
+libXt.tcz            100% |********************************|  168k  0:00:00 ETA
+'libXt.tcz' saved
+libXt.tcz: OK
+Downloading: libXt-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXt-dev.tcz'
+libXt-dev.tcz        100% |********************************| 86016  0:00:00 ETA
+'libXt-dev.tcz' saved
+libXt-dev.tcz: OK
+Downloading: libXmu.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXmu.tcz'
+libXmu.tcz           100% |********************************| 53248  0:00:00 ETA
+'libXmu.tcz' saved
+libXmu.tcz: OK
+Downloading: libXmu-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXmu-dev.tcz'
+libXmu-dev.tcz       100% |********************************| 28672  0:00:00 ETA
+'libXmu-dev.tcz' saved
+libXmu-dev.tcz: OK
+Downloading: libXaw.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXaw.tcz'
+libXaw.tcz           100% |********************************|  320k  0:00:00 ETA
+'libXaw.tcz' saved
+libXaw.tcz: OK
+Downloading: libXaw-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libXaw-dev.tcz'
+libXaw-dev.tcz       100% |********************************|  120k  0:00:00 ETA
+'libXaw-dev.tcz' saved
+libXaw-dev.tcz: OK
+Downloading: libFS.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libFS.tcz'
+libFS.tcz            100% |********************************| 20480  0:00:00 ETA
+'libFS.tcz' saved
+libFS.tcz: OK
+Downloading: libFS-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libFS-dev.tcz'
+libFS-dev.tcz        100% |********************************|  8192  0:00:00 ETA
+'libFS-dev.tcz' saved
+libFS-dev.tcz: OK
+Downloading: makedepend.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'makedepend.tcz'
+makedepend.tcz       100% |********************************| 16384  0:00:00 ETA
+'makedepend.tcz' saved
+makedepend.tcz: OK
+Downloading: Xorg-7.7-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'Xorg-7.7-dev.tcz'
+Xorg-7.7-dev.tcz     100% |********************************|  4096  0:00:00 ETA
+'Xorg-7.7-dev.tcz' saved
+Xorg-7.7-dev.tcz: OK
+Downloading: Xorg-7.7-3d-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'Xorg-7.7-3d-dev.tcz'
+Xorg-7.7-3d-dev.tcz  100% |********************************|  4096  0:00:00 ETA
+'Xorg-7.7-3d-dev.tcz' saved
+Xorg-7.7-3d-dev.tcz: OK
+Downloading: libvulkan.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libvulkan.tcz'
+libvulkan.tcz        100% |********************************|  148k  0:00:00 ETA
+'libvulkan.tcz' saved
+libvulkan.tcz: OK
+Downloading: libvulkan-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libvulkan-dev.tcz'
+libvulkan-dev.tcz    100% |********************************| 5412k  0:00:00 ETA
+'libvulkan-dev.tcz' saved
+libvulkan-dev.tcz: OK
+Downloading: glslang.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'glslang.tcz'
+glslang.tcz           40% |*************                   |  351k  0:00:01 ETA
+glslang.tcz          100% |********************************|  864k  0:00:00 ETA
+'glslang.tcz' saved
+glslang.tcz: OK
+Downloading: glslang-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'glslang-dev.tcz'
+glslang-dev.tcz      100% |********************************|  100k  0:00:00 ETA
+'glslang-dev.tcz' saved
+glslang-dev.tcz: OK
+Downloading: shaderc.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'shaderc.tcz'
+shaderc.tcz          100% |********************************| 77824  0:00:00 ETA
+'shaderc.tcz' saved
+shaderc.tcz: OK
+Downloading: shaderc-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'shaderc-dev.tcz'
+shaderc-dev.tcz      100% |********************************| 20480  0:00:00 ETA
+'shaderc-dev.tcz' saved
+shaderc-dev.tcz: OK
+Downloading: libplacebo.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libplacebo.tcz'
+libplacebo.tcz       100% |********************************|  388k  0:00:00 ETA
+'libplacebo.tcz' saved
+libplacebo.tcz: OK
+Downloading: libplacebo-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libplacebo-dev.tcz'
+libplacebo-dev.tcz   100% |********************************|  192k  0:00:00 ETA
+'libplacebo-dev.tcz' saved
+libplacebo-dev.tcz: OK
+Downloading: gmp-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gmp-dev.tcz'
+gmp-dev.tcz          100% |********************************| 49152  0:00:00 ETA
+'gmp-dev.tcz' saved
+gmp-dev.tcz: OK
+Downloading: nettle39-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'nettle39-dev.tcz'
+nettle39-dev.tcz     100% |********************************| 94208  0:00:00 ETA
+'nettle39-dev.tcz' saved
+nettle39-dev.tcz: OK
+Downloading: libtasn1-4-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libtasn1-4-dev.tcz'
+libtasn1-4-dev.tcz   100% |********************************|  8192  0:00:00 ETA
+'libtasn1-4-dev.tcz' saved
+libtasn1-4-dev.tcz: OK
+Downloading: p11-kit-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'p11-kit-dev.tcz'
+p11-kit-dev.tcz      100% |********************************| 28672  0:00:00 ETA
+'p11-kit-dev.tcz' saved
+p11-kit-dev.tcz: OK
+Downloading: gnutls38-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gnutls38-dev.tcz'
+gnutls38-dev.tcz     100% |********************************|  100k  0:00:00 ETA
+'gnutls38-dev.tcz' saved
+gnutls38-dev.tcz: OK
+Downloading: librsvg.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'librsvg.tcz'
+librsvg.tcz          100% |********************************| 7124k  0:00:00 ETA
+'librsvg.tcz' saved
+librsvg.tcz: OK
+Downloading: librsvg-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'librsvg-dev.tcz'
+librsvg-dev.tcz      100% |********************************| 32768  0:00:00 ETA
+'librsvg-dev.tcz' saved
+librsvg-dev.tcz: OK
+Downloading: x265.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'x265.tcz'
+x265.tcz             100% |********************************| 1004k  0:00:00 ETA
+'x265.tcz' saved
+x265.tcz: OK
+Downloading: x265-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'x265-dev.tcz'
+x265-dev.tcz          38% |************                    | 14029  0:00:01 ETA
+x265-dev.tcz         100% |********************************| 36864  0:00:00 ETA
+'x265-dev.tcz' saved
+x265-dev.tcz: OK
+Downloading: opus.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'opus.tcz'
+opus.tcz             100% |********************************|  192k  0:00:00 ETA
+'opus.tcz' saved
+opus.tcz: OK
+Downloading: opus-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'opus-dev.tcz'
+opus-dev.tcz         100% |********************************| 53248  0:00:00 ETA
+'opus-dev.tcz' saved
+opus-dev.tcz: OK
+Downloading: libass.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libass.tcz'
+libass.tcz           100% |********************************|  100k  0:00:00 ETA
+'libass.tcz' saved
+libass.tcz: OK
+Downloading: libass-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libass-dev.tcz'
+libass-dev.tcz       100% |********************************| 20480  0:00:00 ETA
+'libass-dev.tcz' saved
+libass-dev.tcz: OK
+Downloading: fftw.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'fftw.tcz'
+fftw.tcz             100% |********************************|  480k  0:00:00 ETA
+'fftw.tcz' saved
+fftw.tcz: OK
+Downloading: fftw-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'fftw-dev.tcz'
+fftw-dev.tcz         100% |********************************| 24576  0:00:00 ETA
+'fftw-dev.tcz' saved
+fftw-dev.tcz: OK
+Downloading: libasound.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libasound.tcz'
+libasound.tcz        100% |********************************|  496k  0:00:00 ETA
+'libasound.tcz' saved
+libasound.tcz: OK
+Downloading: input-joystick-6.12.11-tinycore64.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'input-joystick-6.12.11-tinycore64.tcz'
+input-joystick-6.12. 100% |********************************|  160k  0:00:00 ETA
+'input-joystick-6.12.11-tinycore64.tcz' saved
+input-joystick-6.12.11-tinycore64.tcz: OK
+Downloading: alsa-modules-6.12.11-tinycore64.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'alsa-modules-6.12.11-tinycore64.tcz'
+alsa-modules-6.12.11 100% |********************************| 2356k  0:00:00 ETA
+'alsa-modules-6.12.11-tinycore64.tcz' saved
+alsa-modules-6.12.11-tinycore64.tcz: OK
+Downloading: alsa.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'alsa.tcz'
+alsa.tcz             100% |********************************|  304k  0:00:00 ETA
+'alsa.tcz' saved
+alsa.tcz: OK
+Downloading: alsa-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'alsa-dev.tcz'
+alsa-dev.tcz         100% |********************************|  136k  0:00:00 ETA
+'alsa-dev.tcz' saved
+alsa-dev.tcz: OK
+Downloading: libogg.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libogg.tcz'
+libogg.tcz           100% |********************************| 12288  0:00:00 ETA
+'libogg.tcz' saved
+libogg.tcz: OK
+Downloading: libogg-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libogg-dev.tcz'
+libogg-dev.tcz       100% |********************************|  8192  0:00:00 ETA
+'libogg-dev.tcz' saved
+libogg-dev.tcz: OK
+Downloading: libvorbis.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libvorbis.tcz'
+libvorbis.tcz        100% |********************************|  212k  0:00:00 ETA
+'libvorbis.tcz' saved
+libvorbis.tcz: OK
+Downloading: libvorbis-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libvorbis-dev.tcz'
+libvorbis-dev.tcz    100% |********************************| 16384  0:00:00 ETA
+'libvorbis-dev.tcz' saved
+libvorbis-dev.tcz: OK
+Downloading: flac.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'flac.tcz'
+flac.tcz             100% |********************************|  240k  0:00:00 ETA
+'flac.tcz' saved
+flac.tcz: OK
+Downloading: flac-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'flac-dev.tcz'
+flac-dev.tcz         100% |********************************|  128k  0:00:00 ETA
+'flac-dev.tcz' saved
+flac-dev.tcz: OK
+Downloading: libsndfile.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libsndfile.tcz'
+libsndfile.tcz         5% |*                               | 14028  0:00:18 ETA
+libsndfile.tcz       100% |********************************|  264k  0:00:00 ETA
+'libsndfile.tcz' saved
+libsndfile.tcz: OK
+Downloading: libsndfile-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libsndfile-dev.tcz'
+libsndfile-dev.tcz   100% |********************************|  300k  0:00:00 ETA
+'libsndfile-dev.tcz' saved
+libsndfile-dev.tcz: OK
+Downloading: sbc.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'sbc.tcz'
+sbc.tcz              100% |********************************| 69632  0:00:00 ETA
+'sbc.tcz' saved
+sbc.tcz: OK
+Downloading: sbc-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'sbc-dev.tcz'
+sbc-dev.tcz          100% |********************************|  4096  0:00:00 ETA
+'sbc-dev.tcz' saved
+sbc-dev.tcz: OK
+Downloading: bluetooth-6.12.11-tinycore64.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'bluetooth-6.12.11-tinycore64.tcz'
+bluetooth-6.12.11-ti 100% |********************************|  484k  0:00:00 ETA
+'bluetooth-6.12.11-tinycore64.tcz' saved
+bluetooth-6.12.11-tinycore64.tcz: OK
+Downloading: icu74.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'icu74.tcz'
+icu74.tcz            100% |********************************| 14.7M  0:00:00 ETA
+'icu74.tcz' saved
+icu74.tcz: OK
+Downloading: libical3.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libical3.tcz'
+libical3.tcz         100% |********************************|  380k  0:00:00 ETA
+'libical3.tcz' saved
+libical3.tcz: OK
+Downloading: bluez.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'bluez.tcz'
+bluez.tcz             90% |****************************    | 1590k  0:00:00 ETA
+bluez.tcz            100% |********************************| 1756k  0:00:00 ETA
+'bluez.tcz' saved
+bluez.tcz: OK
+Downloading: libbluetooth.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libbluetooth.tcz'
+libbluetooth.tcz     100% |********************************| 77824  0:00:00 ETA
+'libbluetooth.tcz' saved
+libbluetooth.tcz: OK
+Downloading: libbluetooth-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libbluetooth-dev.tcz'
+libbluetooth-dev.tcz 100% |********************************| 40960  0:00:00 ETA
+'libbluetooth-dev.tcz' saved
+libbluetooth-dev.tcz: OK
+Downloading: speex.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'speex.tcz'
+speex.tcz            100% |********************************| 49152  0:00:00 ETA
+'speex.tcz' saved
+speex.tcz: OK
+Downloading: speex-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'speex-dev.tcz'
+speex-dev.tcz        100% |********************************| 16384  0:00:00 ETA
+'speex-dev.tcz' saved
+speex-dev.tcz: OK
+Downloading: speexdsp.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'speexdsp.tcz'
+speexdsp.tcz         100% |********************************| 36864  0:00:00 ETA
+'speexdsp.tcz' saved
+speexdsp.tcz: OK
+Downloading: speexdsp-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'speexdsp-dev.tcz'
+speexdsp-dev.tcz     100% |********************************| 16384  0:00:00 ETA
+'speexdsp-dev.tcz' saved
+speexdsp-dev.tcz: OK
+Downloading: libpulseaudio.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libpulseaudio.tcz'
+libpulseaudio.tcz    100% |********************************|  620k  0:00:00 ETA
+'libpulseaudio.tcz' saved
+libpulseaudio.tcz: OK
+Downloading: pulseaudio.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'pulseaudio.tcz'
+pulseaudio.tcz       100% |********************************| 1128k  0:00:00 ETA
+'pulseaudio.tcz' saved
+pulseaudio.tcz: OK
+Downloading: pulseaudio-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'pulseaudio-dev.tcz'
+pulseaudio-dev.tcz   100% |********************************|  136k  0:00:00 ETA
+'pulseaudio-dev.tcz' saved
+pulseaudio-dev.tcz: OK
+Downloading: pipewire.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'pipewire.tcz'
+pipewire.tcz         100% |********************************| 3664k  0:00:00 ETA
+'pipewire.tcz' saved
+pipewire.tcz: OK
+Downloading: pipewire-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'pipewire-dev.tcz'
+pipewire-dev.tcz     100% |********************************|  276k  0:00:00 ETA
+'pipewire-dev.tcz' saved
+pipewire-dev.tcz: OK
+Downloading: sdl2.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'sdl2.tcz'
+sdl2.tcz             100% |********************************|  692k  0:00:00 ETA
+'sdl2.tcz' saved
+sdl2.tcz: OK
+Downloading: sdl2-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'sdl2-dev.tcz'
+sdl2-dev.tcz         100% |********************************|  616k  0:00:00 ETA
+'sdl2-dev.tcz' saved
+sdl2-dev.tcz: OK
+Downloading: i2c-6.12.11-tinycore64.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'i2c-6.12.11-tinycore64.tcz'
+i2c-6.12.11-tinycore 100% |********************************|  184k  0:00:00 ETA
+'i2c-6.12.11-tinycore64.tcz' saved
+i2c-6.12.11-tinycore64.tcz: OK
+Downloading: v4l-dvb-6.12.11-tinycore64.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'v4l-dvb-6.12.11-tinycore64.tcz'
+v4l-dvb-6.12.11-tiny 100% |********************************| 4556k  0:00:00 ETA
+'v4l-dvb-6.12.11-tinycore64.tcz' saved
+v4l-dvb-6.12.11-tinycore64.tcz: OK
+Downloading: libv4l2.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libv4l2.tcz'
+libv4l2.tcz          100% |********************************|  204k  0:00:00 ETA
+'libv4l2.tcz' saved
+libv4l2.tcz: OK
+Downloading: libv4l2-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libv4l2-dev.tcz'
+libv4l2-dev.tcz      100% |********************************|  132k  0:00:00 ETA
+'libv4l2-dev.tcz' saved
+libv4l2-dev.tcz: OK
+Downloading: lame.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'lame.tcz'
+lame.tcz             100% |********************************|  192k  0:00:00 ETA
+'lame.tcz' saved
+lame.tcz: OK
+Downloading: lame-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'lame-dev.tcz'
+lame-dev.tcz         100% |********************************| 16384  0:00:00 ETA
+'lame-dev.tcz' saved
+lame-dev.tcz: OK
+Downloading: giflib7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'giflib7.tcz'
+giflib7.tcz           85% |***************************     | 14030  0:00:00 ETA
+giflib7.tcz          100% |********************************| 16384  0:00:00 ETA
+'giflib7.tcz' saved
+giflib7.tcz: OK
+Downloading: giflib7-bin.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'giflib7-bin.tcz'
+giflib7-bin.tcz      100% |********************************| 77824  0:00:00 ETA
+'giflib7-bin.tcz' saved
+giflib7-bin.tcz: OK
+Downloading: giflib7-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'giflib7-dev.tcz'
+giflib7-dev.tcz      100% |********************************|  8192  0:00:00 ETA
+'giflib7-dev.tcz' saved
+giflib7-dev.tcz: OK
+Downloading: libwebp1.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libwebp1.tcz'
+libwebp1.tcz         100% |********************************|  296k  0:00:00 ETA
+'libwebp1.tcz' saved
+libwebp1.tcz: OK
+Downloading: libwebp1-bin.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libwebp1-bin.tcz'
+libwebp1-bin.tcz     100% |********************************| 90112  0:00:00 ETA
+'libwebp1-bin.tcz' saved
+libwebp1-bin.tcz: OK
+Downloading: libwebp1-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libwebp1-dev.tcz'
+libwebp1-dev.tcz     100% |********************************| 40960  0:00:00 ETA
+'libwebp1-dev.tcz' saved
+libwebp1-dev.tcz: OK
+Downloading: libtheora.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libtheora.tcz'
+libtheora.tcz        100% |********************************|  236k  0:00:00 ETA
+'libtheora.tcz' saved
+libtheora.tcz: OK
+Downloading: libtheora-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libtheora-dev.tcz'
+libtheora-dev.tcz    100% |********************************|  332k  0:00:00 ETA
+'libtheora-dev.tcz' saved
+libtheora-dev.tcz: OK
+Downloading: x264_164.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'x264_164.tcz'
+x264_164.tcz         100% |********************************|  760k  0:00:00 ETA
+'x264_164.tcz' saved
+x264_164.tcz: OK
+Downloading: x264_164-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'x264_164-dev.tcz'
+x264_164-dev.tcz     100% |********************************| 20480  0:00:00 ETA
+'x264_164-dev.tcz' saved
+x264_164-dev.tcz: OK
+Downloading: libavutil7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libavutil7.tcz'
+libavutil7.tcz       100% |********************************|  316k  0:00:00 ETA
+'libavutil7.tcz' saved
+libavutil7.tcz: OK
+Downloading: libswscale7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libswscale7.tcz'
+libswscale7.tcz      100% |********************************|  176k  0:00:00 ETA
+'libswscale7.tcz' saved
+libswscale7.tcz: OK
+Downloading: libpostproc7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libpostproc7.tcz'
+libpostproc7.tcz     100% |********************************| 16384  0:00:00 ETA
+'libpostproc7.tcz' saved
+libpostproc7.tcz: OK
+Downloading: libswresample7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libswresample7.tcz'
+libswresample7.tcz   100% |********************************| 36864  0:00:00 ETA
+'libswresample7.tcz' saved
+libswresample7.tcz: OK
+Downloading: libavcodec7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libavcodec7.tcz'
+libavcodec7.tcz        0% |                                | 14027  0:06:12 ETA
+libavcodec7.tcz      100% |********************************| 5048k  0:00:00 ETA
+'libavcodec7.tcz' saved
+libavcodec7.tcz: OK
+Downloading: libavformat7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libavformat7.tcz'
+libavformat7.tcz     100% |********************************| 1128k  0:00:00 ETA
+'libavformat7.tcz' saved
+libavformat7.tcz: OK
+Downloading: libavfilter7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libavfilter7.tcz'
+libavfilter7.tcz     100% |********************************| 1520k  0:00:00 ETA
+'libavfilter7.tcz' saved
+libavfilter7.tcz: OK
+Downloading: libavdevice7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libavdevice7.tcz'
+libavdevice7.tcz     100% |********************************| 53248  0:00:00 ETA
+'libavdevice7.tcz' saved
+libavdevice7.tcz: OK
+Downloading: ffmpeg7.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'ffmpeg7.tcz'
+ffmpeg7.tcz          100% |********************************|  272k  0:00:00 ETA
+'ffmpeg7.tcz' saved
+ffmpeg7.tcz: OK
+Downloading: ffmpeg7-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'ffmpeg7-dev.tcz'
+ffmpeg7-dev.tcz      100% |********************************|  444k  0:00:00 ETA
+'ffmpeg7-dev.tcz' saved
+ffmpeg7-dev.tcz: OK
+Downloading: openal.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'openal.tcz'
+openal.tcz           100% |********************************|  384k  0:00:00 ETA
+'openal.tcz' saved
+openal.tcz: OK
+Downloading: openal-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'openal-dev.tcz'
+openal-dev.tcz       100% |********************************| 28672  0:00:00 ETA
+'openal-dev.tcz' saved
+openal-dev.tcz: OK
+Downloading: perl5.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'perl5.tcz'
+perl5.tcz            100% |********************************| 16.7M  0:00:00 ETA
+'perl5.tcz' saved
+perl5.tcz: OK
+Downloading: perl_xml_parser.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'perl_xml_parser.tcz'
+perl_xml_parser.tcz  100% |********************************|  224k  0:00:00 ETA
+'perl_xml_parser.tcz' saved
+perl_xml_parser.tcz: OK
+Downloading: autoconf.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'autoconf.tcz'
+autoconf.tcz         100% |********************************|  812k  0:00:00 ETA
+'autoconf.tcz' saved
+autoconf.tcz: OK
+Downloading: zsync.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'zsync.tcz'
+zsync.tcz            100% |********************************| 36864  0:00:00 ETA
+'zsync.tcz' saved
+zsync.tcz: OK
+Downloading: lzo.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'lzo.tcz'
+lzo.tcz              100% |********************************| 57344  0:00:00 ETA
+'lzo.tcz' saved
+lzo.tcz: OK
+Downloading: squashfs-tools.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'squashfs-tools.tcz'
+squashfs-tools.tcz   100% |********************************|  184k  0:00:00 ETA
+'squashfs-tools.tcz' saved
+squashfs-tools.tcz: OK
+Downloading: flex.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'flex.tcz'
+flex.tcz             100% |********************************|  116k  0:00:00 ETA
+'flex.tcz' saved
+flex.tcz: OK
+Downloading: binutils.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'binutils.tcz'
+binutils.tcz         100% |********************************| 6548k  0:00:00 ETA
+'binutils.tcz' saved
+binutils.tcz: OK
+Downloading: grep.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'grep.tcz'
+grep.tcz             100% |********************************| 65536  0:00:00 ETA
+'grep.tcz' saved
+grep.tcz: OK
+Downloading: coreutils.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'coreutils.tcz'
+coreutils.tcz        100% |********************************| 2308k  0:00:00 ETA
+'coreutils.tcz' saved
+coreutils.tcz: OK
+Downloading: wget.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'wget.tcz'
+wget.tcz             100% |********************************|  192k  0:00:00 ETA
+'wget.tcz' saved
+wget.tcz: OK
+Downloading: diffutils.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'diffutils.tcz'
+diffutils.tcz        100% |********************************|  108k  0:00:00 ETA
+'diffutils.tcz' saved
+diffutils.tcz: OK
+Downloading: file.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'file.tcz'
+file.tcz              28% |*********                       |  208k  0:00:02 ETA
+file.tcz             100% |********************************|  724k  0:00:00 ETA
+'file.tcz' saved
+file.tcz: OK
+Downloading: submitqc.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'submitqc.tcz'
+submitqc.tcz         100% |********************************| 28672  0:00:00 ETA
+'submitqc.tcz' saved
+submitqc.tcz: OK
+Downloading: unixODBC.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'unixODBC.tcz'
+unixODBC.tcz         100% |********************************|  224k  0:00:00 ETA
+'unixODBC.tcz' saved
+unixODBC.tcz: OK
+Downloading: unixODBC-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'unixODBC-dev.tcz'
+unixODBC-dev.tcz     100% |********************************| 73728  0:00:00 ETA
+'unixODBC-dev.tcz' saved
+unixODBC-dev.tcz: OK
+Downloading: libxcrypt_base-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libxcrypt_base-dev.tcz'
+libxcrypt_base-dev.t 100% |********************************|  8192  0:00:00 ETA
+'libxcrypt_base-dev.tcz' saved
+libxcrypt_base-dev.tcz: OK
+Downloading: glibc_add_lib.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'glibc_add_lib.tcz'
+glibc_add_lib.tcz    100% |********************************|  696k  0:00:00 ETA
+'glibc_add_lib.tcz' saved
+glibc_add_lib.tcz: OK
+Downloading: zlib_base-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'zlib_base-dev.tcz'
+zlib_base-dev.tcz    100% |********************************| 45056  0:00:00 ETA
+'zlib_base-dev.tcz' saved
+zlib_base-dev.tcz: OK
+Downloading: util-linux_base-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'util-linux_base-dev.tcz'
+util-linux_base-dev. 100% |********************************|  8192  0:00:00 ETA
+'util-linux_base-dev.tcz' saved
+util-linux_base-dev.tcz: OK
+Downloading: linux-6.12_api_headers.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'linux-6.12_api_headers.tcz'
+linux-6.12_api_heade 100% |********************************| 2364k  0:00:00 ETA
+'linux-6.12_api_headers.tcz' saved
+linux-6.12_api_headers.tcz: OK
+Downloading: glibc_base-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'glibc_base-dev.tcz'
+glibc_base-dev.tcz   100% |********************************| 4112k  0:00:00 ETA
+'glibc_base-dev.tcz' saved
+glibc_base-dev.tcz: OK
+Downloading: e2fsprogs_base-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'e2fsprogs_base-dev.tcz'
+e2fsprogs_base-dev.t 100% |********************************| 61440  0:00:00 ETA
+'e2fsprogs_base-dev.tcz' saved
+e2fsprogs_base-dev.tcz: OK
+Downloading: sed.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'sed.tcz'
+sed.tcz              100% |********************************| 49152  0:00:00 ETA
+'sed.tcz' saved
+sed.tcz: OK
+Downloading: pkg-config.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'pkg-config.tcz'
+pkg-config.tcz       100% |********************************| 57344  0:00:00 ETA
+'pkg-config.tcz' saved
+pkg-config.tcz: OK
+Downloading: patch.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'patch.tcz'
+patch.tcz            100% |********************************| 77824  0:00:00 ETA
+'patch.tcz' saved
+patch.tcz: OK
+Downloading: make.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'make.tcz'
+make.tcz             100% |********************************|  124k  0:00:00 ETA
+'make.tcz' saved
+make.tcz: OK
+Downloading: isl.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'isl.tcz'
+isl.tcz               85% |***************************     |  710k  0:00:00 ETA
+isl.tcz              100% |********************************|  828k  0:00:00 ETA
+'isl.tcz' saved
+isl.tcz: OK
+Downloading: mpfr.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'mpfr.tcz'
+mpfr.tcz             100% |********************************|  356k  0:00:00 ETA
+'mpfr.tcz' saved
+mpfr.tcz: OK
+Downloading: mpc.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'mpc.tcz'
+mpc.tcz              100% |********************************| 57344  0:00:00 ETA
+'mpc.tcz' saved
+mpc.tcz: OK
+Downloading: gcc_base-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gcc_base-dev.tcz'
+gcc_base-dev.tcz     100% |********************************| 2364k  0:00:00 ETA
+'gcc_base-dev.tcz' saved
+gcc_base-dev.tcz: OK
+Downloading: gcc.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gcc.tcz'
+gcc.tcz               53% |*****************               | 38.4M  0:00:00 ETA
+gcc.tcz               87% |***************************     | 62.4M  0:00:00 ETA
+gcc.tcz              100% |********************************| 71.6M  0:00:00 ETA
+'gcc.tcz' saved
+gcc.tcz: OK
+Downloading: gawk.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gawk.tcz'
+gawk.tcz             100% |********************************|  364k  0:00:00 ETA
+'gawk.tcz' saved
+gawk.tcz: OK
+Downloading: findutils.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'findutils.tcz'
+findutils.tcz        100% |********************************|  148k  0:00:00 ETA
+'findutils.tcz' saved
+findutils.tcz: OK
+Downloading: bison.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'bison.tcz'
+bison.tcz            100% |********************************|  504k  0:00:00 ETA
+'bison.tcz' saved
+bison.tcz: OK
+Downloading: compiletc.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'compiletc.tcz'
+compiletc.tcz        100% |********************************|  4096  0:00:00 ETA
+'compiletc.tcz' saved
+compiletc.tcz: OK
+Downloading: krb5.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'krb5.tcz'
+krb5.tcz             100% |********************************| 1200k  0:00:00 ETA
+'krb5.tcz' saved
+krb5.tcz: OK
+Downloading: krb5-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'krb5-dev.tcz'
+krb5-dev.tcz         100% |********************************|  236k  0:00:00 ETA
+'krb5-dev.tcz' saved
+krb5-dev.tcz: OK
+Downloading: libnl.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libnl.tcz'
+libnl.tcz             58% |******************              |  208k  0:00:00 ETA
+libnl.tcz            100% |********************************|  356k  0:00:00 ETA
+'libnl.tcz' saved
+libnl.tcz: OK
+Downloading: libnl-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libnl-dev.tcz'
+libnl-dev.tcz        100% |********************************| 73728  0:00:00 ETA
+'libnl-dev.tcz' saved
+libnl-dev.tcz: OK
+Downloading: libpcap.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libpcap.tcz'
+libpcap.tcz          100% |********************************|  116k  0:00:00 ETA
+'libpcap.tcz' saved
+libpcap.tcz: OK
+Downloading: libpcap-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'libpcap-dev.tcz'
+libpcap-dev.tcz      100% |********************************| 73728  0:00:00 ETA
+'libpcap-dev.tcz' saved
+libpcap-dev.tcz: OK
+Downloading: opencl-headers.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'opencl-headers.tcz'
+opencl-headers.tcz   100% |********************************| 94208  0:00:00 ETA
+'opencl-headers.tcz' saved
+opencl-headers.tcz: OK
+Downloading: pcsc-lite.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'pcsc-lite.tcz'
+pcsc-lite.tcz        100% |********************************| 73728  0:00:00 ETA
+'pcsc-lite.tcz' saved
+pcsc-lite.tcz: OK
+Downloading: pcsc-lite-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'pcsc-lite-dev.tcz'
+pcsc-lite-dev.tcz    100% |********************************| 32768  0:00:00 ETA
+'pcsc-lite-dev.tcz' saved
+pcsc-lite-dev.tcz: OK
+Downloading: gstreamer.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gstreamer.tcz'
+gstreamer.tcz        100% |********************************| 1244k  0:00:00 ETA
+'gstreamer.tcz' saved
+gstreamer.tcz: OK
+Downloading: gstreamer-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gstreamer-dev.tcz'
+gstreamer-dev.tcz     27% |********                        | 99708  0:00:02 ETA
+gstreamer-dev.tcz    100% |********************************|  356k  0:00:00 ETA
+'gstreamer-dev.tcz' saved
+gstreamer-dev.tcz: OK
+Downloading: graphene.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'graphene.tcz'
+graphene.tcz         100% |********************************| 40960  0:00:00 ETA
+'graphene.tcz' saved
+graphene.tcz: OK
+Downloading: graphene-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'graphene-dev.tcz'
+graphene-dev.tcz     100% |********************************| 61440  0:00:00 ETA
+'graphene-dev.tcz' saved
+graphene-dev.tcz: OK
+Downloading: gudev-lib.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gudev-lib.tcz'
+gudev-lib.tcz        100% |********************************| 16384  0:00:00 ETA
+'gudev-lib.tcz' saved
+gudev-lib.tcz: OK
+Downloading: gudev-lib-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gudev-lib-dev.tcz'
+gudev-lib-dev.tcz    100% |********************************|  8192  0:00:00 ETA
+'gudev-lib-dev.tcz' saved
+gudev-lib-dev.tcz: OK
+Downloading: cdparanoia.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'cdparanoia.tcz'
+cdparanoia.tcz       100% |********************************| 65536  0:00:00 ETA
+'cdparanoia.tcz' saved
+cdparanoia.tcz: OK
+Downloading: cdparanoia-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'cdparanoia-dev.tcz'
+cdparanoia-dev.tcz   100% |********************************| 53248  0:00:00 ETA
+'cdparanoia-dev.tcz' saved
+cdparanoia-dev.tcz: OK
+Downloading: iso-codes.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'iso-codes.tcz'
+iso-codes.tcz        100% |********************************|  436k  0:00:00 ETA
+'iso-codes.tcz' saved
+iso-codes.tcz: OK
+Downloading: gst-plugins-base.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gst-plugins-base.tcz'
+gst-plugins-base.tcz 100% |********************************| 2404k  0:00:00 ETA
+'gst-plugins-base.tcz' saved
+gst-plugins-base.tcz: OK
+Downloading: gst-plugins-base-dev.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'gst-plugins-base-dev.tcz'
+gst-plugins-base-dev 100% |********************************|  368k  0:00:00 ETA
+'gst-plugins-base-dev.tcz' saved
+gst-plugins-base-dev.tcz: OK
+Downloading: sstrip.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'sstrip.tcz'
+sstrip.tcz           100% |********************************|  8192  0:00:00 ETA
+'sstrip.tcz' saved
+sstrip.tcz: OK
+Downloading: clang.tcz
+Connecting to distro.ibiblio.org (152.19.134.43:80)
+saving to 'clang.tcz'
+clang.tcz             12% |***                             | 23.9M  0:00:07 ETA
+clang.tcz             12% |****                            | 25.0M  0:00:13 ETA
+clang.tcz             25% |********                        | 50.1M  0:00:08 ETA
+clang.tcz             37% |************                    | 74.1M  0:00:06 ETA
+clang.tcz             50% |****************                | 98.1M  0:00:04 ETA
+clang.tcz             62% |*******************             |  122M  0:00:03 ETA
+clang.tcz             74% |***********************         |  146M  0:00:02 ETA
+clang.tcz             86% |***************************     |  170M  0:00:01 ETA
+clang.tcz             99% |******************************* |  194M  0:00:00 ETA
+clang.tcz            100% |********************************|  195M  0:00:00 ETA
+'clang.tcz' saved
+clang.tcz: OK
+Cloning into 'librewolf-source'...
+Submodule 'settings' (https://codeberg.org/librewolf/settings.git) registered for path 'settings'
+Cloning into '/tmp/tmp.1WqtVUmyix/librewolf-source/settings'...
+Submodule path 'settings': checked out 'ca76bb5abb1f3297816b4bac771672b132d9ec60'
+wget -qO public_key.asc "https://keys.openpgp.org/vks/v1/by-fingerprint/14F26682D0916CDD81E37B6D61B7B526D98F0353"
+gpg --import public_key.asc
+gpg: directory '/home/tc/.gnupg' created
+gpg: keybox '/home/tc/.gnupg/pubring.kbx' created
+gpg: /home/tc/.gnupg/trustdb.gpg: trustdb created
+gpg: key 61B7B526D98F0353: public key "Mozilla Software Releases <release@mozilla.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+rm -f public_key.asc
+wget -q "https://archive.mozilla.org/pub/firefox/releases/144.0/source/firefox-144.0.source.tar.xz.asc" -O firefox-144.0.source.tar.xz.asc
+wget -q "https://archive.mozilla.org/pub/firefox/releases/144.0/source/firefox-144.0.source.tar.xz" -O firefox-144.0.source.tar.xz
+gpg --verify firefox-144.0.source.tar.xz.asc firefox-144.0.source.tar.xz
+gpg: Signature made Thu Oct  9 16:56:55 2025 UTC
+gpg:                using RSA key 09BEED63F3462A2DFFAB3B875ECB6497C1A20256
+gpg: Good signature from "Mozilla Software Releases <release@mozilla.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 14F2 6682 D091 6CDD 81E3  7B6D 61B7 B526 D98F 0353
+     Subkey fingerprint: 09BE ED63 F346 2A2D FFAB  3B87 5ECB 6497 C1A2 0256
+rm -rf firefox-144.0 librewolf-144.0-1
+tar xf firefox-144.0.source.tar.xz
+mv firefox-144.0 librewolf-144.0-1
+python3 scripts/librewolf-patches.py 144.0 1
+cd librewolf-144.0-1
+cp -v ../assets/mozconfig.new mozconfig
+'../assets/mozconfig.new' -> 'mozconfig'
+cp -r ../themes/browser .
+cp -v ../assets/search-config.json services/settings/dumps/main/search-config.json
+'../assets/search-config.json' -> 'services/settings/dumps/main/search-config.json'
+
+*** -> patch -p1 -i ../patches/allow-JXL-in-non-nightly-browser.patch
+
+patching file toolkit/moz.configure
+Hunk #1 succeeded at 931 (offset 228 lines).
+
+*** -> patch -p1 -i ../patches/allow-ubo-private-mode.patch
+
+patching file toolkit/components/extensions/Extension.sys.mjs
+Hunk #1 succeeded at 4305 (offset 316 lines).
+
+*** -> patch -p1 -i ../patches/bootstrap.patch
+
+patching file python/mozversioncontrol/mozversioncontrol/repo/source.py
+Hunk #1 succeeded at 104 (offset 13 lines).
+
+*** -> patch -p1 -i ../patches/custom-ubo-assets-bootstrap-location.patch
+
+patching file toolkit/components/extensions/parent/ext-storage.js
+Hunk #1 succeeded at 411 (offset 3 lines).
+
+*** -> patch -p1 -i ../patches/dbus_name.patch
+
+patching file toolkit/components/remote/nsDBusRemoteClient.cpp
+Hunk #3 succeeded at 121 (offset 4 lines).
+Hunk #4 succeeded at 132 (offset 4 lines).
+patching file toolkit/components/remote/nsDBusRemoteServer.cpp
+
+*** -> patch -p1 -i ../patches/disable-data-reporting-at-compile-time.patch
+
+patching file browser/moz.configure
+patching file python/mach/mach/telemetry.py
+Hunk #1 succeeded at 92 (offset -6 lines).
+
+*** -> patch -p1 -i ../patches/firefox-in-ua.patch
+
+patching file toolkit/moz.configure
+Hunk #1 succeeded at 28 with fuzz 2.
+
+*** -> patch -p1 -i ../patches/flatpak-autoconf.patch
+
+patching file extensions/pref/autoconfig/src/nsReadConfig.cpp
+
+*** -> patch -p1 -i ../patches/fullpage-translations-customization.patch
+
+patching file browser/base/content/main-popupset.inc.xhtml
+Hunk #1 succeeded at 769 (offset 162 lines).
+patching file browser/base/content/main-popupset.js
+Hunk #1 succeeded at 348 (offset 97 lines).
+patching file browser/components/preferences/main.inc.xhtml
+Hunk #1 succeeded at 440 (offset 51 lines).
+Hunk #2 succeeded at 471 (offset 51 lines).
+patching file browser/components/preferences/main.js
+Hunk #1 succeeded at 158 (offset 13 lines).
+Hunk #2 succeeded at 767 with fuzz 2 (offset 437 lines).
+Hunk #3 succeeded at 1048 (offset 235 lines).
+Hunk #4 succeeded at 1306 with fuzz 1 (offset 259 lines).
+patching file browser/components/translations/content/fullPageTranslationsPanel.js
+Hunk #1 succeeded at 1300 (offset 80 lines).
+
+*** -> patch -p1 -i ../patches/fullpage-translations.patch
+
+patching file services/settings/Attachments.sys.mjs
+patching file services/settings/RemoteSettingsClient.sys.mjs
+Hunk #1 succeeded at 315 (offset -4 lines).
+Hunk #2 succeeded at 345 (offset -4 lines).
+Hunk #3 succeeded at 388 (offset -3 lines).
+Hunk #4 succeeded at 661 (offset 1 line).
+patching file services/settings/Utils.sys.mjs
+patching file toolkit/components/translations/actors/TranslationsParent.sys.mjs
+Hunk #1 succeeded at 2157 (offset 27 lines).
+Hunk #2 succeeded at 2645 (offset 27 lines).
+Hunk #3 succeeded at 2723 (offset 27 lines).
+Hunk #4 succeeded at 2749 (offset 27 lines).
+Hunk #5 succeeded at 3065 (offset 27 lines).
+
+*** -> patch -p1 -i ../patches/hide-passwordmgr.patch
+
+patching file browser/base/content/browser-init.js
+Hunk #1 succeeded at 342 (offset 42 lines).
+patching file browser/components/preferences/privacy.js
+Hunk #1 succeeded at 1365 with fuzz 2 (offset 151 lines).
+
+*** -> patch -p1 -i ../patches/moz-configure.patch
+
+patching file toolkit/moz.configure
+
+*** -> patch -p1 -i ../patches/mozilla_dirs.patch
+
+patching file toolkit/components/extensions/NativeManifests.sys.mjs
+Hunk #1 succeeded at 39 (offset -1 lines).
+patching file toolkit/xre/nsXREDirProvider.cpp
+Hunk #1 succeeded at 279 (offset 1 line).
+Hunk #2 succeeded at 365 (offset 1 line).
+Hunk #3 succeeded at 411 (offset 1 line).
+Hunk #4 succeeded at 940 (offset 1 line).
+Hunk #5 succeeded at 1210 (offset 11 lines).
+Hunk #6 succeeded at 1220 (offset 11 lines).
+Hunk #7 succeeded at 1271 (offset 11 lines).
+Hunk #8 succeeded at 1302 (offset 11 lines).
+patching file xpcom/build/nsXULAppAPI.h
+
+*** -> patch -p1 -i ../patches/msix.patch
+
+patching file browser/installer/windows/msix/AppxManifest.xml.in
+patching file python/mozbuild/mozbuild/mach_commands.py
+Hunk #1 succeeded at 2864 (offset 117 lines).
+Hunk #2 succeeded at 3023 (offset 117 lines).
+patching file python/mozbuild/mozbuild/repackaging/msix.py
+
+*** -> patch -p1 -i ../patches/rs-blocker.patch
+
+patching file services/settings/RemoteSettingsClient.sys.mjs
+Hunk #1 succeeded at 212 (offset -16 lines).
+Hunk #2 succeeded at 663 (offset 6 lines).
+Hunk #3 succeeded at 1054 (offset 14 lines).
+patching file services/settings/Utils.sys.mjs
+Hunk #3 succeeded at 562 (offset -1 lines).
+
+*** -> patch -p1 -i ../patches/rust-gentoo-musl.patch
+
+patching file build/moz.configure/rust.configure
+patch unexpectedly ends in middle of line
+Hunk #1 succeeded at 412 with fuzz 1 (offset 8 lines).
+
+*** -> patch -p1 -i ../patches/sed-patches/stop-undesired-requests.patch
+
+patching file browser/components/asrouter/content/asrouter-admin.bundle.js
+Hunk #1 succeeded at 1154 with fuzz 2 (offset -496 lines).
+patching file services/settings/Utils.sys.mjs
+Hunk #2 succeeded at 151 (offset 14 lines).
+patching file toolkit/components/search/SearchUtils.sys.mjs
+Hunk #1 succeeded at 181 (offset -25 lines).
+
+*** -> patch -p1 -i ../patches/ui-patches/allow_cookies_for_site.patch
+
+patching file browser/base/content/browser-siteIdentity.js
+Hunk #1 succeeded at 220 (offset 16 lines).
+Hunk #2 succeeded at 470 (offset 10 lines).
+Hunk #3 succeeded at 1224 (offset -23 lines).
+patching file browser/components/controlcenter/content/identityPanel.inc.xhtml
+
+*** -> patch -p1 -i ../patches/ui-patches/firefox-view.patch
+
+patching file browser/base/content/navigator-toolbox.inc.xhtml
+Hunk #1 succeeded at 36 (offset 1 line).
+Hunk #2 succeeded at 791 (offset 132 lines).
+patching file browser/components/customizableui/CustomizableUI.sys.mjs
+Hunk #1 succeeded at 381 (offset 34 lines).
+Hunk #2 succeeded at 741 (offset 35 lines).
+
+*** -> patch -p1 -i ../patches/ui-patches/handlers.patch
+
+patching file uriloader/exthandler/HandlerList.sys.mjs
+
+*** -> patch -p1 -i ../patches/ui-patches/hide-default-browser.patch
+
+patching file browser/components/preferences/main.inc.xhtml
+Hunk #2 succeeded at 54 (offset 6 lines).
+
+*** -> patch -p1 -i ../patches/ui-patches/hide-finish-setup-bookmark.patch
+
+patching file browser/components/asrouter/modules/OnboardingMessageProvider.sys.mjs
+
+*** -> patch -p1 -i ../patches/ui-patches/lw-logo-devtools.patch
+
+patching file devtools/client/aboutdebugging/src/actions/runtimes.js
+patching file devtools/client/jar.mn
+Hunk #1 succeeded at 369 (offset -5 lines).
+patching file devtools/client/themes/images/aboutdebugging-firefox-librewolf.svg
+patching file devtools/client/themes/images/aboutdebugging-firefox-logo.svg
+
+*** -> patch -p1 -i ../patches/ui-patches/pref-naming.patch
+
+patching file browser/locales/en-US/browser/preferences/preferences.ftl
+Hunk #1 succeeded at 520 (offset 31 lines).
+Hunk #2 succeeded at 528 (offset 31 lines).
+
+*** -> patch -p1 -i ../patches/ui-patches/privacy-preferences.patch
+
+patching file browser/components/preferences/privacy.inc.xhtml
+Hunk #3 succeeded at 222 with fuzz 1 (offset 18 lines).
+Hunk #4 succeeded at 238 (offset 17 lines).
+Hunk #5 succeeded at 371 (offset 29 lines).
+Hunk #6 succeeded at 612 (offset 12 lines).
+Hunk #7 succeeded at 659 (offset 12 lines).
+Hunk #8 succeeded at 1094 (offset 38 lines).
+Hunk #9 succeeded at 1106 (offset 38 lines).
+patching file browser/locales/en-US/browser/preferences/preferences.ftl
+Hunk #1 succeeded at 1303 (offset 51 lines).
+patching file browser/themes/shared/preferences/privacy.css
+Hunk #1 succeeded at 221 (offset 8 lines).
+Hunk #2 succeeded at 257 (offset 8 lines).
+
+*** -> patch -p1 -i ../patches/ui-patches/remove-cfrprefs.patch
+
+patching file browser/components/preferences/main.js
+Hunk #1 succeeded at 372 (offset -7 lines).
+
+*** -> patch -p1 -i ../patches/ui-patches/remove-organization-policy-banner.patch
+
+patching file browser/components/preferences/preferences.js
+Hunk #1 succeeded at 242 (offset 8 lines).
+
+*** -> patch -p1 -i ../patches/ui-patches/website-appearance-ui-rfp.patch
+
+patching file browser/components/preferences/main.js
+Hunk #1 succeeded at 4576 (offset 194 lines).
+Hunk #2 succeeded at 4607 (offset 189 lines).
+Hunk #3 succeeded at 4643 (offset 189 lines).
+
+*** -> patch -p1 -i ../patches/urlbarprovider-interventions.patch
+
+patching file browser/components/urlbar/UrlbarProviderInterventions.sys.mjs
+Hunk #1 succeeded at 446 with fuzz 1 (offset -8 lines).
+
+*** -> patch -p1 -i ../patches/windows-theming-bug.patch
+
+patching file browser/app/Makefile.in
+Hunk #1 succeeded at 23 (offset -8 lines).
+patching file browser/app/librewolf.exe.manifest (renamed from browser/app/firefox.exe.manifest)
+
+*** -> patch -p1 -i ../patches/xmas.patch
+patching file browser/installer/package-manifest.in
+Hunk #1 succeeded at 249 (offset -2 lines).
+patching file lw/moz.build
+patching file moz.build
+Hunk #1 succeeded at 235 with fuzz 1 (offset 33 lines).
+cp -v ../patches/pack_vs.py build/vs/
+'../patches/pack_vs.py' -> 'build/vs/pack_vs.py'
+mkdir -p lw
+cd lw
+cp -v ../../settings/librewolf.cfg .
+'../../settings/librewolf.cfg' -> './librewolf.cfg'
+cp -v ../../settings/distribution/policies.json .
+'../../settings/distribution/policies.json' -> './policies.json'
+cp -v ../../settings/defaults/pref/local-settings.js .
+'../../settings/defaults/pref/local-settings.js' -> './local-settings.js'
+cd ..
+
+*** -> patch -p1 -i ../patches/pref-pane/pref-pane-small.patch
+patching file browser/components/preferences/jar.mn
+patching file browser/components/preferences/preferences.js
+Hunk #2 succeeded at 196 (offset -1 lines).
+patching file browser/components/preferences/preferences.xhtml
+Hunk #1 succeeded at 42 with fuzz 2.
+Hunk #2 succeeded at 149 (offset 1 line).
+Hunk #3 succeeded at 254 (offset 1 line).
+patching file browser/themes/shared/jar.inc.mn
+Hunk #1 succeeded at 130 (offset 16 lines).
+Hunk #2 succeeded at 149 (offset 17 lines).
+patching file browser/themes/shared/preferences/preferences.css
+Hunk #1 succeeded at 227 (offset 4 lines).
+cp ../patches/pref-pane/category-librewolf.svg browser/themes/shared/preferences/category-librewolf.svg
+cp ../patches/pref-pane/librewolf.css browser/themes/shared/preferences/librewolf.css
+cp ../patches/pref-pane/librewolf.inc.xhtml browser/components/preferences/librewolf.inc.xhtml
+cp ../patches/pref-pane/librewolf.js browser/components/preferences/librewolf.js
+cp -v ../scripts/mozfetch.sh lw/
+'../scripts/mozfetch.sh' -> 'lw/mozfetch.sh'
+cp -v ../assets/mozconfig.new ../assets/mozconfig.new.without-bootstrap ../scripts/setup-wasi-linux.sh lw/
+'../assets/mozconfig.new' -> 'lw/mozconfig.new'
+'../assets/mozconfig.new.without-bootstrap' -> 'lw/mozconfig.new.without-bootstrap'
+'../scripts/setup-wasi-linux.sh' -> 'lw/setup-wasi-linux.sh'
+-> Downloading locales from https://github.com/mozilla-l10n/firefox-l10n
+wget -qO /tmp/tmp86qob_4k/l10n.zip 'https://codeload.github.com/mozilla-l10n/firefox-l10n/zip/refs/heads/main'
+unzip -qo /tmp/tmp86qob_4k/l10n.zip -d /tmp/tmp86qob_4k/l10n
+mv /tmp/tmp86qob_4k/l10n/firefox-l10n-main lw/l10n
+-> Patching appstrings.properties
+find . -path '*/appstrings.properties' -exec sed -i s/Firefox/LibreWolf/ {} \;
+-> Applying LibreWolf locales
+../l10n/hu/browser/translations.inc.ftl >> lw/l10n/hu/browser/browser/translations.ftl
+../l10n/hu/browser/browser.inc.ftl >> lw/l10n/hu/browser/browser/browser.ftl
+../l10n/hu/browser/preferences/preferences.inc.ftl >> lw/l10n/hu/browser/browser/preferences/preferences.ftl
+../l10n/id/browser/translations.inc.ftl >> lw/l10n/id/browser/browser/translations.ftl
+../l10n/id/browser/browser.inc.ftl >> lw/l10n/id/browser/browser/browser.ftl
+../l10n/id/browser/aboutDialog.inc.ftl >> lw/l10n/id/browser/browser/aboutDialog.ftl
+../l10n/id/browser/preferences/preferences.inc.ftl >> lw/l10n/id/browser/browser/preferences/preferences.ftl
+../l10n/id/toolkit/branding/brandings.ftl > lw/l10n/id/toolkit/toolkit/branding/brandings.ftl
+../l10n/ga/browser/translations.inc.ftl >> lw/l10n/ga/browser/browser/translations.ftl
+../l10n/ga/browser/browser.inc.ftl >> lw/l10n/ga/browser/browser/browser.ftl
+../l10n/ga/browser/aboutDialog.inc.ftl >> lw/l10n/ga/browser/browser/aboutDialog.ftl
+../l10n/ga/browser/preferences/preferences.inc.ftl >> lw/l10n/ga/browser/browser/preferences/preferences.ftl
+../l10n/ga/toolkit/branding/brandings.ftl > lw/l10n/ga/toolkit/toolkit/branding/brandings.ftl
+../l10n/en/browser/translations.inc.ftl >> lw/l10n/en/browser/browser/translations.ftl
+../l10n/pl/browser/translations.inc.ftl >> lw/l10n/pl/browser/browser/translations.ftl
+../l10n/pl/browser/browser.inc.ftl >> lw/l10n/pl/browser/browser/browser.ftl
+../l10n/pl/browser/preferences/preferences.inc.ftl >> lw/l10n/pl/browser/browser/preferences/preferences.ftl
+../l10n/pl/toolkit/branding/brandings.ftl > lw/l10n/pl/toolkit/toolkit/branding/brandings.ftl
+../l10n/nl/browser/aboutDialog.inc.ftl >> lw/l10n/nl/browser/browser/aboutDialog.ftl
+../l10n/nl/browser/preferences/preferences.inc.ftl >> lw/l10n/nl/browser/browser/preferences/preferences.ftl
+../l10n/fr/browser/translations.inc.ftl >> lw/l10n/fr/browser/browser/translations.ftl
+../l10n/fr/browser/browser.inc.ftl >> lw/l10n/fr/browser/browser/browser.ftl
+../l10n/fr/browser/preferences/preferences.inc.ftl >> lw/l10n/fr/browser/browser/preferences/preferences.ftl
+../l10n/bn/browser/translations.inc.ftl >> lw/l10n/bn/browser/browser/translations.ftl
+../l10n/bn/browser/browser.inc.ftl >> lw/l10n/bn/browser/browser/browser.ftl
+../l10n/bn/browser/aboutDialog.inc.ftl >> lw/l10n/bn/browser/browser/aboutDialog.ftl
+../l10n/bn/toolkit/branding/brandings.ftl > lw/l10n/bn/toolkit/toolkit/branding/brandings.ftl
+../l10n/ar/browser/translations.inc.ftl >> lw/l10n/ar/browser/browser/translations.ftl
+../l10n/ar/browser/browser.inc.ftl >> lw/l10n/ar/browser/browser/browser.ftl
+../l10n/ar/browser/aboutDialog.inc.ftl >> lw/l10n/ar/browser/browser/aboutDialog.ftl
+../l10n/ar/browser/preferences/preferences.inc.ftl >> lw/l10n/ar/browser/browser/preferences/preferences.ftl
+../l10n/ar/toolkit/branding/brandings.ftl > lw/l10n/ar/toolkit/toolkit/branding/brandings.ftl
+../l10n/et/browser/translations.inc.ftl >> lw/l10n/et/browser/browser/translations.ftl
+../l10n/et/browser/browser.inc.ftl >> lw/l10n/et/browser/browser/browser.ftl
+../l10n/et/browser/preferences/preferences.inc.ftl >> lw/l10n/et/browser/browser/preferences/preferences.ftl
+../l10n/et/toolkit/branding/brandings.ftl > lw/l10n/et/toolkit/toolkit/branding/brandings.ftl
+../l10n/it/browser/translations.inc.ftl >> lw/l10n/it/browser/browser/translations.ftl
+../l10n/it/browser/browser.inc.ftl >> lw/l10n/it/browser/browser/browser.ftl
+../l10n/it/browser/aboutDialog.inc.ftl >> lw/l10n/it/browser/browser/aboutDialog.ftl
+../l10n/it/browser/preferences/preferences.inc.ftl >> lw/l10n/it/browser/browser/preferences/preferences.ftl
+../l10n/it/toolkit/branding/brandings.ftl > lw/l10n/it/toolkit/toolkit/branding/brandings.ftl
+../l10n/en-US/browser/translations.inc.ftl >> browser/locales/en-US/browser/translations.ftl
+../l10n/en-US/browser/browser.inc.ftl >> browser/locales/en-US/browser/browser.ftl
+../l10n/en-US/browser/aboutDialog.inc.ftl >> browser/locales/en-US/browser/aboutDialog.ftl
+../l10n/en-US/browser/preferences/preferences.inc.ftl >> browser/locales/en-US/browser/preferences/preferences.ftl
+../l10n/en-US/toolkit/branding/brandings.ftl > toolkit/locales/en-US/toolkit/branding/brandings.ftl
+../l10n/sv/browser/translations.inc.ftl >> lw/l10n/sv/browser/browser/translations.ftl
+../l10n/sv/browser/browser.inc.ftl >> lw/l10n/sv/browser/browser/browser.ftl
+../l10n/sv/browser/aboutDialog.inc.ftl >> lw/l10n/sv/browser/browser/aboutDialog.ftl
+../l10n/sv/browser/preferences/preferences.inc.ftl >> lw/l10n/sv/browser/browser/preferences/preferences.ftl
+../l10n/sv/toolkit/branding/brandings.ftl > lw/l10n/sv/toolkit/toolkit/branding/brandings.ftl
+../l10n/cs/browser/translations.inc.ftl >> lw/l10n/cs/browser/browser/translations.ftl
+../l10n/cs/browser/browser.inc.ftl >> lw/l10n/cs/browser/browser/browser.ftl
+../l10n/cs/browser/preferences/preferences.inc.ftl >> lw/l10n/cs/browser/browser/preferences/preferences.ftl
+../l10n/cs/toolkit/branding/brandings.ftl > lw/l10n/cs/toolkit/toolkit/branding/brandings.ftl
+../l10n/vi/browser/browser.inc.ftl >> lw/l10n/vi/browser/browser/browser.ftl
+../l10n/vi/browser/aboutDialog.inc.ftl >> lw/l10n/vi/browser/browser/aboutDialog.ftl
+../l10n/vi/browser/preferences/preferences.inc.ftl >> lw/l10n/vi/browser/browser/preferences/preferences.ftl
+../l10n/vi/toolkit/branding/brandings.ftl > lw/l10n/vi/toolkit/toolkit/branding/brandings.ftl
+../l10n/ja/browser/translations.inc.ftl >> lw/l10n/ja/browser/browser/translations.ftl
+../l10n/ja/browser/browser.inc.ftl >> lw/l10n/ja/browser/browser/browser.ftl
+../l10n/ja/browser/preferences/preferences.inc.ftl >> lw/l10n/ja/browser/browser/preferences/preferences.ftl
+../l10n/ja/toolkit/branding/brandings.ftl > lw/l10n/ja/toolkit/toolkit/branding/brandings.ftl
+../l10n/es/browser/translations.inc.ftl >> lw/l10n/es/browser/browser/translations.ftl
+../l10n/es/browser/browser.inc.ftl >> lw/l10n/es/browser/browser/browser.ftl
+../l10n/es/browser/aboutDialog.inc.ftl >> lw/l10n/es/browser/browser/aboutDialog.ftl
+../l10n/es/browser/preferences/preferences.inc.ftl >> lw/l10n/es/browser/browser/preferences/preferences.ftl
+../l10n/es/toolkit/branding/brandings.ftl > lw/l10n/es/toolkit/toolkit/branding/brandings.ftl
+../l10n/uk/browser/translations.inc.ftl >> lw/l10n/uk/browser/browser/translations.ftl
+../l10n/uk/browser/browser.inc.ftl >> lw/l10n/uk/browser/browser/browser.ftl
+../l10n/uk/browser/aboutDialog.inc.ftl >> lw/l10n/uk/browser/browser/aboutDialog.ftl
+../l10n/uk/browser/preferences/preferences.inc.ftl >> lw/l10n/uk/browser/browser/preferences/preferences.ftl
+../l10n/uk/toolkit/branding/brandings.ftl > lw/l10n/uk/toolkit/toolkit/branding/brandings.ftl
+../l10n/fi/browser/translations.inc.ftl >> lw/l10n/fi/browser/browser/translations.ftl
+../l10n/fi/browser/browser.inc.ftl >> lw/l10n/fi/browser/browser/browser.ftl
+../l10n/fi/browser/aboutDialog.inc.ftl >> lw/l10n/fi/browser/browser/aboutDialog.ftl
+../l10n/fi/browser/preferences/preferences.inc.ftl >> lw/l10n/fi/browser/browser/preferences/preferences.ftl
+../l10n/fi/toolkit/branding/brandings.ftl > lw/l10n/fi/toolkit/toolkit/branding/brandings.ftl
+../l10n/zh-CN/browser/translations.inc.ftl >> lw/l10n/zh-CN/browser/browser/translations.ftl
+../l10n/zh-CN/browser/browser.inc.ftl >> lw/l10n/zh-CN/browser/browser/browser.ftl
+../l10n/zh-CN/browser/aboutDialog.inc.ftl >> lw/l10n/zh-CN/browser/browser/aboutDialog.ftl
+../l10n/zh-CN/browser/preferences/preferences.inc.ftl >> lw/l10n/zh-CN/browser/browser/preferences/preferences.ftl
+../l10n/zh-CN/toolkit/branding/brandings.ftl > lw/l10n/zh-CN/toolkit/toolkit/branding/brandings.ftl
+../l10n/de/browser/translations.inc.ftl >> lw/l10n/de/browser/browser/translations.ftl
+../l10n/de/browser/browser.inc.ftl >> lw/l10n/de/browser/browser/browser.ftl
+../l10n/de/browser/aboutDialog.inc.ftl >> lw/l10n/de/browser/browser/aboutDialog.ftl
+../l10n/de/browser/preferences/preferences.inc.ftl >> lw/l10n/de/browser/browser/preferences/preferences.ftl
+../l10n/de/toolkit/branding/brandings.ftl > lw/l10n/de/toolkit/toolkit/branding/brandings.ftl
+../l10n/pt/browser/translations.inc.ftl >> lw/l10n/pt/browser/browser/translations.ftl
+../l10n/pt/browser/browser.inc.ftl >> lw/l10n/pt/browser/browser/browser.ftl
+../l10n/pt/browser/aboutDialog.inc.ftl >> lw/l10n/pt/browser/browser/aboutDialog.ftl
+../l10n/pt/browser/preferences/preferences.inc.ftl >> lw/l10n/pt/browser/browser/preferences/preferences.ftl
+../l10n/pt/toolkit/branding/brandings.ftl > lw/l10n/pt/toolkit/toolkit/branding/brandings.ftl
+../l10n/el/browser/translations.inc.ftl >> lw/l10n/el/browser/browser/translations.ftl
+../l10n/el/browser/browser.inc.ftl >> lw/l10n/el/browser/browser/browser.ftl
+../l10n/el/browser/aboutDialog.inc.ftl >> lw/l10n/el/browser/browser/aboutDialog.ftl
+../l10n/el/browser/preferences/preferences.inc.ftl >> lw/l10n/el/browser/browser/preferences/preferences.ftl
+../l10n/el/toolkit/branding/brandings.ftl > lw/l10n/el/toolkit/toolkit/branding/brandings.ftl
+../l10n/ka/browser/browser.inc.ftl >> lw/l10n/ka/browser/browser/browser.ftl
+../l10n/ka/browser/aboutDialog.inc.ftl >> lw/l10n/ka/browser/browser/aboutDialog.ftl
+../l10n/ka/browser/preferences/preferences.inc.ftl >> lw/l10n/ka/browser/browser/preferences/preferences.ftl
+../l10n/nb-NO/browser/translations.inc.ftl >> lw/l10n/nb-NO/browser/browser/translations.ftl
+../l10n/sq/browser/translations.inc.ftl >> lw/l10n/sq/browser/browser/translations.ftl
+../l10n/sq/browser/browser.inc.ftl >> lw/l10n/sq/browser/browser/browser.ftl
+../l10n/sq/browser/preferences/preferences.inc.ftl >> lw/l10n/sq/browser/browser/preferences/preferences.ftl
+../l10n/sq/toolkit/branding/brandings.ftl > lw/l10n/sq/toolkit/toolkit/branding/brandings.ftl
+../l10n/tr/browser/translations.inc.ftl >> lw/l10n/tr/browser/browser/translations.ftl
+../l10n/tr/browser/browser.inc.ftl >> lw/l10n/tr/browser/browser/browser.ftl
+../l10n/tr/browser/aboutDialog.inc.ftl >> lw/l10n/tr/browser/browser/aboutDialog.ftl
+../l10n/tr/browser/preferences/preferences.inc.ftl >> lw/l10n/tr/browser/browser/preferences/preferences.ftl
+../l10n/tr/toolkit/branding/brandings.ftl > lw/l10n/tr/toolkit/toolkit/branding/brandings.ftl
+../l10n/ru/browser/translations.inc.ftl >> lw/l10n/ru/browser/browser/translations.ftl
+../l10n/ru/browser/browser.inc.ftl >> lw/l10n/ru/browser/browser/browser.ftl
+../l10n/ru/browser/aboutDialog.inc.ftl >> lw/l10n/ru/browser/browser/aboutDialog.ftl
+../l10n/ru/browser/preferences/preferences.inc.ftl >> lw/l10n/ru/browser/browser/preferences/preferences.ftl
+../l10n/ru/toolkit/branding/brandings.ftl > lw/l10n/ru/toolkit/toolkit/branding/brandings.ftl
+../l10n/fil/browser/browser.inc.ftl >> lw/l10n/fil/browser/browser/browser.ftl
+../l10n/fil/browser/aboutDialog.inc.ftl >> lw/l10n/fil/browser/browser/aboutDialog.ftl
+../l10n/fil/browser/preferences/preferences.inc.ftl >> lw/l10n/fil/browser/browser/preferences/preferences.ftl
+../l10n/fil/toolkit/branding/brandings.ftl > lw/l10n/fil/toolkit/toolkit/branding/brandings.ftl
+cd ..
+(cd librewolf-144.0-1 && ./mach build)
+ERROR: Cannot install pyyaml==6.0.2 because these package versions have conflicting dependencies.
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+
+Mach and the build system store shared state in a common directory
+on the filesystem. The following directory will be created:
+
+  /home/tc/.mozbuild
+
+If you would like to use a different directory, rename or move it to your
+desired location, and set the MOZBUILD_STATE_PATH environment variable
+accordingly.
+Creating default state directory: /home/tc/.mozbuild
+Creating local state directory: /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-724c60b624df
+Creating the 'mach' site at /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-724c60b624df/_virtualenvs/mach
+
+The conflict is caused by:
+    The user requested pyyaml==6.0.2
+    The user requested (constraint) pyyaml==6.0.3
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
+
+Could not install pyyaml, so faster native loading is disabled. Continuing.
+Creating the 'build' site at /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-724c60b624df/_virtualenvs/build
+ 0:01.56 W Clobber not needed.
+ 0:02.52 Using Python 3.9.23 from /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-724c60b624df/_virtualenvs/build/bin/python
+ 0:02.52 Adding configure options from /tmp/tmp.1WqtVUmyix/librewolf-source/librewolf-144.0-1/mozconfig
+ 0:02.52   --enable-application=browser
+ 0:02.52   --allow-addon-sideload
+ 0:02.52   --disable-crashreporter
+ 0:02.52   --disable-debug
+ 0:02.52   --disable-default-browser-agent
+ 0:02.52   --disable-tests
+ 0:02.52   --disable-updater
+ 0:02.52   --enable-hardening
+ 0:02.52   --enable-jxl
+ 0:02.52   --enable-optimize
+ 0:02.52   --enable-release
+ 0:02.52   --enable-rust-simd
+ 0:02.52   --with-app-name=librewolf
+ 0:02.52   --with-branding=browser/branding/librewolf
+ 0:02.52   --with-unsigned-addon-scopes=app,system
+ 0:02.52   --with-l10n-base=/tmp/tmp.1WqtVUmyix/librewolf-source/librewolf-144.0-1/lw/l10n
+ 0:02.52   --without-wasm-sandboxed-libraries
+ 0:02.52   --disable-bootstrap
+ 0:02.52   --disable-dbus
+ 0:02.52   --enable-ffmpeg
+ 0:02.52   --enable-alsa
+ 0:02.52   --with-system-ffi
+ 0:02.52   --with-system-gbm
+ 0:02.52   --with-system-libdrm
+ 0:02.52   MOZ_REQUIRE_SIGNING=
+ 0:02.52 checking for vcs source checkout... no
+ 0:02.56 checking for a shell... /bin/sh
+ 0:02.61 checking for host system type... x86_64-pc-linux-gnu
+ 0:02.61 checking for target system type... x86_64-pc-linux-gnu
+ 0:03.05 checking whether cross compiling... no
+ 0:03.18 checking if configuration file confvars.sh exists... /tmp/tmp.1WqtVUmyix/librewolf-source/librewolf-144.0-1/browser/confvars.sh
+ 0:03.18 checking if configuration file configure.sh exists... /tmp/tmp.1WqtVUmyix/librewolf-source/librewolf-144.0-1/browser/branding/librewolf/configure.sh
+ 0:03.21 checking for the target C compiler... /usr/local/bin/clang
+ 0:03.21 checking for ccache... not found
+ 0:03.26 checking whether the target C compiler can be used... yes
+ 0:03.26 checking for the target C++ compiler... /usr/local/bin/clang++
+ 0:03.31 checking whether the target C++ compiler can be used... yes
+ 0:03.34 checking for unwind.h... yes
+ 0:03.38 checking for target linker... bfd
+ 0:03.44 checking for _Unwind_Backtrace... yes
+ 0:03.45 checking for Python 3... /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-724c60b624df/_virtualenvs/build/bin/python (3.9.23)
+ 0:03.46 checking the target C compiler version... 19.1.0
+ 0:03.49 checking the target C compiler works... yes
+ 0:03.49 checking the target C++ compiler version... 19.1.0
+ 0:03.52 checking the target C++ compiler works... yes
+ 0:03.52 checking for the host C compiler... /usr/local/bin/clang
+ 0:03.52 checking whether the host C compiler can be used... yes
+ 0:03.52 checking the host C compiler version... 19.1.0
+ 0:03.52 checking the host C compiler works... yes
+ 0:03.52 checking for the host C++ compiler... /usr/local/bin/clang++
+ 0:03.52 checking whether the host C++ compiler can be used... yes
+ 0:03.52 checking the host C++ compiler version... 19.1.0
+ 0:03.52 checking the host C++ compiler works... yes
+ 0:03.56 checking for host linker... bfd
+ 0:03.60 checking for 64-bit OS... yes
+ 0:03.64 checking for new enough STL headers from libstdc++... yes
+ 0:03.74 checking for __thread keyword for TLS variables... yes
+ 0:03.75 checking for the assembler... /usr/local/bin/clang
+ 0:03.77 checking for llvm-objdump... /usr/local/bin/llvm-objdump
+ 0:03.79 checking for ar... /usr/local/bin/llvm-ar
+ 0:03.83 checking whether ar supports response files... yes
+ 0:03.85 checking for host_ar... /usr/local/bin/llvm-ar
+ 0:03.87 checking for nm... /usr/local/bin/llvm-nm
+ 0:03.90 checking for -mavxvnni support... yes
+ 0:03.93 checking for -mavx512bw support... yes
+ 0:03.96 checking for -mavx512vnni support... yes
+ 0:03.96 checking for pkg_config... /usr/local/bin/pkg-config
+ 0:03.96 checking for pkg-config version... 0.29.2
+ 0:03.96 checking whether pkg-config is pkgconf... no
+ 0:04.02 checking for strndup... yes
+ 0:04.08 checking for posix_memalign... yes
+ 0:04.14 checking for memalign... yes
+ 0:04.20 checking for malloc_usable_size... yes
+ 0:04.25 checking for malloc.h... yes
+ 0:04.28 checking whether malloc_usable_size definition can use const argument... no
+ 0:04.32 checking for stdint.h... yes
+ 0:04.35 checking for inttypes.h... yes
+ 0:04.38 checking for alloca.h... yes
+ 0:04.40 checking for sys/byteorder.h... no
+ 0:04.43 checking for getopt.h... yes
+ 0:04.47 checking for unistd.h... yes
+ 0:04.50 checking for nl_types.h... yes
+ 0:04.53 checking for cpuid.h... yes
+ 0:04.57 checking for fts.h... yes
+ 0:04.60 checking for sys/statvfs.h... yes
+ 0:04.63 checking for sys/statfs.h... yes
+ 0:04.66 checking for sys/vfs.h... yes
+ 0:04.70 checking for sys/mount.h... yes
+ 0:04.74 checking for sys/quota.h... yes
+ 0:04.78 checking for linux/quota.h... yes
+ 0:04.82 checking for linux/if_addr.h... yes
+ 0:04.87 checking for linux/rtnetlink.h... yes
+ 0:04.90 checking for sys/queue.h... yes
+ 0:04.93 checking for sys/types.h... yes
+ 0:04.98 checking for netinet/in.h... yes
+ 0:05.01 checking for byteswap.h... yes
+ 0:05.05 checking for memfd_create in sys/mman.h... yes
+ 0:05.14 checking for clock_gettime(CLOCK_MONOTONIC)... yes
+ 0:05.29 checking for res_ninit()... yes
+ 0:05.35 checking for dladdr... yes
+ 0:05.38 checking for dlfcn.h... yes
+ 0:05.44 checking for dlopen in -ldl... yes
+ 0:05.49 checking for gethostbyname_r in -lc_r... no
+ 0:05.54 checking for socket in -lsocket... no
+ 0:05.59 checking for pthread_create... yes
+ 0:05.64 checking for pthread.h... yes
+ 0:05.67 checking whether the C compiler supports -pthread... yes
+ 0:05.92 checking whether 64-bits std::atomic requires -latomic... no
+ 0:05.95 checking whether the C compiler supports -Wbitfield-enum-conversion... yes
+ 0:05.97 checking whether the C++ compiler supports -Wbitfield-enum-conversion... yes
+ 0:06.00 checking whether the C compiler supports -Wformat-type-confusion... yes
+ 0:06.03 checking whether the C++ compiler supports -Wformat-type-confusion... yes
+ 0:06.06 checking whether the C compiler supports -Wshadow-field-in-constructor-modified... yes
+ 0:06.09 checking whether the C++ compiler supports -Wshadow-field-in-constructor-modified... yes
+ 0:06.11 checking whether the C compiler supports -Wtautological-constant-in-range-compare... yes
+ 0:06.14 checking whether the C++ compiler supports -Wtautological-constant-in-range-compare... yes
+ 0:06.17 checking whether the C compiler supports -Wno-error=tautological-type-limit-compare... yes
+ 0:06.20 checking whether the C++ compiler supports -Wno-error=tautological-type-limit-compare... yes
+ 0:06.22 checking whether the C compiler supports -Wunreachable-code-return... yes
+ 0:06.25 checking whether the C++ compiler supports -Wunreachable-code-return... yes
+ 0:06.28 checking whether the C compiler supports -Wunused-but-set-parameter... yes
+ 0:06.31 checking whether the C++ compiler supports -Wunused-but-set-parameter... yes
+ 0:06.33 checking whether the C compiler supports -Wclass-varargs... yes
+ 0:06.36 checking whether the C++ compiler supports -Wclass-varargs... yes
+ 0:06.39 checking whether the C++ compiler supports -Wempty-init-stmt... yes
+ 0:06.42 checking whether the C compiler supports -Wfloat-overflow-conversion... yes
+ 0:06.44 checking whether the C++ compiler supports -Wfloat-overflow-conversion... yes
+ 0:06.47 checking whether the C compiler supports -Wfloat-zero-conversion... yes
+ 0:06.50 checking whether the C++ compiler supports -Wfloat-zero-conversion... yes
+ 0:06.52 checking whether the C compiler supports -Wloop-analysis... yes
+ 0:06.55 checking whether the C++ compiler supports -Wloop-analysis... yes
+ 0:06.58 checking whether the C compiler supports -Wno-range-loop-analysis... yes
+ 0:06.60 checking whether the C++ compiler supports -Wno-range-loop-analysis... yes
+ 0:06.63 checking whether the C++ compiler supports -Wcomma-subscript... no
+ 0:06.66 checking whether the C compiler supports -Wenum-compare-conditional... yes
+ 0:06.68 checking whether the C++ compiler supports -Wenum-compare-conditional... yes
+ 0:06.71 checking whether the C compiler supports -Wenum-float-conversion... yes
+ 0:06.74 checking whether the C++ compiler supports -Wenum-float-conversion... yes
+ 0:06.76 checking whether the C++ compiler supports -Wvolatile... no
+ 0:06.79 checking whether the C++ compiler supports -Wno-deprecated-anon-enum-enum-conversion... yes
+ 0:06.82 checking whether the C++ compiler supports -Wno-deprecated-enum-enum-conversion... yes
+ 0:06.84 checking whether the C++ compiler supports -Wno-deprecated-this-capture... yes
+ 0:06.87 checking whether the C++ compiler supports -Wcomma... yes
+ 0:06.89 checking whether the C compiler supports -Wduplicated-cond... no
+ 0:06.92 checking whether the C++ compiler supports -Wduplicated-cond... no
+ 0:06.94 checking whether the C++ compiler supports -Wimplicit-fallthrough... yes
+ 0:06.97 checking whether the C compiler supports -Wlogical-op... no
+ 0:06.99 checking whether the C++ compiler supports -Wlogical-op... no
+ 0:07.02 checking whether the C compiler supports -Wstring-conversion... yes
+ 0:07.05 checking whether the C++ compiler supports -Wstring-conversion... yes
+ 0:07.08 checking whether the C++ compiler supports -Wno-inline-new-delete... yes
+ 0:07.10 checking whether the C compiler supports -Wno-error=maybe-uninitialized... no
+ 0:07.13 checking whether the C++ compiler supports -Wno-error=maybe-uninitialized... no
+ 0:07.15 checking whether the C compiler supports -Wno-error=deprecated-declarations... yes
+ 0:07.18 checking whether the C++ compiler supports -Wno-error=deprecated-declarations... yes
+ 0:07.21 checking whether the C compiler supports -Wno-error=array-bounds... yes
+ 0:07.24 checking whether the C++ compiler supports -Wno-error=array-bounds... yes
+ 0:07.26 checking whether the C compiler supports -Wno-error=free-nonheap-object... yes
+ 0:07.29 checking whether the C++ compiler supports -Wno-error=free-nonheap-object... yes
+ 0:07.32 checking whether the C compiler supports -Wno-multistatement-macros... no
+ 0:07.34 checking whether the C++ compiler supports -Wno-multistatement-macros... no
+ 0:07.36 checking whether the C compiler supports -Wno-error=class-memaccess... no
+ 0:07.39 checking whether the C++ compiler supports -Wno-error=class-memaccess... no
+ 0:07.41 checking whether the C compiler supports -Wno-error=atomic-alignment... yes
+ 0:07.44 checking whether the C++ compiler supports -Wno-error=atomic-alignment... yes
+ 0:07.47 checking whether the C compiler supports -Wno-error=deprecated-builtins... yes
+ 0:07.49 checking whether the C++ compiler supports -Wno-error=deprecated-builtins... yes
+ 0:07.53 checking whether the C compiler supports -Wformat... yes
+ 0:07.57 checking whether the C++ compiler supports -Wformat... yes
+ 0:07.61 checking whether the C compiler supports -Wformat-security... yes
+ 0:07.64 checking whether the C++ compiler supports -Wformat-security... yes
+ 0:07.67 checking whether the C compiler supports -Wformat-overflow=2... no
+ 0:07.69 checking whether the C++ compiler supports -Wformat-overflow=2... no
+ 0:07.73 checking whether the C compiler supports -Werror=implicit-function-declaration... yes
+ 0:07.76 checking whether the C compiler supports -Wno-psabi... yes
+ 0:07.79 checking whether the C++ compiler supports -Wno-psabi... yes
+ 0:07.82 checking whether the C compiler supports -Wthread-safety... yes
+ 0:07.85 checking whether the C++ compiler supports -Wthread-safety... yes
+ 0:07.87 checking whether the C compiler supports -Wno-error=builtin-macro-redefined... yes
+ 0:07.90 checking whether the C++ compiler supports -Wno-error=builtin-macro-redefined... yes
+ 0:07.93 checking whether the C++ compiler supports -Wno-vla-cxx-extension... yes
+ 0:07.96 checking whether the C compiler supports -Wno-unknown-warning-option... yes
+ 0:07.98 checking whether the C++ compiler supports -Wno-unknown-warning-option... yes
+ 0:08.01 checking whether the C compiler supports -Wno-character-conversion... no
+ 0:08.03 checking whether the C++ compiler supports -Wno-character-conversion... no
+ 0:08.06 checking whether the C++ compiler supports -fno-sized-deallocation... yes
+ 0:08.09 checking whether the C++ compiler supports -fno-aligned-new... yes
+ 0:09.07 checking whether we're trying to statically link with libstdc++... no
+ 0:09.12 checking whether the linker supports Identical Code Folding... no
+ 0:09.18 checking whether the C linker supports -Wl,--build-id=sha1... yes
+ 0:09.21 checking whether the C assembler supports -Wa,--noexecstack... yes
+ 0:09.27 checking whether the C linker supports -Wl,-z,noexecstack... yes
+ 0:09.33 checking whether the C linker supports -Wl,-z,text... yes
+ 0:09.38 checking whether the C linker supports -Wl,-z,relro... yes
+ 0:09.44 checking whether the C linker supports -Wl,-z,now... yes
+ 0:09.50 checking whether the C linker supports -Wl,-z,nocopyreloc... yes
+ 0:09.53 checking whether the C assembler supports -fPIC... yes
+ 0:09.56 checking whether the C compiler supports -fPIC... yes
+ 0:09.58 checking whether the C++ compiler supports -fPIC... yes
+ 0:09.65 checking what kind of list files are supported by the linker... linkerlist
+ 0:09.65 checking for llvm_profdata... /usr/local/bin/llvm-profdata
+ 0:09.71 checking for readelf... /usr/local/bin/llvm-readelf
+ 0:09.75 checking for objcopy... /usr/local/bin/llvm-objcopy
+ 0:09.75 checking for alsa... yes
+ 0:09.76 checking MOZ_ALSA_CFLAGS... -I/usr/local/include
+ 0:09.76 checking MOZ_ALSA_LIBS... -L/usr/local/lib -lasound
+ 0:09.76 checking for libpulse... yes
+ 0:09.77 checking MOZ_PULSEAUDIO_CFLAGS... -D_REENTRANT -I/usr/local/include
+ 0:09.77 checking MOZ_PULSEAUDIO_LIBS... -L/usr/local/lib -lpulse
+ 0:09.77 checking for rustc... /usr/local/bin/rustc
+ 0:09.77 checking for cargo... /usr/local/bin/cargo
+ 0:09.82 checking rustc version... 1.85.1
+ 0:09.83 checking cargo version... 1.85.1
+ 0:09.94 checking for rust host triplet... x86_64-unknown-linux-gnu
+ 0:09.99 checking for rust target triplet... x86_64-unknown-linux-gnu
+ 0:10.00 checking for rustdoc... /usr/local/bin/rustdoc
+ 0:10.00 checking for cbindgen... /usr/local/bin/cbindgen
+ 0:10.00 checking for rustfmt... /usr/local/bin/rustfmt
+ 0:10.00 checking for clang for bindgen... /usr/local/bin/clang++
+ 0:10.02 checking for libclang for bindgen... /usr/local/lib/libclang.so
+ 0:10.04 checking that libclang is new enough... yes
+ 0:10.04 checking bindgen cflags... ['-x', 'c++', '-fno-sized-deallocation', '-fno-aligned-new', '-DTRACING=1', '-DIMPL_LIBXUL', '-DMOZILLA_INTERNAL_API', '-DRUST_BINDGEN']
+ 0:10.04 checking for libffi > 3.0.9... yes
+ 0:10.05 checking MOZ_FFI_CFLAGS... -I/usr/local/include
+ 0:10.05 checking MOZ_FFI_LIBS... -L/usr/local/lib/../lib -lffi
+ 0:10.08 checking for tm_zone and tm_gmtoff in struct tm... yes
+ 0:10.14 checking for getpagesize... yes
+ 0:10.20 checking for gmtime_r... yes
+ 0:10.26 checking for localtime_r... yes
+ 0:10.32 checking for gettid... yes
+ 0:10.38 checking for setpriority... yes
+ 0:10.44 checking for syscall... yes
+ 0:10.50 checking for getc_unlocked... yes
+ 0:10.56 checking for pthread_getname_np... yes
+ 0:10.62 checking for pthread_get_name_np... no
+ 0:10.67 checking for strerror... yes
+ 0:10.77 checking for nl_langinfo and CODESET... yes
+ 0:10.86 checking for __cxa_demangle... yes
+ 0:10.92 checking for _getc_nolock... no
+ 0:10.98 checking for localeconv... yes
+ 0:10.99 checking for nodejs... /usr/local/bin/node (18.16.1)
+ 0:11.00 checking for gtk+-wayland-3.0 >= 3.14 xkbcommon >= 0.4.1... yes
+ 0:11.01 checking MOZ_WAYLAND_CFLAGS... -pthread -I/usr/local/include/gtk-3.0 -I/usr/local/include/at-spi2-atk/2.0 -I/usr/local/include/at-spi-2.0 -I/usr/local/include -I/usr/local/include/dbus-1.0 -I/usr/local/lib/dbus-1.0/include -I/usr/local/include -I/usr/local/include/gtk-3.0 -I/usr/local/include/gio-unix-2.0 -I/usr/local/include -I/usr/local/include/libdrm -I/usr/local/include/pango-1.0 -I/usr/local/include/harfbuzz -I/usr/local/include/pango-1.0 -I/usr/local/include/fribidi -I/usr/local/include -I/usr/local/include/atk-1.0 -I/usr/local/include/cairo -I/usr/local/include -I/usr/local/include/freetype2 -I/usr/local/include/harfbuzz -I/usr/local/include -I/usr/local/include/pixman-1 -I/usr/local/include/gdk-pixbuf-2.0 -I/usr/local/include/libpng16 -I/usr/local/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include
+ 0:11.01 checking MOZ_WAYLAND_LIBS... -L/usr/local/lib -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxkbcommon
+ 0:11.01 checking for gbm... yes
+ 0:11.02 checking MOZ_GBM_CFLAGS... -I/usr/local/include
+ 0:11.02 checking MOZ_GBM_LIBS... -L/usr/local/lib -lgbm
+ 0:11.03 checking for libdrm... yes
+ 0:11.03 checking MOZ_LIBDRM_CFLAGS... -I/usr/local/include -I/usr/local/include/libdrm
+ 0:11.03 checking MOZ_LIBDRM_LIBS... -L/usr/local/lib -ldrm
+ 0:11.04 checking for pango >= 1.22.0... yes
+ 0:11.04 checking MOZ_PANGO_CFLAGS... -pthread -I/usr/local/include/pango-1.0 -I/usr/local/include -I/usr/local/include/fribidi -I/usr/local/include -I/usr/local/include/cairo -I/usr/local/include -I/usr/local/include/pixman-1 -I/usr/local/include -I/usr/local/include/harfbuzz -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include
+ 0:11.05 checking MOZ_PANGO_LIBS... -L/usr/local/lib -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz
+ 0:11.05 checking for fontconfig >= 2.7.0... yes
+ 0:11.05 checking _FONTCONFIG_CFLAGS... -I/usr/local/include -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/harfbuzz -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include
+ 0:11.06 checking _FONTCONFIG_LIBS... -L/usr/local/lib -lfontconfig -lfreetype
+ 0:11.06 checking for freetype2 >= 9.10.3... yes
+ 0:11.06 checking _FT2_CFLAGS... -I/usr/local/include/freetype2 -I/usr/local/include/libpng16 -I/usr/local/include/harfbuzz -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include
+ 0:11.07 checking _FT2_LIBS... -L/usr/local/lib -lfreetype
+ 0:11.07 checking for tar... /bin/tar
+ 0:11.07 checking for unzip... /usr/bin/unzip
+ 0:11.07 checking for the Mozilla API key... no
+ 0:11.07 checking for the Google Location Service API key... no
+ 0:11.07 checking for the Google Safebrowsing API key... no
+ 0:11.07 checking for the Bing API key... no
+ 0:11.07 checking for the Adjust SDK key... no
+ 0:11.07 checking for the Leanplum SDK key... no
+ 0:11.07 checking for the Pocket API key... no
+ 0:11.08 checking for x11 xcb xcb-shm x11-xcb xext xrandr >= 1.4.0 xcomposite xcursor xdamage xfixes xi... yes
+ 0:11.08 checking MOZ_X11_CFLAGS... -I/usr/local/include
+ 0:11.09 checking MOZ_X11_LIBS... -L/usr/local/lib -lxcb-shm -lX11-xcb -lX11 -lxcb -lXext -lXrandr -lXcomposite -lXcursor -lXdamage -lXfixes -lXi
+ 0:11.09 checking for ice sm... yes
+ 0:11.09 checking MOZ_X11_SM_CFLAGS... -I/usr/local/include
+ 0:11.15 checking for stat64... yes
+ 0:11.21 checking for lstat64... yes
+ 0:11.27 checking for truncate64... yes
+ 0:11.33 checking for statvfs64... yes
+ 0:11.39 checking for statvfs... yes
+ 0:11.45 checking for statfs64... yes
+ 0:11.51 checking for statfs... yes
+ 0:11.57 checking for lutimes... yes
+ 0:11.63 checking for posix_fadvise... yes
+ 0:11.69 checking for posix_fallocate... yes
+ 0:11.75 checking for eventfd... yes
+ 0:11.81 checking for arc4random... yes
+ 0:11.86 checking for arc4random_buf... yes
+ 0:11.92 checking for mallinfo... yes
+ 0:11.95 checking for sys/ioccom.h... no
+ 0:12.03 checking for -z pack-relative-relocs option to ld... yes
+ 0:12.04 checking for nasm... /usr/local/bin/nasm
+ 0:12.05 checking nasm version... 2.16.03
+ 0:12.05 checking for dump_syms... not found
+ 0:12.11 checking for getcontext... yes
+ 0:12.12 checking for gtk+-3.0 >= 3.14.0 gtk+-unix-print-3.0 glib-2.0 gobject-2.0 gio-unix-2.0... yes
+ 0:12.13 checking MOZ_GTK3_CFLAGS... -pthread -I/usr/local/include/gtk-3.0/unix-print -I/usr/local/include/gtk-3.0 -I/usr/local/include/at-spi2-atk/2.0 -I/usr/local/include/at-spi-2.0 -I/usr/local/include -I/usr/local/include/dbus-1.0 -I/usr/local/lib/dbus-1.0/include -I/usr/local/include -I/usr/local/include/gtk-3.0 -I/usr/local/include -I/usr/local/include/libdrm -I/usr/local/include/pango-1.0 -I/usr/local/include/harfbuzz -I/usr/local/include/pango-1.0 -I/usr/local/include/fribidi -I/usr/local/include -I/usr/local/include/atk-1.0 -I/usr/local/include/cairo -I/usr/local/include -I/usr/local/include/freetype2 -I/usr/local/include/harfbuzz -I/usr/local/include -I/usr/local/include/pixman-1 -I/usr/local/include/gdk-pixbuf-2.0 -I/usr/local/include/libpng16 -I/usr/local/include -I/usr/local/include/gio-unix-2.0 -I/usr/local/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include
+ 0:12.13 checking MOZ_GTK3_LIBS... -L/usr/local/lib -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+ 0:12.14 checking for glib-2.0 >= 2.42 gobject-2.0... yes
+ 0:12.14 checking GLIB_CFLAGS... -I/usr/local/include -I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/local/include
+ 0:12.14 checking GLIB_LIBS... -L/usr/local/lib -lgobject-2.0 -lglib-2.0
+ 0:12.14 ERROR: Necko WiFi scanning needs DBus on your platform, remove --disable-dbus or use --disable-necko-wifi
+ 0:12.23 W Exception when writing resource usage file: [Errno 2] No such file or directory: '/tmp/tmp.1WqtVUmyix/librewolf-source/librewolf-144.0-1/obj-x86_64-pc-linux-gnu/.mozbuild/profile_build_resources.json'
+ Config object not found by mach.
+*** Fix above errors and then restart with "./mach build"
+make: *** [Makefile:167: build] Error 1
+(cd librewolf-144.0-1 && cat browser/locales/shipped-locales | xargs ./mach package-multi-locale --locales)
+Creating the 'common' site at /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-724c60b624df/_virtualenvs/common
+Error running mach:
+
+    mach package-multi-locale --locales ach af an ar ast az be bg bn br bs ca ca-valencia cak cs cy da de dsb el en-CA en-GB en-US eo es-AR es-CL es-ES es-MX et eu fa ff fi fr fur fy-NL ga-IE gd gl gn gu-IN he hi-IN hr hsb hu hy-AM ia id is it ja ja-JP-mac ka kab kk km kn ko lij lt lv mk mr ms my nb-NO ne-NP nl nn-NO oc pa-IN pl pt-BR pt-PT rm ro ru sat sc sco si sk skr sl son sq sr sv-SE szl ta te tg th tl tr trs uk ur uz vi xh zh-CN zh-TW
+
+The error occurred in code that was called by the mach command. This is either
+a bug in the called code itself or in the way that mach is calling it.
+You can invoke ``./mach busted`` to check if this issue is already on file. If it
+isn't, please use ``./mach busted file package-multi-locale`` to report it. If ``./mach busted`` is
+misbehaving, you can also inspect the dependencies of bug 1543241.
+
+If filing a bug, please include the full output of mach, including this error
+message.
+
+The details of the failure are as follows:
+
+mozbuild.base.BuildEnvironmentNotFoundException: config.status not available. Run configure.
+
+  File "/tmp/tmp.1WqtVUmyix/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/mach_commands.py", line 3485, in package_l10n
+    if "RecursiveMake" not in command_context.substs["BUILD_BACKENDS"]:
+  File "/tmp/tmp.1WqtVUmyix/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/base.py", line 387, in substs
+    return self.config_environment.substs
+  File "/tmp/tmp.1WqtVUmyix/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/base.py", line 366, in config_environment
+    raise BuildEnvironmentNotFoundException(
+make: *** [Makefile:170: package] Error 123
