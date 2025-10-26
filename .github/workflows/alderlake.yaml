@@ -19,7 +19,7 @@ jobs:
       MARCH: alderlake
     strategy:
       matrix:
-        package: [micropython, wine, wine-tkg, wine-cachyos, palemoon, openttd, basilisk]
+        package: [micropython, wine, wine-tkg, wine-cachyos, palemoon, openttd, basilisk, librewolf]
     name: ${{ matrix.package }} (alderlake)
     steps:
       - name: Checkout repo
