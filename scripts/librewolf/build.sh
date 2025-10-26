@@ -58,9 +58,9 @@ ac_add_options --enable-alsa
 ac_add_options --with-system-ffi
 ac_add_options --with-system-gbm
 ac_add_options --with-system-libdrm
-ac_add_options --with-system-av1
 EOF
 
+#ac_add_options --with-system-av1 > Wont work with aom? Dav1 required version is 1.2.1
 cd ..
 
 #make bootstrap
