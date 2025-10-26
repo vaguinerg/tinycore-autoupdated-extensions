@@ -36,7 +36,7 @@ sudo chmod +x /bin/uname
 sudo ln -s /lib /lib64
 
 tce-load -lwi sstrip patchelf findutils xz pixman-dev libvpx113-dev libjpeg-turbo-dev libpng-dev libwebp1-dev boost-1.84-dev libaom-dev libdrm-dev libEGL-dev libffi-dev gnupg libvpx113-dev gtk3-dev nspr-dev rust cbindgen node nasm nss-dev libevent-dev python3.9-pip python3.9-setuptools patchelf freetype-dev fontconfig-dev libXext-dev libxshmfence-dev bash libva22-dev gettext-dev git libvulkan-dev ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
-tce-load -lwi tar p7zip
+tce-load -lwi tar p7zip ccache
 sudo rm -rf /bin/tar
 sudo cp /usr/local/bin/tar /bin
 sudo rm -rf /usr/bin/xz
