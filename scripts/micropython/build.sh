@@ -46,6 +46,9 @@ sed -i 's/-Os//g' Makefile
 #for some reason, the first make with cflags causes error. you need to compile with just "make" then pass the flags
 export CC="ccache gcc"
 export CXX="ccache g++"
+cat << 'EOF' >> Makefile
+CC = ccache gcc
+EOF
 make
 make clean
 export CC="ccache gcc"
