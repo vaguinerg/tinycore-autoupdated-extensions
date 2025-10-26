@@ -15,7 +15,7 @@ jobs:
           access_token: ${{ github.token }}
   compile:
     runs-on: ubuntu-latest
-    timeout-minutes: 500
+    timeout-minutes: 900
     env:
       MARCH: alderlake
     strategy:
