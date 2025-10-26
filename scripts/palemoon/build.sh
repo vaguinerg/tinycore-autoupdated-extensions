@@ -45,8 +45,8 @@ sudo cp /usr/local/bin/xz /bin/xz
 #Fix broken clang
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
 
-wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/Pale-Moon/archive/33.8.0_Release-r2.tar.gz | tar -xz
-wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/UXP/archive/RB_20250703.tar.gz | tar -xz --strip-components=1 -C pale-moon/platform
+wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/Pale-Moon/archive/33.9.0.1_Release.tar.gz | tar -xz
+wget -O- --no-check-certificate https://repo.palemoon.org/MoonchildProductions/UXP/archive/RB_20250924.tar.gz | tar -xz --strip-components=1 -C pale-moon/platform
 
 cp mozconfig pale-moon/.mozconfig
 cd pale-moon
