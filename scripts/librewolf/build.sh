@@ -45,7 +45,7 @@ cd $workdir
 sudo python3.9 -m ensurepip
 python3.9 -m pip install setuptools
 python3.9 -m pip install easy_install
-python3.9 -m pip install pyyaml
+python3.9 -m pip install pyyaml==6.0.2
 
 git clone --recursive https://gitlab.com/librewolf-community/browser/source.git librewolf-source
 cd librewolf-source
