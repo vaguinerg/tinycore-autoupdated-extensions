@@ -41,6 +41,7 @@ jobs:
           path: ${{ github.workspace }}/output/${{ matrix.package }}/${{ matrix.package }}.tcz
       - name: Finish
         run: |
+          cp ${{ github.workspace }}/output/ccache.zip .
           rm -rf output
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
