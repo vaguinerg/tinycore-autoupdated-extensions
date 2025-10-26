@@ -28,7 +28,11 @@ case "$1" in
     ;;
 esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
-tce-load -lwi compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
+tce-load -lwi ccache
+export CCACHE_DIR=/output/ccache
+export CC="ccache gcc"
+export CXX="ccache g++"
+tce-load -lwi zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
 
 workdir=$(mktemp -d)
 cd $workdir
@@ -53,3 +57,4 @@ sstrip -z $bindir/usr/local/bin/micropython
 mksquashfs $bindir micropython.tcz
 sudo submitqc --nonet --blocksize=65536 micropython.tcz
 mv -f micropython.tcz /output
+zip -r /output/ccache.zip /output/ccache/
