@@ -42,7 +42,7 @@ sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
 cd $workdir
 
-pip install pyyaml
+python3.9 -m pip install pyyaml
 
 git clone --recursive https://gitlab.com/librewolf-community/browser/source.git librewolf-source
 cd librewolf-source
