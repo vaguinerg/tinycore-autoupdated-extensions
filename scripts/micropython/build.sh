@@ -44,11 +44,17 @@ sed -i '/^COPT ?= -Os$/d' Makefile
 sed -i 's/-Os//g' Makefile
 
 #for some reason, the first make with cflags causes error. you need to compile with just "make" then pass the flags
+export CC="ccache gcc"
+export CXX="ccache g++"
 make
 make clean
+export CC="ccache gcc"
+export CXX="ccache g++"
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
+export CC="ccache gcc"
+export CXX="ccache g++"
 make V=1 -j4
 bindir=$(mktemp -d)
 mkdir -p $bindir/usr/local/bin/
