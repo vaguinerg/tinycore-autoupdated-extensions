@@ -35,13 +35,16 @@ esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
 sudo ln -s /lib /lib64
 
-tce-load -lwi libaom-dev libdrm-dev libEGL-dev libffi-dev gnupg libvpx113-dev gtk3-dev nspr-dev rust cbindgen node nasm nss-dev libevent-dev python3.9-pip python3.9-setuptools patchelf freetype-dev fontconfig-dev libXext-dev libxshmfence-dev bash libva22-dev gettext-dev git libvulkan-dev ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
+tce-load -lwi boost-1.84-dev libaom-dev libdrm-dev libEGL-dev libffi-dev gnupg libvpx113-dev gtk3-dev nspr-dev rust cbindgen node nasm nss-dev libevent-dev python3.9-pip python3.9-setuptools patchelf freetype-dev fontconfig-dev libXext-dev libxshmfence-dev bash libva22-dev gettext-dev git libvulkan-dev ffmpeg7-dev openal-dev libpulseaudio pulseaudio-dev alsa-dev autoconf perl5 Xorg-7.7-3d-dev submitqc pulseaudio-dev unixODBC-dev bash compiletc libvulkan-dev gnutls38-dev alsa-dev krb5-dev openssl-dev libpcap-dev sdl2-dev opencl-headers pcsc-lite-dev libusb-dev sane-dev libgphoto2-dev gstreamer-dev gst-plugins-base-dev sstrip squashfs-tools binutils coreutils python3.9 python3.9-pip ffmpeg7-dev clang
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
 # required for staging autoconf, tools/make_requests, wich rebuilds protocols.def, changed by some patches including eventd, needs to be rebuild, and perl link is hardcoded to /usr/bin
 sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
 cd $workdir
 
+sudo python3.9 -m ensurepip
+python3.9 -m pip install setuptools
+python3.9 -m pip install easy_install
 python3.9 -m pip install pyyaml
 
 git clone --recursive https://gitlab.com/librewolf-community/browser/source.git librewolf-source
@@ -55,8 +58,11 @@ cat << 'EOF' >> mozconfig
 ac_add_options --without-wasm-sandboxed-libraries
 ac_add_options --disable-bootstrap
 ac_add_options --disable-dbus
+ac_add_options --disable-necko-wifi
+
 ac_add_options --enable-ffmpeg
 ac_add_options --enable-alsa
+
 ac_add_options --with-system-ffi
 ac_add_options --with-system-gbm
 ac_add_options --with-system-libdrm
