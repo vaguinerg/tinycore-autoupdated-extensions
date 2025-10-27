@@ -28,17 +28,11 @@ case "$1" in
     ;;
 esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
-tce-load -lwi ccache p7zip
-export CCACHE_DIR=/output/ccache
-export CC="ccache gcc"
-export CXX="ccache g++"
-echo "Extraindo cache"
-7z x /scripts/ccache_$MARCH.7z.001 -o/output
-tce-load -lwi zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
+tce-load -lwi compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
 
 workdir=$(mktemp -d)
 cd $workdir
-version=1.25.0
+version=1.26.1
 
 wget --no-check-certificate -O- https://github.com/micropython/micropython/releases/download/v$version/micropython-$version.tar.xz | tar -xJ
 cd micropython-$version/ports/unix/
@@ -46,17 +40,8 @@ sed -i '/^COPT ?= -Os$/d' Makefile
 sed -i 's/-Os//g' Makefile
 
 #for some reason, the first make with cflags causes error. you need to compile with just "make" then pass the flags
-export CC="ccache gcc"
-export CXX="ccache g++"
-cat << 'EOF' >> Makefile
-CC = ccache gcc
-EOF
-sed -i '/CFLAGS \+=/s/$/ -Wno-error=implicit-fallthrough/' Makefile
-
 make
 make clean
-export CC="ccache gcc"
-export CXX="ccache g++"
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
@@ -67,8 +52,4 @@ mv build-standard/micropython $bindir/usr/local/bin/
 sstrip -z $bindir/usr/local/bin/micropython
 mksquashfs $bindir micropython.tcz
 sudo submitqc --nonet --blocksize=65536 micropython.tcz
-ccache -s
 mv -f micropython.tcz /output
-rm -rf /output/*.7z*
-7z a -v99m -mx=9 -m0=lzma2 /output/ccache_$MARCH.7z /output/ccache/
-rm -rf /output/ccache/
