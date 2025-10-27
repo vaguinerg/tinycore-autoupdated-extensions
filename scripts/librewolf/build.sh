@@ -43,6 +43,11 @@ sudo cp /usr/local/bin/tar /bin
 sudo rm -rf /usr/bin/xz
 sudo cp /usr/local/bin/xz /usr/bin
 
+wget https://github.com/mozilla/sccache/releases/download/v0.8.2/sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz
+tar xzf sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz
+sudo cp sccache-v0.8.2-x86_64-unknown-linux-musl/sccache /usr/local/bin/
+sudo chmod +x /usr/local/bin/sccache
+
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
 sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
@@ -58,10 +63,15 @@ cd librewolf-source
 make dir
 cd librewolf*
 
+export RUSTC_WRAPPER=sccache
+export CC="sccache gcc"
+export CXX="sccache g++"
+
 sed -i 's/^ac_add_options --enable-bootstrap/#&/' mozconfig
 sed -i 's/^ac_add_options --enable-optimize/#&/' mozconfig
 
 cat << 'EOF' >> mozconfig
+
 ac_add_options --enable-optimize="-O3 -march=$MARCH"
 ac_add_options --disable-debug-symbols
 ac_add_options --disable-elf-hack
