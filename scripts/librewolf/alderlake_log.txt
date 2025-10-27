@@ -8,25 +8,25 @@ sstrip.tcz           100% |********************************|  8192  0:00:00 ETA
 sstrip.tcz: OK
 Downloading: patchelf.tcz
 xz.tcz.dep OK
-pixman-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'patchelf.tcz'
 patchelf.tcz         100% |********************************| 57344  0:00:00 ETA
 'patchelf.tcz' saved
 patchelf.tcz: OK
+pixman-dev.tcz.dep OK
 Downloading: findutils.tcz
-libvpx113-dev.tcz.dep OK
-libvpx113-bin.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libvpx113-dev.tcz.dep OK
 saving to 'findutils.tcz'
+libvpx113-bin.tcz.dep OK
 findutils.tcz        100% |********************************|  148k  0:00:00 ETA
 'findutils.tcz' saved
 findutils.tcz: OK
 Downloading: liblzma.tcz
-libjpeg-turbo-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libjpeg-turbo-bin.tcz.dep OK
+libjpeg-turbo-dev.tcz.dep OK
 saving to 'liblzma.tcz'
+libjpeg-turbo-bin.tcz.dep OK
 liblzma.tcz          100% |********************************| 94208  0:00:00 ETA
 'liblzma.tcz' saved
 liblzma.tcz: OK
@@ -39,94 +39,94 @@ xz.tcz               100% |********************************| 61440  0:00:00 ETA
 'xz.tcz' saved
 xz.tcz: OK
 Downloading: pixman.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 libwebp1-dev.tcz.dep OK
-saving to 'pixman.tcz'
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 libwebp1-bin.tcz.dep OK
+saving to 'pixman.tcz'
 pixman.tcz           100% |********************************|  276k  0:00:00 ETA
 'pixman.tcz' saved
 pixman.tcz: OK
+libtiff.tcz.dep OK
 Downloading: pixman-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libtiff.tcz.dep OK
+freeglut.tcz.dep OK
 saving to 'pixman-dev.tcz'
 pixman-dev.tcz       100% |********************************| 12288  0:00:00 ETA
 'pixman-dev.tcz' saved
 pixman-dev.tcz: OK
 Downloading: libvpx113.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-freeglut.tcz.dep OK
-saving to 'libvpx113.tcz'
 libGL.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 mesa.tcz.dep OK
-libvpx113.tcz         57% |******************              |  420k  0:00:00 ETA
+saving to 'libvpx113.tcz'
+libdrm.tcz.dep OK
 libvpx113.tcz        100% |********************************|  732k  0:00:00 ETA
 'libvpx113.tcz' saved
 libvpx113.tcz: OK
 Downloading: libvpx113-bin.tcz
-libdrm.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libvpx113-bin.tcz'
+libvpx113-bin.tcz      4% |*                               | 14023  0:00:20 ETA
+elfutils.tcz.dep OK
 libvpx113-bin.tcz    100% |********************************|  292k  0:00:00 ETA
 'libvpx113-bin.tcz' saved
 libvpx113-bin.tcz: OK
 Downloading: libvpx113-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+llvm19-lib.tcz.dep OK
 saving to 'libvpx113-dev.tcz'
-elfutils.tcz.dep OK
 libvpx113-dev.tcz    100% |********************************| 53248  0:00:00 ETA
 'libvpx113-dev.tcz' saved
 libvpx113-dev.tcz: OK
 Downloading: libjpeg-turbo.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-llvm19-lib.tcz.dep OK
-saving to 'libjpeg-turbo.tcz'
 libxml2.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libjpeg-turbo.tcz'
+libvdpau.tcz.dep OK
+libXext.tcz.dep OK
 libjpeg-turbo.tcz    100% |********************************|  308k  0:00:00 ETA
 'libjpeg-turbo.tcz' saved
 libjpeg-turbo.tcz: OK
 Downloading: libjpeg-turbo-bin.tcz
+libX11.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libvdpau.tcz.dep OK
+libxcb.tcz.dep OK
 saving to 'libjpeg-turbo-bin.tcz'
-libXext.tcz.dep OK
 libjpeg-turbo-bin.tc 100% |********************************| 77824  0:00:00 ETA
 'libjpeg-turbo-bin.tcz' saved
 libjpeg-turbo-bin.tcz: OK
 Downloading: libjpeg-turbo-dev.tcz
-libX11.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libxcb.tcz.dep OK
 saving to 'libjpeg-turbo-dev.tcz'
 libjpeg-turbo-dev.tc 100% |********************************| 61440  0:00:00 ETA
 'libjpeg-turbo-dev.tcz' saved
 libjpeg-turbo-dev.tcz: OK
+libXxf86vm.tcz.dep OK
 Downloading: libpng.tcz
+libXi.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libpng.tcz'
-libXxf86vm.tcz.dep OK
+libXrandr.tcz.dep OK
+libXrender.tcz.dep OK
 libpng.tcz           100% |********************************|  100k  0:00:00 ETA
 'libpng.tcz' saved
 libpng.tcz: OK
 Downloading: libpng-bin.tcz
-libXi.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXrandr.tcz.dep OK
-libXrender.tcz.dep OK
+tiff-dev.tcz.dep OK
 saving to 'libpng-bin.tcz'
 libpng-bin.tcz       100% |********************************| 24576  0:00:00 ETA
 'libpng-bin.tcz' saved
 libpng-bin.tcz: OK
 Downloading: libpng-dev.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-tiff-dev.tcz.dep OK
-saving to 'libpng-dev.tcz'
 tiff-bin.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+liblzma-dev.tcz.dep OK
+saving to 'libpng-dev.tcz'
+freeglut-dev.tcz.dep OK
 libpng-dev.tcz       100% |********************************| 65536  0:00:00 ETA
 'libpng-dev.tcz' saved
 libpng-dev.tcz: OK
-liblzma-dev.tcz.dep OK
-freeglut-dev.tcz.dep OK
 libGL-dev.tcz.dep OK
 mesa-dev.tcz.dep OK
 libdrm-dev.tcz.dep OK
@@ -184,432 +184,455 @@ Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 boost-1.84-dev.tcz.dep OK
 saving to 'spirv-headers.tcz'
 boost-1.84.tcz.dep OK
+spirv-headers.tcz     32% |**********                      |  207k  0:00:02 ETA
 icu74-dev.tcz.dep OK
 spirv-headers.tcz    100% |********************************|  644k  0:00:00 ETA
 'spirv-headers.tcz' saved
 spirv-headers.tcz: OK
-icu74-bin.tcz.dep OK
 Downloading: spirv-tools.tcz
-python3.9-dev.tcz.dep OK
+icu74-bin.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-sqlite3-dev.tcz.dep OK
+python3.9-dev.tcz.dep OK
 saving to 'spirv-tools.tcz'
-spirv-tools.tcz        0% |                                | 14021  0:02:22 ETA
+sqlite3-dev.tcz.dep OK
 sqlite3-bin.tcz.dep OK
 readline-dev.tcz.dep OK
-ncursesw-dev.tcz.dep OK
-tk8.6-dev.tcz.dep OK
 spirv-tools.tcz      100% |********************************| 1936k  0:00:00 ETA
 'spirv-tools.tcz' saved
 spirv-tools.tcz: OK
 Downloading: spirv-tools-dev.tcz
-tk8.6.tcz.dep OK
+ncursesw-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXft.tcz.dep OK
+tk8.6-dev.tcz.dep OK
 saving to 'spirv-tools-dev.tcz'
-fontconfig.tcz.dep OK
+tk8.6.tcz.dep OK
 spirv-tools-dev.tcz  100% |********************************| 57344  0:00:00 ETA
 'spirv-tools-dev.tcz' saved
 spirv-tools-dev.tcz: OK
-freetype.tcz.dep OK
+libXft.tcz.dep OK
 Downloading: bzip2-lib.tcz
-harfbuzz.tcz.dep OK
+fontconfig.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+freetype.tcz.dep OK
 saving to 'bzip2-lib.tcz'
-glib2.tcz.dep OK
 bzip2-lib.tcz        100% |********************************| 28672  0:00:00 ETA
 'bzip2-lib.tcz' saved
 bzip2-lib.tcz: OK
 Downloading: bzip2.tcz
+harfbuzz.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+glib2.tcz.dep OK
 saving to 'bzip2.tcz'
 bzip2.tcz            100% |********************************| 20480  0:00:00 ETA
 'bzip2.tcz' saved
 bzip2.tcz: OK
 Downloading: bzip2-dev.tcz
-libXss.tcz.dep OK
-tcl8.6.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libXss.tcz.dep OK
 saving to 'bzip2-dev.tcz'
 bzip2-dev.tcz        100% |********************************| 32768  0:00:00 ETA
 'bzip2-dev.tcz' saved
 bzip2-dev.tcz: OK
 Downloading: liblzma-dev.tcz
-tcl8.6-dev.tcz.dep OK
+tcl8.6.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-gdbm-dev.tcz.dep OK
 saving to 'liblzma-dev.tcz'
+tcl8.6-dev.tcz.dep OK
 liblzma-dev.tcz      100% |********************************| 81920  0:00:00 ETA
 'liblzma-dev.tcz' saved
 liblzma-dev.tcz: OK
-Xorg-7.7-dev.tcz.dep OK
 Downloading: elfutils.tcz
+gdbm-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+Xorg-7.7-dev.tcz.dep OK
 saving to 'elfutils.tcz'
 libFS-dev.tcz.dep OK
-libXaw-dev.tcz.dep OK
 elfutils.tcz         100% |********************************|  552k  0:00:00 ETA
 'elfutils.tcz' saved
 elfutils.tcz: OK
 Downloading: elfutils-dev.tcz
-libXaw.tcz.dep OK
-libXmu.tcz.dep OK
+libXaw-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXt.tcz.dep OK
+libXaw.tcz.dep OK
 saving to 'elfutils-dev.tcz'
+libXmu.tcz.dep OK
+libXt.tcz.dep OK
 elfutils-dev.tcz     100% |********************************|  384k  0:00:00 ETA
 'elfutils-dev.tcz' saved
 elfutils-dev.tcz: OK
-libXpm.tcz.dep OK
 Downloading: xtrans.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'xtrans.tcz'
+libXpm.tcz.dep OK
+xtrans.tcz            61% |*******************             | 42584  0:00:00 ETA
+xtrans.tcz           100% |********************************| 69632  0:00:00 ETA
+'xtrans.tcz' saved
+xtrans.tcz: OK
+Downloading: m4.tcz
 libXmu-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 libXt-dev.tcz.dep OK
-saving to 'xtrans.tcz'
-xtrans.tcz           100% |********************************| 69632  0:00:00 ETA
-'xtrans.tcz' saved
-libICE-dev.tcz.dep OK
-xtrans.tcz: OK
-Downloading: m4.tcz
-libSM-dev.tcz.dep OK
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'm4.tcz'
-libXpm-dev.tcz.dep OK
-libXcomposite-dev.tcz.dep OK
+libICE-dev.tcz.dep OK
 m4.tcz               100% |********************************|  112k  0:00:00 ETA
 'm4.tcz' saved
 m4.tcz: OK
 Downloading: util-macros.tcz
-libXcomposite.tcz.dep OK
+libSM-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXcursor-dev.tcz.dep OK
+libXpm-dev.tcz.dep OK
 saving to 'util-macros.tcz'
-libXcursor.tcz.dep OK
+libXcomposite-dev.tcz.dep OK
+util-macros.tcz       38% |************                    | 14025  0:00:01 ETA
 util-macros.tcz      100% |********************************| 36864  0:00:00 ETA
 'util-macros.tcz' saved
 util-macros.tcz: OK
 Downloading: xorg-proto.tcz
-libXfont2-dev.tcz.dep OK
+libXcomposite.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXfont2.tcz.dep OK
+libXcursor-dev.tcz.dep OK
 saving to 'xorg-proto.tcz'
+libXcursor.tcz.dep OK
+libXfont2-dev.tcz.dep OK
 xorg-proto.tcz       100% |********************************|  380k  0:00:00 ETA
 'xorg-proto.tcz' saved
 xorg-proto.tcz: OK
-freetype-dev.tcz.dep OK
 Downloading: xcb-proto.tcz
-harfbuzz-dev.tcz.dep OK
+libXfont2.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'xcb-proto.tcz'
-harfbuzz-bin.tcz.dep OK
-glib2-dev.tcz.dep OK
+freetype-dev.tcz.dep OK
+harfbuzz-dev.tcz.dep OK
 xcb-proto.tcz        100% |********************************|  188k  0:00:00 ETA
 'xcb-proto.tcz' saved
 xcb-proto.tcz: OK
 Downloading: libXdmcp.tcz
-glib2-python.tcz.dep OK
+harfbuzz-bin.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-pcre21042-dev.tcz.dep OK
+glib2-dev.tcz.dep OK
 saving to 'libXdmcp.tcz'
 libXdmcp.tcz         100% |********************************| 12288  0:00:00 ETA
 'libXdmcp.tcz' saved
 libXdmcp.tcz: OK
 Downloading: libXdmcp-dev.tcz
-graphite-dev.tcz.dep OK
-libfontenc-dev.tcz.dep OK
+glib2-python.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+pcre21042-dev.tcz.dep OK
 saving to 'libXdmcp-dev.tcz'
 libXdmcp-dev.tcz     100% |********************************|  4096  0:00:00 ETA
 'libXdmcp-dev.tcz' saved
 libXdmcp-dev.tcz: OK
-libXft-dev.tcz.dep OK
 Downloading: libXau.tcz
+graphite-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-fontconfig-dev.tcz.dep OK
+libfontenc-dev.tcz.dep OK
 saving to 'libXau.tcz'
 libXau.tcz           100% |********************************|  8192  0:00:00 ETA
 'libXau.tcz' saved
 libXau.tcz: OK
-libXinerama-dev.tcz.dep OK
 Downloading: libXau-dev.tcz
+libXft-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXinerama.tcz.dep OK
+fontconfig-dev.tcz.dep OK
 saving to 'libXau-dev.tcz'
 libXau-dev.tcz       100% |********************************|  4096  0:00:00 ETA
 'libXau-dev.tcz' saved
 libXau-dev.tcz: OK
 Downloading: libxcb.tcz
-libXres-dev.tcz.dep OK
+libXinerama-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXres.tcz.dep OK
+libXinerama.tcz.dep OK
 saving to 'libxcb.tcz'
-libXss-dev.tcz.dep OK
-libXtst-dev.tcz.dep OK
+libXres-dev.tcz.dep OK
+libXres.tcz.dep OK
 libxcb.tcz           100% |********************************|  384k  0:00:00 ETA
 'libxcb.tcz' saved
 libxcb.tcz: OK
+libXss-dev.tcz.dep OK
 Downloading: libxcb-dev.tcz
-libXtst.tcz.dep OK
-libXxf86dga-dev.tcz.dep OK
+libXtst-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libXtst.tcz.dep OK
 saving to 'libxcb-dev.tcz'
-libXxf86dga.tcz.dep OK
-libxkbfile-dev.tcz.dep OK
+libxcb-dev.tcz         9% |***                             | 42583  0:00:09 ETA
+libXxf86dga-dev.tcz.dep OK
 libxcb-dev.tcz       100% |********************************|  428k  0:00:00 ETA
 'libxcb-dev.tcz' saved
 libxcb-dev.tcz: OK
+libXxf86dga.tcz.dep OK
 Downloading: libX11.tcz
-libxkbfile.tcz.dep OK
+libxkbfile-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libxkbfile.tcz.dep OK
 saving to 'libX11.tcz'
 xorg-server-dev.tcz.dep OK
-xorg-server.tcz.dep OK
-libX11.tcz           100% |********************************|  928k  0:00:00 ETA
+libX11.tcz           100% |********************************|  928k  0:00:00 ETAxorg-server.tcz.dep OK
+
 'libX11.tcz' saved
 libX11.tcz: OK
 Downloading: libX11-dev.tcz
-xkbcomp.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libX11-dev.tcz'
-libEGL-dev.tcz.dep OK
+xkbcomp.tcz.dep OK
 libX11-dev.tcz       100% |********************************| 73728  0:00:00 ETA
 'libX11-dev.tcz' saved
 libX11-dev.tcz: OK
-libEGL.tcz.dep OK
 Downloading: libXext.tcz
-libepoxy-dev.tcz.dep OK
+libEGL-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-openssl-dev.tcz.dep OK
+libEGL.tcz.dep OK
 saving to 'libXext.tcz'
-libxcvt-dev.tcz.dep OK
+libepoxy-dev.tcz.dep OK
 libXext.tcz          100% |********************************| 28672  0:00:00 ETA
 'libXext.tcz' saved
 libXext.tcz: OK
 Downloading: libXext-dev.tcz
-font-util.tcz.dep OK
+openssl-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libxcvt-dev.tcz.dep OK
 saving to 'libXext-dev.tcz'
-libaom-dev.tcz.dep OK
 libXext-dev.tcz      100% |********************************| 24576  0:00:00 ETA
 'libXext-dev.tcz' saved
 libXext-dev.tcz: OK
+font-util.tcz.dep OK
 Downloading: libvdpau.tcz
-libaom-bin.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libaom-dev.tcz.dep OK
 saving to 'libvdpau.tcz'
-gnupg.tcz.dep OK
 libvdpau.tcz         100% |********************************| 28672  0:00:00 ETA
 'libvdpau.tcz' saved
 libvdpau.tcz: OK
 Downloading: libvdpau-dev.tcz
-libassuan.tcz.dep OK
+libaom-bin.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libgcrypt.tcz.dep OK
 saving to 'libvdpau-dev.tcz'
+gnupg.tcz.dep OK
 libvdpau-dev.tcz     100% |********************************| 65536  0:00:00 ETA
 'libvdpau-dev.tcz' saved
 libvdpau-dev.tcz: OK
-libksba.tcz.dep OK
 Downloading: liblz4.tcz
-libusb.tcz.dep OK
+libassuan.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'liblz4.tcz'
-gnutls38.tcz.dep OK
+libgcrypt.tcz.dep OK
 liblz4.tcz           100% |********************************| 61440  0:00:00 ETA
 'liblz4.tcz' saved
-p11-kit.tcz.dep OK
 liblz4.tcz: OK
 Downloading: liblz4-dev.tcz
+libksba.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-nettle39.tcz.dep OK
+libusb.tcz.dep OK
 saving to 'liblz4-dev.tcz'
+gnutls38.tcz.dep OK
+liblz4-dev.tcz        34% |**********                      | 14025  0:00:01 ETA
 liblz4-dev.tcz       100% |********************************| 40960  0:00:00 ETA
 'liblz4-dev.tcz' saved
 liblz4-dev.tcz: OK
 Downloading: libzstd.tcz
+p11-kit.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libidn2.tcz.dep OK
 saving to 'libzstd.tcz'
+nettle39.tcz.dep OK
 libzstd.tcz          100% |********************************|  328k  0:00:00 ETA
 'libzstd.tcz' saved
 libzstd.tcz: OK
 Downloading: zstd.tcz
-gtk3-dev.tcz.dep OK
+libidn2.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-gtk3.tcz.dep OK
 saving to 'zstd.tcz'
-at-spi2-core.tcz.dep OK
+zstd.tcz              16% |*****                           | 14024  0:00:05 ETA
 zstd.tcz             100% |********************************| 86016  0:00:00 ETA
 'zstd.tcz' saved
 zstd.tcz: OK
 Downloading: zstd-dev.tcz
-dbus.tcz.dep OK
+gtk3-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+gtk3.tcz.dep OK
 saving to 'zstd-dev.tcz'
-elogind.tcz.dep OK
+at-spi2-core.tcz.dep OK
 zstd-dev.tcz         100% |********************************| 81920  0:00:00 ETA
 'zstd-dev.tcz' saved
 zstd-dev.tcz: OK
-acl.tcz.dep OK
 Downloading: libffi.tcz
+dbus.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libcap.tcz.dep OK
+elogind.tcz.dep OK
 saving to 'libffi.tcz'
+acl.tcz.dep OK
+libffi.tcz            68% |*********************           | 14025  0:00:00 ETA
 libffi.tcz           100% |********************************| 20480  0:00:00 ETA
 'libffi.tcz' saved
 libffi.tcz: OK
-util-linux.tcz.dep OK
 Downloading: ncursesw.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libcap.tcz.dep OK
 saving to 'ncursesw.tcz'
-gdk-pixbuf2.tcz.dep OK
-shared-mime-info.tcz.dep OK
+util-linux.tcz.dep OK
 ncursesw.tcz         100% |********************************|  256k  0:00:00 ETA
 'ncursesw.tcz' saved
 ncursesw.tcz: OK
 Downloading: readline.tcz
-pango.tcz.dep OK
+gdk-pixbuf2.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-cairo.tcz.dep OK
+shared-mime-info.tcz.dep OK
 saving to 'readline.tcz'
-fribidi.tcz.dep OK
-libxkbcommon.tcz.dep OK
+pango.tcz.dep OK
 readline.tcz         100% |********************************|  148k  0:00:00 ETA
 'readline.tcz' saved
 readline.tcz: OK
 Downloading: gdbm.tcz
+cairo.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-gdk-pixbuf2-dev.tcz.dep OK
+fribidi.tcz.dep OK
 saving to 'gdbm.tcz'
-gdk-pixbuf2-xlib-dev.tcz.dep OK
+libxkbcommon.tcz.dep OK
 gdbm.tcz             100% |********************************| 81920  0:00:00 ETA
 'gdbm.tcz' saved
 gdbm.tcz: OK
 Downloading: sqlite3.tcz
-at-spi2-core-dev.tcz.dep OK
-dbus-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-elogind-dev.tcz.dep OK
+gdk-pixbuf2-dev.tcz.dep OK
 saving to 'sqlite3.tcz'
-acl-dev.tcz.dep OK
-attr-dev.tcz.dep OK
+gdk-pixbuf2-xlib-dev.tcz.dep OK
+at-spi2-core-dev.tcz.dep OK
 sqlite3.tcz          100% |********************************|  612k  0:00:00 ETA
 'sqlite3.tcz' saved
 sqlite3.tcz: OK
 Downloading: openssl.tcz
+dbus-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+elogind-dev.tcz.dep OK
+saving to 'openssl.tcz'
+acl-dev.tcz.dep OK
+attr-dev.tcz.dep OK
+openssl.tcz            6% |**                              |  208k  0:00:14 ETA
 libcap-dev.tcz.dep OK
 util-linux-dev.tcz.dep OK
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-pango-dev.tcz.dep OK
-saving to 'openssl.tcz'
-cairo-dev.tcz.dep OK
-fribidi-dev.tcz.dep OK
-rest-dev.tcz.dep OK
-openssl.tcz           49% |***************                 | 1557k  0:00:01 ETA
-rest.tcz.dep OK
-libsoup.tcz.dep OK
 openssl.tcz          100% |********************************| 3132k  0:00:00 ETA
 'openssl.tcz' saved
 openssl.tcz: OK
-glib-networking.tcz.dep OK
 Downloading: python3.9.tcz
-libpsl.tcz.dep OK
-libsoup-dev.tcz.dep OK
+pango-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libpsl-dev.tcz.dep OK
+cairo-dev.tcz.dep OK
 saving to 'python3.9.tcz'
-libidn2-dev.tcz.dep OK
-libunistring-dev.tcz.dep OK
-colord-dev.tcz.dep OK
-colord.tcz.dep OK
-libgusb.tcz.dep OK
-libsane.tcz.dep OK
-python3.9.tcz         16% |*****                           | 2568k  0:00:05 ETA
-libgphoto2.tcz.dep OK
-curl.tcz.dep OK
-ca-certificates.tcz.dep OK
-libpoppler23.tcz.dep OK
-nss.tcz.dep OK
-libavahi.tcz.dep OK
-polkit.tcz.dep OK
-python3.9.tcz         72% |***********************         | 10.9M  0:00:00 ETA
-js78.tcz.dep OK
-lcms2-dev.tcz.dep OK
-libgusb-dev.tcz.dep OK
+fribidi-dev.tcz.dep OK
+rest-dev.tcz.dep OK
+rest.tcz.dep OK
+python3.9.tcz          5% |*                               |  876k  0:00:16 ETA
+libsoup.tcz.dep OK
+glib-networking.tcz.dep OK
 python3.9.tcz        100% |********************************| 15.1M  0:00:00 ETA
 'python3.9.tcz' saved
 python3.9.tcz: OK
-libusb-dev.tcz.dep OK
-sane-dev.tcz.dep OK
-avahi-dev.tcz.dep OK
-avahi.tcz.dep OK
-gcc_libs-dev.tcz.dep OK
-libdaemon-dev.tcz.dep OK
+libpsl.tcz.dep OK
+libsoup-dev.tcz.dep OK
+libpsl-dev.tcz.dep OK
+libidn2-dev.tcz.dep OK
 Downloading: libxml2.tcz
-sane.tcz.dep OK
+libunistring-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libgphoto2-dev.tcz.dep OK
+colord-dev.tcz.dep OK
 saving to 'libxml2.tcz'
-libexif-dev.tcz.dep OK
-libtool-dev.tcz.dep OK
-libtool.tcz.dep OK
+colord.tcz.dep OK
+libgusb.tcz.dep OK
 libxml2.tcz          100% |********************************|  596k  0:00:00 ETA
 'libxml2.tcz' saved
 libxml2.tcz: OK
 Downloading: libxml2-python.tcz
-curl-dev.tcz.dep OK
-poppler23-dev.tcz.dep OK
+libsane.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-poppler23-bin.tcz.dep OK
+libgphoto2.tcz.dep OK
 saving to 'libxml2-python.tcz'
-openjpeg-dev.tcz.dep OK
 libxml2-python.tcz   100% |********************************|  200k  0:00:00 ETA
 'libxml2-python.tcz' saved
 libxml2-python.tcz: OK
-nss-dev.tcz.dep OK
 Downloading: libxml2-bin.tcz
-nspr-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-polkit-dev.tcz.dep OK
+curl.tcz.dep OK
 saving to 'libxml2-bin.tcz'
-js78-dev.tcz.dep OK
+ca-certificates.tcz.dep OK
 libxml2-bin.tcz      100% |********************************| 32768  0:00:00 ETA
 'libxml2-bin.tcz' saved
 libxml2-bin.tcz: OK
 Downloading: libxml2-dev.tcz
-linux-pam-dev.tcz.dep OK
+libpoppler23.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-json-glib-dev.tcz.dep OK
 saving to 'libxml2-dev.tcz'
-json-glib.tcz.dep OK
-libxkbcommon-dev.tcz.dep OK
+nss.tcz.dep OK
+libxml2-dev.tcz       11% |***                             | 14023  0:00:07 ETA
 libxml2-dev.tcz      100% |********************************|  116k  0:00:00 ETA
 'libxml2-dev.tcz' saved
 libxml2-dev.tcz: OK
 Downloading: libffi-dev.tcz
-rust.tcz.dep OK
+libavahi.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libssh2.tcz.dep OK
+polkit.tcz.dep OK
 saving to 'libffi-dev.tcz'
 libffi-dev.tcz       100% |********************************|  8192  0:00:00 ETA
 'libffi-dev.tcz' saved
 libffi-dev.tcz: OK
 Downloading: libffi7.tcz
-cbindgen.tcz.dep OK
+js78.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libffi7.tcz'
 libffi7.tcz          100% |********************************| 16384  0:00:00 ETA
 'libffi7.tcz' saved
 libffi7.tcz: OK
-libevent-dev.tcz.dep OK
 Downloading: llvm19-lib.tcz
-libevent.tcz.dep OK
+lcms2-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-python3.9-pip.tcz.dep OK
+libgusb-dev.tcz.dep OK
 saving to 'llvm19-lib.tcz'
+libusb-dev.tcz.dep OK
+sane-dev.tcz.dep OK
+avahi-dev.tcz.dep OK
+avahi.tcz.dep OK
+llvm19-lib.tcz        47% |***************                 | 15.1M  0:00:01 ETA
+gcc_libs-dev.tcz.dep OK
+llvm19-lib.tcz       100% |********************************| 32.0M  0:00:00 ETA
+'llvm19-lib.tcz' saved
+libdaemon-dev.tcz.dep OK
+llvm19-lib.tcz: OK
+sane.tcz.dep OK
+libgphoto2-dev.tcz.dep OK
+Downloading: llvm19-bin.tcz
+libexif-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libtool-dev.tcz.dep OK
+saving to 'llvm19-bin.tcz'
+libtool.tcz.dep OK
+curl-dev.tcz.dep OK
+poppler23-dev.tcz.dep OK
+poppler23-bin.tcz.dep OK
+openjpeg-dev.tcz.dep OK
+llvm19-bin.tcz       100% |********************************| 19.4M  0:00:00 ETA
+'llvm19-bin.tcz' saved
+nss-dev.tcz.dep OK
+llvm19-bin.tcz: OK
+nspr-dev.tcz.dep OK
+Downloading: llvm19-dev.tcz
+polkit-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+js78-dev.tcz.dep OK
+saving to 'llvm19-dev.tcz'
+linux-pam-dev.tcz.dep OK
+json-glib-dev.tcz.dep OK
+json-glib.tcz.dep OK
+llvm19-dev.tcz         1% |                                | 1730k  0:00:52 ETA
+libxkbcommon-dev.tcz.dep OK
+rust.tcz.dep OK
+libssh2.tcz.dep OK
+cbindgen.tcz.dep OK
+llvm19-dev.tcz        62% |*******************             | 55.9M  0:00:01 ETA
+libevent-dev.tcz.dep OK
+libevent.tcz.dep OK
+python3.9-pip.tcz.dep OK
 python3.9-setuptools.tcz.dep OK
+llvm19-dev.tcz       100% |********************************| 89.7M  0:00:00 ETA
+'llvm19-dev.tcz' saved
 bash.tcz.dep OK
-llvm19-lib.tcz         0% |                                | 99699  0:05:36 ETA
+llvm19-dev.tcz: OK
 libva22-dev.tcz.dep OK
 libva22.tcz.dep OK
 gettext-dev.tcz.dep OK
@@ -619,286 +642,231 @@ libvulkan-dev.tcz.dep OK
 Xorg-7.7-3d-dev.tcz.dep OK
 libGLESv2-dev.tcz.dep OK
 libGLESv2.tcz.dep OK
+Downloading: libclc.tcz
 ffmpeg7-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libclc.tcz'
 ffmpeg7.tcz.dep OK
 libavdevice7.tcz.dep OK
-llvm19-lib.tcz        21% |*******                         | 7198k  0:00:07 ETA
 libavfilter7.tcz.dep OK
+libclc.tcz             0% |                                |  862k  0:02:17 ETA
 libswresample7.tcz.dep OK
 libavutil7.tcz.dep OK
 libavformat7.tcz.dep OK
 libavcodec7.tcz.dep OK
 libtheora.tcz.dep OK
+libclc.tcz            42% |*************                   | 48.9M  0:00:02 ETA
 speex.tcz.dep OK
-llvm19-lib.tcz        45% |**************                  | 14.5M  0:00:03 ETA
 librsvg.tcz.dep OK
 libpostproc7.tcz.dep OK
+libclc.tcz            93% |******************************  |  109M  0:00:00 ETA
 libswscale7.tcz.dep OK
-libass.tcz.dep OK
-libv4l2.tcz.dep OK
-v4l-dvb-6.12.11-tinycore64.tcz.dep OK
-alsa-modules-6.12.11-tinycore64.tcz.dep OK
-libpulseaudio.tcz.dep OK
-llvm19-lib.tcz        69% |**********************          | 22.2M  0:00:01 ETA
-libsndfile.tcz.dep OK
-flac.tcz.dep OK
-libvorbis.tcz.dep OK
-libplacebo.tcz.dep OK
-shaderc.tcz.dep OK
-glslang.tcz.dep OK
-x264_164-dev.tcz.dep OK
-libtheora-dev.tcz.dep OK
-libogg-dev.tcz.dep OK
-pulseaudio-dev.tcz.dep OK
-pulseaudio.tcz.dep OK
-alsa.tcz.dep OK
-llvm19-lib.tcz        95% |******************************  | 30.5M  0:00:00 ETA
-speexdsp.tcz.dep OK
-alsa-dev.tcz.dep OK
-llvm19-lib.tcz       100% |********************************| 32.0M  0:00:00 ETA
-'llvm19-lib.tcz' saved
-fftw-dev.tcz.dep OK
-llvm19-lib.tcz: OK
-speexdsp-dev.tcz.dep OK
-speex-dev.tcz.dep OK
-libsndfile-dev.tcz.dep OK
-flac-dev.tcz.dep OK
-Downloading: llvm19-bin.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libvorbis-dev.tcz.dep OK
-saving to 'llvm19-bin.tcz'
-libbluetooth-dev.tcz.dep OK
-libbluetooth.tcz.dep OK
-bluez.tcz.dep OK
-llvm19-bin.tcz         2% |                                |  425k  0:00:45 ETA
-libical3.tcz.dep OK
-sbc-dev.tcz.dep OK
-lame-dev.tcz.dep OK
-libv4l2-dev.tcz.dep OK
-sdl2-dev.tcz.dep OK
-pipewire-dev.tcz.dep OK
-pipewire.tcz.dep OK
-libass-dev.tcz.dep OK
-opus-dev.tcz.dep OK
-x265-dev.tcz.dep OK
-llvm19-bin.tcz        50% |****************                |  9.8M  0:00:01 ETA
-librsvg-dev.tcz.dep OK
-gnutls38-dev.tcz.dep OK
-p11-kit-dev.tcz.dep OK
-libtasn1-4-dev.tcz.dep OK
-nettle39-dev.tcz.dep OK
-gmp-dev.tcz.dep OK
-llvm19-bin.tcz       100% |********************************| 19.4M  0:00:00 ETA
-'llvm19-bin.tcz' saved
-libplacebo-dev.tcz.dep OK
-llvm19-bin.tcz: OK
-shaderc-dev.tcz.dep OK
-glslang-dev.tcz.dep OK
-Downloading: llvm19-dev.tcz
-openal-dev.tcz.dep OK
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-saving to 'llvm19-dev.tcz'
-autoconf.tcz.dep OK
-perl_xml_parser.tcz.dep OK
-perl5.tcz.dep OK
-submitqc.tcz.dep OK
-file.tcz.dep OK
-wget.tcz.dep OK
-coreutils.tcz.dep OK
-binutils.tcz.dep OK
-llvm19-dev.tcz         7% |**                              | 6756k  0:00:12 ETA
-squashfs-tools.tcz.dep OK
-unixODBC-dev.tcz.dep OK
-unixODBC.tcz.dep OK
-compiletc.tcz.dep OK
-bison.tcz.dep OK
-gawk.tcz.dep OK
-mpfr.tcz.dep OK
-gcc.tcz.dep OK
-llvm19-dev.tcz        18% |*****                           | 16.1M  0:00:09 ETA
-mpc.tcz.dep OK
-isl.tcz.dep OK
-llvm19-dev.tcz        28% |*********                       | 25.8M  0:00:07 ETA
-krb5-dev.tcz.dep OK
-krb5.tcz.dep OK
-libpcap-dev.tcz.dep OK
-libpcap.tcz.dep OK
-libnl-dev.tcz.dep OK
-pcsc-lite-dev.tcz.dep OK
-pcsc-lite.tcz.dep OK
-gstreamer-dev.tcz.dep OK
-gstreamer.tcz.dep OK
-llvm19-dev.tcz        40% |************                    | 36.1M  0:00:05 ETA
-gst-plugins-base-dev.tcz.dep OK
-gst-plugins-base.tcz.dep OK
-cdparanoia-dev.tcz.dep OK
-gudev-lib-dev.tcz.dep OK
-gudev-lib.tcz.dep OK
-graphene-dev.tcz.dep OK
-graphene.tcz.dep OK
-clang.tcz.dep OK
-llvm19-dev.tcz        51% |****************                | 46.6M  0:00:04 ETA
-llvm19-dev.tcz        64% |********************            | 57.8M  0:00:03 ETA
-llvm19-dev.tcz        77% |************************        | 69.7M  0:00:02 ETA
-llvm19-dev.tcz        92% |*****************************   | 83.3M  0:00:00 ETA
-llvm19-dev.tcz       100% |********************************| 89.7M  0:00:00 ETA
-'llvm19-dev.tcz' saved
-llvm19-dev.tcz: OK
-Downloading: libclc.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-saving to 'libclc.tcz'
-libclc.tcz             7% |**                              | 8573k  0:00:12 ETA
-libclc.tcz            31% |**********                      | 37.0M  0:00:04 ETA
-libclc.tcz            81% |**************************      | 94.9M  0:00:00 ETA
 libclc.tcz           100% |********************************|  116M  0:00:00 ETA
 'libclc.tcz' saved
+libass.tcz.dep OK
 libclc.tcz: OK
+libv4l2.tcz.dep OK
+v4l-dvb-6.12.11-tinycore64.tcz.dep OK
 Downloading: libclc-dev.tcz
+alsa-modules-6.12.11-tinycore64.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libclc-dev.tcz'
 libclc-dev.tcz       100% |********************************| 40960  0:00:00 ETA
 'libclc-dev.tcz' saved
 libclc-dev.tcz: OK
+libpulseaudio.tcz.dep OK
 Downloading: libXrender.tcz
+libsndfile.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+flac.tcz.dep OK
 saving to 'libXrender.tcz'
 libXrender.tcz       100% |********************************| 20480  0:00:00 ETA
 'libXrender.tcz' saved
 libXrender.tcz: OK
 Downloading: libXrender-dev.tcz
+libvorbis.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libplacebo.tcz.dep OK
 saving to 'libXrender-dev.tcz'
 libXrender-dev.tcz   100% |********************************|  8192  0:00:00 ETA
 'libXrender-dev.tcz' saved
 libXrender-dev.tcz: OK
 Downloading: libXrandr.tcz
+shaderc.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+glslang.tcz.dep OK
 saving to 'libXrandr.tcz'
+x264_164-dev.tcz.dep OK
 libXrandr.tcz        100% |********************************| 20480  0:00:00 ETA
 'libXrandr.tcz' saved
 libXrandr.tcz: OK
 Downloading: libXrandr-dev.tcz
+libtheora-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libogg-dev.tcz.dep OK
 saving to 'libXrandr-dev.tcz'
 libXrandr-dev.tcz    100% |********************************|  8192  0:00:00 ETA
 'libXrandr-dev.tcz' saved
 libXrandr-dev.tcz: OK
 Downloading: libXxf86vm.tcz
+pulseaudio-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+pulseaudio.tcz.dep OK
 saving to 'libXxf86vm.tcz'
 libXxf86vm.tcz       100% |********************************|  8192  0:00:00 ETA
 'libXxf86vm.tcz' saved
 libXxf86vm.tcz: OK
 Downloading: libXxf86vm-dev.tcz
+alsa.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+speexdsp.tcz.dep OK
 saving to 'libXxf86vm-dev.tcz'
 libXxf86vm-dev.tcz   100% |********************************|  4096  0:00:00 ETA
 'libXxf86vm-dev.tcz' saved
 libXxf86vm-dev.tcz: OK
 Downloading: libxshmfence.tcz
+alsa-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+fftw-dev.tcz.dep OK
 saving to 'libxshmfence.tcz'
 libxshmfence.tcz     100% |********************************|  4096  0:00:00 ETA
 'libxshmfence.tcz' saved
 libxshmfence.tcz: OK
 Downloading: libxshmfence-dev.tcz
+speexdsp-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libxshmfence-dev.tcz'
 libxshmfence-dev.tcz 100% |********************************|  4096  0:00:00 ETA
 'libxshmfence-dev.tcz' saved
+speex-dev.tcz.dep OK
 libxshmfence-dev.tcz: OK
 Downloading: libXfixes.tcz
+libsndfile-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+flac-dev.tcz.dep OK
 saving to 'libXfixes.tcz'
 libXfixes.tcz        100% |********************************|  8192  0:00:00 ETA
 'libXfixes.tcz' saved
 libXfixes.tcz: OK
 Downloading: libXfixes-dev.tcz
+libvorbis-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libbluetooth-dev.tcz.dep OK
 saving to 'libXfixes-dev.tcz'
 libXfixes-dev.tcz    100% |********************************|  4096  0:00:00 ETA
 'libXfixes-dev.tcz' saved
 libXfixes-dev.tcz: OK
 Downloading: libXdamage.tcz
+libbluetooth.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+bluez.tcz.dep OK
 saving to 'libXdamage.tcz'
 libXdamage.tcz       100% |********************************|  4096  0:00:00 ETA
 'libXdamage.tcz' saved
 libXdamage.tcz: OK
 Downloading: libXdamage-dev.tcz
+libical3.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libXdamage-dev.tcz'
 libXdamage-dev.tcz   100% |********************************|  4096  0:00:00 ETA
 'libXdamage-dev.tcz' saved
 libXdamage-dev.tcz: OK
 Downloading: libXv.tcz
+sbc-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+lame-dev.tcz.dep OK
 saving to 'libXv.tcz'
 libXv.tcz            100% |********************************|  8192  0:00:00 ETA
 'libXv.tcz' saved
 libXv.tcz: OK
 Downloading: libXv-dev.tcz
+libv4l2-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+sdl2-dev.tcz.dep OK
 saving to 'libXv-dev.tcz'
 libXv-dev.tcz        100% |********************************|  4096  0:00:00 ETA
 'libXv-dev.tcz' saved
 libXv-dev.tcz: OK
 Downloading: libXvmc.tcz
+pipewire-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+pipewire.tcz.dep OK
 saving to 'libXvmc.tcz'
 libXvmc.tcz          100% |********************************| 12288  0:00:00 ETA
 'libXvmc.tcz' saved
 libXvmc.tcz: OK
 Downloading: libXvmc-dev.tcz
+libass-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+opus-dev.tcz.dep OK
 saving to 'libXvmc-dev.tcz'
 libXvmc-dev.tcz      100% |********************************|  8192  0:00:00 ETA
 'libXvmc-dev.tcz' saved
 libXvmc-dev.tcz: OK
 Downloading: expat2.tcz
+x265-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+librsvg-dev.tcz.dep OK
 saving to 'expat2.tcz'
+gnutls38-dev.tcz.dep OK
 expat2.tcz           100% |********************************| 81920  0:00:00 ETA
 'expat2.tcz' saved
 expat2.tcz: OK
 Downloading: expat2-dev.tcz
+p11-kit-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libtasn1-4-dev.tcz.dep OK
 saving to 'expat2-dev.tcz'
+nettle39-dev.tcz.dep OK
 expat2-dev.tcz       100% |********************************| 28672  0:00:00 ETA
 'expat2-dev.tcz' saved
 expat2-dev.tcz: OK
 Downloading: wayland.tcz
+gmp-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libplacebo-dev.tcz.dep OK
 saving to 'wayland.tcz'
+shaderc-dev.tcz.dep OK
+glslang-dev.tcz.dep OK
 wayland.tcz          100% |********************************|  132k  0:00:00 ETA
 'wayland.tcz' saved
 wayland.tcz: OK
 Downloading: wayland-dev.tcz
+openal-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'wayland-dev.tcz'
+autoconf.tcz.dep OK
 wayland-dev.tcz      100% |********************************|  136k  0:00:00 ETA
 'wayland-dev.tcz' saved
 wayland-dev.tcz: OK
 Downloading: wayland-protocols.tcz
+perl_xml_parser.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+perl5.tcz.dep OK
 saving to 'wayland-protocols.tcz'
-wayland-protocols.tc   4% |*                               | 14023  0:00:20 ETA
+submitqc.tcz.dep OK
+file.tcz.dep OK
+wayland-protocols.tc  60% |*******************             |  175k  0:00:00 ETA
 wayland-protocols.tc 100% |********************************|  288k  0:00:00 ETA
 'wayland-protocols.tcz' saved
 wayland-protocols.tcz: OK
 Downloading: wayland-protocols-dev.tcz
+wget.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+coreutils.tcz.dep OK
 saving to 'wayland-protocols-dev.tcz'
 wayland-protocols-de 100% |********************************| 36864  0:00:00 ETA
 'wayland-protocols-dev.tcz' saved
 wayland-protocols-dev.tcz: OK
 Downloading: udev-lib.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+binutils.tcz.dep OK
 saving to 'udev-lib.tcz'
 udev-lib.tcz         100% |********************************| 24576  0:00:00 ETA
 'udev-lib.tcz' saved
 udev-lib.tcz: OK
 Downloading: udev-lib-dev.tcz
+squashfs-tools.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'udev-lib-dev.tcz'
 udev-lib-dev.tcz     100% |********************************|  4096  0:00:00 ETA
@@ -906,67 +874,95 @@ udev-lib-dev.tcz     100% |********************************|  4096  0:00:00 ETA
 udev-lib-dev.tcz: OK
 Downloading: libpciaccess.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+unixODBC-dev.tcz.dep OK
 saving to 'libpciaccess.tcz'
 libpciaccess.tcz     100% |********************************| 16384  0:00:00 ETA
 'libpciaccess.tcz' saved
 libpciaccess.tcz: OK
+unixODBC.tcz.dep OK
 Downloading: libpciaccess-dev.tcz
+compiletc.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+bison.tcz.dep OK
 saving to 'libpciaccess-dev.tcz'
 libpciaccess-dev.tcz 100% |********************************|  8192  0:00:00 ETA
 'libpciaccess-dev.tcz' saved
 libpciaccess-dev.tcz: OK
 Downloading: libdrm.tcz
+gawk.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+mpfr.tcz.dep OK
 saving to 'libdrm.tcz'
+gcc.tcz.dep OK
 libdrm.tcz           100% |********************************|  148k  0:00:00 ETA
 'libdrm.tcz' saved
 libdrm.tcz: OK
 Downloading: libdrm-dev.tcz
+mpc.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libdrm-dev.tcz'
+isl.tcz.dep OK
+libdrm-dev.tcz        17% |*****                           | 42583  0:00:04 ETA
 libdrm-dev.tcz       100% |********************************|  240k  0:00:00 ETA
 'libdrm-dev.tcz' saved
 libdrm-dev.tcz: OK
 Downloading: gcc_libs.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gcc_libs.tcz'
+gcc_libs.tcz          67% |*********************           | 1755k  0:00:00 ETA
 gcc_libs.tcz         100% |********************************| 2616k  0:00:00 ETA
 'gcc_libs.tcz' saved
 gcc_libs.tcz: OK
 Downloading: mesa.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'mesa.tcz'
-mesa.tcz              65% |********************            | 7360k  0:00:00 ETA
+krb5-dev.tcz.dep OK
+krb5.tcz.dep OK
+libpcap-dev.tcz.dep OK
+mesa.tcz              57% |******************              | 6431k  0:00:00 ETA
 mesa.tcz             100% |********************************| 10.9M  0:00:00 ETA
 'mesa.tcz' saved
 mesa.tcz: OK
+libpcap.tcz.dep OK
 Downloading: mesa-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libnl-dev.tcz.dep OK
 saving to 'mesa-dev.tcz'
 mesa-dev.tcz         100% |********************************| 86016  0:00:00 ETA
 'mesa-dev.tcz' saved
 mesa-dev.tcz: OK
+pcsc-lite-dev.tcz.dep OK
 Downloading: libGL.tcz
+pcsc-lite.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+gstreamer-dev.tcz.dep OK
 saving to 'libGL.tcz'
+gstreamer.tcz.dep OK
 libGL.tcz            100% |********************************|  124k  0:00:00 ETA
 'libGL.tcz' saved
 libGL.tcz: OK
 Downloading: libGL-dev.tcz
+gst-plugins-base-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+gst-plugins-base.tcz.dep OK
 saving to 'libGL-dev.tcz'
+cdparanoia-dev.tcz.dep OK
 libGL-dev.tcz        100% |********************************|  308k  0:00:00 ETA
 'libGL-dev.tcz' saved
 libGL-dev.tcz: OK
 Downloading: glu.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+gudev-lib-dev.tcz.dep OK
 saving to 'glu.tcz'
+gudev-lib.tcz.dep OK
+graphene-dev.tcz.dep OK
 glu.tcz              100% |********************************|  124k  0:00:00 ETA
 'glu.tcz' saved
 glu.tcz: OK
 Downloading: glu-dev.tcz
+graphene.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+clang.tcz.dep OK
 saving to 'glu-dev.tcz'
 glu-dev.tcz          100% |********************************|  8192  0:00:00 ETA
 'glu-dev.tcz' saved
@@ -1004,7 +1000,6 @@ libXi-dev.tcz: OK
 Downloading: freeglut.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'freeglut.tcz'
-freeglut.tcz          90% |****************************    | 99703  0:00:00 ETA
 freeglut.tcz         100% |********************************|  108k  0:00:00 ETA
 'freeglut.tcz' saved
 freeglut.tcz: OK
@@ -1023,6 +1018,7 @@ libtiff.tcz: OK
 Downloading: tiff-bin.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'tiff-bin.tcz'
+tiff-bin.tcz          23% |*******                         | 42583  0:00:03 ETA
 tiff-bin.tcz         100% |********************************|  180k  0:00:00 ETA
 'tiff-bin.tcz' saved
 tiff-bin.tcz: OK
@@ -1035,6 +1031,7 @@ tiff-dev.tcz: OK
 Downloading: libwebp1.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libwebp1.tcz'
+libwebp1.tcz          14% |****                            | 42583  0:00:06 ETA
 libwebp1.tcz         100% |********************************|  296k  0:00:00 ETA
 'libwebp1.tcz' saved
 libwebp1.tcz: OK
@@ -1083,6 +1080,7 @@ openssl-dev.tcz: OK
 Downloading: libEGL.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libEGL.tcz'
+libEGL.tcz            32% |**********                      | 38299  0:00:02 ETA
 libEGL.tcz           100% |********************************|  116k  0:00:00 ETA
 'libEGL.tcz' saved
 libEGL.tcz: OK
@@ -1101,6 +1099,7 @@ libepoxy.tcz: OK
 Downloading: libepoxy-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libepoxy-dev.tcz'
+libepoxy-dev.tcz       5% |*                               | 14023  0:00:15 ETA
 libepoxy-dev.tcz     100% |********************************|  232k  0:00:00 ETA
 'libepoxy-dev.tcz' saved
 libepoxy-dev.tcz: OK
@@ -1131,7 +1130,6 @@ graphite-dev.tcz: OK
 Downloading: ncursesw-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'ncursesw-dev.tcz'
-ncursesw-dev.tcz      41% |*************                   | 42583  0:00:01 ETA
 ncursesw-dev.tcz     100% |********************************|  100k  0:00:00 ETA
 'ncursesw-dev.tcz' saved
 ncursesw-dev.tcz: OK
@@ -1198,6 +1196,7 @@ freetype.tcz: OK
 Downloading: freetype-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'freetype-dev.tcz'
+freetype-dev.tcz      15% |****                            | 42583  0:00:05 ETA
 freetype-dev.tcz     100% |********************************|  276k  0:00:00 ETA
 'freetype-dev.tcz' saved
 freetype-dev.tcz: OK
@@ -1222,13 +1221,13 @@ libxkbfile.tcz: OK
 Downloading: xkbcomp.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'xkbcomp.tcz'
+xkbcomp.tcz           16% |*****                           | 14024  0:00:05 ETA
 xkbcomp.tcz          100% |********************************| 86016  0:00:00 ETA
 'xkbcomp.tcz' saved
 xkbcomp.tcz: OK
 Downloading: xorg-server.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'xorg-server.tcz'
-xorg-server.tcz        7% |**                              |  206k  0:00:12 ETA
 xorg-server.tcz      100% |********************************| 2844k  0:00:00 ETA
 'xorg-server.tcz' saved
 xorg-server.tcz: OK
@@ -1241,6 +1240,7 @@ xorg-server-dev.tcz: OK
 Downloading: xbitmaps.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'xbitmaps.tcz'
+xbitmaps.tcz          48% |***************                 | 14025  0:00:01 ETA
 xbitmaps.tcz         100% |********************************| 28672  0:00:00 ETA
 'xbitmaps.tcz' saved
 xbitmaps.tcz: OK
@@ -1427,7 +1427,6 @@ libXaw.tcz: OK
 Downloading: libXaw-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libXaw-dev.tcz'
-libXaw-dev.tcz        11% |***                             | 14023  0:00:07 ETA
 libXaw-dev.tcz       100% |********************************|  120k  0:00:00 ETA
 'libXaw-dev.tcz' saved
 libXaw-dev.tcz: OK
@@ -1470,12 +1469,14 @@ tzdata.tcz: OK
 Downloading: tcl8.6.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'tcl8.6.tcz'
+tcl8.6.tcz             0% |                                | 13982  0:03:03 ETA
 tcl8.6.tcz           100% |********************************| 2492k  0:00:00 ETA
 'tcl8.6.tcz' saved
 tcl8.6.tcz: OK
 Downloading: tcl8.6-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'tcl8.6-dev.tcz'
+tcl8.6-dev.tcz        16% |*****                           | 42583  0:00:04 ETA
 tcl8.6-dev.tcz       100% |********************************|  248k  0:00:00 ETA
 'tcl8.6-dev.tcz' saved
 tcl8.6-dev.tcz: OK
@@ -1512,7 +1513,7 @@ python3.9-dev.tcz: OK
 Downloading: icu74.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'icu74.tcz'
-icu74.tcz             67% |*********************           |  9.9M  0:00:00 ETA
+icu74.tcz              0% |                                | 42580  0:06:03 ETA
 icu74.tcz            100% |********************************| 14.7M  0:00:00 ETA
 'icu74.tcz' saved
 icu74.tcz: OK
@@ -1525,21 +1526,21 @@ icu74-bin.tcz: OK
 Downloading: icu74-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'icu74-dev.tcz'
-icu74-dev.tcz          6% |**                              | 99701  0:00:14 ETA
+icu74-dev.tcz          2% |                                | 42581  0:00:34 ETA
 icu74-dev.tcz        100% |********************************| 1468k  0:00:00 ETA
 'icu74-dev.tcz' saved
 icu74-dev.tcz: OK
 Downloading: boost-1.84.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'boost-1.84.tcz'
-boost-1.84.tcz        87% |****************************    | 4081k  0:00:00 ETA
+boost-1.84.tcz         4% |*                               |  208k  0:00:21 ETA
 boost-1.84.tcz       100% |********************************| 4640k  0:00:00 ETA
 'boost-1.84.tcz' saved
 boost-1.84.tcz: OK
 Downloading: boost-1.84-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'boost-1.84-dev.tcz'
-boost-1.84-dev.tcz    29% |*********                       | 9002k  0:00:02 ETA
+boost-1.84-dev.tcz     0% |                                |  174k  0:02:56 ETA
 boost-1.84-dev.tcz   100% |********************************| 30.1M  0:00:00 ETA
 'boost-1.84-dev.tcz' saved
 boost-1.84-dev.tcz: OK
@@ -1552,7 +1553,7 @@ libaom.tcz: OK
 Downloading: libaom-bin.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libaom-bin.tcz'
-libaom-bin.tcz         1% |                                | 14023  0:00:58 ETA
+libaom-bin.tcz        53% |*****************               |  429k  0:00:00 ETA
 libaom-bin.tcz       100% |********************************|  808k  0:00:00 ETA
 'libaom-bin.tcz' saved
 libaom-bin.tcz: OK
@@ -1571,13 +1572,13 @@ npth.tcz: OK
 Downloading: libunistring.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libunistring.tcz'
+libunistring.tcz       2% |                                | 14023  0:00:41 ETA
 libunistring.tcz     100% |********************************|  584k  0:00:00 ETA
 'libunistring.tcz' saved
 libunistring.tcz: OK
 Downloading: libidn2.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libidn2.tcz'
-libidn2.tcz           19% |******                          | 14024  0:00:04 ETA
 libidn2.tcz          100% |********************************| 73728  0:00:00 ETA
 'libidn2.tcz' saved
 libidn2.tcz: OK
@@ -1590,13 +1591,13 @@ gmp.tcz: OK
 Downloading: nettle39.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'nettle39.tcz'
+nettle39.tcz          10% |***                             | 42583  0:00:08 ETA
 nettle39.tcz         100% |********************************|  380k  0:00:00 ETA
 'nettle39.tcz' saved
 nettle39.tcz: OK
 Downloading: libtasn1-4.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libtasn1-4.tcz'
-libtasn1-4.tcz        28% |*********                       | 14025  0:00:02 ETA
 libtasn1-4.tcz       100% |********************************| 49152  0:00:00 ETA
 'libtasn1-4.tcz' saved
 libtasn1-4.tcz: OK
@@ -1609,6 +1610,7 @@ p11-kit.tcz: OK
 Downloading: gnutls38.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gnutls38.tcz'
+gnutls38.tcz           1% |                                | 14021  0:01:27 ETA
 gnutls38.tcz         100% |********************************| 1200k  0:00:00 ETA
 'gnutls38.tcz' saved
 gnutls38.tcz: OK
@@ -1633,7 +1635,6 @@ libksba.tcz: OK
 Downloading: libgcrypt.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libgcrypt.tcz'
-libgcrypt.tcz          7% |**                              | 42583  0:00:12 ETA
 libgcrypt.tcz        100% |********************************|  576k  0:00:00 ETA
 'libgcrypt.tcz' saved
 libgcrypt.tcz: OK
@@ -1646,20 +1647,20 @@ libassuan.tcz: OK
 Downloading: gnupg.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gnupg.tcz'
-gnupg.tcz             79% |*************************       | 1264k  0:00:00 ETA
 gnupg.tcz            100% |********************************| 1588k  0:00:00 ETA
 'gnupg.tcz' saved
 gnupg.tcz: OK
 Downloading: xkeyboard-config.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'xkeyboard-config.tcz'
-xkeyboard-config.tcz   1% |                                | 12595  0:01:05 ETA
+xkeyboard-config.tcz   1% |                                | 14023  0:00:59 ETA
 xkeyboard-config.tcz 100% |********************************|  824k  0:00:00 ETA
 'xkeyboard-config.tcz' saved
 xkeyboard-config.tcz: OK
 Downloading: libxkbcommon.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libxkbcommon.tcz'
+libxkbcommon.tcz      52% |****************                | 99703  0:00:00 ETA
 libxkbcommon.tcz     100% |********************************|  184k  0:00:00 ETA
 'libxkbcommon.tcz' saved
 libxkbcommon.tcz: OK
@@ -1672,6 +1673,7 @@ libxkbcommon-dev.tcz: OK
 Downloading: json-glib.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'json-glib.tcz'
+json-glib.tcz         19% |******                          | 14024  0:00:04 ETA
 json-glib.tcz        100% |********************************| 73728  0:00:00 ETA
 'json-glib.tcz' saved
 json-glib.tcz: OK
@@ -1684,13 +1686,13 @@ json-glib-dev.tcz: OK
 Downloading: util-linux.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'util-linux.tcz'
-util-linux.tcz        63% |********************            | 1030k  0:00:00 ETA
 util-linux.tcz       100% |********************************| 1612k  0:00:00 ETA
 'util-linux.tcz' saved
 util-linux.tcz: OK
 Downloading: util-linux-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'util-linux-dev.tcz'
+util-linux-dev.tcz    24% |*******                         | 14025  0:00:03 ETA
 util-linux-dev.tcz   100% |********************************| 57344  0:00:00 ETA
 'util-linux-dev.tcz' saved
 util-linux-dev.tcz: OK
@@ -1758,22 +1760,19 @@ linux-pam-dev.tcz: OK
 Downloading: icu67.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'icu67.tcz'
-icu67.tcz             19% |******                          | 2748k  0:00:04 ETA
-icu67.tcz             89% |****************************    | 12.3M  0:00:00 ETA
+icu67.tcz              0% |                                | 99700  0:02:24 ETA
 icu67.tcz            100% |********************************| 13.8M  0:00:00 ETA
 'icu67.tcz' saved
 icu67.tcz: OK
 Downloading: js78.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'js78.tcz'
-js78.tcz              38% |************                    | 3028k  0:00:01 ETA
 js78.tcz             100% |********************************| 7820k  0:00:00 ETA
 'js78.tcz' saved
 js78.tcz: OK
 Downloading: js78-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'js78-dev.tcz'
-js78-dev.tcz          76% |************************        |  712k  0:00:00 ETA
 js78-dev.tcz         100% |********************************|  936k  0:00:00 ETA
 'js78-dev.tcz' saved
 js78-dev.tcz: OK
@@ -1810,20 +1809,20 @@ nspr-dev.tcz: OK
 Downloading: nss.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'nss.tcz'
-nss.tcz                2% |                                | 42581  0:00:40 ETA
+nss.tcz                5% |*                               | 99701  0:00:16 ETA
 nss.tcz              100% |********************************| 1704k  0:00:00 ETA
 'nss.tcz' saved
 nss.tcz: OK
 Downloading: nss-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'nss-dev.tcz'
+nss-dev.tcz           57% |******************              |  432k  0:00:00 ETA
 nss-dev.tcz          100% |********************************|  748k  0:00:00 ETA
 'nss-dev.tcz' saved
 nss-dev.tcz: OK
 Downloading: liblcms2.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'liblcms2.tcz'
-liblcms2.tcz           8% |**                              | 14023  0:00:10 ETA
 liblcms2.tcz         100% |********************************|  160k  0:00:00 ETA
 'liblcms2.tcz' saved
 liblcms2.tcz: OK
@@ -1856,6 +1855,7 @@ Updating certificates in /usr/local/etc/ssl/certs...
 Downloading: curl.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'curl.tcz'
+curl.tcz              10% |***                             | 42583  0:00:08 ETA
 curl.tcz             100% |********************************|  384k  0:00:00 ETA
 'curl.tcz' saved
 curl.tcz: OK
@@ -1868,13 +1868,13 @@ curl-dev.tcz: OK
 Downloading: cairo.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'cairo.tcz'
-cairo.tcz             38% |************                    |  207k  0:00:01 ETA
 cairo.tcz            100% |********************************|  544k  0:00:00 ETA
 'cairo.tcz' saved
 cairo.tcz: OK
 Downloading: cairo-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'cairo-dev.tcz'
+cairo-dev.tcz         74% |***********************         | 42585  0:00:00 ETA
 cairo-dev.tcz        100% |********************************| 57344  0:00:00 ETA
 'cairo-dev.tcz' saved
 cairo-dev.tcz: OK
@@ -1893,6 +1893,7 @@ poppler23-bin.tcz: OK
 Downloading: poppler23-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'poppler23-dev.tcz'
+poppler23-dev.tcz     21% |*******                         | 99703  0:00:03 ETA
 poppler23-dev.tcz    100% |********************************|  444k  0:00:00 ETA
 'poppler23-dev.tcz' saved
 poppler23-dev.tcz: OK
@@ -1917,7 +1918,6 @@ libtool.tcz: OK
 Downloading: libtool-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libtool-dev.tcz'
-libtool-dev.tcz       29% |*********                       | 42583  0:00:02 ETA
 libtool-dev.tcz      100% |********************************|  140k  0:00:00 ETA
 'libtool-dev.tcz' saved
 libtool-dev.tcz: OK
@@ -1936,7 +1936,7 @@ libexif-dev.tcz: OK
 Downloading: libgphoto2.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libgphoto2.tcz'
-libgphoto2.tcz        25% |********                        |  203k  0:00:02 ETA
+libgphoto2.tcz        25% |********                        |  197k  0:00:02 ETA
 libgphoto2.tcz       100% |********************************|  788k  0:00:00 ETA
 'libgphoto2.tcz' saved
 libgphoto2.tcz: OK
@@ -1949,13 +1949,14 @@ libgphoto2-dev.tcz: OK
 Downloading: libavahi.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libavahi.tcz'
+libavahi.tcz          23% |*******                         | 42583  0:00:03 ETA
 libavahi.tcz         100% |********************************|  176k  0:00:00 ETA
 'libavahi.tcz' saved
 libavahi.tcz: OK
 Downloading: libsane.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libsane.tcz'
-libsane.tcz            8% |**                              |  395k  0:00:10 ETA
+libsane.tcz           23% |*******                         | 1100k  0:00:03 ETA
 libsane.tcz          100% |********************************| 4668k  0:00:00 ETA
 'libsane.tcz' saved
 libsane.tcz: OK
@@ -1980,7 +1981,6 @@ libdaemon-dev.tcz: OK
 Downloading: gcc_libs-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gcc_libs-dev.tcz'
-gcc_libs-dev.tcz      39% |************                    | 2323k  0:00:01 ETA
 gcc_libs-dev.tcz     100% |********************************| 5924k  0:00:00 ETA
 'gcc_libs-dev.tcz' saved
 gcc_libs-dev.tcz: OK
@@ -2035,7 +2035,6 @@ colord.tcz: OK
 Downloading: colord-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'colord-dev.tcz'
-colord-dev.tcz        19% |******                          | 14024  0:00:04 ETA
 colord-dev.tcz       100% |********************************| 73728  0:00:00 ETA
 'colord-dev.tcz' saved
 colord-dev.tcz: OK
@@ -2066,6 +2065,7 @@ libpsl-dev.tcz: OK
 Downloading: glib-networking.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'glib-networking.tcz'
+glib-networking.tcz   13% |****                            | 14023  0:00:06 ETA
 glib-networking.tcz  100% |********************************|  100k  0:00:00 ETA
 'glib-networking.tcz' saved
 glib-networking.tcz: OK
@@ -2096,7 +2096,6 @@ rest-dev.tcz: OK
 Downloading: fribidi.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'fribidi.tcz'
-fribidi.tcz           48% |***************                 | 14025  0:00:01 ETA
 fribidi.tcz          100% |********************************| 28672  0:00:00 ETA
 'fribidi.tcz' saved
 fribidi.tcz: OK
@@ -2121,6 +2120,7 @@ pango-dev.tcz: OK
 Downloading: at-spi2-core.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'at-spi2-core.tcz'
+at-spi2-core.tcz      15% |*****                           | 42583  0:00:05 ETA
 at-spi2-core.tcz     100% |********************************|  260k  0:00:00 ETA
 'at-spi2-core.tcz' saved
 at-spi2-core.tcz: OK
@@ -2145,6 +2145,7 @@ gdk-pixbuf2-xlib-dev.tcz: OK
 Downloading: shared-mime-info.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'shared-mime-info.tcz'
+shared-mime-info.tcz   6% |**                              | 42583  0:00:14 ETA
 shared-mime-info.tcz 100% |********************************|  648k  0:00:00 ETA
 'shared-mime-info.tcz' saved
 shared-mime-info.tcz: OK
@@ -2157,12 +2158,14 @@ gdk-pixbuf2.tcz: OK
 Downloading: gdk-pixbuf2-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gdk-pixbuf2-dev.tcz'
+gdk-pixbuf2-dev.tcz   42% |*************                   | 14025  0:00:01 ETA
 gdk-pixbuf2-dev.tcz  100% |********************************| 32768  0:00:00 ETA
 'gdk-pixbuf2-dev.tcz' saved
 gdk-pixbuf2-dev.tcz: OK
 Downloading: gtk3.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gtk3.tcz'
+gtk3.tcz              61% |*******************             | 3175k  0:00:00 ETA
 gtk3.tcz             100% |********************************| 5200k  0:00:00 ETA
 'gtk3.tcz' saved
 gtk3.tcz: OK
@@ -2181,23 +2184,23 @@ libssh2.tcz: OK
 Downloading: rust.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'rust.tcz'
-rust.tcz               5% |*                               | 5695k  0:00:16 ETA
-rust.tcz              24% |*******                         | 24.3M  0:00:06 ETA
-rust.tcz              67% |*********************           | 66.5M  0:00:01 ETA
+rust.tcz               0% |                                | 14018  2:05:11 ETA
+rust.tcz              32% |**********                      | 31.8M  0:00:04 ETA
+rust.tcz              91% |*****************************   | 90.3M  0:00:00 ETA
 rust.tcz             100% |********************************| 99.0M  0:00:00 ETA
 'rust.tcz' saved
 rust.tcz: OK
 Downloading: cbindgen.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'cbindgen.tcz'
+cbindgen.tcz           1% |                                | 42581  0:01:00 ETA
 cbindgen.tcz         100% |********************************| 2552k  0:00:00 ETA
 'cbindgen.tcz' saved
 cbindgen.tcz: OK
 Downloading: node.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'node.tcz'
-node.tcz              13% |****                            | 4983k  0:00:06 ETA
-node.tcz              84% |***************************     | 29.4M  0:00:00 ETA
+node.tcz               0% |                                |  204k  0:02:53 ETA
 node.tcz             100% |********************************| 34.9M  0:00:00 ETA
 'node.tcz' saved
 node.tcz: OK
@@ -2210,6 +2213,7 @@ nasm.tcz: OK
 Downloading: libevent.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libevent.tcz'
+libevent.tcz          13% |****                            | 42583  0:00:06 ETA
 libevent.tcz         100% |********************************|  308k  0:00:00 ETA
 'libevent.tcz' saved
 libevent.tcz: OK
@@ -2240,6 +2244,7 @@ bash.tcz: OK
 Downloading: libva22.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libva22.tcz'
+libva22.tcz           41% |*************                   | 42583  0:00:01 ETA
 libva22.tcz          100% |********************************|  100k  0:00:00 ETA
 'libva22.tcz' saved
 libva22.tcz: OK
@@ -2252,20 +2257,20 @@ libva22-dev.tcz: OK
 Downloading: gettext.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gettext.tcz'
-gettext.tcz            0% |                                | 14021  0:01:54 ETA
 gettext.tcz          100% |********************************| 1560k  0:00:00 ETA
 'gettext.tcz' saved
 gettext.tcz: OK
 Downloading: gettext-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gettext-dev.tcz'
+gettext-dev.tcz        2% |                                | 14023  0:00:46 ETA
 gettext-dev.tcz      100% |********************************|  648k  0:00:00 ETA
 'gettext-dev.tcz' saved
 gettext-dev.tcz: OK
 Downloading: git.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'git.tcz'
-git.tcz                0% |                                | 42581  0:02:27 ETA
+git.tcz                3% |*                               |  208k  0:00:28 ETA
 git.tcz              100% |********************************| 6176k  0:00:00 ETA
 'git.tcz' saved
 git.tcz: OK
@@ -2278,6 +2283,7 @@ libGLESv2.tcz: OK
 Downloading: libGLESv2-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libGLESv2-dev.tcz'
+libGLESv2-dev.tcz     21% |******                          | 14024  0:00:03 ETA
 libGLESv2-dev.tcz    100% |********************************| 65536  0:00:00 ETA
 'libGLESv2-dev.tcz' saved
 libGLESv2-dev.tcz: OK
@@ -2290,13 +2296,14 @@ Xorg-7.7-3d-dev.tcz: OK
 Downloading: libvulkan.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libvulkan.tcz'
+libvulkan.tcz         28% |********                        | 42583  0:00:02 ETA
 libvulkan.tcz        100% |********************************|  148k  0:00:00 ETA
 'libvulkan.tcz' saved
 libvulkan.tcz: OK
 Downloading: libvulkan-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libvulkan-dev.tcz'
-libvulkan-dev.tcz     38% |************                    | 2078k  0:00:01 ETA
+libvulkan-dev.tcz     63% |********************            | 3453k  0:00:00 ETA
 libvulkan-dev.tcz    100% |********************************| 5412k  0:00:00 ETA
 'libvulkan-dev.tcz' saved
 libvulkan-dev.tcz: OK
@@ -2327,7 +2334,7 @@ shaderc-dev.tcz: OK
 Downloading: libplacebo.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libplacebo.tcz'
-libplacebo.tcz        10% |***                             | 42583  0:00:08 ETA
+libplacebo.tcz        61% |*******************             |  238k  0:00:00 ETA
 libplacebo.tcz       100% |********************************|  388k  0:00:00 ETA
 'libplacebo.tcz' saved
 libplacebo.tcz: OK
@@ -2340,7 +2347,6 @@ libplacebo-dev.tcz: OK
 Downloading: gmp-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gmp-dev.tcz'
-gmp-dev.tcz           28% |*********                       | 14025  0:00:02 ETA
 gmp-dev.tcz          100% |********************************| 49152  0:00:00 ETA
 'gmp-dev.tcz' saved
 gmp-dev.tcz: OK
@@ -2365,12 +2371,14 @@ p11-kit-dev.tcz: OK
 Downloading: gnutls38-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gnutls38-dev.tcz'
+gnutls38-dev.tcz      41% |*************                   | 42583  0:00:01 ETA
 gnutls38-dev.tcz     100% |********************************|  100k  0:00:00 ETA
 'gnutls38-dev.tcz' saved
 gnutls38-dev.tcz: OK
 Downloading: librsvg.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'librsvg.tcz'
+librsvg.tcz           24% |*******                         | 1717k  0:00:03 ETA
 librsvg.tcz          100% |********************************| 7124k  0:00:00 ETA
 'librsvg.tcz' saved
 librsvg.tcz: OK
@@ -2389,6 +2397,7 @@ x265.tcz: OK
 Downloading: x265-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'x265-dev.tcz'
+x265-dev.tcz          38% |************                    | 14025  0:00:01 ETA
 x265-dev.tcz         100% |********************************| 36864  0:00:00 ETA
 'x265-dev.tcz' saved
 x265-dev.tcz: OK
@@ -2419,6 +2428,7 @@ libass-dev.tcz: OK
 Downloading: fftw.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'fftw.tcz'
+fftw.tcz              36% |***********                     |  176k  0:00:01 ETA
 fftw.tcz             100% |********************************|  480k  0:00:00 ETA
 'fftw.tcz' saved
 fftw.tcz: OK
@@ -2431,6 +2441,7 @@ fftw-dev.tcz: OK
 Downloading: libasound.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libasound.tcz'
+libasound.tcz          8% |**                              | 42583  0:00:10 ETA
 libasound.tcz        100% |********************************|  496k  0:00:00 ETA
 'libasound.tcz' saved
 libasound.tcz: OK
@@ -2485,6 +2496,7 @@ libvorbis-dev.tcz: OK
 Downloading: flac.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'flac.tcz'
+flac.tcz              87% |***************************     |  208k  0:00:00 ETA
 flac.tcz             100% |********************************|  240k  0:00:00 ETA
 'flac.tcz' saved
 flac.tcz: OK
@@ -2527,20 +2539,19 @@ bluetooth-6.12.11-tinycore64.tcz: OK
 Downloading: libical3.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libical3.tcz'
-libical3.tcz          25% |********                        | 99703  0:00:02 ETA
 libical3.tcz         100% |********************************|  380k  0:00:00 ETA
 'libical3.tcz' saved
 libical3.tcz: OK
 Downloading: bluez.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'bluez.tcz'
+bluez.tcz             11% |***                             |  207k  0:00:07 ETA
 bluez.tcz            100% |********************************| 1756k  0:00:00 ETA
 'bluez.tcz' saved
 bluez.tcz: OK
 Downloading: libbluetooth.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libbluetooth.tcz'
-libbluetooth.tcz      54% |*****************               | 42584  0:00:00 ETA
 libbluetooth.tcz     100% |********************************| 77824  0:00:00 ETA
 'libbluetooth.tcz' saved
 libbluetooth.tcz: OK
@@ -2565,7 +2576,6 @@ speex-dev.tcz: OK
 Downloading: speexdsp.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'speexdsp.tcz'
-speexdsp.tcz          38% |************                    | 14025  0:00:01 ETA
 speexdsp.tcz         100% |********************************| 36864  0:00:00 ETA
 'speexdsp.tcz' saved
 speexdsp.tcz: OK
@@ -2584,7 +2594,6 @@ libpulseaudio.tcz: OK
 Downloading: pulseaudio.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'pulseaudio.tcz'
-pulseaudio.tcz         1% |                                | 14021  0:01:22 ETA
 pulseaudio.tcz       100% |********************************| 1128k  0:00:00 ETA
 'pulseaudio.tcz' saved
 pulseaudio.tcz: OK
@@ -2597,7 +2606,7 @@ pulseaudio-dev.tcz: OK
 Downloading: pipewire.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'pipewire.tcz'
-pipewire.tcz           2% |                                | 99701  0:00:36 ETA
+pipewire.tcz           0% |                                | 14021  0:04:30 ETA
 pipewire.tcz         100% |********************************| 3664k  0:00:00 ETA
 'pipewire.tcz' saved
 pipewire.tcz: OK
@@ -2610,6 +2619,7 @@ pipewire-dev.tcz: OK
 Downloading: sdl2.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'sdl2.tcz'
+sdl2.tcz              17% |*****                           |  119k  0:00:04 ETA
 sdl2.tcz             100% |********************************|  692k  0:00:00 ETA
 'sdl2.tcz' saved
 sdl2.tcz: OK
@@ -2628,7 +2638,7 @@ i2c-6.12.11-tinycore64.tcz: OK
 Downloading: v4l-dvb-6.12.11-tinycore64.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'v4l-dvb-6.12.11-tinycore64.tcz'
-v4l-dvb-6.12.11-tiny  56% |******************              | 2586k  0:00:00 ETA
+v4l-dvb-6.12.11-tiny   0% |                                | 42581  0:01:48 ETA
 v4l-dvb-6.12.11-tiny 100% |********************************| 4556k  0:00:00 ETA
 'v4l-dvb-6.12.11-tinycore64.tcz' saved
 v4l-dvb-6.12.11-tinycore64.tcz: OK
@@ -2641,7 +2651,6 @@ libv4l2.tcz: OK
 Downloading: libv4l2-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libv4l2-dev.tcz'
-libv4l2-dev.tcz       72% |***********************         | 98275  0:00:00 ETA
 libv4l2-dev.tcz      100% |********************************|  132k  0:00:00 ETA
 'libv4l2-dev.tcz' saved
 libv4l2-dev.tcz: OK
@@ -2660,7 +2669,6 @@ lame-dev.tcz: OK
 Downloading: libtheora.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libtheora.tcz'
-libtheora.tcz         41% |*************                   | 99703  0:00:01 ETA
 libtheora.tcz        100% |********************************|  236k  0:00:00 ETA
 'libtheora.tcz' saved
 libtheora.tcz: OK
@@ -2673,6 +2681,7 @@ libtheora-dev.tcz: OK
 Downloading: x264_164.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'x264_164.tcz'
+x264_164.tcz          56% |******************              |  431k  0:00:00 ETA
 x264_164.tcz         100% |********************************|  760k  0:00:00 ETA
 'x264_164.tcz' saved
 x264_164.tcz: OK
@@ -2685,6 +2694,7 @@ x264_164-dev.tcz: OK
 Downloading: libavutil7.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libavutil7.tcz'
+libavutil7.tcz        13% |****                            | 42583  0:00:06 ETA
 libavutil7.tcz       100% |********************************|  316k  0:00:00 ETA
 'libavutil7.tcz' saved
 libavutil7.tcz: OK
@@ -2709,7 +2719,6 @@ libswresample7.tcz: OK
 Downloading: libavcodec7.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libavcodec7.tcz'
-libavcodec7.tcz       15% |****                            |  787k  0:00:05 ETA
 libavcodec7.tcz      100% |********************************| 5048k  0:00:00 ETA
 'libavcodec7.tcz' saved
 libavcodec7.tcz: OK
@@ -2734,7 +2743,7 @@ libavdevice7.tcz: OK
 Downloading: ffmpeg7.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'ffmpeg7.tcz'
-ffmpeg7.tcz            5% |*                               | 14023  0:00:18 ETA
+ffmpeg7.tcz           66% |*********************           |  179k  0:00:00 ETA
 ffmpeg7.tcz          100% |********************************|  272k  0:00:00 ETA
 'ffmpeg7.tcz' saved
 ffmpeg7.tcz: OK
@@ -2753,14 +2762,14 @@ openal.tcz: OK
 Downloading: openal-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'openal-dev.tcz'
+openal-dev.tcz        48% |***************                 | 14025  0:00:01 ETA
 openal-dev.tcz       100% |********************************| 28672  0:00:00 ETA
 'openal-dev.tcz' saved
 openal-dev.tcz: OK
 Downloading: perl5.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'perl5.tcz'
-perl5.tcz              1% |                                |  203k  0:01:23 ETA
-perl5.tcz             59% |*******************             |  9.9M  0:00:01 ETA
+perl5.tcz              8% |**                              | 1445k  0:00:10 ETA
 perl5.tcz            100% |********************************| 16.7M  0:00:00 ETA
 'perl5.tcz' saved
 perl5.tcz: OK
@@ -2773,6 +2782,7 @@ perl_xml_parser.tcz: OK
 Downloading: autoconf.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'autoconf.tcz'
+autoconf.tcz           5% |*                               | 42583  0:00:18 ETA
 autoconf.tcz         100% |********************************|  812k  0:00:00 ETA
 'autoconf.tcz' saved
 autoconf.tcz: OK
@@ -2797,13 +2807,14 @@ squashfs-tools.tcz: OK
 Downloading: flex.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'flex.tcz'
+flex.tcz              11% |***                             | 14023  0:00:07 ETA
 flex.tcz             100% |********************************|  116k  0:00:00 ETA
 'flex.tcz' saved
 flex.tcz: OK
 Downloading: binutils.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'binutils.tcz'
-binutils.tcz          85% |***************************     | 5597k  0:00:00 ETA
+binutils.tcz          13% |****                            |  864k  0:00:06 ETA
 binutils.tcz         100% |********************************| 6548k  0:00:00 ETA
 'binutils.tcz' saved
 binutils.tcz: OK
@@ -2816,7 +2827,6 @@ grep.tcz: OK
 Downloading: coreutils.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'coreutils.tcz'
-coreutils.tcz         64% |********************            | 1493k  0:00:00 ETA
 coreutils.tcz        100% |********************************| 2308k  0:00:00 ETA
 'coreutils.tcz' saved
 coreutils.tcz: OK
@@ -2890,7 +2900,7 @@ linux-6.12_api_headers.tcz: OK
 Downloading: glibc_base-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'glibc_base-dev.tcz'
-glibc_base-dev.tcz    60% |*******************             | 2490k  0:00:00 ETA
+glibc_base-dev.tcz    48% |***************                 | 2000k  0:00:01 ETA
 glibc_base-dev.tcz   100% |********************************| 4112k  0:00:00 ETA
 'glibc_base-dev.tcz' saved
 glibc_base-dev.tcz: OK
@@ -2921,6 +2931,7 @@ patch.tcz: OK
 Downloading: make.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'make.tcz'
+make.tcz              11% |***                             | 14023  0:00:08 ETA
 make.tcz             100% |********************************|  124k  0:00:00 ETA
 'make.tcz' saved
 make.tcz: OK
@@ -2939,21 +2950,22 @@ mpfr.tcz: OK
 Downloading: mpc.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'mpc.tcz'
+mpc.tcz               24% |*******                         | 14025  0:00:03 ETA
 mpc.tcz              100% |********************************| 57344  0:00:00 ETA
 'mpc.tcz' saved
 mpc.tcz: OK
 Downloading: gcc_base-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gcc_base-dev.tcz'
+gcc_base-dev.tcz      70% |**********************          | 1671k  0:00:00 ETA
 gcc_base-dev.tcz     100% |********************************| 2364k  0:00:00 ETA
 'gcc_base-dev.tcz' saved
 gcc_base-dev.tcz: OK
 Downloading: gcc.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gcc.tcz'
-gcc.tcz                0% |                                |  419k  0:02:54 ETA
-gcc.tcz               25% |********                        | 18.4M  0:00:05 ETA
-gcc.tcz               75% |************************        | 54.1M  0:00:00 ETA
+gcc.tcz                2% |                                | 1730k  0:00:41 ETA
+gcc.tcz               79% |*************************       | 57.0M  0:00:00 ETA
 gcc.tcz              100% |********************************| 71.6M  0:00:00 ETA
 'gcc.tcz' saved
 gcc.tcz: OK
@@ -2996,7 +3008,6 @@ libnl.tcz: OK
 Downloading: libnl-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libnl-dev.tcz'
-libnl-dev.tcz         19% |******                          | 14024  0:00:04 ETA
 libnl-dev.tcz        100% |********************************| 73728  0:00:00 ETA
 'libnl-dev.tcz' saved
 libnl-dev.tcz: OK
@@ -3009,6 +3020,7 @@ libpcap.tcz: OK
 Downloading: libpcap-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libpcap-dev.tcz'
+libpcap-dev.tcz       19% |******                          | 14024  0:00:04 ETA
 libpcap-dev.tcz      100% |********************************| 73728  0:00:00 ETA
 'libpcap-dev.tcz' saved
 libpcap-dev.tcz: OK
@@ -3033,7 +3045,6 @@ pcsc-lite-dev.tcz: OK
 Downloading: gstreamer.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gstreamer.tcz'
-gstreamer.tcz          0% |                                | 12593  0:01:40 ETA
 gstreamer.tcz        100% |********************************| 1244k  0:00:00 ETA
 'gstreamer.tcz' saved
 gstreamer.tcz: OK
@@ -3082,12 +3093,14 @@ cdparanoia-dev.tcz: OK
 Downloading: iso-codes.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'iso-codes.tcz'
+iso-codes.tcz         47% |***************                 |  207k  0:00:01 ETA
 iso-codes.tcz        100% |********************************|  436k  0:00:00 ETA
 'iso-codes.tcz' saved
 iso-codes.tcz: OK
 Downloading: gst-plugins-base.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gst-plugins-base.tcz'
+gst-plugins-base.tcz  39% |************                    |  960k  0:00:01 ETA
 gst-plugins-base.tcz 100% |********************************| 2404k  0:00:00 ETA
 'gst-plugins-base.tcz' saved
 gst-plugins-base.tcz: OK
@@ -3100,50 +3113,209 @@ gst-plugins-base-dev.tcz: OK
 Downloading: clang.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'clang.tcz'
-clang.tcz             12% |****                            | 24.9M  0:00:06 ETA
-clang.tcz             47% |***************                 | 92.8M  0:00:02 ETA
+clang.tcz              2% |                                | 4367k  0:00:44 ETA
+clang.tcz             29% |*********                       | 57.1M  0:00:04 ETA
+clang.tcz             54% |*****************               |  107M  0:00:02 ETA
+clang.tcz             82% |**************************      |  160M  0:00:00 ETA
 clang.tcz            100% |********************************|  195M  0:00:00 ETA
 'clang.tcz' saved
 clang.tcz: OK
-Downloading: tar.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-ccache.tcz.dep OK
-saving to 'tar.tcz'
-tar.tcz              100% |********************************|  248k  0:00:00 ETA
-'tar.tcz' saved
-tar.tcz: OK
-Downloading: p7zip.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-saving to 'p7zip.tcz'
-p7zip.tcz            100% |********************************| 1788k  0:00:00 ETA
-'p7zip.tcz' saved
-p7zip.tcz: OK
-Downloading: ccache.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-saving to 'ccache.tcz'
-ccache.tcz           100% |********************************| 40960  0:00:00 ETA
-'ccache.tcz' saved
-ccache.tcz: OK
---2025-10-27 17:04:23--  https://github.com/mozilla/sccache/releases/download/v0.8.2/sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz
-Resolving github.com... 140.82.114.4
-Connecting to github.com|140.82.114.4|:443... connected.
+cp: cannot stat '/usr/local/bin/tar': No such file or directory
+--2025-10-27 17:14:10--  https://github.com/mozilla/sccache/releases/download/v0.8.2/sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz
+Resolving github.com... 140.82.116.3
+Connecting to github.com|140.82.116.3|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://release-assets.githubusercontent.com/github-production-release-asset/57160728/7bbf3ccf-002e-487b-aa93-c77a5279e9ca?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-10-27T17%3A55%3A17Z&rscd=attachment%3B+filename%3Dsccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-10-27T16%3A54%3A38Z&ske=2025-10-27T17%3A55%3A17Z&sks=b&skv=2018-11-09&sig=hJk5YGANbuVVlbkxPtRry9IwKssTEzB0yEGzLvXCBec%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2MTU4NDk2MywibmJmIjoxNzYxNTg0NjYzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.UfqAvPHIxy4uo8uL3hCxNB2NuAXCwPymKw-pXxHL2CU&response-content-disposition=attachment%3B%20filename%3Dsccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
---2025-10-27 17:04:23--  https://release-assets.githubusercontent.com/github-production-release-asset/57160728/7bbf3ccf-002e-487b-aa93-c77a5279e9ca?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-10-27T17%3A55%3A17Z&rscd=attachment%3B+filename%3Dsccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-10-27T16%3A54%3A38Z&ske=2025-10-27T17%3A55%3A17Z&sks=b&skv=2018-11-09&sig=hJk5YGANbuVVlbkxPtRry9IwKssTEzB0yEGzLvXCBec%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2MTU4NDk2MywibmJmIjoxNzYxNTg0NjYzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.UfqAvPHIxy4uo8uL3hCxNB2NuAXCwPymKw-pXxHL2CU&response-content-disposition=attachment%3B%20filename%3Dsccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
-Resolving release-assets.githubusercontent.com... 185.199.111.133, 185.199.108.133, 185.199.110.133, ...
-Connecting to release-assets.githubusercontent.com|185.199.111.133|:443... connected.
+Location: https://release-assets.githubusercontent.com/github-production-release-asset/57160728/7bbf3ccf-002e-487b-aa93-c77a5279e9ca?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-10-27T17%3A54%3A58Z&rscd=attachment%3B+filename%3Dsccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-10-27T16%3A54%3A00Z&ske=2025-10-27T17%3A54%3A58Z&sks=b&skv=2018-11-09&sig=i4HurbOpIMlxX1cMrhvfB1junR6fmEFxbBQz2PzbK0s%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2MTU4NTU1MSwibmJmIjoxNzYxNTg1MjUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.B5baKAnsJBHAf-287xt3WdyL2OjbKp-86VdhUMYgWFQ&response-content-disposition=attachment%3B%20filename%3Dsccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-10-27 17:14:11--  https://release-assets.githubusercontent.com/github-production-release-asset/57160728/7bbf3ccf-002e-487b-aa93-c77a5279e9ca?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-10-27T17%3A54%3A58Z&rscd=attachment%3B+filename%3Dsccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-10-27T16%3A54%3A00Z&ske=2025-10-27T17%3A54%3A58Z&sks=b&skv=2018-11-09&sig=i4HurbOpIMlxX1cMrhvfB1junR6fmEFxbBQz2PzbK0s%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2MTU4NTU1MSwibmJmIjoxNzYxNTg1MjUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.B5baKAnsJBHAf-287xt3WdyL2OjbKp-86VdhUMYgWFQ&response-content-disposition=attachment%3B%20filename%3Dsccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving release-assets.githubusercontent.com... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to release-assets.githubusercontent.com|185.199.109.133|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 8991817 (8.6M) [application/octet-stream]
-sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz: Permission denied
+Saving to: 'sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz'
 
-Cannot write to 'sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz' (No such file or directory).
-tar (child): sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz: Cannot open: No such file or directory
-tar (child): Error is not recoverable: exiting now
-tar: Child returned status 2
-tar: Error is not recoverable: exiting now
+     0K .......... .......... .......... .......... ..........  0% 50.1M 0s
+    50K .......... .......... .......... .......... ..........  1% 53.7M 0s
+   100K .......... .......... .......... .......... ..........  1%  189M 0s
+   150K .......... .......... .......... .......... ..........  2% 77.7M 0s
+   200K .......... .......... .......... .......... ..........  2%  174M 0s
+   250K .......... .......... .......... .......... ..........  3%  210M 0s
+   300K .......... .......... .......... .......... ..........  3%  262M 0s
+   350K .......... .......... .......... .......... ..........  4%  102M 0s
+   400K .......... .......... .......... .......... ..........  5%  136M 0s
+   450K .......... .......... .......... .......... ..........  5%  263M 0s
+   500K .......... .......... .......... .......... ..........  6%  119M 0s
+   550K .......... .......... .......... .......... ..........  6%  279M 0s
+   600K .......... .......... .......... .......... ..........  7%  215M 0s
+   650K .......... .......... .......... .......... ..........  7%  227M 0s
+   700K .......... .......... .......... .......... ..........  8%  283M 0s
+   750K .......... .......... .......... .......... ..........  9%  206M 0s
+   800K .......... .......... .......... .......... ..........  9%  310M 0s
+   850K .......... .......... .......... .......... .......... 10%  259M 0s
+   900K .......... .......... .......... .......... .......... 10%  297M 0s
+   950K .......... .......... .......... .......... .......... 11%  264M 0s
+  1000K .......... .......... .......... .......... .......... 11%  277M 0s
+  1050K .......... .......... .......... .......... .......... 12%  276M 0s
+  1100K .......... .......... .......... .......... .......... 13% 85.2M 0s
+  1150K .......... .......... .......... .......... .......... 13%  108M 0s
+  1200K .......... .......... .......... .......... .......... 14% 78.3M 0s
+  1250K .......... .......... .......... .......... .......... 14%  151M 0s
+  1300K .......... .......... .......... .......... .......... 15%  115M 0s
+  1350K .......... .......... .......... .......... .......... 15%  137M 0s
+  1400K .......... .......... .......... .......... .......... 16%  227M 0s
+  1450K .......... .......... .......... .......... .......... 17%  228M 0s
+  1500K .......... .......... .......... .......... .......... 17%  234M 0s
+  1550K .......... .......... .......... .......... .......... 18%  207M 0s
+  1600K .......... .......... .......... .......... .......... 18%  266M 0s
+  1650K .......... .......... .......... .......... .......... 19%  259M 0s
+  1700K .......... .......... .......... .......... .......... 19%  238M 0s
+  1750K .......... .......... .......... .......... .......... 20%  246M 0s
+  1800K .......... .......... .......... .......... .......... 21%  259M 0s
+  1850K .......... .......... .......... .......... .......... 21%  283M 0s
+  1900K .......... .......... .......... .......... .......... 22%  275M 0s
+  1950K .......... .......... .......... .......... .......... 22%  192M 0s
+  2000K .......... .......... .......... .......... .......... 23%  238M 0s
+  2050K .......... .......... .......... .......... .......... 23%  278M 0s
+  2100K .......... .......... .......... .......... .......... 24%  272M 0s
+  2150K .......... .......... .......... .......... .......... 25%  306M 0s
+  2200K .......... .......... .......... .......... .......... 25%  276M 0s
+  2250K .......... .......... .......... .......... .......... 26%  304M 0s
+  2300K .......... .......... .......... .......... .......... 26%  245M 0s
+  2350K .......... .......... .......... .......... .......... 27%  189M 0s
+  2400K .......... .......... .......... .......... .......... 27%  225M 0s
+  2450K .......... .......... .......... .......... .......... 28%  283M 0s
+  2500K .......... .......... .......... .......... .......... 29%  242M 0s
+  2550K .......... .......... .......... .......... .......... 29%  288M 0s
+  2600K .......... .......... .......... .......... .......... 30%  252M 0s
+  2650K .......... .......... .......... .......... .......... 30%  279M 0s
+  2700K .......... .......... .......... .......... .......... 31%  298M 0s
+  2750K .......... .......... .......... .......... .......... 31%  249M 0s
+  2800K .......... .......... .......... .......... .......... 32%  254M 0s
+  2850K .......... .......... .......... .......... .......... 33%  263M 0s
+  2900K .......... .......... .......... .......... .......... 33%  311M 0s
+  2950K .......... .......... .......... .......... .......... 34%  277M 0s
+  3000K .......... .......... .......... .......... .......... 34%  282M 0s
+  3050K .......... .......... .......... .......... .......... 35%  318M 0s
+  3100K .......... .......... .......... .......... .......... 35%  248M 0s
+  3150K .......... .......... .......... .......... .......... 36%  205M 0s
+  3200K .......... .......... .......... .......... .......... 37%  243M 0s
+  3250K .......... .......... .......... .......... .......... 37%  277M 0s
+  3300K .......... .......... .......... .......... .......... 38%  266M 0s
+  3350K .......... .......... .......... .......... .......... 38%  105M 0s
+  3400K .......... .......... .......... .......... .......... 39%  167M 0s
+  3450K .......... .......... .......... .......... .......... 39%  318M 0s
+  3500K .......... .......... .......... .......... .......... 40%  116M 0s
+  3550K .......... .......... .......... .......... .......... 40%  130M 0s
+  3600K .......... .......... .......... .......... .......... 41%  285M 0s
+  3650K .......... .......... .......... .......... .......... 42%  250M 0s
+  3700K .......... .......... .......... .......... .......... 42%  184M 0s
+  3750K .......... .......... .......... .......... .......... 43%  130M 0s
+  3800K .......... .......... .......... .......... .......... 43%  169M 0s
+  3850K .......... .......... .......... .......... .......... 44%  101M 0s
+  3900K .......... .......... .......... .......... .......... 44%  152M 0s
+  3950K .......... .......... .......... .......... .......... 45%  124M 0s
+  4000K .......... .......... .......... .......... .......... 46%  254M 0s
+  4050K .......... .......... .......... .......... .......... 46%  157M 0s
+  4100K .......... .......... .......... .......... .......... 47%  144M 0s
+  4150K .......... .......... .......... .......... .......... 47%  157M 0s
+  4200K .......... .......... .......... .......... .......... 48%  211M 0s
+  4250K .......... .......... .......... .......... .......... 48%  281M 0s
+  4300K .......... .......... .......... .......... .......... 49%  194M 0s
+  4350K .......... .......... .......... .......... .......... 50%  132M 0s
+  4400K .......... .......... .......... .......... .......... 50%  192M 0s
+  4450K .......... .......... .......... .......... .......... 51%  293M 0s
+  4500K .......... .......... .......... .......... .......... 51%  300M 0s
+  4550K .......... .......... .......... .......... .......... 52%  264M 0s
+  4600K .......... .......... .......... .......... .......... 52%  296M 0s
+  4650K .......... .......... .......... .......... .......... 53%  262M 0s
+  4700K .......... .......... .......... .......... .......... 54%  273M 0s
+  4750K .......... .......... .......... .......... .......... 54%  220M 0s
+  4800K .......... .......... .......... .......... .......... 55%  243M 0s
+  4850K .......... .......... .......... .......... .......... 55%  298M 0s
+  4900K .......... .......... .......... .......... .......... 56%  273M 0s
+  4950K .......... .......... .......... .......... .......... 56%  304M 0s
+  5000K .......... .......... .......... .......... .......... 57%  306M 0s
+  5050K .......... .......... .......... .......... .......... 58%  312M 0s
+  5100K .......... .......... .......... .......... .......... 58%  269M 0s
+  5150K .......... .......... .......... .......... .......... 59%  225M 0s
+  5200K .......... .......... .......... .......... .......... 59%  290M 0s
+  5250K .......... .......... .......... .......... .......... 60%  267M 0s
+  5300K .......... .......... .......... .......... .......... 60%  316M 0s
+  5350K .......... .......... .......... .......... .......... 61% 69.4M 0s
+  5400K .......... .......... .......... .......... .......... 62%  249M 0s
+  5450K .......... .......... .......... .......... .......... 62%  287M 0s
+  5500K .......... .......... .......... .......... .......... 63% 73.9M 0s
+  5550K .......... .......... .......... .......... .......... 63%  184M 0s
+  5600K .......... .......... .......... .......... .......... 64%  273M 0s
+  5650K .......... .......... .......... .......... .......... 64%  118M 0s
+  5700K .......... .......... .......... .......... .......... 65%  128M 0s
+  5750K .......... .......... .......... .......... .......... 66%  241M 0s
+  5800K .......... .......... .......... .......... .......... 66%  124M 0s
+  5850K .......... .......... .......... .......... .......... 67%  284M 0s
+  5900K .......... .......... .......... .......... .......... 67%  125M 0s
+  5950K .......... .......... .......... .......... .......... 68%  109M 0s
+  6000K .......... .......... .......... .......... .......... 68%  101M 0s
+  6050K .......... .......... .......... .......... .......... 69%  134M 0s
+  6100K .......... .......... .......... .......... .......... 70%  176M 0s
+  6150K .......... .......... .......... .......... .......... 70%  196M 0s
+  6200K .......... .......... .......... .......... .......... 71%  131M 0s
+  6250K .......... .......... .......... .......... .......... 71%  241M 0s
+  6300K .......... .......... .......... .......... .......... 72%  283M 0s
+  6350K .......... .......... .......... .......... .......... 72%  117M 0s
+  6400K .......... .......... .......... .......... .......... 73%  160M 0s
+  6450K .......... .......... .......... .......... .......... 74%  162M 0s
+  6500K .......... .......... .......... .......... .......... 74%  256M 0s
+  6550K .......... .......... .......... .......... .......... 75%  239M 0s
+  6600K .......... .......... .......... .......... .......... 75%  236M 0s
+  6650K .......... .......... .......... .......... .......... 76%  259M 0s
+  6700K .......... .......... .......... .......... .......... 76%  300M 0s
+  6750K .......... .......... .......... .......... .......... 77%  210M 0s
+  6800K .......... .......... .......... .......... .......... 78%  261M 0s
+  6850K .......... .......... .......... .......... .......... 78%  234M 0s
+  6900K .......... .......... .......... .......... .......... 79%  270M 0s
+  6950K .......... .......... .......... .......... .......... 79%  229M 0s
+  7000K .......... .......... .......... .......... .......... 80%  258M 0s
+  7050K .......... .......... .......... .......... .......... 80%  267M 0s
+  7100K .......... .......... .......... .......... .......... 81%  140M 0s
+  7150K .......... .......... .......... .......... .......... 81%  191M 0s
+  7200K .......... .......... .......... .......... .......... 82%  308M 0s
+  7250K .......... .......... .......... .......... .......... 83%  317M 0s
+  7300K .......... .......... .......... .......... .......... 83%  289M 0s
+  7350K .......... .......... .......... .......... .......... 84%  257M 0s
+  7400K .......... .......... .......... .......... .......... 84%  262M 0s
+  7450K .......... .......... .......... .......... .......... 85%  299M 0s
+  7500K .......... .......... .......... .......... .......... 85%  161M 0s
+  7550K .......... .......... .......... .......... .......... 86%  171M 0s
+  7600K .......... .......... .......... .......... .......... 87%  251M 0s
+  7650K .......... .......... .......... .......... .......... 87%  261M 0s
+  7700K .......... .......... .......... .......... .......... 88%  309M 0s
+  7750K .......... .......... .......... .......... .......... 88%  270M 0s
+  7800K .......... .......... .......... .......... .......... 89%  289M 0s
+  7850K .......... .......... .......... .......... .......... 89%  261M 0s
+  7900K .......... .......... .......... .......... .......... 90%  253M 0s
+  7950K .......... .......... .......... .......... .......... 91%  225M 0s
+  8000K .......... .......... .......... .......... .......... 91%  314M 0s
+  8050K .......... .......... .......... .......... .......... 92%  318M 0s
+  8100K .......... .......... .......... .......... .......... 92%  260M 0s
+  8150K .......... .......... .......... .......... .......... 93%  293M 0s
+  8200K .......... .......... .......... .......... .......... 93%  300M 0s
+  8250K .......... .......... .......... .......... .......... 94%  293M 0s
+  8300K .......... .......... .......... .......... .......... 95%  221M 0s
+  8350K .......... .......... .......... .......... .......... 95%  209M 0s
+  8400K .......... .......... .......... .......... .......... 96%  259M 0s
+  8450K .......... .......... .......... .......... .......... 96%  301M 0s
+  8500K .......... .......... .......... .......... .......... 97%  294M 0s
+  8550K .......... .......... .......... .......... .......... 97%  310M 0s
+  8600K .......... .......... .......... .......... .......... 98%  291M 0s
+  8650K .......... .......... .......... .......... .......... 99%  252M 0s
+  8700K .......... .......... .......... .......... .......... 99%  302M 0s
+  8750K .......... .......... .......... .                    100%  249M=0.04s
+
+2025-10-27 17:14:11 (197 MB/s) - 'sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz' saved [8991817/8991817]
+
+/scripts/build.sh: line 45: tar: not found
 cp: cannot stat 'sccache-v0.8.2-x86_64-unknown-linux-musl/sccache': No such file or directory
 chmod: cannot access '/usr/local/bin/sccache': No such file or directory
-Looking in links: /tmp/tmpjjkxmg5c
+Looking in links: /tmp/tmpic_iom_z
 Requirement already satisfied: setuptools in /usr/local/lib/python3.9/site-packages (75.8.0)
 Requirement already satisfied: pip in /usr/local/lib/python3.9/site-packages (23.3.2)
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
@@ -3156,12 +3328,12 @@ Defaulting to user installation because normal site-packages is not writeable
 Collecting pyyaml==6.0.2
   Downloading PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
 Downloading PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (737 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 737.4/737.4 kB 12.2 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 737.4/737.4 kB 40.6 MB/s eta 0:00:00
 Installing collected packages: pyyaml
 Successfully installed pyyaml-6.0.2
 Cloning into 'librewolf-source'...
 Submodule 'settings' (https://codeberg.org/librewolf/settings.git) registered for path 'settings'
-Cloning into '/tmp/tmp.EjubbYHH25/librewolf-source/settings'...
+Cloning into '/tmp/tmp.BSXI5pqgvf/librewolf-source/settings'...
 Submodule path 'settings': checked out 'ca76bb5abb1f3297816b4bac771672b132d9ec60'
 wget -qO public_key.asc "https://keys.openpgp.org/vks/v1/by-fingerprint/14F26682D0916CDD81E37B6D61B7B526D98F0353"
 gpg --import public_key.asc
@@ -3184,882 +3356,13 @@ Primary key fingerprint: 14F2 6682 D091 6CDD 81E3  7B6D 61B7 B526 D98F 0353
      Subkey fingerprint: 09BE ED63 F346 2A2D FFAB  3B87 5ECB 6497 C1A2 0256
 rm -rf firefox-144.0 librewolf-144.0-1
 tar xf firefox-144.0.source.tar.xz
-mv firefox-144.0 librewolf-144.0-1
-python3 scripts/librewolf-patches.py 144.0 1
-cd librewolf-144.0-1
-cp -v ../assets/mozconfig.new mozconfig
-'../assets/mozconfig.new' -> 'mozconfig'
-cp -r ../themes/browser .
-cp -v ../assets/search-config.json services/settings/dumps/main/search-config.json
-'../assets/search-config.json' -> 'services/settings/dumps/main/search-config.json'
-
-*** -> patch -p1 -i ../patches/allow-JXL-in-non-nightly-browser.patch
-
-patching file toolkit/moz.configure
-Hunk #1 succeeded at 931 (offset 228 lines).
-
-*** -> patch -p1 -i ../patches/allow-ubo-private-mode.patch
-
-patching file toolkit/components/extensions/Extension.sys.mjs
-Hunk #1 succeeded at 4305 (offset 316 lines).
-
-*** -> patch -p1 -i ../patches/bootstrap.patch
-
-patching file python/mozversioncontrol/mozversioncontrol/repo/source.py
-Hunk #1 succeeded at 104 (offset 13 lines).
-
-*** -> patch -p1 -i ../patches/custom-ubo-assets-bootstrap-location.patch
-
-patching file toolkit/components/extensions/parent/ext-storage.js
-Hunk #1 succeeded at 411 (offset 3 lines).
-
-*** -> patch -p1 -i ../patches/dbus_name.patch
-
-patching file toolkit/components/remote/nsDBusRemoteClient.cpp
-Hunk #3 succeeded at 121 (offset 4 lines).
-Hunk #4 succeeded at 132 (offset 4 lines).
-patching file toolkit/components/remote/nsDBusRemoteServer.cpp
-
-*** -> patch -p1 -i ../patches/disable-data-reporting-at-compile-time.patch
-
-patching file browser/moz.configure
-patching file python/mach/mach/telemetry.py
-Hunk #1 succeeded at 92 (offset -6 lines).
-
-*** -> patch -p1 -i ../patches/firefox-in-ua.patch
-
-patching file toolkit/moz.configure
-Hunk #1 succeeded at 28 with fuzz 2.
-
-*** -> patch -p1 -i ../patches/flatpak-autoconf.patch
-
-patching file extensions/pref/autoconfig/src/nsReadConfig.cpp
-
-*** -> patch -p1 -i ../patches/fullpage-translations-customization.patch
-
-patching file browser/base/content/main-popupset.inc.xhtml
-Hunk #1 succeeded at 769 (offset 162 lines).
-patching file browser/base/content/main-popupset.js
-Hunk #1 succeeded at 348 (offset 97 lines).
-patching file browser/components/preferences/main.inc.xhtml
-Hunk #1 succeeded at 440 (offset 51 lines).
-Hunk #2 succeeded at 471 (offset 51 lines).
-patching file browser/components/preferences/main.js
-Hunk #1 succeeded at 158 (offset 13 lines).
-Hunk #2 succeeded at 767 with fuzz 2 (offset 437 lines).
-Hunk #3 succeeded at 1048 (offset 235 lines).
-Hunk #4 succeeded at 1306 with fuzz 1 (offset 259 lines).
-patching file browser/components/translations/content/fullPageTranslationsPanel.js
-Hunk #1 succeeded at 1300 (offset 80 lines).
-
-*** -> patch -p1 -i ../patches/fullpage-translations.patch
-
-patching file services/settings/Attachments.sys.mjs
-patching file services/settings/RemoteSettingsClient.sys.mjs
-Hunk #1 succeeded at 315 (offset -4 lines).
-Hunk #2 succeeded at 345 (offset -4 lines).
-Hunk #3 succeeded at 388 (offset -3 lines).
-Hunk #4 succeeded at 661 (offset 1 line).
-patching file services/settings/Utils.sys.mjs
-patching file toolkit/components/translations/actors/TranslationsParent.sys.mjs
-Hunk #1 succeeded at 2157 (offset 27 lines).
-Hunk #2 succeeded at 2645 (offset 27 lines).
-Hunk #3 succeeded at 2723 (offset 27 lines).
-Hunk #4 succeeded at 2749 (offset 27 lines).
-Hunk #5 succeeded at 3065 (offset 27 lines).
-
-*** -> patch -p1 -i ../patches/hide-passwordmgr.patch
-
-patching file browser/base/content/browser-init.js
-Hunk #1 succeeded at 342 (offset 42 lines).
-patching file browser/components/preferences/privacy.js
-Hunk #1 succeeded at 1365 with fuzz 2 (offset 151 lines).
-
-*** -> patch -p1 -i ../patches/moz-configure.patch
-
-patching file toolkit/moz.configure
-
-*** -> patch -p1 -i ../patches/mozilla_dirs.patch
-
-patching file toolkit/components/extensions/NativeManifests.sys.mjs
-Hunk #1 succeeded at 39 (offset -1 lines).
-patching file toolkit/xre/nsXREDirProvider.cpp
-Hunk #1 succeeded at 279 (offset 1 line).
-Hunk #2 succeeded at 365 (offset 1 line).
-Hunk #3 succeeded at 411 (offset 1 line).
-Hunk #4 succeeded at 940 (offset 1 line).
-Hunk #5 succeeded at 1210 (offset 11 lines).
-Hunk #6 succeeded at 1220 (offset 11 lines).
-Hunk #7 succeeded at 1271 (offset 11 lines).
-Hunk #8 succeeded at 1302 (offset 11 lines).
-patching file xpcom/build/nsXULAppAPI.h
-
-*** -> patch -p1 -i ../patches/msix.patch
-
-patching file browser/installer/windows/msix/AppxManifest.xml.in
-patching file python/mozbuild/mozbuild/mach_commands.py
-Hunk #1 succeeded at 2864 (offset 117 lines).
-Hunk #2 succeeded at 3023 (offset 117 lines).
-patching file python/mozbuild/mozbuild/repackaging/msix.py
-
-*** -> patch -p1 -i ../patches/rs-blocker.patch
-
-patching file services/settings/RemoteSettingsClient.sys.mjs
-Hunk #1 succeeded at 212 (offset -16 lines).
-Hunk #2 succeeded at 663 (offset 6 lines).
-Hunk #3 succeeded at 1054 (offset 14 lines).
-patching file services/settings/Utils.sys.mjs
-Hunk #3 succeeded at 562 (offset -1 lines).
-
-*** -> patch -p1 -i ../patches/rust-gentoo-musl.patch
-
-patching file build/moz.configure/rust.configure
-patch unexpectedly ends in middle of line
-Hunk #1 succeeded at 412 with fuzz 1 (offset 8 lines).
-
-*** -> patch -p1 -i ../patches/sed-patches/stop-undesired-requests.patch
-
-patching file browser/components/asrouter/content/asrouter-admin.bundle.js
-Hunk #1 succeeded at 1154 with fuzz 2 (offset -496 lines).
-patching file services/settings/Utils.sys.mjs
-Hunk #2 succeeded at 151 (offset 14 lines).
-patching file toolkit/components/search/SearchUtils.sys.mjs
-Hunk #1 succeeded at 181 (offset -25 lines).
-
-*** -> patch -p1 -i ../patches/ui-patches/allow_cookies_for_site.patch
-
-patching file browser/base/content/browser-siteIdentity.js
-Hunk #1 succeeded at 220 (offset 16 lines).
-Hunk #2 succeeded at 470 (offset 10 lines).
-Hunk #3 succeeded at 1224 (offset -23 lines).
-patching file browser/components/controlcenter/content/identityPanel.inc.xhtml
-
-*** -> patch -p1 -i ../patches/ui-patches/firefox-view.patch
-
-patching file browser/base/content/navigator-toolbox.inc.xhtml
-Hunk #1 succeeded at 36 (offset 1 line).
-Hunk #2 succeeded at 791 (offset 132 lines).
-patching file browser/components/customizableui/CustomizableUI.sys.mjs
-Hunk #1 succeeded at 381 (offset 34 lines).
-Hunk #2 succeeded at 741 (offset 35 lines).
-
-*** -> patch -p1 -i ../patches/ui-patches/handlers.patch
-
-patching file uriloader/exthandler/HandlerList.sys.mjs
-
-*** -> patch -p1 -i ../patches/ui-patches/hide-default-browser.patch
-
-patching file browser/components/preferences/main.inc.xhtml
-Hunk #2 succeeded at 54 (offset 6 lines).
-
-*** -> patch -p1 -i ../patches/ui-patches/hide-finish-setup-bookmark.patch
-
-patching file browser/components/asrouter/modules/OnboardingMessageProvider.sys.mjs
-
-*** -> patch -p1 -i ../patches/ui-patches/lw-logo-devtools.patch
-
-patching file devtools/client/aboutdebugging/src/actions/runtimes.js
-patching file devtools/client/jar.mn
-Hunk #1 succeeded at 369 (offset -5 lines).
-patching file devtools/client/themes/images/aboutdebugging-firefox-librewolf.svg
-patching file devtools/client/themes/images/aboutdebugging-firefox-logo.svg
-
-*** -> patch -p1 -i ../patches/ui-patches/pref-naming.patch
-
-patching file browser/locales/en-US/browser/preferences/preferences.ftl
-Hunk #1 succeeded at 520 (offset 31 lines).
-Hunk #2 succeeded at 528 (offset 31 lines).
-
-*** -> patch -p1 -i ../patches/ui-patches/privacy-preferences.patch
-
-patching file browser/components/preferences/privacy.inc.xhtml
-Hunk #3 succeeded at 222 with fuzz 1 (offset 18 lines).
-Hunk #4 succeeded at 238 (offset 17 lines).
-Hunk #5 succeeded at 371 (offset 29 lines).
-Hunk #6 succeeded at 612 (offset 12 lines).
-Hunk #7 succeeded at 659 (offset 12 lines).
-Hunk #8 succeeded at 1094 (offset 38 lines).
-Hunk #9 succeeded at 1106 (offset 38 lines).
-patching file browser/locales/en-US/browser/preferences/preferences.ftl
-Hunk #1 succeeded at 1303 (offset 51 lines).
-patching file browser/themes/shared/preferences/privacy.css
-Hunk #1 succeeded at 221 (offset 8 lines).
-Hunk #2 succeeded at 257 (offset 8 lines).
-
-*** -> patch -p1 -i ../patches/ui-patches/remove-cfrprefs.patch
-
-patching file browser/components/preferences/main.js
-Hunk #1 succeeded at 372 (offset -7 lines).
-
-*** -> patch -p1 -i ../patches/ui-patches/remove-organization-policy-banner.patch
-
-patching file browser/components/preferences/preferences.js
-Hunk #1 succeeded at 242 (offset 8 lines).
-
-*** -> patch -p1 -i ../patches/ui-patches/website-appearance-ui-rfp.patch
-
-patching file browser/components/preferences/main.js
-Hunk #1 succeeded at 4576 (offset 194 lines).
-Hunk #2 succeeded at 4607 (offset 189 lines).
-Hunk #3 succeeded at 4643 (offset 189 lines).
-
-*** -> patch -p1 -i ../patches/urlbarprovider-interventions.patch
-
-patching file browser/components/urlbar/UrlbarProviderInterventions.sys.mjs
-Hunk #1 succeeded at 446 with fuzz 1 (offset -8 lines).
-
-*** -> patch -p1 -i ../patches/windows-theming-bug.patch
-
-patching file browser/app/Makefile.in
-Hunk #1 succeeded at 23 (offset -8 lines).
-patching file browser/app/librewolf.exe.manifest (renamed from browser/app/firefox.exe.manifest)
-
-*** -> patch -p1 -i ../patches/xmas.patch
-patching file browser/installer/package-manifest.in
-Hunk #1 succeeded at 249 (offset -2 lines).
-patching file lw/moz.build
-patching file moz.build
-Hunk #1 succeeded at 235 with fuzz 1 (offset 33 lines).
-cp -v ../patches/pack_vs.py build/vs/
-'../patches/pack_vs.py' -> 'build/vs/pack_vs.py'
-mkdir -p lw
-cd lw
-cp -v ../../settings/librewolf.cfg .
-'../../settings/librewolf.cfg' -> './librewolf.cfg'
-cp -v ../../settings/distribution/policies.json .
-'../../settings/distribution/policies.json' -> './policies.json'
-cp -v ../../settings/defaults/pref/local-settings.js .
-'../../settings/defaults/pref/local-settings.js' -> './local-settings.js'
-cd ..
-
-*** -> patch -p1 -i ../patches/pref-pane/pref-pane-small.patch
-patching file browser/components/preferences/jar.mn
-patching file browser/components/preferences/preferences.js
-Hunk #2 succeeded at 196 (offset -1 lines).
-patching file browser/components/preferences/preferences.xhtml
-Hunk #1 succeeded at 42 with fuzz 2.
-Hunk #2 succeeded at 149 (offset 1 line).
-Hunk #3 succeeded at 254 (offset 1 line).
-patching file browser/themes/shared/jar.inc.mn
-Hunk #1 succeeded at 130 (offset 16 lines).
-Hunk #2 succeeded at 149 (offset 17 lines).
-patching file browser/themes/shared/preferences/preferences.css
-Hunk #1 succeeded at 227 (offset 4 lines).
-cp ../patches/pref-pane/category-librewolf.svg browser/themes/shared/preferences/category-librewolf.svg
-cp ../patches/pref-pane/librewolf.css browser/themes/shared/preferences/librewolf.css
-cp ../patches/pref-pane/librewolf.inc.xhtml browser/components/preferences/librewolf.inc.xhtml
-cp ../patches/pref-pane/librewolf.js browser/components/preferences/librewolf.js
-cp -v ../scripts/mozfetch.sh lw/
-'../scripts/mozfetch.sh' -> 'lw/mozfetch.sh'
-cp -v ../assets/mozconfig.new ../assets/mozconfig.new.without-bootstrap ../scripts/setup-wasi-linux.sh lw/
-'../assets/mozconfig.new' -> 'lw/mozconfig.new'
-'../assets/mozconfig.new.without-bootstrap' -> 'lw/mozconfig.new.without-bootstrap'
-'../scripts/setup-wasi-linux.sh' -> 'lw/setup-wasi-linux.sh'
--> Downloading locales from https://github.com/mozilla-l10n/firefox-l10n
-wget -qO /tmp/tmpwwyhqb4q/l10n.zip 'https://codeload.github.com/mozilla-l10n/firefox-l10n/zip/refs/heads/main'
-unzip -qo /tmp/tmpwwyhqb4q/l10n.zip -d /tmp/tmpwwyhqb4q/l10n
-mv /tmp/tmpwwyhqb4q/l10n/firefox-l10n-main lw/l10n
--> Patching appstrings.properties
-find . -path '*/appstrings.properties' -exec sed -i s/Firefox/LibreWolf/ {} \;
--> Applying LibreWolf locales
-../l10n/hu/browser/translations.inc.ftl >> lw/l10n/hu/browser/browser/translations.ftl
-../l10n/hu/browser/browser.inc.ftl >> lw/l10n/hu/browser/browser/browser.ftl
-../l10n/hu/browser/preferences/preferences.inc.ftl >> lw/l10n/hu/browser/browser/preferences/preferences.ftl
-../l10n/id/browser/translations.inc.ftl >> lw/l10n/id/browser/browser/translations.ftl
-../l10n/id/browser/browser.inc.ftl >> lw/l10n/id/browser/browser/browser.ftl
-../l10n/id/browser/aboutDialog.inc.ftl >> lw/l10n/id/browser/browser/aboutDialog.ftl
-../l10n/id/browser/preferences/preferences.inc.ftl >> lw/l10n/id/browser/browser/preferences/preferences.ftl
-../l10n/id/toolkit/branding/brandings.ftl > lw/l10n/id/toolkit/toolkit/branding/brandings.ftl
-../l10n/ga/browser/translations.inc.ftl >> lw/l10n/ga/browser/browser/translations.ftl
-../l10n/ga/browser/browser.inc.ftl >> lw/l10n/ga/browser/browser/browser.ftl
-../l10n/ga/browser/aboutDialog.inc.ftl >> lw/l10n/ga/browser/browser/aboutDialog.ftl
-../l10n/ga/browser/preferences/preferences.inc.ftl >> lw/l10n/ga/browser/browser/preferences/preferences.ftl
-../l10n/ga/toolkit/branding/brandings.ftl > lw/l10n/ga/toolkit/toolkit/branding/brandings.ftl
-../l10n/en/browser/translations.inc.ftl >> lw/l10n/en/browser/browser/translations.ftl
-../l10n/pl/browser/translations.inc.ftl >> lw/l10n/pl/browser/browser/translations.ftl
-../l10n/pl/browser/browser.inc.ftl >> lw/l10n/pl/browser/browser/browser.ftl
-../l10n/pl/browser/preferences/preferences.inc.ftl >> lw/l10n/pl/browser/browser/preferences/preferences.ftl
-../l10n/pl/toolkit/branding/brandings.ftl > lw/l10n/pl/toolkit/toolkit/branding/brandings.ftl
-../l10n/nl/browser/aboutDialog.inc.ftl >> lw/l10n/nl/browser/browser/aboutDialog.ftl
-../l10n/nl/browser/preferences/preferences.inc.ftl >> lw/l10n/nl/browser/browser/preferences/preferences.ftl
-../l10n/fr/browser/translations.inc.ftl >> lw/l10n/fr/browser/browser/translations.ftl
-../l10n/fr/browser/browser.inc.ftl >> lw/l10n/fr/browser/browser/browser.ftl
-../l10n/fr/browser/preferences/preferences.inc.ftl >> lw/l10n/fr/browser/browser/preferences/preferences.ftl
-../l10n/bn/browser/translations.inc.ftl >> lw/l10n/bn/browser/browser/translations.ftl
-../l10n/bn/browser/browser.inc.ftl >> lw/l10n/bn/browser/browser/browser.ftl
-../l10n/bn/browser/aboutDialog.inc.ftl >> lw/l10n/bn/browser/browser/aboutDialog.ftl
-../l10n/bn/toolkit/branding/brandings.ftl > lw/l10n/bn/toolkit/toolkit/branding/brandings.ftl
-../l10n/ar/browser/translations.inc.ftl >> lw/l10n/ar/browser/browser/translations.ftl
-../l10n/ar/browser/browser.inc.ftl >> lw/l10n/ar/browser/browser/browser.ftl
-../l10n/ar/browser/aboutDialog.inc.ftl >> lw/l10n/ar/browser/browser/aboutDialog.ftl
-../l10n/ar/browser/preferences/preferences.inc.ftl >> lw/l10n/ar/browser/browser/preferences/preferences.ftl
-../l10n/ar/toolkit/branding/brandings.ftl > lw/l10n/ar/toolkit/toolkit/branding/brandings.ftl
-../l10n/et/browser/translations.inc.ftl >> lw/l10n/et/browser/browser/translations.ftl
-../l10n/et/browser/browser.inc.ftl >> lw/l10n/et/browser/browser/browser.ftl
-../l10n/et/browser/preferences/preferences.inc.ftl >> lw/l10n/et/browser/browser/preferences/preferences.ftl
-../l10n/et/toolkit/branding/brandings.ftl > lw/l10n/et/toolkit/toolkit/branding/brandings.ftl
-../l10n/it/browser/translations.inc.ftl >> lw/l10n/it/browser/browser/translations.ftl
-../l10n/it/browser/browser.inc.ftl >> lw/l10n/it/browser/browser/browser.ftl
-../l10n/it/browser/aboutDialog.inc.ftl >> lw/l10n/it/browser/browser/aboutDialog.ftl
-../l10n/it/browser/preferences/preferences.inc.ftl >> lw/l10n/it/browser/browser/preferences/preferences.ftl
-../l10n/it/toolkit/branding/brandings.ftl > lw/l10n/it/toolkit/toolkit/branding/brandings.ftl
-../l10n/en-US/browser/translations.inc.ftl >> browser/locales/en-US/browser/translations.ftl
-../l10n/en-US/browser/browser.inc.ftl >> browser/locales/en-US/browser/browser.ftl
-../l10n/en-US/browser/aboutDialog.inc.ftl >> browser/locales/en-US/browser/aboutDialog.ftl
-../l10n/en-US/browser/preferences/preferences.inc.ftl >> browser/locales/en-US/browser/preferences/preferences.ftl
-../l10n/en-US/toolkit/branding/brandings.ftl > toolkit/locales/en-US/toolkit/branding/brandings.ftl
-../l10n/sv/browser/translations.inc.ftl >> lw/l10n/sv/browser/browser/translations.ftl
-../l10n/sv/browser/browser.inc.ftl >> lw/l10n/sv/browser/browser/browser.ftl
-../l10n/sv/browser/aboutDialog.inc.ftl >> lw/l10n/sv/browser/browser/aboutDialog.ftl
-../l10n/sv/browser/preferences/preferences.inc.ftl >> lw/l10n/sv/browser/browser/preferences/preferences.ftl
-../l10n/sv/toolkit/branding/brandings.ftl > lw/l10n/sv/toolkit/toolkit/branding/brandings.ftl
-../l10n/cs/browser/translations.inc.ftl >> lw/l10n/cs/browser/browser/translations.ftl
-../l10n/cs/browser/browser.inc.ftl >> lw/l10n/cs/browser/browser/browser.ftl
-../l10n/cs/browser/preferences/preferences.inc.ftl >> lw/l10n/cs/browser/browser/preferences/preferences.ftl
-../l10n/cs/toolkit/branding/brandings.ftl > lw/l10n/cs/toolkit/toolkit/branding/brandings.ftl
-../l10n/vi/browser/browser.inc.ftl >> lw/l10n/vi/browser/browser/browser.ftl
-../l10n/vi/browser/aboutDialog.inc.ftl >> lw/l10n/vi/browser/browser/aboutDialog.ftl
-../l10n/vi/browser/preferences/preferences.inc.ftl >> lw/l10n/vi/browser/browser/preferences/preferences.ftl
-../l10n/vi/toolkit/branding/brandings.ftl > lw/l10n/vi/toolkit/toolkit/branding/brandings.ftl
-../l10n/ja/browser/translations.inc.ftl >> lw/l10n/ja/browser/browser/translations.ftl
-../l10n/ja/browser/browser.inc.ftl >> lw/l10n/ja/browser/browser/browser.ftl
-../l10n/ja/browser/preferences/preferences.inc.ftl >> lw/l10n/ja/browser/browser/preferences/preferences.ftl
-../l10n/ja/toolkit/branding/brandings.ftl > lw/l10n/ja/toolkit/toolkit/branding/brandings.ftl
-../l10n/es/browser/translations.inc.ftl >> lw/l10n/es/browser/browser/translations.ftl
-../l10n/es/browser/browser.inc.ftl >> lw/l10n/es/browser/browser/browser.ftl
-../l10n/es/browser/aboutDialog.inc.ftl >> lw/l10n/es/browser/browser/aboutDialog.ftl
-../l10n/es/browser/preferences/preferences.inc.ftl >> lw/l10n/es/browser/browser/preferences/preferences.ftl
-../l10n/es/toolkit/branding/brandings.ftl > lw/l10n/es/toolkit/toolkit/branding/brandings.ftl
-../l10n/uk/browser/translations.inc.ftl >> lw/l10n/uk/browser/browser/translations.ftl
-../l10n/uk/browser/browser.inc.ftl >> lw/l10n/uk/browser/browser/browser.ftl
-../l10n/uk/browser/aboutDialog.inc.ftl >> lw/l10n/uk/browser/browser/aboutDialog.ftl
-../l10n/uk/browser/preferences/preferences.inc.ftl >> lw/l10n/uk/browser/browser/preferences/preferences.ftl
-../l10n/uk/toolkit/branding/brandings.ftl > lw/l10n/uk/toolkit/toolkit/branding/brandings.ftl
-../l10n/fi/browser/translations.inc.ftl >> lw/l10n/fi/browser/browser/translations.ftl
-../l10n/fi/browser/browser.inc.ftl >> lw/l10n/fi/browser/browser/browser.ftl
-../l10n/fi/browser/aboutDialog.inc.ftl >> lw/l10n/fi/browser/browser/aboutDialog.ftl
-../l10n/fi/browser/preferences/preferences.inc.ftl >> lw/l10n/fi/browser/browser/preferences/preferences.ftl
-../l10n/fi/toolkit/branding/brandings.ftl > lw/l10n/fi/toolkit/toolkit/branding/brandings.ftl
-../l10n/zh-CN/browser/translations.inc.ftl >> lw/l10n/zh-CN/browser/browser/translations.ftl
-../l10n/zh-CN/browser/browser.inc.ftl >> lw/l10n/zh-CN/browser/browser/browser.ftl
-../l10n/zh-CN/browser/aboutDialog.inc.ftl >> lw/l10n/zh-CN/browser/browser/aboutDialog.ftl
-../l10n/zh-CN/browser/preferences/preferences.inc.ftl >> lw/l10n/zh-CN/browser/browser/preferences/preferences.ftl
-../l10n/zh-CN/toolkit/branding/brandings.ftl > lw/l10n/zh-CN/toolkit/toolkit/branding/brandings.ftl
-../l10n/de/browser/translations.inc.ftl >> lw/l10n/de/browser/browser/translations.ftl
-../l10n/de/browser/browser.inc.ftl >> lw/l10n/de/browser/browser/browser.ftl
-../l10n/de/browser/aboutDialog.inc.ftl >> lw/l10n/de/browser/browser/aboutDialog.ftl
-../l10n/de/browser/preferences/preferences.inc.ftl >> lw/l10n/de/browser/browser/preferences/preferences.ftl
-../l10n/de/toolkit/branding/brandings.ftl > lw/l10n/de/toolkit/toolkit/branding/brandings.ftl
-../l10n/pt/browser/translations.inc.ftl >> lw/l10n/pt/browser/browser/translations.ftl
-../l10n/pt/browser/browser.inc.ftl >> lw/l10n/pt/browser/browser/browser.ftl
-../l10n/pt/browser/aboutDialog.inc.ftl >> lw/l10n/pt/browser/browser/aboutDialog.ftl
-../l10n/pt/browser/preferences/preferences.inc.ftl >> lw/l10n/pt/browser/browser/preferences/preferences.ftl
-../l10n/pt/toolkit/branding/brandings.ftl > lw/l10n/pt/toolkit/toolkit/branding/brandings.ftl
-../l10n/el/browser/translations.inc.ftl >> lw/l10n/el/browser/browser/translations.ftl
-../l10n/el/browser/browser.inc.ftl >> lw/l10n/el/browser/browser/browser.ftl
-../l10n/el/browser/aboutDialog.inc.ftl >> lw/l10n/el/browser/browser/aboutDialog.ftl
-../l10n/el/browser/preferences/preferences.inc.ftl >> lw/l10n/el/browser/browser/preferences/preferences.ftl
-../l10n/el/toolkit/branding/brandings.ftl > lw/l10n/el/toolkit/toolkit/branding/brandings.ftl
-../l10n/ko/browser/translations.inc.ftl >> lw/l10n/ko/browser/browser/translations.ftl
-../l10n/ko/browser/browser.inc.ftl >> lw/l10n/ko/browser/browser/browser.ftl
-../l10n/ko/browser/aboutDialog.inc.ftl >> lw/l10n/ko/browser/browser/aboutDialog.ftl
-../l10n/ko/browser/preferences/preferences.inc.ftl >> lw/l10n/ko/browser/browser/preferences/preferences.ftl
-../l10n/ko/toolkit/branding/brandings.ftl > lw/l10n/ko/toolkit/toolkit/branding/brandings.ftl
-../l10n/ka/browser/browser.inc.ftl >> lw/l10n/ka/browser/browser/browser.ftl
-../l10n/ka/browser/aboutDialog.inc.ftl >> lw/l10n/ka/browser/browser/aboutDialog.ftl
-../l10n/ka/browser/preferences/preferences.inc.ftl >> lw/l10n/ka/browser/browser/preferences/preferences.ftl
-../l10n/nb-NO/browser/translations.inc.ftl >> lw/l10n/nb-NO/browser/browser/translations.ftl
-../l10n/sq/browser/translations.inc.ftl >> lw/l10n/sq/browser/browser/translations.ftl
-../l10n/sq/browser/browser.inc.ftl >> lw/l10n/sq/browser/browser/browser.ftl
-../l10n/sq/browser/preferences/preferences.inc.ftl >> lw/l10n/sq/browser/browser/preferences/preferences.ftl
-../l10n/sq/toolkit/branding/brandings.ftl > lw/l10n/sq/toolkit/toolkit/branding/brandings.ftl
-../l10n/tr/browser/translations.inc.ftl >> lw/l10n/tr/browser/browser/translations.ftl
-../l10n/tr/browser/browser.inc.ftl >> lw/l10n/tr/browser/browser/browser.ftl
-../l10n/tr/browser/aboutDialog.inc.ftl >> lw/l10n/tr/browser/browser/aboutDialog.ftl
-../l10n/tr/browser/preferences/preferences.inc.ftl >> lw/l10n/tr/browser/browser/preferences/preferences.ftl
-../l10n/tr/toolkit/branding/brandings.ftl > lw/l10n/tr/toolkit/toolkit/branding/brandings.ftl
-../l10n/ru/browser/translations.inc.ftl >> lw/l10n/ru/browser/browser/translations.ftl
-../l10n/ru/browser/browser.inc.ftl >> lw/l10n/ru/browser/browser/browser.ftl
-../l10n/ru/browser/aboutDialog.inc.ftl >> lw/l10n/ru/browser/browser/aboutDialog.ftl
-../l10n/ru/browser/preferences/preferences.inc.ftl >> lw/l10n/ru/browser/browser/preferences/preferences.ftl
-../l10n/ru/toolkit/branding/brandings.ftl > lw/l10n/ru/toolkit/toolkit/branding/brandings.ftl
-../l10n/fil/browser/browser.inc.ftl >> lw/l10n/fil/browser/browser/browser.ftl
-../l10n/fil/browser/aboutDialog.inc.ftl >> lw/l10n/fil/browser/browser/aboutDialog.ftl
-../l10n/fil/browser/preferences/preferences.inc.ftl >> lw/l10n/fil/browser/browser/preferences/preferences.ftl
-../l10n/fil/toolkit/branding/brandings.ftl > lw/l10n/fil/toolkit/toolkit/branding/brandings.ftl
-cd ..
-(cd librewolf-144.0-1 && ./mach build)
-ERROR: Cannot install pyyaml==6.0.2 because these package versions have conflicting dependencies.
-ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
-
-Mach and the build system store shared state in a common directory
-on the filesystem. The following directory will be created:
-
-  /home/tc/.mozbuild
-
-If you would like to use a different directory, rename or move it to your
-desired location, and set the MOZBUILD_STATE_PATH environment variable
-accordingly.
-Creating default state directory: /home/tc/.mozbuild
-Creating local state directory: /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-a1a4608be0c8
-Creating the 'mach' site at /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-a1a4608be0c8/_virtualenvs/mach
-
-The conflict is caused by:
-    The user requested pyyaml==6.0.2
-    The user requested (constraint) pyyaml==6.0.3
-
-To fix this you could try to:
-1. loosen the range of package versions you've specified
-2. remove package versions to allow pip to attempt to solve the dependency conflict
-
-
-Could not install pyyaml, so faster native loading is disabled. Continuing.
-Creating the 'build' site at /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-a1a4608be0c8/_virtualenvs/build
- 0:01.00 W Clobber not needed.
- 0:01.34 Using Python 3.9.23 from /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-a1a4608be0c8/_virtualenvs/build/bin/python
- 0:01.34 Adding configure options from /tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/mozconfig
- 0:01.34   --enable-application=browser
- 0:01.34   --allow-addon-sideload
- 0:01.34   --disable-crashreporter
- 0:01.34   --disable-debug
- 0:01.35   --disable-default-browser-agent
- 0:01.35   --disable-tests
- 0:01.35   --disable-updater
- 0:01.35   --enable-hardening
- 0:01.35   --enable-jxl
- 0:01.35   --enable-release
- 0:01.35   --enable-rust-simd
- 0:01.35   --with-app-name=librewolf
- 0:01.35   --with-branding=browser/branding/librewolf
- 0:01.35   --with-unsigned-addon-scopes=app,system
- 0:01.35   --with-l10n-base=/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/lw/l10n
- 0:01.35   --enable-optimize=-O3 -march=alderlake
- 0:01.35   --disable-debug-symbols
- 0:01.35   --disable-elf-hack
- 0:01.35   --enable-lto=full
- 0:01.35   --prefix=/usr/local
- 0:01.35   --without-wasm-sandboxed-libraries
- 0:01.35   --disable-bootstrap
- 0:01.35   --disable-dbus
- 0:01.35   --disable-necko-wifi
- 0:01.35   --enable-ffmpeg
- 0:01.35   --enable-alsa
- 0:01.35   --with-system-ffi
- 0:01.35   --with-system-gbm
- 0:01.35   --with-system-libdrm
- 0:01.35   --with-system-zlib
- 0:01.35   --with-system-nspr
- 0:01.35   --with-system-libevent
- 0:01.35   --with-system-pixman
- 0:01.35   --with-system-webp
- 0:01.35   --with-system-jpeg
- 0:01.35   --with-system-libvpx
- 0:01.35   MOZ_REQUIRE_SIGNING=
- 0:01.35 checking for vcs source checkout... no
- 0:01.39 checking for a shell... /bin/sh
- 0:01.43 checking for host system type... x86_64-pc-linux-gnu
- 0:01.44 checking for target system type... x86_64-pc-linux-gnu
- 0:01.87 checking whether cross compiling... no
- 0:02.01 checking if configuration file confvars.sh exists... /tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/browser/confvars.sh
- 0:02.01 checking if configuration file configure.sh exists... /tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/browser/branding/librewolf/configure.sh
- 0:02.04 checking for the target C compiler... /usr/local/bin/gcc
- 0:02.04 checking for ccache... not found
- 0:02.04 checking whether the target C compiler can be used... Traceback (most recent call last):
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/configure.py", line 329, in <module>
- 0:02.04     sys.exit(main(sys.argv))
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/configure.py", line 137, in main
- 0:02.04     sandbox.run()
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 522, in run
- 0:02.04     self._value_for(option)
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 627, in _value_for
- 0:02.04     return self._value_for_option(obj)
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.04     cache[args] = self.func(instance, *args)
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 650, in _value_for_option
- 0:02.04     if implied_option.when and not self._value_for(implied_option.when):
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.04     return self._value_for_depends(obj)
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.04     cache[args] = self.func(instance, *args)
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.04     value = obj.result()
- 0:02.04   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 235, in result
- 0:02.05     return self._func(resolved_args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 234, in <genexpr>
- 0:02.05     resolved_args = (self.sandbox._value_for(d) for d in self.dependencies)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.05     return self._value_for_depends(obj)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.05     value = obj.result()
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in result
- 0:02.05     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in <listcomp>
- 0:02.05     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.05     return self._value_for_depends(obj)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.05     value = obj.result()
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 154, in result
- 0:02.05     if self.when and not self.sandbox._value_for(self.when):
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.05     return self._value_for_depends(obj)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.05     value = obj.result()
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 235, in result
- 0:02.05     return self._func(resolved_args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 234, in <genexpr>
- 0:02.05     resolved_args = (self.sandbox._value_for(d) for d in self.dependencies)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.05     return self._value_for_depends(obj)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.05     value = obj.result()
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in result
- 0:02.05     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in <listcomp>
- 0:02.05     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.05     return self._value_for_depends(obj)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.05     value = obj.result()
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.05     cache[args] = self.func(instance, *args)
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in result
- 0:02.05     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.05   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in <listcomp>
- 0:02.05     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.06     return self._value_for_depends(obj)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.06     value = obj.result()
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in result
- 0:02.06     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in <listcomp>
- 0:02.06     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.06     return self._value_for_depends(obj)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.06     value = obj.result()
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 154, in result
- 0:02.06     if self.when and not self.sandbox._value_for(self.when):
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.06     return self._value_for_depends(obj)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.06     value = obj.result()
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 235, in result
- 0:02.06     return self._func(resolved_args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 234, in <genexpr>
- 0:02.06     resolved_args = (self.sandbox._value_for(d) for d in self.dependencies)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.06     return self._value_for_depends(obj)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.06     value = obj.result()
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in result
- 0:02.06     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in <listcomp>
- 0:02.06     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.06     return self._value_for_depends(obj)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.06     value = obj.result()
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in result
- 0:02.06     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 158, in <listcomp>
- 0:02.06     resolved_args = [self.sandbox._value_for(d) for d in self.dependencies]
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 624, in _value_for
- 0:02.06     return self._value_for_depends(obj)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 633, in _value_for_depends
- 0:02.06     value = obj.result()
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/util.py", line 931, in method_call
- 0:02.06     cache[args] = self.func(instance, *args)
- 0:02.06   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 159, in result
- 0:02.07     return self._func(*resolved_args)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 1279, in wrapped
- 0:02.07     return new_func(*args, **kwargs)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 916, in wrapper
- 0:02.07     ret = template(*args, **kwargs)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/build/moz.configure/checks.configure", line 59, in wrapped
- 0:02.07     ret = func(*args, **kwargs)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 1279, in wrapped
- 0:02.07     return new_func(*args, **kwargs)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/build/moz.configure/toolchain.configure", line 1537, in valid_compiler
- 0:02.07     info = check_compiler(
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 1279, in wrapped
- 0:02.07     return new_func(*args, **kwargs)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/build/moz.configure/toolchain.configure", line 666, in check_compiler
- 0:02.07     info = get_compiler_info(configure_cache, compiler, language)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 1279, in wrapped
- 0:02.07     return new_func(*args, **kwargs)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/build/moz.configure/toolchain.configure", line 579, in get_compiler_info
- 0:02.07     result = try_preprocess(configure_cache, compiler, language, check)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 1279, in wrapped
- 0:02.07     return new_func(*args, **kwargs)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/build/moz.configure/toolchain.configure", line 494, in try_preprocess
- 0:02.07     return try_invoke_compiler(
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 1279, in wrapped
- 0:02.07     return new_func(*args, **kwargs)
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/build/moz.configure/util.configure", line 246, in try_invoke_compiler
- 0:02.07     version_info = subprocess.check_output(
- 0:02.07   File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/configure/__init__.py", line 1043, in wrapper
- 0:02.07     return function(*args, **kwargs)
- 0:02.07   File "/usr/local/lib/python3.9/subprocess.py", line 424, in check_output
- 0:02.07     return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
- 0:02.07   File "/usr/local/lib/python3.9/subprocess.py", line 505, in run
- 0:02.07     with Popen(*popenargs, **kwargs) as process:
- 0:02.07   File "/usr/local/lib/python3.9/subprocess.py", line 951, in __init__
- 0:02.07     self._execute_child(args, executable, preexec_fn, close_fds,
- 0:02.07   File "/usr/local/lib/python3.9/subprocess.py", line 1837, in _execute_child
- 0:02.07     raise child_exception_type(errno_num, err_msg, err_filename)
- 0:02.07 FileNotFoundError: [Errno 2] No such file or directory: 'sccache'
- 0:02.18 W Exception when writing resource usage file: [Errno 2] No such file or directory: '/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/obj-x86_64-pc-linux-gnu/.mozbuild/profile_build_resources.json'
- Config object not found by mach.
-*** Fix above errors and then restart with "./mach build"
-make: *** [Makefile:167: build] Error 1
-(cd librewolf-144.0-1 && cat browser/locales/shipped-locales | xargs ./mach package-multi-locale --locales)
-Creating the 'common' site at /home/tc/.mozbuild/srcdirs/librewolf-144.0-1-a1a4608be0c8/_virtualenvs/common
-Error running mach:
-
-    mach package-multi-locale --locales ach af an ar ast az be bg bn br bs ca ca-valencia cak cs cy da de dsb el en-CA en-GB en-US eo es-AR es-CL es-ES es-MX et eu fa ff fi fr fur fy-NL ga-IE gd gl gn gu-IN he hi-IN hr hsb hu hy-AM ia id is it ja ja-JP-mac ka kab kk km kn ko lij lt lv mk mr ms my nb-NO ne-NP nl nn-NO oc pa-IN pl pt-BR pt-PT rm ro ru sat sc sco si sk skr sl son sq sr sv-SE szl ta te tg th tl tr trs uk ur uz vi xh zh-CN zh-TW
-
-The error occurred in code that was called by the mach command. This is either
-a bug in the called code itself or in the way that mach is calling it.
-You can invoke ``./mach busted`` to check if this issue is already on file. If it
-isn't, please use ``./mach busted file package-multi-locale`` to report it. If ``./mach busted`` is
-misbehaving, you can also inspect the dependencies of bug 1543241.
-
-If filing a bug, please include the full output of mach, including this error
-message.
-
-The details of the failure are as follows:
-
-mozbuild.base.BuildEnvironmentNotFoundException: config.status not available. Run configure.
-
-  File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/mach_commands.py", line 3485, in package_l10n
-    if "RecursiveMake" not in command_context.substs["BUILD_BACKENDS"]:
-  File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/base.py", line 387, in substs
-    return self.config_environment.substs
-  File "/tmp/tmp.EjubbYHH25/librewolf-source/librewolf-144.0-1/python/mozbuild/mozbuild/base.py", line 366, in config_environment
-    raise BuildEnvironmentNotFoundException(
-make: *** [Makefile:170: package] Error 123
-./librewolf-144.0-1/netwerk/test/browser/res_empty.zip
-./librewolf-144.0-1/python/mozperftest/mozperftest/tests/fetched_artifact.zip
-./librewolf-144.0-1/python/mozperftest/mozperftest/system/example.zip
-./librewolf-144.0-1/browser/components/backup/tests/xpcshell/data/corrupt.zip
-./librewolf-144.0-1/services/settings/test/unit/test_attachments_downloader/error-bucket--bad-zip.zip
-./librewolf-144.0-1/services/settings/test/unit/test_attachments_downloader/main--some-collection.zip
-./librewolf-144.0-1/third_party/rust/mp4parse/tests/corrupt/invalid-avif-colr-multiple.zip
-./librewolf-144.0-1/testing/web-platform/tests/FileAPI/filelist-section/support/upload.zip
-./librewolf-144.0-1/testing/mozbase/mozfile/tests/files/missing_file_attributes.zip
-./librewolf-144.0-1/testing/mozbase/mozproxy/tests/files/mitm5-linux-firefox-amazon.zip
-./librewolf-144.0-1/testing/mozbase/mozproxy/tests/files/recording.zip
-./librewolf-144.0-1/testing/mozbase/mozinstall/tests/installer_stubs/firefox.zip
-./librewolf-144.0-1/testing/geckodriver/src/tests/profile.zip
-./librewolf-144.0-1/testing/mozharness/test/helper_files/archives/archive_invalid_filename.zip
-./librewolf-144.0-1/testing/mozharness/test/helper_files/archives/archive.zip
-./librewolf-144.0-1/toolkit/modules/tests/xpcshell/zips/zen.zip
-./librewolf-144.0-1/toolkit/modules/tests/xpcshell/zips/dummy_gmp.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/validity_expired.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-256_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-1_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/cose_tampered_good_pkcs7.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-1_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-256_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/cose_multiple_signed_with_pkcs7.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/addons-stage-tomato-clock-sha1-es256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-256_p7-1-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/bug_1411458.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-256_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-1-256_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-1_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/autograph-714ba248-prod-tomato-clock-PKCS7-SHA1-ES256-ES384.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-256_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-1-256_p7-1-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/big_manifest.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-1-256_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/autograph-714ba248-prod-tomato-clock-PKCS7-SHA1-ES256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-1_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-1-256_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-1-256_p7-1-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/validity_not_yet_valid.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/addons-stage-tomato-clock-sha1-es256-ps256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-1-256_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-256_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-1_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/unknown_issuer_app.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-1_p7-1-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-1-256_p7-1-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/unsigned_app.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/huge_manifest.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/empty_signerInfos.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-1_p7-1-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/addons-stage-tomato-clock-sha1-es256-es384.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/only_cose_signed.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/cose_signed_with_pkcs7.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/autograph-714ba248-prod-tomato-clock-PKCS7-SHA1-PS256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/alternate-root.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1-256_sf-256_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-256_p7-1-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-256_p7-1-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/addons-stage-tomato-clock-sha1-ps256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/cose_int_signed_with_pkcs7.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-1_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/autograph-714ba248-prod-tomato-clock-PKCS7-SHA1-ES256-PS256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/only_cose_multiple_signed.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-1-256_p7-256.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-256_sf-1-256_p7-1.zip
-./librewolf-144.0-1/security/manager/ssl/tests/unit/test_signed_apps/app_mf-1_sf-1_p7-1-256.zip
-./librewolf-144.0-1/accessible/tests/mochitest/dumbfile.zip
-./librewolf-144.0-1/mobile/android/geckoview/src/androidTest/assets/web_extensions/borderify-unsigned.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/removeLocalStorage2_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/unsetLastAccessTime_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/clearStoragesForOriginPrefix_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/removeLocalStorage1_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/secondaryCacheValidity_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/persistentStorageDirectory_shared.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/cacheVersion1_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/version2_2_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/version2_0_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/version0_0_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/version1_0_obsoleteOriginAttributes_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/persistentStorageDirectory_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/localStorageArchive1upgrade_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/version2_1_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/version1_0_idb_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/indexedDBDirectory_flatOriginDirectories_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/persistentStorageDirectory_flatOriginDirectories_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/indexedDBAndPersistentStorageDirectory_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/persistentAndDefaultStorageDirectory_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/version1_0_morgueDirectory_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/persistentStorageDirectory_originDirectories_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/localStorageArchive4upgrade_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/indexedDBDirectory_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/version1_0_appsData_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/upgrades/localStorageArchiveDowngrade_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/clearStoragesForPrincipal_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/getUsageForPrincipal_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/basics_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/clearStoragesForClient_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/indexedDBDirectory_shared.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/getCachedUsageForPrincipal_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/getUsage_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/caching/unsetLastAccessTime_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/caching/removedOrigin_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/caching/groupMismatch_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/clearStoragesForPrivateBrowsing_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version2_0_make_it_unusable.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version2_2_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version2_0_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version0_0_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version1_0_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version2_1_make_it_unusable.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version2_1_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version2_2_make_it_unusable.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version0_0_make_it_unusable.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/telemetry/version1_0_make_it_unusable.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/createLocalStorage_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/unknownFiles_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/groupMismatch_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/originMismatch_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/tempMetadataCleanup_profile.zip
-./librewolf-144.0-1/dom/quota/test/xpcshell/defaultStorageDirectory_shared.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/schema4upgrade_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/corruptedDatabase_missingUsageFile_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/migration_emptyValue_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/schema3upgrade_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/migration_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/stringLength2_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/groupMismatch_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/stringLength_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/corruptedDatabase_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/somedata_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/usageAfterMigration_profile.zip
-./librewolf-144.0-1/dom/localstorage/test/unit/archive_profile.zip
-./librewolf-144.0-1/dom/cache/test/xpcshell/bug1425146_profile.zip
-./librewolf-144.0-1/dom/cache/test/xpcshell/schema_25_profile.zip
-./librewolf-144.0-1/dom/cache/test/xpcshell/schema_15_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/orphaned_files_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/fileListUpgrade_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/snappyUpgrade_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/metadataRestore_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/schema21upgrade_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/URLSearchParams_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/storagePersistentUpgrade_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/mutableFileUpgrade_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/obsoleteOriginAttributes_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/idbSubdirUpgrade2_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/metadata2Restore_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/idbSubdirUpgrade1_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/defaultStorageUpgrade_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/wasm_get_values_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/schema23upgrade_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/bug1056939_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/schema18upgrade_profile.zip
-./librewolf-144.0-1/dom/indexedDB/test/unit/oldDirectories_profile.zip
-./librewolf-144.0-1/modules/libjar/test/mochitest/bug1173171.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_bug379841.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_bug336691.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_empty_file.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_bug597702.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_bug589292.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_corrupt3.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_bug637286.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_corrupt.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_corrupt2.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_bug658093.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/uncompressed.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_umlaute.zip
-./librewolf-144.0-1/modules/libjar/test/unit/data/test_bug333423.zip
-./librewolf-144.0-1/modules/libjar/zipwriter/test/unit/data/test.zip
-./themes/browser/branding/librewolf
-./librewolf-144.0-1/browser/branding/librewolf
+make: tar: No such file or directory
+make: *** [Makefile:133: librewolf-144.0-1] Error 127
+/scripts/build.sh: cd: line 62: can't cd to librewolf*: No such file or directory
+sed: can't read mozconfig: No such file or directory
+sed: can't read mozconfig: No such file or directory
+make: *** No rule to make target 'build'.  Stop.
+make: *** No rule to make target 'package'.  Stop.
+./librewolf-source/themes/browser/branding/librewolf
 Cannot stat source directory "./obj-x86_64-pc-linux-gnu" because No such file or directory
 mv: cannot stat 'librewolf.tcz': No such file or directory
-find: '/output/ccache': No such file or directory
-cache directory                     /output/ccache
-cache hit (direct)                     0
-cache hit (preprocessed)               0
-cache miss                             0
-files in cache                         0
-cache size                             0 Kbytes
-max cache size                       1.0 Gbytes
