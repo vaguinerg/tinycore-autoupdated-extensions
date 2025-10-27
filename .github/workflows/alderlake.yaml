@@ -13,6 +13,7 @@ jobs:
       - uses: styfle/cancel-workflow-action@0.12.1
         with:
           access_token: ${{ github.token }}
+  
   compile:
     runs-on: ubuntu-latest
     timeout-minutes: 9000
@@ -25,6 +26,15 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+      
+      - name: Configure sccache
+        uses: actions/github-script@v7
+        with:
+          script: |
+            core.exportVariable('ACTIONS_RESULTS_URL', process.env.ACTIONS_RESULTS_URL || '');
+            core.exportVariable('ACTIONS_RUNTIME_TOKEN', process.env.ACTIONS_RUNTIME_TOKEN || '');
+            core.exportVariable('SCCACHE_GHA_ENABLED', 'on');
+      
       - name: Compile ${{ matrix.package }} with -march=${{ env.MARCH }}
         run: |
           mkdir -p output/${{ matrix.package }}
@@ -32,13 +42,18 @@ jobs:
             -v ${{ github.workspace }}/scripts/${{ matrix.package}}:/scripts \
             -v ${{ github.workspace }}/output/${{ matrix.package}}:/output \
             -e MARCH=${{ env.MARCH }} \
+            -e SCCACHE_GHA_ENABLED=on \
+            -e ACTIONS_RESULTS_URL="${ACTIONS_RESULTS_URL}" \
+            -e ACTIONS_RUNTIME_TOKEN="${ACTIONS_RUNTIME_TOKEN}" \
             ghcr.io/vaguinerg/docker-tinycore:main \
             sh -c 'sh /scripts/build.sh "$MARCH" 2>&1 | tee /scripts/${{ env.MARCH }}_log.txt || true'
+      
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.MARCH }}-${{ matrix.package }}
           path: ${{ github.workspace }}/output/${{ matrix.package }}/${{ matrix.package }}.tcz
+      
       - name: Finish
         run: |
           rm -rf output
