@@ -28,12 +28,12 @@ case "$1" in
     ;;
 esac' | sudo tee /bin/uname > /dev/null
 sudo chmod +x /bin/uname
-tce-load -lwi ccache
+tce-load -lwi ccache p7zip
 export CCACHE_DIR=/output/ccache
 export CC="ccache gcc"
 export CXX="ccache g++"
 7z x /output/ccache_$MARCH.7z.001 -o/output
-tce-load -lwi p7zip zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
+tce-load -lwi zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
 
 workdir=$(mktemp -d)
 cd $workdir
