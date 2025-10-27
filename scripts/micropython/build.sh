@@ -65,6 +65,7 @@ mv build-standard/micropython $bindir/usr/local/bin/
 sstrip -z $bindir/usr/local/bin/micropython
 mksquashfs $bindir micropython.tcz
 sudo submitqc --nonet --blocksize=65536 micropython.tcz
+ccache -s
 mv -f micropython.tcz /output
 rm -rf /output/*.7z*
 7z a -v99m /output/ccache_$MARCH.7z /output/ccache/
