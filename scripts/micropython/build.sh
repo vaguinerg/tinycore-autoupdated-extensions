@@ -32,7 +32,7 @@ tce-load -lwi ccache
 export CCACHE_DIR=/output/ccache
 export CC="ccache gcc"
 export CXX="ccache g++"
-tce-load -lwi zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
+tce-load -lwi p7zip zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
 
 workdir=$(mktemp -d)
 cd $workdir
@@ -56,8 +56,6 @@ export CXX="ccache g++"
 export LDFLAGS="-Wl,-O2,--as-needed,--sort-common -flto -fuse-linker-plugin"
 export CFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
 export CXXFLAGS="-fopt-info-vec-optimized -fmerge-all-constants -fno-semantic-interposition -ftree-vectorize -fipa-pta -funroll-loops -floop-nest-optimize -Ofast -march=$MARCH -flto"
-export CC="ccache gcc"
-export CXX="ccache g++"
 make V=1 -j4
 bindir=$(mktemp -d)
 mkdir -p $bindir/usr/local/bin/
@@ -66,4 +64,4 @@ sstrip -z $bindir/usr/local/bin/micropython
 mksquashfs $bindir micropython.tcz
 sudo submitqc --nonet --blocksize=65536 micropython.tcz
 mv -f micropython.tcz /output
-zip -r /output/ccache.zip /output/ccache/
+7z a -v99m /output/ccache.7z /output/ccache/
