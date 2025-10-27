@@ -41,8 +41,6 @@ jobs:
           path: ${{ github.workspace }}/output/${{ matrix.package }}/${{ matrix.package }}.tcz
       - name: Finish
         run: |
-          rm -rf ${{ github.workspace }}/scripts/${{ matrix.package}}/ccache*${{ env.MARCH }}*
-          mv ${{ github.workspace }}/output/${{ matrix.package }}/ccache*.7z* ${{ github.workspace }}/scripts/${{ matrix.package}}/
           rm -rf output
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
