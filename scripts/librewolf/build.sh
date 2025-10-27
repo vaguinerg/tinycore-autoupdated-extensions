@@ -73,6 +73,9 @@ export CXX="sccache clang++"
 # Debugar sccache
 export SCCACHE_LOG=debug
 export SCCACHE_NO_DAEMON=1
+echo $ACTIONS_RUNTIME_URL
+echo $ACTIONS_RUNTIME_TOKEN
+echo $ACTIONS_CACHE_URL
 
 sed -i 's/^ac_add_options --enable-bootstrap/#&/' mozconfig
 sed -i 's/^ac_add_options --enable-optimize/#&/' mozconfig
@@ -127,5 +130,7 @@ find . -iname *.zip
 find . -iname librewolf
 
 sccache --show-stats
+
+find . -iname config.log
 mksquashfs ./obj-x86_64-pc-linux-gnu librewolf.tcz
 mv -f librewolf.tcz /output/
