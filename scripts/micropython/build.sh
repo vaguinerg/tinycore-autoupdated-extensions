@@ -68,5 +68,5 @@ sudo submitqc --nonet --blocksize=65536 micropython.tcz
 ccache -s
 mv -f micropython.tcz /output
 rm -rf /output/*.7z*
-7z a -v99m /output/ccache_$MARCH.7z /output/ccache/
+7z a -v99m -mx=9 -m0=lzma2 /output/ccache_$MARCH.7z /output/ccache/
 rm -rf /output/ccache/
