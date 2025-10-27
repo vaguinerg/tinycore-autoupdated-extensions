@@ -70,6 +70,10 @@ export RUSTC_WRAPPER=sccache
 export CC="sccache clang"
 export CXX="sccache clang++"
 
+# Debugar sccache
+export SCCACHE_LOG=debug
+export SCCACHE_NO_DAEMON=1
+
 sed -i 's/^ac_add_options --enable-bootstrap/#&/' mozconfig
 sed -i 's/^ac_add_options --enable-optimize/#&/' mozconfig
 
