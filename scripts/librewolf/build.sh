@@ -132,5 +132,8 @@ find . -iname librewolf
 sccache --show-stats
 
 find . -iname config.log
+
+cat ./librewolf-144.0-1/obj-x86_64-pc-linux-gnu/config.log
+
 mksquashfs ./obj-x86_64-pc-linux-gnu librewolf.tcz
 mv -f librewolf.tcz /output/
