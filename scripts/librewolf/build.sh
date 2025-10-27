@@ -42,9 +42,9 @@ sudo rm -rf /usr/bin/xz
 sudo cp /usr/local/bin/xz /usr/bin
 sudo ln -s /usr/local/etc/ssl/ /etc/ssl
 
-wget https://github.com/mozilla/sccache/releases/download/v0.8.2/sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz
-tar xzf sccache-v0.8.2-x86_64-unknown-linux-musl.tar.gz
-sudo cp sccache-v0.8.2-x86_64-unknown-linux-musl/sccache /usr/local/bin/
+wget https://github.com/mozilla/sccache/releases/download/v0.12.0/sccache-dist-v0.12.0-x86_64-unknown-linux-musl.tar.gz
+tar xzf sccache-v0.12.0-x86_64-unknown-linux-musl.tar.gz
+sudo cp sccache-v0.12.0-x86_64-unknown-linux-musl/sccache /usr/local/bin/
 sudo chmod +x /usr/local/bin/sccache
 
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
