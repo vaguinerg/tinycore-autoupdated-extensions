@@ -32,6 +32,7 @@ tce-load -lwi ccache p7zip
 export CCACHE_DIR=/output/ccache
 export CC="ccache gcc"
 export CXX="ccache g++"
+echo "Extraindo cache"
 7z x /scripts/ccache_$MARCH.7z.001 -o/output
 tce-load -lwi zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
 
