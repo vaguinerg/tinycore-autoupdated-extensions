@@ -51,6 +51,8 @@ export CXX="ccache g++"
 cat << 'EOF' >> Makefile
 CC = ccache gcc
 EOF
+sed -i '/CFLAGS \+=/s/$/ -Wno-error=implicit-fallthrough/' Makefile
+
 make
 make clean
 export CC="ccache gcc"
