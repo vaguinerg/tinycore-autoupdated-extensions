@@ -38,7 +38,7 @@ tce-load -lwi zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc 
 
 workdir=$(mktemp -d)
 cd $workdir
-version=1.26.1
+version=1.25.0
 
 wget --no-check-certificate -O- https://github.com/micropython/micropython/releases/download/v$version/micropython-$version.tar.xz | tar -xJ
 cd micropython-$version/ports/unix/
