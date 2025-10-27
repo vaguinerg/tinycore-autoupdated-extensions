@@ -32,6 +32,7 @@ tce-load -lwi ccache
 export CCACHE_DIR=/output/ccache
 export CC="ccache gcc"
 export CXX="ccache g++"
+7z x /output/ccache_$MARCH.7z.001 -o/output
 tce-load -lwi p7zip zip compiletc libffi-dev python3.9 squashfs-tools jq upx submitqc curl sstrip libffi-dev openssl
 
 workdir=$(mktemp -d)
@@ -64,5 +65,6 @@ sstrip -z $bindir/usr/local/bin/micropython
 mksquashfs $bindir micropython.tcz
 sudo submitqc --nonet --blocksize=65536 micropython.tcz
 mv -f micropython.tcz /output
+rm -rf /output/*.7z*
 7z a -v99m /output/ccache_$MARCH.7z /output/ccache/
 rm -rf /output/ccache/
