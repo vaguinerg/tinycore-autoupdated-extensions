@@ -40,7 +40,7 @@ sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
 cd $workdir
 
-git clone --recursive -b cachyos_10.0_20251023/main https://github.com/CachyOS/wine-cachyos.git
+git clone --recursive -b cachyos_10.0_20251222/main https://github.com/CachyOS/wine-cachyos.git
 cd wine-cachyos
 ./autogen.sh
 
