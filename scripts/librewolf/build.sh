@@ -42,11 +42,6 @@ sudo rm -rf /usr/bin/xz
 sudo cp /usr/local/bin/xz /usr/bin
 sudo ln -s /usr/local/etc/ssl/ /etc/ssl
 
-wget https://github.com/mozilla/sccache/releases/download/v0.12.0/sccache-v0.12.0-x86_64-unknown-linux-musl.tar.gz
-tar xzf sccache-v0.12.0-x86_64-unknown-linux-musl.tar.gz
-sudo cp sccache-v0.12.0-x86_64-unknown-linux-musl/sccache /usr/local/bin/
-sudo chmod +x /usr/local/bin/sccache
-
 sudo ln -s /usr/local/lib/gcc/ /usr/lib/
 sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
@@ -61,21 +56,6 @@ git clone --recursive https://gitlab.com/librewolf-community/browser/source.git 
 cd librewolf-source
 make dir
 cd librewolf*
-
-# Configurar sccache para usar o cache do GitHub Actions
-export SCCACHE_GHA_ENABLED=on
-export RUSTC_WRAPPER=sccache
-
-# Configurar compiladores para usar sccache com Clang
-export CC="sccache clang"
-export CXX="sccache clang++"
-
-# Debugar sccache
-export SCCACHE_LOG=debug
-export SCCACHE_NO_DAEMON=1
-echo $ACTIONS_RUNTIME_URL
-echo $ACTIONS_RUNTIME_TOKEN
-echo $ACTIONS_CACHE_URL
 
 sed -i 's/^ac_add_options --enable-bootstrap/#&/' mozconfig
 sed -i 's/^ac_add_options --enable-optimize/#&/' mozconfig
@@ -128,8 +108,6 @@ make package
 
 find . -iname *.zip
 find . -iname librewolf
-
-sccache --show-stats
 
 find . -iname config.log
 
