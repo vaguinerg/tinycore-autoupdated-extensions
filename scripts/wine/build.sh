@@ -43,8 +43,8 @@ cd $workdir
 #Eventfd disabled from version 10.11, to prepare for NTSYNC, which is only available in kernel 6.14, while tinycore is still in 6.12.
 #wine=10.10
 #staging=c37f9f50912bd801e217ba81d2512feb7386f0d1
-wine=11.0-rc4
-staging=e9363c377ec90abe082d591a3ee2847ff9d86ab2
+wine=11.2
+staging=497d45786dfadc5ab053e96fd9215a907309146b
 
 #get wine
 wget -O- --no-check-certificate https://dl.winehq.org/wine/source/11.x/wine-$wine.tar.xz | tar -xJ
