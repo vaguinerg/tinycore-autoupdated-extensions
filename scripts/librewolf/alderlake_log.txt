@@ -10,8 +10,8 @@ libzstd.tcz          100% |********************************|  328k  0:00:00 ETA
 libzstd.tcz: OK
 Downloading: openssl.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-saving to 'openssl.tcz'
 xz.tcz.dep OK
+saving to 'openssl.tcz'
 pixman-dev.tcz.dep OK
 libvpx113-dev.tcz.dep OK
 openssl.tcz          100% |********************************| 3132k  0:00:00 ETA
@@ -21,14 +21,14 @@ libvpx113-bin.tcz.dep OK
 Downloading: ca-certificates.tcz
 libjpeg-turbo-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-saving to 'ca-certificates.tcz'
 libjpeg-turbo-bin.tcz.dep OK
+saving to 'ca-certificates.tcz'
 ca-certificates.tcz  100% |********************************|  152k  0:00:00 ETA
 'ca-certificates.tcz' saved
 ca-certificates.tcz: OK
 libpng-dev.tcz.dep OK
-Updating certificates in /usr/local/etc/ssl/certs...
 libpng-bin.tcz.dep OK
+Updating certificates in /usr/local/etc/ssl/certs...
 libwebp1-dev.tcz.dep OK
 libwebp1-bin.tcz.dep OK
 libtiff.tcz.dep OK
@@ -39,652 +39,662 @@ libdrm.tcz.dep OK
 elfutils.tcz.dep OK
 llvm19-lib.tcz.dep OK
 libxml2.tcz.dep OK
-libvdpau.tcz.dep OK
 146 added, 0 removed; done.
 Downloading: curl.tcz
-libXext.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libX11.tcz.dep OK
+libvdpau.tcz.dep OK
 saving to 'curl.tcz'
-libxcb.tcz.dep OK
+libXext.tcz.dep OK
+libX11.tcz.dep OK
 curl.tcz             100% |********************************|  384k  0:00:00 ETA
 'curl.tcz' saved
 curl.tcz: OK
+libxcb.tcz.dep OK
 Downloading: tar.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXxf86vm.tcz.dep OK
 saving to 'tar.tcz'
-libXi.tcz.dep OK
-libXrandr.tcz.dep OK
 tar.tcz              100% |********************************|  248k  0:00:00 ETA
 'tar.tcz' saved
 tar.tcz: OK
-libXrender.tcz.dep OK
+libXxf86vm.tcz.dep OK
 Downloading: p7zip.tcz
+libXi.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-tiff-dev.tcz.dep OK
+libXrandr.tcz.dep OK
 saving to 'p7zip.tcz'
+libXrender.tcz.dep OK
+tiff-dev.tcz.dep OK
 tiff-bin.tcz.dep OK
-liblzma-dev.tcz.dep OK
-freeglut-dev.tcz.dep OK
-libGL-dev.tcz.dep OK
 p7zip.tcz            100% |********************************| 1788k  0:00:00 ETA
 'p7zip.tcz' saved
-mesa-dev.tcz.dep OK
 p7zip.tcz: OK
-libdrm-dev.tcz.dep OK
+liblzma-dev.tcz.dep OK
+freeglut-dev.tcz.dep OK
 Downloading: sstrip.tcz
-libpciaccess-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-udev-lib-dev.tcz.dep OK
-wayland-protocols-dev.tcz.dep OK
+libGL-dev.tcz.dep OK
 saving to 'sstrip.tcz'
 sstrip.tcz           100% |********************************|  8192  0:00:00 ETA
 'sstrip.tcz' saved
 sstrip.tcz: OK
+mesa-dev.tcz.dep OK
 Downloading: patchelf.tcz
-wayland-protocols.tcz.dep OK
+libdrm-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libpciaccess-dev.tcz.dep OK
 saving to 'patchelf.tcz'
-wayland.tcz.dep OK
 patchelf.tcz         100% |********************************| 57344  0:00:00 ETA
 'patchelf.tcz' saved
+udev-lib-dev.tcz.dep OK
 patchelf.tcz: OK
 Downloading: findutils.tcz
-wayland-dev.tcz.dep OK
+wayland-protocols-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libffi-dev.tcz.dep OK
+wayland-protocols.tcz.dep OK
 saving to 'findutils.tcz'
-expat2-dev.tcz.dep OK
+wayland.tcz.dep OK
 findutils.tcz        100% |********************************|  148k  0:00:00 ETA
 'findutils.tcz' saved
 findutils.tcz: OK
-libxml2-dev.tcz.dep OK
 Downloading: liblzma.tcz
-libxml2-bin.tcz.dep OK
+wayland-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libxml2-python.tcz.dep OK
+libffi-dev.tcz.dep OK
 saving to 'liblzma.tcz'
-python3.9.tcz.dep OK
+expat2-dev.tcz.dep OK
 liblzma.tcz          100% |********************************| 94208  0:00:00 ETA
 'liblzma.tcz' saved
 liblzma.tcz: OK
 Downloading: xz.tcz
+libxml2-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libxml2-bin.tcz.dep OK
 saving to 'xz.tcz'
+libxml2-python.tcz.dep OK
 xz.tcz               100% |********************************| 61440  0:00:00 ETA
 'xz.tcz' saved
 xz.tcz: OK
-readline.tcz.dep OK
-libXvmc-dev.tcz.dep OK
 Downloading: pixman.tcz
-libXvmc.tcz.dep OK
+python3.9.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXv.tcz.dep OK
-libXv-dev.tcz.dep OK
 saving to 'pixman.tcz'
-libXext-dev.tcz.dep OK
+readline.tcz.dep OK
 pixman.tcz           100% |********************************|  276k  0:00:00 ETA
 'pixman.tcz' saved
 pixman.tcz: OK
-libX11-dev.tcz.dep OK
+libXvmc-dev.tcz.dep OK
 Downloading: pixman-dev.tcz
-libxcb-dev.tcz.dep OK
+libXvmc.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXau-dev.tcz.dep OK
+libXv.tcz.dep OK
 saving to 'pixman-dev.tcz'
 pixman-dev.tcz       100% |********************************| 12288  0:00:00 ETA
 'pixman-dev.tcz' saved
 pixman-dev.tcz: OK
-libXdmcp-dev.tcz.dep OK
 Downloading: libvpx113.tcz
+libXv-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-xcb-proto.tcz.dep OK
+libXext-dev.tcz.dep OK
 saving to 'libvpx113.tcz'
-xorg-proto.tcz.dep OK
-util-macros.tcz.dep OK
+libX11-dev.tcz.dep OK
+libxcb-dev.tcz.dep OK
+libXau-dev.tcz.dep OK
 libvpx113.tcz        100% |********************************|  732k  0:00:00 ETA
 'libvpx113.tcz' saved
+libXdmcp-dev.tcz.dep OK
 libvpx113.tcz: OK
-libXdamage-dev.tcz.dep OK
 Downloading: libvpx113-bin.tcz
-libXdamage.tcz.dep OK
+xcb-proto.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXfixes.tcz.dep OK
 saving to 'libvpx113-bin.tcz'
-libXfixes-dev.tcz.dep OK
-libxshmfence-dev.tcz.dep OK
+xorg-proto.tcz.dep OK
+util-macros.tcz.dep OK
 libvpx113-bin.tcz    100% |********************************|  292k  0:00:00 ETA
 'libvpx113-bin.tcz' saved
 libvpx113-bin.tcz: OK
-libXxf86vm-dev.tcz.dep OK
 Downloading: libvpx113-dev.tcz
-libXrandr-dev.tcz.dep OK
+libXdamage-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXrender-dev.tcz.dep OK
+libXdamage.tcz.dep OK
 saving to 'libvpx113-dev.tcz'
 libvpx113-dev.tcz    100% |********************************| 53248  0:00:00 ETA
 'libvpx113-dev.tcz' saved
 libvpx113-dev.tcz: OK
-libclc-dev.tcz.dep OK
+libXfixes.tcz.dep OK
 Downloading: libjpeg-turbo.tcz
-llvm19-dev.tcz.dep OK
+libXfixes-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-llvm19-bin.tcz.dep OK
+libxshmfence-dev.tcz.dep OK
 saving to 'libjpeg-turbo.tcz'
-zstd-dev.tcz.dep OK
-zstd.tcz.dep OK
+libXxf86vm-dev.tcz.dep OK
+libXrandr-dev.tcz.dep OK
 libjpeg-turbo.tcz    100% |********************************|  308k  0:00:00 ETA
 'libjpeg-turbo.tcz' saved
 libjpeg-turbo.tcz: OK
-liblz4-dev.tcz.dep OK
+libXrender-dev.tcz.dep OK
 Downloading: libjpeg-turbo-bin.tcz
-libvdpau-dev.tcz.dep OK
+libclc-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-elfutils-dev.tcz.dep OK
 saving to 'libjpeg-turbo-bin.tcz'
+llvm19-dev.tcz.dep OK
 libjpeg-turbo-bin.tc 100% |********************************| 77824  0:00:00 ETA
 'libjpeg-turbo-bin.tcz' saved
 libjpeg-turbo-bin.tcz: OK
-bzip2-dev.tcz.dep OK
 Downloading: libjpeg-turbo-dev.tcz
-bzip2.tcz.dep OK
+llvm19-bin.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-spirv-tools-dev.tcz.dep OK
+zstd-dev.tcz.dep OK
 saving to 'libjpeg-turbo-dev.tcz'
-libXi-dev.tcz.dep OK
+zstd.tcz.dep OK
 libjpeg-turbo-dev.tc 100% |********************************| 61440  0:00:00 ETA
 'libjpeg-turbo-dev.tcz' saved
 libjpeg-turbo-dev.tcz: OK
-glu-dev.tcz.dep OK
 Downloading: libpng.tcz
-glu.tcz.dep OK
+liblz4-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-giflib7-dev.tcz.dep OK
+libvdpau-dev.tcz.dep OK
 saving to 'libpng.tcz'
+elfutils-dev.tcz.dep OK
 libpng.tcz           100% |********************************|  100k  0:00:00 ETA
 'libpng.tcz' saved
 libpng.tcz: OK
-giflib7-bin.tcz.dep OK
 Downloading: libpng-bin.tcz
-boost-1.84-dev.tcz.dep OK
+bzip2-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-boost-1.84.tcz.dep OK
+bzip2.tcz.dep OK
 saving to 'libpng-bin.tcz'
+spirv-tools-dev.tcz.dep OK
 libpng-bin.tcz       100% |********************************| 24576  0:00:00 ETA
 'libpng-bin.tcz' saved
 libpng-bin.tcz: OK
 Downloading: libpng-dev.tcz
-icu74-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-icu74-bin.tcz.dep OK
+libXi-dev.tcz.dep OK
 saving to 'libpng-dev.tcz'
+glu-dev.tcz.dep OK
 libpng-dev.tcz       100% |********************************| 65536  0:00:00 ETA
 'libpng-dev.tcz' saved
 libpng-dev.tcz: OK
-python3.9-dev.tcz.dep OK
+glu.tcz.dep OK
+giflib7-dev.tcz.dep OK
+giflib7-bin.tcz.dep OK
 Downloading: spirv-headers.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+boost-1.84-dev.tcz.dep OK
+saving to 'spirv-headers.tcz'
+boost-1.84.tcz.dep OK
+icu74-dev.tcz.dep OK
+icu74-bin.tcz.dep OK
+spirv-headers.tcz    100% |********************************|  644k  0:00:00 ETA
+'spirv-headers.tcz' saved
+spirv-headers.tcz: OK
+python3.9-dev.tcz.dep OK
+Downloading: spirv-tools.tcz
 sqlite3-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 sqlite3-bin.tcz.dep OK
-saving to 'spirv-headers.tcz'
+saving to 'spirv-tools.tcz'
 readline-dev.tcz.dep OK
 ncursesw-dev.tcz.dep OK
 tk8.6-dev.tcz.dep OK
 tk8.6.tcz.dep OK
-spirv-headers.tcz    100% |********************************|  644k  0:00:00 ETA
-'spirv-headers.tcz' saved
-spirv-headers.tcz: OK
 libXft.tcz.dep OK
 fontconfig.tcz.dep OK
-Downloading: spirv-tools.tcz
-freetype.tcz.dep OK
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-harfbuzz.tcz.dep OK
-saving to 'spirv-tools.tcz'
-glib2.tcz.dep OK
-libXss.tcz.dep OK
 spirv-tools.tcz      100% |********************************| 1936k  0:00:00 ETA
 'spirv-tools.tcz' saved
 spirv-tools.tcz: OK
-tcl8.6.tcz.dep OK
+freetype.tcz.dep OK
 Downloading: spirv-tools-dev.tcz
-tcl8.6-dev.tcz.dep OK
+harfbuzz.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-gdbm-dev.tcz.dep OK
+glib2.tcz.dep OK
 saving to 'spirv-tools-dev.tcz'
 spirv-tools-dev.tcz  100% |********************************| 57344  0:00:00 ETA
 'spirv-tools-dev.tcz' saved
 spirv-tools-dev.tcz: OK
-Xorg-7.7-dev.tcz.dep OK
 Downloading: bzip2-lib.tcz
-libFS-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libXss.tcz.dep OK
 saving to 'bzip2-lib.tcz'
 bzip2-lib.tcz        100% |********************************| 28672  0:00:00 ETA
 'bzip2-lib.tcz' saved
 bzip2-lib.tcz: OK
-libXaw-dev.tcz.dep OK
+tcl8.6.tcz.dep OK
 Downloading: bzip2.tcz
-libXaw.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXmu.tcz.dep OK
+tcl8.6-dev.tcz.dep OK
 saving to 'bzip2.tcz'
 bzip2.tcz            100% |********************************| 20480  0:00:00 ETA
 'bzip2.tcz' saved
 bzip2.tcz: OK
-libXt.tcz.dep OK
+gdbm-dev.tcz.dep OK
 Downloading: bzip2-dev.tcz
+Xorg-7.7-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libSM.tcz.dep OK
 saving to 'bzip2-dev.tcz'
 bzip2-dev.tcz        100% |********************************| 32768  0:00:00 ETA
 'bzip2-dev.tcz' saved
 bzip2-dev.tcz: OK
-libXpm.tcz.dep OK
-libXmu-dev.tcz.dep OK
+libFS-dev.tcz.dep OK
 Downloading: liblzma-dev.tcz
-libXt-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'liblzma-dev.tcz'
-libICE-dev.tcz.dep OK
+libXaw-dev.tcz.dep OK
 liblzma-dev.tcz      100% |********************************| 81920  0:00:00 ETA
 'liblzma-dev.tcz' saved
 liblzma-dev.tcz: OK
-libSM-dev.tcz.dep OK
+libXaw.tcz.dep OK
 Downloading: elfutils.tcz
-libXpm-dev.tcz.dep OK
+libXmu.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXcomposite-dev.tcz.dep OK
-libXcomposite.tcz.dep OK
-libXcursor-dev.tcz.dep OK
-libXcursor.tcz.dep OK
-libXfont2-dev.tcz.dep OK
-libXfont2.tcz.dep OK
+libXt.tcz.dep OK
 saving to 'elfutils.tcz'
-freetype-dev.tcz.dep OK
-harfbuzz-dev.tcz.dep OK
+libSM.tcz.dep OK
 elfutils.tcz         100% |********************************|  552k  0:00:00 ETA
 'elfutils.tcz' saved
 elfutils.tcz: OK
-harfbuzz-bin.tcz.dep OK
-glib2-dev.tcz.dep OK
+libXpm.tcz.dep OK
+libXmu-dev.tcz.dep OK
 Downloading: elfutils-dev.tcz
-glib2-python.tcz.dep OK
+libXt-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-pcre21042-dev.tcz.dep OK
 saving to 'elfutils-dev.tcz'
-graphite-dev.tcz.dep OK
-libfontenc-dev.tcz.dep OK
-libXft-dev.tcz.dep OK
+libICE-dev.tcz.dep OK
+libSM-dev.tcz.dep OK
+libXpm-dev.tcz.dep OK
 elfutils-dev.tcz     100% |********************************|  384k  0:00:00 ETA
 'elfutils-dev.tcz' saved
 elfutils-dev.tcz: OK
-fontconfig-dev.tcz.dep OK
+libXcomposite-dev.tcz.dep OK
 Downloading: xtrans.tcz
-libXinerama-dev.tcz.dep OK
+libXcomposite.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXinerama.tcz.dep OK
+libXcursor-dev.tcz.dep OK
 saving to 'xtrans.tcz'
-libXres-dev.tcz.dep OK
+libXcursor.tcz.dep OK
 xtrans.tcz           100% |********************************| 69632  0:00:00 ETA
 'xtrans.tcz' saved
 xtrans.tcz: OK
-libXres.tcz.dep OK
 Downloading: m4.tcz
-libXss-dev.tcz.dep OK
+libXfont2-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libXtst-dev.tcz.dep OK
+libXfont2.tcz.dep OK
 saving to 'm4.tcz'
-libXtst.tcz.dep OK
 m4.tcz               100% |********************************|  112k  0:00:00 ETA
 'm4.tcz' saved
 m4.tcz: OK
+freetype-dev.tcz.dep OK
 Downloading: util-macros.tcz
-libXxf86dga-dev.tcz.dep OK
+harfbuzz-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+harfbuzz-bin.tcz.dep OK
 saving to 'util-macros.tcz'
-libXxf86dga.tcz.dep OK
 util-macros.tcz      100% |********************************| 36864  0:00:00 ETA
 'util-macros.tcz' saved
 util-macros.tcz: OK
-libxkbfile-dev.tcz.dep OK
+glib2-dev.tcz.dep OK
 Downloading: xorg-proto.tcz
-libxkbfile.tcz.dep OK
+glib2-python.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+pcre21042-dev.tcz.dep OK
 saving to 'xorg-proto.tcz'
-xorg-server-dev.tcz.dep OK
-xorg-server.tcz.dep OK
+graphite-dev.tcz.dep OK
+libfontenc-dev.tcz.dep OK
+libXft-dev.tcz.dep OK
 xorg-proto.tcz       100% |********************************|  380k  0:00:00 ETA
 'xorg-proto.tcz' saved
 xorg-proto.tcz: OK
+fontconfig-dev.tcz.dep OK
+libXinerama-dev.tcz.dep OK
 Downloading: xcb-proto.tcz
-xkbcomp.tcz.dep OK
+libXinerama.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libEGL-dev.tcz.dep OK
 saving to 'xcb-proto.tcz'
-libEGL.tcz.dep OK
-libepoxy-dev.tcz.dep OK
+libXres-dev.tcz.dep OK
+libXres.tcz.dep OK
 xcb-proto.tcz        100% |********************************|  188k  0:00:00 ETA
 'xcb-proto.tcz' saved
 xcb-proto.tcz: OK
-openssl-dev.tcz.dep OK
+libXss-dev.tcz.dep OK
 Downloading: libXdmcp.tcz
+libXtst-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libXdmcp.tcz'
 libXdmcp.tcz         100% |********************************| 12288  0:00:00 ETA
 'libXdmcp.tcz' saved
+libXtst.tcz.dep OK
 libXdmcp.tcz: OK
-libxcvt-dev.tcz.dep OK
 Downloading: libXdmcp-dev.tcz
-font-util.tcz.dep OK
+libXxf86dga-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libXxf86dga.tcz.dep OK
 saving to 'libXdmcp-dev.tcz'
 libXdmcp-dev.tcz     100% |********************************|  4096  0:00:00 ETA
 'libXdmcp-dev.tcz' saved
 libXdmcp-dev.tcz: OK
-libaom-dev.tcz.dep OK
+libxkbfile-dev.tcz.dep OK
 Downloading: libXau.tcz
-libaom-bin.tcz.dep OK
+libxkbfile.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libXau.tcz'
 libXau.tcz           100% |********************************|  8192  0:00:00 ETA
 'libXau.tcz' saved
 libXau.tcz: OK
+xorg-server-dev.tcz.dep OK
 Downloading: libXau-dev.tcz
-gnupg.tcz.dep OK
+xorg-server.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libXau-dev.tcz'
 libXau-dev.tcz       100% |********************************|  4096  0:00:00 ETA
 'libXau-dev.tcz' saved
 libXau-dev.tcz: OK
-libassuan.tcz.dep OK
 Downloading: libxcb.tcz
+xkbcomp.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libgcrypt.tcz.dep OK
-libksba.tcz.dep OK
 saving to 'libxcb.tcz'
-libusb.tcz.dep OK
+libEGL-dev.tcz.dep OK
+libEGL.tcz.dep OK
+libepoxy-dev.tcz.dep OK
 libxcb.tcz           100% |********************************|  384k  0:00:00 ETA
 'libxcb.tcz' saved
 libxcb.tcz: OK
-gnutls38.tcz.dep OK
-p11-kit.tcz.dep OK
+openssl-dev.tcz.dep OK
+libxcvt-dev.tcz.dep OK
 Downloading: libxcb-dev.tcz
+font-util.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-nettle39.tcz.dep OK
 saving to 'libxcb-dev.tcz'
-libidn2.tcz.dep OK
+libaom-dev.tcz.dep OK
+libaom-bin.tcz.dep OK
 libxcb-dev.tcz       100% |********************************|  428k  0:00:00 ETA
 'libxcb-dev.tcz' saved
 libxcb-dev.tcz: OK
+gnupg.tcz.dep OK
 Downloading: libX11.tcz
-gtk3-dev.tcz.dep OK
+libassuan.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-gtk3.tcz.dep OK
 saving to 'libX11.tcz'
-at-spi2-core.tcz.dep OK
-dbus.tcz.dep OK
-elogind.tcz.dep OK
-acl.tcz.dep OK
+libgcrypt.tcz.dep OK
+libksba.tcz.dep OK
+libusb.tcz.dep OK
+gnutls38.tcz.dep OK
 libX11.tcz           100% |********************************|  928k  0:00:00 ETA
 'libX11.tcz' saved
 libX11.tcz: OK
-libcap.tcz.dep OK
-util-linux.tcz.dep OK
+p11-kit.tcz.dep OK
+nettle39.tcz.dep OK
 Downloading: libX11-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-gdk-pixbuf2.tcz.dep OK
 saving to 'libX11-dev.tcz'
-shared-mime-info.tcz.dep OK
+libidn2.tcz.dep OK
 libX11-dev.tcz       100% |********************************| 73728  0:00:00 ETA
 'libX11-dev.tcz' saved
 libX11-dev.tcz: OK
 Downloading: libXext.tcz
-pango.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-cairo.tcz.dep OK
-fribidi.tcz.dep OK
-libxkbcommon.tcz.dep OK
+gtk3-dev.tcz.dep OK
 saving to 'libXext.tcz'
-gdk-pixbuf2-dev.tcz.dep OK
 libXext.tcz          100% |********************************| 28672  0:00:00 ETA
 'libXext.tcz' saved
 libXext.tcz: OK
-gdk-pixbuf2-xlib-dev.tcz.dep OK
+gtk3.tcz.dep OK
 Downloading: libXext-dev.tcz
-at-spi2-core-dev.tcz.dep OK
+at-spi2-core.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-dbus-dev.tcz.dep OK
+dbus.tcz.dep OK
 saving to 'libXext-dev.tcz'
 libXext-dev.tcz      100% |********************************| 24576  0:00:00 ETA
 'libXext-dev.tcz' saved
+elogind.tcz.dep OK
 libXext-dev.tcz: OK
-elogind-dev.tcz.dep OK
+acl.tcz.dep OK
 Downloading: libvdpau.tcz
-acl-dev.tcz.dep OK
-attr-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libcap-dev.tcz.dep OK
 saving to 'libvdpau.tcz'
+libcap.tcz.dep OK
 libvdpau.tcz         100% |********************************| 28672  0:00:00 ETA
 'libvdpau.tcz' saved
-util-linux-dev.tcz.dep OK
 libvdpau.tcz: OK
-pango-dev.tcz.dep OK
+util-linux.tcz.dep OK
 Downloading: libvdpau-dev.tcz
-cairo-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-fribidi-dev.tcz.dep OK
 saving to 'libvdpau-dev.tcz'
-rest-dev.tcz.dep OK
-rest.tcz.dep OK
+gdk-pixbuf2.tcz.dep OK
 libvdpau-dev.tcz     100% |********************************| 65536  0:00:00 ETA
 'libvdpau-dev.tcz' saved
 libvdpau-dev.tcz: OK
-libsoup.tcz.dep OK
+shared-mime-info.tcz.dep OK
 Downloading: liblz4.tcz
-glib-networking.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libpsl.tcz.dep OK
+pango.tcz.dep OK
 saving to 'liblz4.tcz'
+cairo.tcz.dep OK
 liblz4.tcz           100% |********************************| 61440  0:00:00 ETA
 'liblz4.tcz' saved
 liblz4.tcz: OK
 Downloading: liblz4-dev.tcz
-libsoup-dev.tcz.dep OK
-libpsl-dev.tcz.dep OK
+fribidi.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libxkbcommon.tcz.dep OK
 saving to 'liblz4-dev.tcz'
-libidn2-dev.tcz.dep OK
 liblz4-dev.tcz       100% |********************************| 40960  0:00:00 ETA
 'liblz4-dev.tcz' saved
 liblz4-dev.tcz: OK
-libunistring-dev.tcz.dep OK
 Downloading: zstd.tcz
-colord-dev.tcz.dep OK
+gdk-pixbuf2-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-colord.tcz.dep OK
+gdk-pixbuf2-xlib-dev.tcz.dep OK
 saving to 'zstd.tcz'
+at-spi2-core-dev.tcz.dep OK
 zstd.tcz             100% |********************************| 86016  0:00:00 ETA
 'zstd.tcz' saved
 zstd.tcz: OK
-libgusb.tcz.dep OK
+dbus-dev.tcz.dep OK
 Downloading: zstd-dev.tcz
-libsane.tcz.dep OK
+elogind-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libgphoto2.tcz.dep OK
 saving to 'zstd-dev.tcz'
+acl-dev.tcz.dep OK
 zstd-dev.tcz         100% |********************************| 81920  0:00:00 ETA
 'zstd-dev.tcz' saved
 zstd-dev.tcz: OK
+attr-dev.tcz.dep OK
 Downloading: libffi.tcz
-libpoppler23.tcz.dep OK
+libcap-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+util-linux-dev.tcz.dep OK
 saving to 'libffi.tcz'
 libffi.tcz           100% |********************************| 20480  0:00:00 ETA
 'libffi.tcz' saved
 libffi.tcz: OK
-nss.tcz.dep OK
+pango-dev.tcz.dep OK
 Downloading: ncursesw.tcz
+cairo-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libavahi.tcz.dep OK
+fribidi-dev.tcz.dep OK
 saving to 'ncursesw.tcz'
-polkit.tcz.dep OK
-js78.tcz.dep OK
+rest-dev.tcz.dep OK
+rest.tcz.dep OK
 ncursesw.tcz         100% |********************************|  256k  0:00:00 ETA
 'ncursesw.tcz' saved
 ncursesw.tcz: OK
-lcms2-dev.tcz.dep OK
+libsoup.tcz.dep OK
 Downloading: readline.tcz
-libgusb-dev.tcz.dep OK
+glib-networking.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libusb-dev.tcz.dep OK
+libpsl.tcz.dep OK
 saving to 'readline.tcz'
-sane-dev.tcz.dep OK
+libsoup-dev.tcz.dep OK
 readline.tcz         100% |********************************|  148k  0:00:00 ETA
 'readline.tcz' saved
 readline.tcz: OK
-avahi-dev.tcz.dep OK
+libpsl-dev.tcz.dep OK
 Downloading: gdbm.tcz
-avahi.tcz.dep OK
+libidn2-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libunistring-dev.tcz.dep OK
 saving to 'gdbm.tcz'
+colord-dev.tcz.dep OK
 gdbm.tcz             100% |********************************| 81920  0:00:00 ETA
 'gdbm.tcz' saved
 gdbm.tcz: OK
-gcc_libs-dev.tcz.dep OK
+colord.tcz.dep OK
 Downloading: sqlite3.tcz
-libdaemon-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'sqlite3.tcz'
-sane.tcz.dep OK
-libgphoto2-dev.tcz.dep OK
+libgusb.tcz.dep OK
+libsane.tcz.dep OK
+libgphoto2.tcz.dep OK
 sqlite3.tcz          100% |********************************|  612k  0:00:00 ETA
 'sqlite3.tcz' saved
-libexif-dev.tcz.dep OK
 sqlite3.tcz: OK
-libtool-dev.tcz.dep OK
+libpoppler23.tcz.dep OK
 Downloading: python3.9.tcz
-libtool.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-curl-dev.tcz.dep OK
+nss.tcz.dep OK
 saving to 'python3.9.tcz'
+libavahi.tcz.dep OK
+polkit.tcz.dep OK
+js78.tcz.dep OK
+lcms2-dev.tcz.dep OK
+libgusb-dev.tcz.dep OK
+python3.9.tcz        100% |********************************| 15.1M  0:00:00 ETA
+'python3.9.tcz' saved
+libusb-dev.tcz.dep OK
+python3.9.tcz: OK
+sane-dev.tcz.dep OK
+avahi-dev.tcz.dep OK
+avahi.tcz.dep OK
+gcc_libs-dev.tcz.dep OK
+libdaemon-dev.tcz.dep OK
+sane.tcz.dep OK
+libgphoto2-dev.tcz.dep OK
+libexif-dev.tcz.dep OK
+libtool-dev.tcz.dep OK
+libtool.tcz.dep OK
+curl-dev.tcz.dep OK
 poppler23-dev.tcz.dep OK
 poppler23-bin.tcz.dep OK
-python3.9.tcz          2% |                                |  340k  0:00:44 ETA
 openjpeg-dev.tcz.dep OK
 nss-dev.tcz.dep OK
 nspr-dev.tcz.dep OK
-python3.9.tcz        100% |********************************| 15.1M  0:00:00 ETA
-'python3.9.tcz' saved
-python3.9.tcz: OK
+Downloading: libxml2.tcz
 polkit-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'libxml2.tcz'
 js78-dev.tcz.dep OK
 linux-pam-dev.tcz.dep OK
 json-glib-dev.tcz.dep OK
 json-glib.tcz.dep OK
-libxkbcommon-dev.tcz.dep OK
-rust.tcz.dep OK
-libssh2.tcz.dep OK
-cbindgen.tcz.dep OK
-libevent-dev.tcz.dep OK
-libevent.tcz.dep OK
-python3.9-pip.tcz.dep OK
-python3.9-setuptools.tcz.dep OK
-bash.tcz.dep OK
-libva22-dev.tcz.dep OK
-libva22.tcz.dep OK
-gettext-dev.tcz.dep OK
-gettext.tcz.dep OK
-git.tcz.dep OK
-libvulkan-dev.tcz.dep OK
-Downloading: libxml2.tcz
-Xorg-7.7-3d-dev.tcz.dep OK
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libGLESv2-dev.tcz.dep OK
-saving to 'libxml2.tcz'
-libGLESv2.tcz.dep OK
-ffmpeg7-dev.tcz.dep OK
 libxml2.tcz          100% |********************************|  596k  0:00:00 ETA
 'libxml2.tcz' saved
-ffmpeg7.tcz.dep OK
 libxml2.tcz: OK
-libavdevice7.tcz.dep OK
+libxkbcommon-dev.tcz.dep OK
 Downloading: libxml2-python.tcz
-libavfilter7.tcz.dep OK
+rust.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libswresample7.tcz.dep OK
-libavutil7.tcz.dep OK
+libssh2.tcz.dep OK
 saving to 'libxml2-python.tcz'
-libavformat7.tcz.dep OK
+cbindgen.tcz.dep OK
 libxml2-python.tcz   100% |********************************|  200k  0:00:00 ETA
 'libxml2-python.tcz' saved
 libxml2-python.tcz: OK
-libavcodec7.tcz.dep OK
 Downloading: libxml2-bin.tcz
+libevent-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libtheora.tcz.dep OK
 saving to 'libxml2-bin.tcz'
+libevent.tcz.dep OK
 libxml2-bin.tcz      100% |********************************| 32768  0:00:00 ETA
 'libxml2-bin.tcz' saved
 libxml2-bin.tcz: OK
+python3.9-pip.tcz.dep OK
 Downloading: libxml2-dev.tcz
-speex.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+python3.9-setuptools.tcz.dep OK
 saving to 'libxml2-dev.tcz'
+bash.tcz.dep OK
 libxml2-dev.tcz      100% |********************************|  116k  0:00:00 ETA
 'libxml2-dev.tcz' saved
 libxml2-dev.tcz: OK
-librsvg.tcz.dep OK
+libva22-dev.tcz.dep OK
+libva22.tcz.dep OK
 Downloading: libffi-dev.tcz
-libpostproc7.tcz.dep OK
+gettext-dev.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
-libswscale7.tcz.dep OK
 saving to 'libffi-dev.tcz'
 libffi-dev.tcz       100% |********************************|  8192  0:00:00 ETA
 'libffi-dev.tcz' saved
 libffi-dev.tcz: OK
-libass.tcz.dep OK
+gettext.tcz.dep OK
 Downloading: libffi7.tcz
+git.tcz.dep OK
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libvulkan-dev.tcz.dep OK
 saving to 'libffi7.tcz'
 libffi7.tcz          100% |********************************| 16384  0:00:00 ETA
 'libffi7.tcz' saved
 libffi7.tcz: OK
+Downloading: llvm19-lib.tcz
+Xorg-7.7-3d-dev.tcz.dep OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+libGLESv2-dev.tcz.dep OK
+saving to 'llvm19-lib.tcz'
+libGLESv2.tcz.dep OK
+ffmpeg7-dev.tcz.dep OK
+ffmpeg7.tcz.dep OK
+libavdevice7.tcz.dep OK
+libavfilter7.tcz.dep OK
+libswresample7.tcz.dep OK
+libavutil7.tcz.dep OK
+libavformat7.tcz.dep OK
+llvm19-lib.tcz        14% |****                            | 4889k  0:00:05 ETA
+libavcodec7.tcz.dep OK
+libtheora.tcz.dep OK
+speex.tcz.dep OK
+librsvg.tcz.dep OK
+libpostproc7.tcz.dep OK
+llvm19-lib.tcz       100% |********************************| 32.0M  0:00:00 ETA
+'llvm19-lib.tcz' saved
+libswscale7.tcz.dep OK
+libass.tcz.dep OK
+llvm19-lib.tcz: OK
 libv4l2.tcz.dep OK
 v4l-dvb-6.12.11-tinycore64.tcz.dep OK
-Downloading: llvm19-lib.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 alsa-modules-6.12.11-tinycore64.tcz.dep OK
-saving to 'llvm19-lib.tcz'
 libpulseaudio.tcz.dep OK
 libsndfile.tcz.dep OK
 flac.tcz.dep OK
 libvorbis.tcz.dep OK
+Downloading: llvm19-bin.tcz
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'llvm19-bin.tcz'
 libplacebo.tcz.dep OK
 shaderc.tcz.dep OK
 glslang.tcz.dep OK
 x264_164-dev.tcz.dep OK
 libtheora-dev.tcz.dep OK
 libogg-dev.tcz.dep OK
+llvm19-bin.tcz        19% |******                          | 3986k  0:00:04 ETA
 pulseaudio-dev.tcz.dep OK
 pulseaudio.tcz.dep OK
 alsa.tcz.dep OK
 speexdsp.tcz.dep OK
 alsa-dev.tcz.dep OK
 fftw-dev.tcz.dep OK
+llvm19-bin.tcz       100% |********************************| 19.4M  0:00:00 ETA
+'llvm19-bin.tcz' saved
 speexdsp-dev.tcz.dep OK
+llvm19-bin.tcz: OK
 speex-dev.tcz.dep OK
 libsndfile-dev.tcz.dep OK
 flac-dev.tcz.dep OK
-llvm19-lib.tcz       100% |********************************| 32.0M  0:00:00 ETA
-'llvm19-lib.tcz' saved
 libvorbis-dev.tcz.dep OK
 libbluetooth-dev.tcz.dep OK
 libbluetooth.tcz.dep OK
+Downloading: llvm19-dev.tcz
 bluez.tcz.dep OK
-llvm19-lib.tcz: OK
+Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+saving to 'llvm19-dev.tcz'
 libical3.tcz.dep OK
 sbc-dev.tcz.dep OK
 lame-dev.tcz.dep OK
@@ -697,11 +707,9 @@ opus-dev.tcz.dep OK
 x265-dev.tcz.dep OK
 librsvg-dev.tcz.dep OK
 librsvg-bin.tcz.dep OK
-Downloading: llvm19-bin.tcz
 dav1d-dev.tcz.dep OK
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+llvm19-dev.tcz        21% |******                          | 19.2M  0:00:03 ETA
 gnutls38-dev.tcz.dep OK
-saving to 'llvm19-bin.tcz'
 p11-kit-dev.tcz.dep OK
 libtasn1-4-dev.tcz.dep OK
 nettle39-dev.tcz.dep OK
@@ -713,25 +721,21 @@ openal-dev.tcz.dep OK
 autoconf.tcz.dep OK
 perl_xml_parser.tcz.dep OK
 perl5.tcz.dep OK
-llvm19-bin.tcz       100% |********************************| 19.4M  0:00:00 ETA
-'llvm19-bin.tcz' saved
 submitqc.tcz.dep OK
 file.tcz.dep OK
-llvm19-bin.tcz: OK
 wget.tcz.dep OK
 coreutils.tcz.dep OK
 binutils.tcz.dep OK
 squashfs-tools.tcz.dep OK
-Downloading: llvm19-dev.tcz
-Connecting to mirror.math.princeton.edu (128.112.18.21:80)
+llvm19-dev.tcz       100% |********************************| 89.7M  0:00:00 ETA
+'llvm19-dev.tcz' saved
 unixODBC-dev.tcz.dep OK
-saving to 'llvm19-dev.tcz'
 unixODBC.tcz.dep OK
-llvm19-dev.tcz         0% |                                | 51147  0:30:46 ETA
 compiletc.tcz.dep OK
 bison.tcz.dep OK
 gawk.tcz.dep OK
 mpfr.tcz.dep OK
+llvm19-dev.tcz: OK
 gcc.tcz.dep OK
 mpc.tcz.dep OK
 isl.tcz.dep OK
@@ -752,14 +756,10 @@ cdparanoia-dev.tcz.dep OK
 graphene-dev.tcz.dep OK
 graphene.tcz.dep OK
 clang.tcz.dep OK
-llvm19-dev.tcz        85% |***************************     | 77.1M  0:00:00 ETA
-llvm19-dev.tcz       100% |********************************| 89.7M  0:00:00 ETA
-'llvm19-dev.tcz' saved
-llvm19-dev.tcz: OK
 Downloading: libclc.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libclc.tcz'
-libclc.tcz            12% |***                             | 14.5M  0:00:07 ETA
+libclc.tcz            22% |*******                         | 25.6M  0:00:03 ETA
 libclc.tcz           100% |********************************|  116M  0:00:00 ETA
 'libclc.tcz' saved
 libclc.tcz: OK
@@ -916,6 +916,7 @@ udev-lib-dev.tcz: OK
 Downloading: libpciaccess.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libpciaccess.tcz'
+libpciaccess.tcz      85% |***************************     | 14025  0:00:00 ETA
 libpciaccess.tcz     100% |********************************| 16384  0:00:00 ETA
 'libpciaccess.tcz' saved
 libpciaccess.tcz: OK
@@ -946,7 +947,7 @@ gcc_libs.tcz: OK
 Downloading: mesa.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'mesa.tcz'
-mesa.tcz              38% |************                    | 4351k  0:00:01 ETA
+mesa.tcz              30% |*********                       | 3469k  0:00:02 ETA
 mesa.tcz             100% |********************************| 10.9M  0:00:00 ETA
 'mesa.tcz' saved
 mesa.tcz: OK
@@ -983,6 +984,7 @@ glu-dev.tcz: OK
 Downloading: giflib7.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'giflib7.tcz'
+giflib7.tcz           85% |***************************     | 14025  0:00:00 ETA
 giflib7.tcz          100% |********************************| 16384  0:00:00 ETA
 'giflib7.tcz' saved
 giflib7.tcz: OK
@@ -1103,7 +1105,6 @@ libEGL-dev.tcz: OK
 Downloading: libepoxy.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libepoxy.tcz'
-libepoxy.tcz          83% |**************************      |  249k  0:00:00 ETA
 libepoxy.tcz         100% |********************************|  300k  0:00:00 ETA
 'libepoxy.tcz' saved
 libepoxy.tcz: OK
@@ -1164,13 +1165,13 @@ pcre21042-dev.tcz: OK
 Downloading: glib2.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'glib2.tcz'
-glib2.tcz              4% |*                               | 83993  0:00:19 ETA
 glib2.tcz            100% |********************************| 1692k  0:00:00 ETA
 'glib2.tcz' saved
 glib2.tcz: OK
 Downloading: glib2-python.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'glib2-python.tcz'
+glib2-python.tcz      15% |****                            | 14024  0:00:05 ETA
 glib2-python.tcz     100% |********************************| 90112  0:00:00 ETA
 'glib2-python.tcz' saved
 glib2-python.tcz: OK
@@ -1201,6 +1202,7 @@ harfbuzz-dev.tcz: OK
 Downloading: freetype.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'freetype.tcz'
+freetype.tcz          40% |*************                   |  151k  0:00:01 ETA
 freetype.tcz         100% |********************************|  372k  0:00:00 ETA
 'freetype.tcz' saved
 freetype.tcz: OK
@@ -1237,7 +1239,7 @@ xkbcomp.tcz: OK
 Downloading: xorg-server.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'xorg-server.tcz'
-xorg-server.tcz       65% |*********************           | 1876k  0:00:00 ETA
+xorg-server.tcz       65% |*********************           | 1867k  0:00:00 ETA
 xorg-server.tcz      100% |********************************| 2844k  0:00:00 ETA
 'xorg-server.tcz' saved
 xorg-server.tcz: OK
@@ -1406,7 +1408,6 @@ libICE-dev.tcz: OK
 Downloading: libXt.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libXt.tcz'
-libXt.tcz             54% |*****************               | 93991  0:00:00 ETA
 libXt.tcz            100% |********************************|  168k  0:00:00 ETA
 'libXt.tcz' saved
 libXt.tcz: OK
@@ -1443,6 +1444,7 @@ libXaw-dev.tcz: OK
 Downloading: libFS.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libFS.tcz'
+libFS.tcz             68% |*********************           | 14025  0:00:00 ETA
 libFS.tcz            100% |********************************| 20480  0:00:00 ETA
 'libFS.tcz' saved
 libFS.tcz: OK
@@ -1479,6 +1481,7 @@ tzdata.tcz: OK
 Downloading: tcl8.6.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'tcl8.6.tcz'
+tcl8.6.tcz            43% |*************                   | 1113k  0:00:01 ETA
 tcl8.6.tcz           100% |********************************| 2548k  0:00:00 ETA
 'tcl8.6.tcz' saved
 tcl8.6.tcz: OK
@@ -1509,6 +1512,7 @@ sqlite3-bin.tcz: OK
 Downloading: sqlite3-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'sqlite3-dev.tcz'
+sqlite3-dev.tcz       39% |************                    | 96847  0:00:01 ETA
 sqlite3-dev.tcz      100% |********************************|  240k  0:00:00 ETA
 'sqlite3-dev.tcz' saved
 sqlite3-dev.tcz: OK
@@ -1521,7 +1525,6 @@ python3.9-dev.tcz: OK
 Downloading: icu74.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'icu74.tcz'
-icu74.tcz             55% |*****************               | 8408k  0:00:00 ETA
 icu74.tcz            100% |********************************| 14.7M  0:00:00 ETA
 'icu74.tcz' saved
 icu74.tcz: OK
@@ -1540,7 +1543,6 @@ icu74-dev.tcz: OK
 Downloading: boost-1.84.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'boost-1.84.tcz'
-boost-1.84.tcz        70% |**********************          | 3258k  0:00:00 ETA
 boost-1.84.tcz       100% |********************************| 4640k  0:00:00 ETA
 'boost-1.84.tcz' saved
 boost-1.84.tcz: OK
@@ -1661,6 +1663,7 @@ xkeyboard-config.tcz: OK
 Downloading: libxkbcommon.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libxkbcommon.tcz'
+libxkbcommon.tcz      74% |***********************         |  136k  0:00:00 ETA
 libxkbcommon.tcz     100% |********************************|  184k  0:00:00 ETA
 'libxkbcommon.tcz' saved
 libxkbcommon.tcz: OK
@@ -1763,6 +1766,7 @@ icu67.tcz: OK
 Downloading: js78.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'js78.tcz'
+js78.tcz               0% |                                | 14021  0:09:38 ETA
 js78.tcz             100% |********************************| 7820k  0:00:00 ETA
 'js78.tcz' saved
 js78.tcz: OK
@@ -1847,6 +1851,7 @@ curl-dev.tcz: OK
 Downloading: cairo.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'cairo.tcz'
+cairo.tcz             66% |*********************           |  362k  0:00:00 ETA
 cairo.tcz            100% |********************************|  544k  0:00:00 ETA
 'cairo.tcz' saved
 cairo.tcz: OK
@@ -1865,13 +1870,13 @@ libpoppler23.tcz: OK
 Downloading: poppler23-bin.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'poppler23-bin.tcz'
-poppler23-bin.tcz     19% |******                          | 39727  0:00:04 ETA
 poppler23-bin.tcz    100% |********************************|  200k  0:00:00 ETA
 'poppler23-bin.tcz' saved
 poppler23-bin.tcz: OK
 Downloading: poppler23-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'poppler23-dev.tcz'
+poppler23-dev.tcz     20% |******                          | 92563  0:00:03 ETA
 poppler23-dev.tcz    100% |********************************|  444k  0:00:00 ETA
 'poppler23-dev.tcz' saved
 poppler23-dev.tcz: OK
@@ -1932,6 +1937,7 @@ libavahi.tcz: OK
 Downloading: libsane.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libsane.tcz'
+libsane.tcz           89% |****************************    | 4162k  0:00:00 ETA
 libsane.tcz          100% |********************************| 4668k  0:00:00 ETA
 'libsane.tcz' saved
 libsane.tcz: OK
@@ -1956,6 +1962,7 @@ libdaemon-dev.tcz: OK
 Downloading: gcc_libs-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gcc_libs-dev.tcz'
+gcc_libs-dev.tcz      99% |******************************* | 5888k  0:00:00 ETA
 gcc_libs-dev.tcz     100% |********************************| 5924k  0:00:00 ETA
 'gcc_libs-dev.tcz' saved
 gcc_libs-dev.tcz: OK
@@ -1974,7 +1981,6 @@ nss-mdns.tcz: OK
 Downloading: avahi.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'avahi.tcz'
-avahi.tcz             12% |****                            | 14023  0:00:06 ETA
 avahi.tcz            100% |********************************|  108k  0:00:00 ETA
 'avahi.tcz' saved
 avahi.tcz: OK
@@ -2083,6 +2089,7 @@ fribidi-dev.tcz: OK
 Downloading: pango.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'pango.tcz'
+pango.tcz             15% |****                            | 42583  0:00:05 ETA
 pango.tcz            100% |********************************|  276k  0:00:00 ETA
 'pango.tcz' saved
 pango.tcz: OK
@@ -2149,26 +2156,27 @@ gtk3-dev.tcz: OK
 Downloading: libssh2.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libssh2.tcz'
+libssh2.tcz           11% |***                             | 14023  0:00:07 ETA
 libssh2.tcz          100% |********************************|  116k  0:00:00 ETA
 'libssh2.tcz' saved
 libssh2.tcz: OK
 Downloading: rust.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'rust.tcz'
-rust.tcz              19% |******                          | 19.4M  0:00:04 ETA
+rust.tcz              25% |********                        | 25.5M  0:00:02 ETA
 rust.tcz             100% |********************************| 99.0M  0:00:00 ETA
 'rust.tcz' saved
 rust.tcz: OK
 Downloading: cbindgen.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'cbindgen.tcz'
-cbindgen.tcz          19% |******                          |  489k  0:00:04 ETA
 cbindgen.tcz         100% |********************************| 2552k  0:00:00 ETA
 'cbindgen.tcz' saved
 cbindgen.tcz: OK
 Downloading: node.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'node.tcz'
+node.tcz              79% |*************************       | 27.9M  0:00:00 ETA
 node.tcz             100% |********************************| 34.9M  0:00:00 ETA
 'node.tcz' saved
 node.tcz: OK
@@ -2223,6 +2231,7 @@ libva22-dev.tcz: OK
 Downloading: gettext.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gettext.tcz'
+gettext.tcz            0% |                                | 14021  0:01:54 ETA
 gettext.tcz          100% |********************************| 1560k  0:00:00 ETA
 'gettext.tcz' saved
 gettext.tcz: OK
@@ -2265,7 +2274,6 @@ libvulkan.tcz: OK
 Downloading: libvulkan-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libvulkan-dev.tcz'
-libvulkan-dev.tcz      0% |                                | 41153  0:02:14 ETA
 libvulkan-dev.tcz    100% |********************************| 5412k  0:00:00 ETA
 'libvulkan-dev.tcz' saved
 libvulkan-dev.tcz: OK
@@ -2362,7 +2370,6 @@ librsvg-bin.tcz: OK
 Downloading: librsvg-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'librsvg-dev.tcz'
-librsvg-dev.tcz       38% |************                    | 14025  0:00:01 ETA
 librsvg-dev.tcz      100% |********************************| 36864  0:00:00 ETA
 'librsvg-dev.tcz' saved
 librsvg-dev.tcz: OK
@@ -2435,7 +2442,6 @@ alsa-modules-6.12.11-tinycore64.tcz: OK
 Downloading: alsa.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'alsa.tcz'
-alsa.tcz              30% |*********                       | 95419  0:00:02 ETA
 alsa.tcz             100% |********************************|  304k  0:00:00 ETA
 'alsa.tcz' saved
 alsa.tcz: OK
@@ -2592,6 +2598,7 @@ pulseaudio-dev.tcz: OK
 Downloading: pipewire.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'pipewire.tcz'
+pipewire.tcz           0% |                                | 14021  0:04:30 ETA
 pipewire.tcz         100% |********************************| 3664k  0:00:00 ETA
 'pipewire.tcz' saved
 pipewire.tcz: OK
@@ -2622,7 +2629,6 @@ i2c-6.12.11-tinycore64.tcz: OK
 Downloading: v4l-dvb-6.12.11-tinycore64.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'v4l-dvb-6.12.11-tinycore64.tcz'
-v4l-dvb-6.12.11-tiny   6% |**                              |  318k  0:00:13 ETA
 v4l-dvb-6.12.11-tiny 100% |********************************| 4556k  0:00:00 ETA
 'v4l-dvb-6.12.11-tinycore64.tcz' saved
 v4l-dvb-6.12.11-tinycore64.tcz: OK
@@ -2695,7 +2701,7 @@ libswresample7.tcz: OK
 Downloading: libavcodec7.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'libavcodec7.tcz'
-libavcodec7.tcz        3% |*                               |  158k  0:00:30 ETA
+libavcodec7.tcz       79% |*************************       | 4009k  0:00:00 ETA
 libavcodec7.tcz      100% |********************************| 5048k  0:00:00 ETA
 'libavcodec7.tcz' saved
 libavcodec7.tcz: OK
@@ -2726,7 +2732,6 @@ ffmpeg7.tcz: OK
 Downloading: ffmpeg7-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'ffmpeg7-dev.tcz'
-ffmpeg7-dev.tcz       20% |******                          | 95419  0:00:03 ETA
 ffmpeg7-dev.tcz      100% |********************************|  444k  0:00:00 ETA
 'ffmpeg7-dev.tcz' saved
 ffmpeg7-dev.tcz: OK
@@ -2745,7 +2750,7 @@ openal-dev.tcz: OK
 Downloading: perl5.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'perl5.tcz'
-perl5.tcz             75% |************************        | 12.6M  0:00:00 ETA
+perl5.tcz             13% |****                            | 2295k  0:00:06 ETA
 perl5.tcz            100% |********************************| 16.7M  0:00:00 ETA
 'perl5.tcz' saved
 perl5.tcz: OK
@@ -2788,6 +2793,7 @@ flex.tcz: OK
 Downloading: binutils.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'binutils.tcz'
+binutils.tcz          59% |******************              | 3877k  0:00:00 ETA
 binutils.tcz         100% |********************************| 6548k  0:00:00 ETA
 'binutils.tcz' saved
 binutils.tcz: OK
@@ -2812,6 +2818,7 @@ wget.tcz: OK
 Downloading: diffutils.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'diffutils.tcz'
+diffutils.tcz         38% |************                    | 42583  0:00:01 ETA
 diffutils.tcz        100% |********************************|  108k  0:00:00 ETA
 'diffutils.tcz' saved
 diffutils.tcz: OK
@@ -2920,6 +2927,7 @@ mpfr.tcz: OK
 Downloading: mpc.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'mpc.tcz'
+mpc.tcz               21% |*******                         | 12597  0:00:03 ETA
 mpc.tcz              100% |********************************| 57344  0:00:00 ETA
 'mpc.tcz' saved
 mpc.tcz: OK
@@ -2932,7 +2940,7 @@ gcc_base-dev.tcz: OK
 Downloading: gcc.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gcc.tcz'
-gcc.tcz               63% |********************            | 45.5M  0:00:00 ETA
+gcc.tcz               18% |*****                           | 13.2M  0:00:04 ETA
 gcc.tcz              100% |********************************| 71.6M  0:00:00 ETA
 'gcc.tcz' saved
 gcc.tcz: OK
@@ -2999,7 +3007,6 @@ opencl-headers.tcz: OK
 Downloading: pcsc-lite.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'pcsc-lite.tcz'
-pcsc-lite.tcz         19% |******                          | 14024  0:00:04 ETA
 pcsc-lite.tcz        100% |********************************| 73728  0:00:00 ETA
 'pcsc-lite.tcz' saved
 pcsc-lite.tcz: OK
@@ -3012,6 +3019,7 @@ pcsc-lite-dev.tcz: OK
 Downloading: gstreamer.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gstreamer.tcz'
+gstreamer.tcz         19% |******                          |  236k  0:00:04 ETA
 gstreamer.tcz        100% |********************************| 1244k  0:00:00 ETA
 'gstreamer.tcz' saved
 gstreamer.tcz: OK
@@ -3072,17 +3080,18 @@ gst-plugins-base.tcz: OK
 Downloading: gst-plugins-base-dev.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'gst-plugins-base-dev.tcz'
+gst-plugins-base-dev  23% |*******                         | 89707  0:00:03 ETA
 gst-plugins-base-dev 100% |********************************|  368k  0:00:00 ETA
 'gst-plugins-base-dev.tcz' saved
 gst-plugins-base-dev.tcz: OK
 Downloading: clang.tcz
 Connecting to mirror.math.princeton.edu (128.112.18.21:80)
 saving to 'clang.tcz'
-clang.tcz             40% |************                    | 78.9M  0:00:01 ETA
+clang.tcz             23% |*******                         | 45.1M  0:00:03 ETA
 clang.tcz            100% |********************************|  195M  0:00:00 ETA
 'clang.tcz' saved
 clang.tcz: OK
-Looking in links: /tmp/tmp6l933z99
+Looking in links: /tmp/tmpjtz4y0o4
 Requirement already satisfied: setuptools in /usr/local/lib/python3.9/site-packages (75.8.0)
 Requirement already satisfied: pip in /usr/local/lib/python3.9/site-packages (23.3.2)
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
@@ -3095,12 +3104,12 @@ Defaulting to user installation because normal site-packages is not writeable
 Collecting pyyaml==6.0.2
   Downloading PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
 Downloading PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (737 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 737.4/737.4 kB 40.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 737.4/737.4 kB 19.6 MB/s eta 0:00:00
 Installing collected packages: pyyaml
 Successfully installed pyyaml-6.0.2
 Cloning into 'librewolf-source'...
 Submodule 'settings' (https://codeberg.org/librewolf/settings.git) registered for path 'settings'
-Cloning into '/tmp/tmp.fbLjfHUnpO/librewolf-source/settings'...
+Cloning into '/tmp/tmp.UeGCMNESBb/librewolf-source/settings'...
 Submodule path 'settings': checked out 'b4891cbbad26967b25971b3d4ad78d406c062696'
 wget -qO public_key.asc "https://keys.openpgp.org/vks/v1/by-fingerprint/14F26682D0916CDD81E37B6D61B7B526D98F0353"
 gpg --import public_key.asc
@@ -3560,9 +3569,9 @@ cp -v ../scripts/mozfetch.sh lw/
 cp -v ../assets/mozconfig.new lw/
 '../assets/mozconfig.new' -> 'lw/mozconfig.new'
 -> Downloading locales from https://github.com/mozilla-l10n/firefox-l10n
-wget -qO /tmp/tmpel239oy9/l10n.zip 'https://codeload.github.com/mozilla-l10n/firefox-l10n/zip/refs/heads/main'
-unzip -qo /tmp/tmpel239oy9/l10n.zip -d /tmp/tmpel239oy9/l10n
-mv /tmp/tmpel239oy9/l10n/firefox-l10n-main lw/l10n
+wget -qO /tmp/tmpgfiv8zj7/l10n.zip 'https://codeload.github.com/mozilla-l10n/firefox-l10n/zip/refs/heads/main'
+unzip -qo /tmp/tmpgfiv8zj7/l10n.zip -d /tmp/tmpgfiv8zj7/l10n
+mv /tmp/tmpgfiv8zj7/l10n/firefox-l10n-main lw/l10n
 -> Patching appstrings.properties
 find . -path '*/appstrings.properties' -exec sed -i s/Firefox/LibreWolf/ {} \;
 -> Applying LibreWolf locales
@@ -3878,8 +3887,8 @@ warning: target file lw/l10n/es/browser/browser/preferences/permissions.ftl does
 ../l10n/ca/browser/browser/preferences/permissions.inc.ftl >> lw/l10n/ca/browser/browser/preferences/permissions.ftl
 cd ..
 (cd librewolf-149.0.2-2 && ./mach build)
- 0:08.54 W Warnings in third-party code are being suppressed from the terminal output. Use --show-all-warnings or --verbose to see them.
- 0:08.54 W All warnings will still be dumped to /tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/obj-x86_64-pc-linux-gnu/.mozbuild/logs/build/warnings_*.json at the end of the build.
+ 0:09.03 W Warnings in third-party code are being suppressed from the terminal output. Use --show-all-warnings or --verbose to see them.
+ 0:09.03 W All warnings will still be dumped to /tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/obj-x86_64-pc-linux-gnu/.mozbuild/logs/build/warnings_*.json at the end of the build.
 Mach and the build system store shared state in a common directory
 on the filesystem. The following directory will be created:
 
@@ -3889,190 +3898,190 @@ If you would like to use a different directory, rename or move it to your
 desired location, and set the MOZBUILD_STATE_PATH environment variable
 accordingly.
 Creating default state directory: /home/tc/.mozbuild
-Creating local state directory: /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-49f0f21ff461
-Creating the 'mach' site at /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-49f0f21ff461/_virtualenvs/mach
-Creating the 'build' site at /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-49f0f21ff461/_virtualenvs/build
- 0:08.64 Clobber not needed.
- 0:08.64 Config object not found by mach.
- 0:08.96 Using Python 3.9.23 from /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-49f0f21ff461/_virtualenvs/build/bin/python
- 0:08.96 Adding configure options from /tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/mozconfig
- 0:08.96   --enable-application=browser
- 0:08.96   --allow-addon-sideload
- 0:08.96   --disable-crashreporter
- 0:08.96   --disable-debug
- 0:08.96   --disable-default-browser-agent
- 0:08.96   --disable-tests
- 0:08.96   --disable-updater
- 0:08.97   --disable-cargo-incremental
- 0:08.97   --enable-hardening
- 0:08.97   --enable-stl-hardening
- 0:08.97   --enable-release
- 0:08.97   --enable-rust-simd
- 0:08.97   --enable-replace-malloc
- 0:08.97   --enable-jemalloc
- 0:08.97   --with-app-name=librewolf
- 0:08.97   --with-branding=browser/branding/librewolf
- 0:08.97   --with-unsigned-addon-scopes=app,system
- 0:08.97   --with-l10n-base=/tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/lw/l10n
- 0:08.97   --enable-optimize=-O3 -march=alderlake
- 0:08.97   --disable-debug-symbols
- 0:08.97   --disable-elf-hack
- 0:08.97   --enable-lto=full
- 0:08.97   --prefix=/usr/local
- 0:08.97   --without-wasm-sandboxed-libraries
- 0:08.97   --disable-bootstrap
- 0:08.97   --disable-dbus
- 0:08.97   --disable-necko-wifi
- 0:08.97   --enable-ffmpeg
- 0:08.97   --enable-alsa
- 0:08.97   --with-system-ffi
- 0:08.97   --with-system-gbm
- 0:08.97   --with-system-libdrm
- 0:08.97   --with-system-zlib
- 0:08.97   --with-system-nspr
- 0:08.97   --with-system-libevent
- 0:08.97   --with-system-pixman
- 0:08.97   --with-system-webp
- 0:08.97   --with-system-jpeg
- 0:08.97   --with-system-libvpx
- 0:08.97   CFLAGS=-ftrivial-auto-var-init=zero -fwrapv
- 0:08.97   CXXFLAGS=-ftrivial-auto-var-init=zero -fwrapv
- 0:08.97   MOZ_REQUIRE_SIGNING=
- 0:08.97   MOZILLA_OFFICIAL=1
- 0:08.97 checking for vcs source checkout... no
- 0:09.01 checking for a shell... /bin/sh
- 0:09.05 checking for host system type... x86_64-pc-linux-gnu
- 0:09.05 checking for target system type... x86_64-pc-linux-gnu
- 0:09.52 checking whether cross compiling... no
- 0:09.67 checking if configuration file confvars.sh exists... /tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/browser/confvars.sh
- 0:09.67 checking if configuration file configure.sh exists... /tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/browser/branding/librewolf/configure.sh
- 0:09.70 checking for the target C compiler... /usr/local/bin/clang
- 0:09.70 checking for ccache... not found
- 0:09.74 checking whether the target C compiler can be used... yes
- 0:09.74 checking for the target C++ compiler... /usr/local/bin/clang++
- 0:09.81 checking whether the target C++ compiler can be used... yes
- 0:09.84 checking for unwind.h... yes
- 0:09.88 checking for target linker... bfd
- 0:09.93 checking for _Unwind_Backtrace... yes
- 0:09.94 checking for Python 3... /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-49f0f21ff461/_virtualenvs/build/bin/python (3.9.23)
- 0:09.95 checking the target C compiler version... 19.1.0
- 0:09.98 checking the target C compiler works... yes
- 0:09.98 checking the target C++ compiler version... 19.1.0
- 0:10.01 checking the target C++ compiler works... yes
- 0:10.01 checking for the host C compiler... /usr/local/bin/clang
- 0:10.01 checking whether the host C compiler can be used... yes
- 0:10.01 checking the host C compiler version... 19.1.0
- 0:10.01 checking the host C compiler works... yes
- 0:10.01 checking for the host C++ compiler... /usr/local/bin/clang++
- 0:10.01 checking whether the host C++ compiler can be used... yes
- 0:10.01 checking the host C++ compiler version... 19.1.0
- 0:10.01 checking the host C++ compiler works... yes
- 0:10.05 checking for host linker... bfd
- 0:10.11 checking for 64-bit OS... yes
- 0:10.15 checking for new enough STL headers from libstdc++... yes
- 0:10.25 checking for __thread keyword for TLS variables... yes
- 0:10.26 checking for the assembler... /usr/local/bin/clang
- 0:10.29 checking for llvm-objdump... /usr/local/bin/llvm-objdump
- 0:10.31 checking for ar... /usr/local/bin/llvm-ar
- 0:10.35 checking whether ar supports response files... yes
- 0:10.37 checking for host_ar... /usr/local/bin/llvm-ar
- 0:10.40 checking for nm... /usr/local/bin/llvm-nm
- 0:10.43 checking for -mavxvnni support... yes
- 0:10.46 checking for -mavx512bw support... yes
- 0:10.49 checking for -mavx512vnni support... yes
- 0:10.49 checking for pkg_config... /usr/local/bin/pkg-config
- 0:10.49 checking for pkg-config version... 0.29.2
- 0:10.50 checking whether pkg-config is pkgconf... no
- 0:10.56 checking for strndup... yes
- 0:10.61 checking for posix_memalign... yes
- 0:10.67 checking for memalign... yes
- 0:10.72 checking for malloc_usable_size... yes
- 0:10.77 checking for malloc.h... yes
- 0:10.81 checking whether malloc_usable_size definition can use const argument... no
- 0:10.84 checking for stdint.h... yes
- 0:10.87 checking for inttypes.h... yes
- 0:10.90 checking for alloca.h... yes
- 0:10.92 checking for sys/byteorder.h... no
- 0:10.95 checking for getopt.h... yes
- 0:10.99 checking for unistd.h... yes
- 0:11.01 checking for nl_types.h... yes
- 0:11.04 checking for cpuid.h... yes
- 0:11.08 checking for fts.h... yes
- 0:11.11 checking for sys/statvfs.h... yes
- 0:11.14 checking for sys/statfs.h... yes
- 0:11.17 checking for sys/vfs.h... yes
- 0:11.21 checking for sys/mount.h... yes
- 0:11.24 checking for sys/quota.h... yes
- 0:11.28 checking for linux/quota.h... yes
- 0:11.32 checking for linux/if_addr.h... yes
- 0:11.37 checking for linux/rtnetlink.h... yes
- 0:11.40 checking for sys/queue.h... yes
- 0:11.43 checking for sys/types.h... yes
- 0:11.48 checking for netinet/in.h... yes
- 0:11.51 checking for byteswap.h... yes
- 0:11.54 checking for memfd_create in sys/mman.h... yes
- 0:11.63 checking for clock_gettime(CLOCK_MONOTONIC)... yes
- 0:11.78 checking for res_ninit()... yes
- 0:11.83 checking for dladdr... yes
- 0:11.86 checking for dlfcn.h... yes
- 0:11.92 checking for dlopen in -ldl... yes
- 0:11.96 checking for gethostbyname_r in -lc_r... no
- 0:12.01 checking for socket in -lsocket... no
- 0:12.06 checking for pthread_create... yes
- 0:12.11 checking for pthread.h... yes
- 0:12.14 checking whether the C compiler supports -pthread... yes
- 0:12.49 checking whether 64-bits std::atomic requires -latomic... no
- 0:12.54 checking whether the C++ compiler supports -Wdeprecated-literal-operator... yes
- 0:12.57 checking whether the C compiler supports -Winvalid-utf8... yes
- 0:12.59 checking whether the C++ compiler supports -Winvalid-utf8... yes
- 0:12.64 checking whether the C compiler supports -Wformat... yes
- 0:12.66 checking whether the C++ compiler supports -Wformat... yes
- 0:12.71 checking whether the C compiler supports -Wno-character-conversion... no
- 0:12.73 checking whether the C++ compiler supports -Wno-character-conversion... no
- 0:12.76 checking whether the C++ compiler supports -fno-sized-deallocation... yes
- 0:12.78 checking whether the C++ compiler supports -fno-aligned-new... yes
- 0:14.18 checking whether we're trying to statically link with libstdc++... no
- 0:14.22 checking whether the linker supports Identical Code Folding... no
- 0:14.28 checking whether the C linker supports -Wl,--build-id=sha1... yes
- 0:14.31 checking whether the C assembler supports -Wa,--noexecstack... yes
- 0:14.36 checking whether the C linker supports -Wl,-z,noexecstack... yes
- 0:14.42 checking whether the C linker supports -Wl,-z,text... yes
- 0:14.48 checking whether the C linker supports -Wl,-z,relro... yes
- 0:14.53 checking whether the C linker supports -Wl,-z,now... yes
- 0:14.59 checking whether the C linker supports -Wl,-z,nocopyreloc... yes
- 0:14.62 checking whether the C assembler supports -fPIC... yes
- 0:14.64 checking whether the C compiler supports -fPIC... yes
- 0:14.67 checking whether the C++ compiler supports -fPIC... yes
- 0:14.73 checking what kind of list files are supported by the linker... linkerlist
- 0:14.73 checking for llvm_profdata... /usr/local/bin/llvm-profdata
- 0:14.78 checking for readelf... /usr/local/bin/llvm-readelf
- 0:14.81 checking for objcopy... /usr/local/bin/llvm-objcopy
- 0:14.82 checking for alsa... yes
- 0:14.82 checking MOZ_ALSA_CFLAGS... -I/usr/local/include
- 0:14.82 checking MOZ_ALSA_LIBS... -L/usr/local/lib -lasound
- 0:14.83 checking for libpulse... yes
- 0:14.83 checking MOZ_PULSEAUDIO_CFLAGS... -D_REENTRANT -I/usr/local/include
- 0:14.83 checking MOZ_PULSEAUDIO_LIBS... -L/usr/local/lib -lpulse
- 0:14.84 checking for nspr >= 4.32... yes
- 0:14.84 checking NSPR_CFLAGS... -I/usr/local/include/nspr
- 0:14.84 checking NSPR_LIBS... -L/usr/local/lib -lplds4 -lplc4 -lnspr4
- 0:14.85 checking for rustc... /usr/local/bin/rustc
- 0:14.85 checking for cargo... /usr/local/bin/cargo
- 0:14.90 checking rustc version... 1.85.1
- 0:14.91 checking cargo version... 1.85.1
- 0:14.92 E ERROR: Rust compiler 1.85.1 is too old.
- 0:14.92 To compile Rust language sources please install at least
- 0:14.92 version 1.90.0 of the 'rustc' toolchain (or, if using nightly,
- 0:14.92 at least one version newer than 1.90.0) and make sure it is
- 0:14.92 first in your path.
- 0:14.92 You can verify this by typing 'rustc --version'.
- 0:14.92 If you have the 'rustup' tool installed you can upgrade
- 0:14.92 to the latest release by typing 'rustup update'. The
- 0:14.92 installer is available from https://rustup.rs/
- 0:14.99 E *** Fix above errors and then restart with "./mach build"
+Creating local state directory: /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-18314927b0d6
+Creating the 'mach' site at /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-18314927b0d6/_virtualenvs/mach
+Creating the 'build' site at /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-18314927b0d6/_virtualenvs/build
+ 0:09.14 Clobber not needed.
+ 0:09.15 Config object not found by mach.
+ 0:09.47 Using Python 3.9.23 from /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-18314927b0d6/_virtualenvs/build/bin/python
+ 0:09.47 Adding configure options from /tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/mozconfig
+ 0:09.47   --enable-application=browser
+ 0:09.47   --allow-addon-sideload
+ 0:09.47   --disable-crashreporter
+ 0:09.47   --disable-debug
+ 0:09.47   --disable-default-browser-agent
+ 0:09.47   --disable-tests
+ 0:09.47   --disable-updater
+ 0:09.47   --disable-cargo-incremental
+ 0:09.47   --enable-hardening
+ 0:09.47   --enable-stl-hardening
+ 0:09.47   --enable-release
+ 0:09.47   --enable-rust-simd
+ 0:09.47   --enable-replace-malloc
+ 0:09.47   --enable-jemalloc
+ 0:09.47   --with-app-name=librewolf
+ 0:09.47   --with-branding=browser/branding/librewolf
+ 0:09.47   --with-unsigned-addon-scopes=app,system
+ 0:09.47   --with-l10n-base=/tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/lw/l10n
+ 0:09.47   --enable-optimize=-O3 -march=alderlake
+ 0:09.47   --disable-debug-symbols
+ 0:09.47   --disable-elf-hack
+ 0:09.47   --enable-lto=full
+ 0:09.47   --prefix=/usr/local
+ 0:09.47   --without-wasm-sandboxed-libraries
+ 0:09.47   --disable-bootstrap
+ 0:09.47   --disable-dbus
+ 0:09.47   --disable-necko-wifi
+ 0:09.47   --enable-ffmpeg
+ 0:09.47   --enable-alsa
+ 0:09.47   --with-system-ffi
+ 0:09.48   --with-system-gbm
+ 0:09.48   --with-system-libdrm
+ 0:09.48   --with-system-zlib
+ 0:09.48   --with-system-nspr
+ 0:09.48   --with-system-libevent
+ 0:09.48   --with-system-pixman
+ 0:09.48   --with-system-webp
+ 0:09.48   --with-system-jpeg
+ 0:09.48   --with-system-libvpx
+ 0:09.48   MOZ_REQUIRE_SIGNING=
+ 0:09.48   CFLAGS=-ftrivial-auto-var-init=zero -fwrapv
+ 0:09.48   CXXFLAGS=-ftrivial-auto-var-init=zero -fwrapv
+ 0:09.48   MOZILLA_OFFICIAL=1
+ 0:09.48 checking for vcs source checkout... no
+ 0:09.52 checking for a shell... /bin/sh
+ 0:09.56 checking for host system type... x86_64-pc-linux-gnu
+ 0:09.56 checking for target system type... x86_64-pc-linux-gnu
+ 0:10.04 checking whether cross compiling... no
+ 0:10.18 checking if configuration file confvars.sh exists... /tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/browser/confvars.sh
+ 0:10.18 checking if configuration file configure.sh exists... /tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/browser/branding/librewolf/configure.sh
+ 0:10.21 checking for the target C compiler... /usr/local/bin/clang
+ 0:10.21 checking for ccache... not found
+ 0:10.26 checking whether the target C compiler can be used... yes
+ 0:10.26 checking for the target C++ compiler... /usr/local/bin/clang++
+ 0:10.32 checking whether the target C++ compiler can be used... yes
+ 0:10.36 checking for unwind.h... yes
+ 0:10.39 checking for target linker... bfd
+ 0:10.45 checking for _Unwind_Backtrace... yes
+ 0:10.46 checking for Python 3... /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-18314927b0d6/_virtualenvs/build/bin/python (3.9.23)
+ 0:10.47 checking the target C compiler version... 19.1.0
+ 0:10.50 checking the target C compiler works... yes
+ 0:10.50 checking the target C++ compiler version... 19.1.0
+ 0:10.53 checking the target C++ compiler works... yes
+ 0:10.53 checking for the host C compiler... /usr/local/bin/clang
+ 0:10.53 checking whether the host C compiler can be used... yes
+ 0:10.53 checking the host C compiler version... 19.1.0
+ 0:10.53 checking the host C compiler works... yes
+ 0:10.53 checking for the host C++ compiler... /usr/local/bin/clang++
+ 0:10.53 checking whether the host C++ compiler can be used... yes
+ 0:10.53 checking the host C++ compiler version... 19.1.0
+ 0:10.53 checking the host C++ compiler works... yes
+ 0:10.57 checking for host linker... bfd
+ 0:10.63 checking for 64-bit OS... yes
+ 0:10.67 checking for new enough STL headers from libstdc++... yes
+ 0:10.77 checking for __thread keyword for TLS variables... yes
+ 0:10.78 checking for the assembler... /usr/local/bin/clang
+ 0:10.80 checking for llvm-objdump... /usr/local/bin/llvm-objdump
+ 0:10.82 checking for ar... /usr/local/bin/llvm-ar
+ 0:10.86 checking whether ar supports response files... yes
+ 0:10.88 checking for host_ar... /usr/local/bin/llvm-ar
+ 0:10.90 checking for nm... /usr/local/bin/llvm-nm
+ 0:10.92 checking for -mavxvnni support... yes
+ 0:10.95 checking for -mavx512bw support... yes
+ 0:10.98 checking for -mavx512vnni support... yes
+ 0:10.98 checking for pkg_config... /usr/local/bin/pkg-config
+ 0:10.98 checking for pkg-config version... 0.29.2
+ 0:10.99 checking whether pkg-config is pkgconf... no
+ 0:11.04 checking for strndup... yes
+ 0:11.10 checking for posix_memalign... yes
+ 0:11.16 checking for memalign... yes
+ 0:11.21 checking for malloc_usable_size... yes
+ 0:11.26 checking for malloc.h... yes
+ 0:11.29 checking whether malloc_usable_size definition can use const argument... no
+ 0:11.33 checking for stdint.h... yes
+ 0:11.36 checking for inttypes.h... yes
+ 0:11.38 checking for alloca.h... yes
+ 0:11.41 checking for sys/byteorder.h... no
+ 0:11.43 checking for getopt.h... yes
+ 0:11.47 checking for unistd.h... yes
+ 0:11.50 checking for nl_types.h... yes
+ 0:11.53 checking for cpuid.h... yes
+ 0:11.57 checking for fts.h... yes
+ 0:11.60 checking for sys/statvfs.h... yes
+ 0:11.62 checking for sys/statfs.h... yes
+ 0:11.65 checking for sys/vfs.h... yes
+ 0:11.69 checking for sys/mount.h... yes
+ 0:11.73 checking for sys/quota.h... yes
+ 0:11.77 checking for linux/quota.h... yes
+ 0:11.81 checking for linux/if_addr.h... yes
+ 0:11.86 checking for linux/rtnetlink.h... yes
+ 0:11.89 checking for sys/queue.h... yes
+ 0:11.92 checking for sys/types.h... yes
+ 0:11.96 checking for netinet/in.h... yes
+ 0:11.99 checking for byteswap.h... yes
+ 0:12.02 checking for memfd_create in sys/mman.h... yes
+ 0:12.12 checking for clock_gettime(CLOCK_MONOTONIC)... yes
+ 0:12.26 checking for res_ninit()... yes
+ 0:12.32 checking for dladdr... yes
+ 0:12.35 checking for dlfcn.h... yes
+ 0:12.41 checking for dlopen in -ldl... yes
+ 0:12.45 checking for gethostbyname_r in -lc_r... no
+ 0:12.49 checking for socket in -lsocket... no
+ 0:12.55 checking for pthread_create... yes
+ 0:12.60 checking for pthread.h... yes
+ 0:12.63 checking whether the C compiler supports -pthread... yes
+ 0:13.00 checking whether 64-bits std::atomic requires -latomic... no
+ 0:13.04 checking whether the C++ compiler supports -Wdeprecated-literal-operator... yes
+ 0:13.07 checking whether the C compiler supports -Winvalid-utf8... yes
+ 0:13.10 checking whether the C++ compiler supports -Winvalid-utf8... yes
+ 0:13.14 checking whether the C compiler supports -Wformat... yes
+ 0:13.17 checking whether the C++ compiler supports -Wformat... yes
+ 0:13.21 checking whether the C compiler supports -Wno-character-conversion... no
+ 0:13.23 checking whether the C++ compiler supports -Wno-character-conversion... no
+ 0:13.26 checking whether the C++ compiler supports -fno-sized-deallocation... yes
+ 0:13.28 checking whether the C++ compiler supports -fno-aligned-new... yes
+ 0:14.76 checking whether we're trying to statically link with libstdc++... no
+ 0:14.81 checking whether the linker supports Identical Code Folding... no
+ 0:14.87 checking whether the C linker supports -Wl,--build-id=sha1... yes
+ 0:14.90 checking whether the C assembler supports -Wa,--noexecstack... yes
+ 0:14.95 checking whether the C linker supports -Wl,-z,noexecstack... yes
+ 0:15.00 checking whether the C linker supports -Wl,-z,text... yes
+ 0:15.06 checking whether the C linker supports -Wl,-z,relro... yes
+ 0:15.12 checking whether the C linker supports -Wl,-z,now... yes
+ 0:15.17 checking whether the C linker supports -Wl,-z,nocopyreloc... yes
+ 0:15.20 checking whether the C assembler supports -fPIC... yes
+ 0:15.22 checking whether the C compiler supports -fPIC... yes
+ 0:15.25 checking whether the C++ compiler supports -fPIC... yes
+ 0:15.31 checking what kind of list files are supported by the linker... linkerlist
+ 0:15.31 checking for llvm_profdata... /usr/local/bin/llvm-profdata
+ 0:15.36 checking for readelf... /usr/local/bin/llvm-readelf
+ 0:15.39 checking for objcopy... /usr/local/bin/llvm-objcopy
+ 0:15.40 checking for alsa... yes
+ 0:15.40 checking MOZ_ALSA_CFLAGS... -I/usr/local/include
+ 0:15.40 checking MOZ_ALSA_LIBS... -L/usr/local/lib -lasound
+ 0:15.41 checking for libpulse... yes
+ 0:15.41 checking MOZ_PULSEAUDIO_CFLAGS... -D_REENTRANT -I/usr/local/include
+ 0:15.42 checking MOZ_PULSEAUDIO_LIBS... -L/usr/local/lib -lpulse
+ 0:15.42 checking for nspr >= 4.32... yes
+ 0:15.42 checking NSPR_CFLAGS... -I/usr/local/include/nspr
+ 0:15.43 checking NSPR_LIBS... -L/usr/local/lib -lplds4 -lplc4 -lnspr4
+ 0:15.43 checking for rustc... /usr/local/bin/rustc
+ 0:15.43 checking for cargo... /usr/local/bin/cargo
+ 0:15.49 checking rustc version... 1.85.1
+ 0:15.50 checking cargo version... 1.85.1
+ 0:15.50 E ERROR: Rust compiler 1.85.1 is too old.
+ 0:15.50 To compile Rust language sources please install at least
+ 0:15.50 version 1.90.0 of the 'rustc' toolchain (or, if using nightly,
+ 0:15.50 at least one version newer than 1.90.0) and make sure it is
+ 0:15.50 first in your path.
+ 0:15.51 You can verify this by typing 'rustc --version'.
+ 0:15.51 If you have the 'rustup' tool installed you can upgrade
+ 0:15.51 to the latest release by typing 'rustup update'. The
+ 0:15.51 installer is available from https://rustup.rs/
+ 0:15.59 E *** Fix above errors and then restart with "./mach build"
 make: *** [Makefile:182: build] Error 1
 (cd librewolf-149.0.2-2 && cat browser/locales/shipped-locales | xargs ./mach package-multi-locale --locales)
-Creating the 'common' site at /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-49f0f21ff461/_virtualenvs/common
+Creating the 'common' site at /home/tc/.mozbuild/srcdirs/librewolf-149.0.2-2-18314927b0d6/_virtualenvs/common
 Error running mach:
 
     mach package-multi-locale --locales ach af an ar ast az be bg bn br bs ca ca-valencia cak cs cy da de dsb el en-CA en-GB en-US eo es-AR es-CL es-ES es-MX et eu fa ff fi fr fur fy-NL ga-IE gd gl gn gu-IN he hi-IN hr hsb hu hy-AM ia id is it ja ja-JP-mac ka kab kk km kn ko lij lt lv mk mr ms my nb-NO ne-NP nl nn-NO oc pa-IN pl pt-BR pt-PT rm ro ru sat sc sco si sk skr sl son sq sr sv-SE szl ta te tg th tl tr trs uk ur uz vi xh zh-CN zh-TW
@@ -4089,15 +4098,15 @@ message.
 The details of the failure are as follows:
 
 Traceback (most recent call last):
-  File "/tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/python/mach/mach/main.py", line 390, in _run
+  File "/tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/python/mach/mach/main.py", line 390, in _run
     return Registrar._run_command_handler(
-  File "/tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/python/mach/mach/registrar.py", line 124, in _run_command_handler
+  File "/tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/python/mach/mach/registrar.py", line 124, in _run_command_handler
     result = fn(instance, **kwargs)
-  File "/tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/python/mozbuild/mozbuild/mach_commands.py", line 3702, in package_l10n
+  File "/tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/python/mozbuild/mozbuild/mach_commands.py", line 3702, in package_l10n
     if "RecursiveMake" not in command_context.substs["BUILD_BACKENDS"]:
-  File "/tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/python/mozbuild/mozbuild/base.py", line 414, in substs
+  File "/tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/python/mozbuild/mozbuild/base.py", line 414, in substs
     return self.config_environment.substs
-  File "/tmp/tmp.fbLjfHUnpO/librewolf-source/librewolf-149.0.2-2/python/mozbuild/mozbuild/base.py", line 393, in config_environment
+  File "/tmp/tmp.UeGCMNESBb/librewolf-source/librewolf-149.0.2-2/python/mozbuild/mozbuild/base.py", line 393, in config_environment
     raise BuildEnvironmentNotFoundException(
 mozbuild.base.BuildEnvironmentNotFoundException: config.status not available. Run configure.
 make: *** [Makefile:185: package] Error 123
