@@ -40,7 +40,7 @@ sudo cp /usr/local/bin/perl /usr/bin/perl
 workdir=$(mktemp -d)
 cd $workdir
 
-git clone --recursive -b cachyos_10.0_20260207/main https://github.com/CachyOS/wine-cachyos.git
+git clone --recursive -b cachyos_11.0_20260417/main https://github.com/CachyOS/wine-cachyos.git
 cd wine-cachyos
 ./autogen.sh
 
@@ -69,7 +69,7 @@ find /tmp/wine/ -exec x86_64-w64-mingw32-strip -s {} \;
 find /tmp/wine/ -exec i686-w64-mingw32-strip -s {} \;
 #/\ not needed? 64bit strip seems to be stripping 32bits files
 
-find /tmp/wine/ -iname *.a -delete
-mksquashfs /tmp/wine/ wine-latest.tcz -e usr/local/bin/winegcc -e usr/local/bin/wineg++ -e usr/local/bin/winecpp -e usr/local/bin/function_grep.pl -e usr/local/include -e usr/local/share/man
+#find /tmp/wine/ -iname *.a -delete
+mksquashfs /tmp/wine/ wine-latest.tcz
 sudo submitqc --nonet --blocksize=65536 wine-latest.tcz
 mv -f wine-latest.tcz /output/wine-cachyos.tcz
